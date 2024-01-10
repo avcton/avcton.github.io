@@ -1,6 +1,6 @@
 ---
 title: "avcton"
-description: "Landing page for my Portfolio"
+description: "Explore my Portfolio and Digital Garden"
 ---
 
 {{< lead >}}
