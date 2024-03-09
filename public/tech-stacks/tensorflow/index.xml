@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tensorflow on Muhammad Ahmad</title>
+    <link>//localhost:1313/tech-stacks/tensorflow/</link>
+    <description>Recent content in Tensorflow on Muhammad Ahmad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 avcton</copyright>
+    <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tech-stacks/tensorflow/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Multi-Label Genre Predictor</title>
+      <link>//localhost:1313/projects/genre-predictor/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/genre-predictor/</guid>
+      <description>A genre prediction model that given a plot allows the user to predict possible genre for the movie or tv-show.</description>
+    </item>
+  </channel>
+</rss>

@@ -12,13 +12,13 @@ copyright = "© 2024 avcton"
   # mainSections = ["section1", "section2"]
   description = "My personal portfolio and digital garden"
 
-[author]
+[params.author]
   name = "Muhammad Ahmad"
   image = "profile/me.jpg"
   
   headline = "Aspiring Data Scientist | Full Stack Developer"
 
-  bio = "I have a great passion for coding and developing innovative solutions. Even during my middle school years, I immersed myself in various programming languages and as early as seventh grade, I successfully built my first android application, igniting my lifelong enthusiasm for learning and creating. Presently, I am dedicated to honing my development skills while simultaneously pursuing a degree in Data Science."
+  bio = "I have a great passion for coding and developing innovative solutions. Even during my middle school years, I immersed myself in various programming languages igniting my lifelong enthusiasm for learning and creating. Presently, I am dedicated to honing my development skills while simultaneously pursuing a degree in Data Science with a keen interest in AI/ML."
 
   links = [
     { email = "mailto:avcton@gmail.com" },

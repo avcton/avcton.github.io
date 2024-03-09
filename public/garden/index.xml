@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital Garden on Muhammad Ahmad</title>
+    <link>//localhost:1313/garden/</link>
+    <description>Recent content in Digital Garden on Muhammad Ahmad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 avcton</copyright>
+    <lastBuildDate>Mon, 08 Jan 2024 00:32:09 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/garden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Joys of Not Needing People</title>
+      <link>//localhost:1313/garden/self-reflection/joys-of-not-needing-people/</link>
+      <pubDate>Mon, 08 Jan 2024 00:32:02 +0000</pubDate>
+      <guid>//localhost:1313/garden/self-reflection/joys-of-not-needing-people/</guid>
+      <description>Is Shared Sorrow = Half Sorrow?</description>
+    </item>
+    <item>
+      <title>Ever Increasing Appetite</title>
+      <link>//localhost:1313/garden/self-reflection/ever-increasing-appetite/</link>
+      <pubDate>Mon, 08 Jan 2024 00:30:54 +0000</pubDate>
+      <guid>//localhost:1313/garden/self-reflection/ever-increasing-appetite/</guid>
+      <description>The more you consume, the more you seek</description>
+    </item>
+  </channel>
+</rss>

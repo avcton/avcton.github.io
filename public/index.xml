@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>avcton on Muhammad Ahmad</title>
+    <link>//localhost:1313/</link>
+    <description>Recent content in avcton on Muhammad Ahmad</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 avcton</copyright>
+    <lastBuildDate>Mon, 08 Jan 2024 00:32:09 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Joys of Not Needing People</title>
+      <link>//localhost:1313/garden/self-reflection/joys-of-not-needing-people/</link>
+      <pubDate>Mon, 08 Jan 2024 00:32:02 +0000</pubDate>
+      <guid>//localhost:1313/garden/self-reflection/joys-of-not-needing-people/</guid>
+      <description>Is Shared Sorrow = Half Sorrow?</description>
+    </item>
+    <item>
+      <title>Ever Increasing Appetite</title>
+      <link>//localhost:1313/garden/self-reflection/ever-increasing-appetite/</link>
+      <pubDate>Mon, 08 Jan 2024 00:30:54 +0000</pubDate>
+      <guid>//localhost:1313/garden/self-reflection/ever-increasing-appetite/</guid>
+      <description>The more you consume, the more you seek</description>
+    </item>
+    <item>
+      <title>Multi-Label Genre Predictor</title>
+      <link>//localhost:1313/projects/genre-predictor/</link>
+      <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/genre-predictor/</guid>
+      <description>A genre prediction model that given a plot allows the user to predict possible genre for the movie or tv-show.</description>
+    </item>
+    <item>
+      <title>Design &amp; Analysis of Algorithms</title>
+      <link>//localhost:1313/literature/bds-5th-semester/design--analysis-of-algorithms/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/literature/bds-5th-semester/design--analysis-of-algorithms/</guid>
+      <description>Algorithms Material for 5th Semester of my Data Science Degree.</description>
+    </item>
+    <item>
+      <title>Operating Systems</title>
+      <link>//localhost:1313/literature/bds-5th-semester/operating-systems/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/literature/bds-5th-semester/operating-systems/</guid>
+      <description>Operating Systems Material for 5th Semester of my Data Science Degree.</description>
+    </item>
+    <item>
+      <title>Data Visualisation</title>
+      <link>//localhost:1313/literature/bds-5th-semester/data-visualisation/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/literature/bds-5th-semester/data-visualisation/</guid>
+      <description>Data Visualisation Material for 5th Semester of my Data Science Degree.</description>
+    </item>
+    <item>
+      <title>Data Warehousing</title>
+      <link>//localhost:1313/literature/bds-5th-semester/data-warehousing/</link>
+      <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/literature/bds-5th-semester/data-warehousing/</guid>
+      <description>Data Warehousing Material for 5th Semester of my Data Science Degree.</description>
+    </item>
+    <item>
+      <title>FAST Date Sheet Analyser</title>
+      <link>//localhost:1313/projects/fast-date-sheet-analyser/</link>
+      <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/fast-date-sheet-analyser/</guid>
+      <description>This utility allows the students of FAST LHR to input their campus date sheets and dig out their relevant subjects from it.</description>
+    </item>
+    <item>
+      <title>Database Systems</title>
+      <link>//localhost:1313/literature/bds-4th-semester/database-systems/</link>
+      <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/literature/bds-4th-semester/database-systems/</guid>
+      <description>Database Material for 4th Semester of my Data Science Degree.</description>
+    </item>
+    <item>
+      <title>Fiscal Count</title>
+      <link>//localhost:1313/projects/fiscal-count/</link>
+      <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/fiscal-count/</guid>
+      <description>A bookkeeping application built as a solution to address accounting and management needs of Aqsa Traders PVT LTD.</description>
+    </item>
+    <item>
+      <title>Owlet Run</title>
+      <link>//localhost:1313/projects/owlet-run/</link>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/owlet-run/</guid>
+      <description>An infinite side scroller 2D runner game built in Flutter using the powerful Flame Engine.</description>
+    </item>
+    <item>
+      <title>Daily Weather</title>
+      <link>//localhost:1313/projects/daily-weather/</link>
+      <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/daily-weather/</guid>
+      <description>A weather application with future forecasts and notifications fulfilling all of your needs.</description>
+    </item>
+    <item>
+      <title>Auto-Insta Bot</title>
+      <link>//localhost:1313/projects/auto-insta-bot/</link>
+      <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/auto-insta-bot/</guid>
+      <description>An automation bot to automate the workflow of posting multiple instagram feeds and stories for businesses.</description>
+    </item>
+  </channel>
+</rss>
