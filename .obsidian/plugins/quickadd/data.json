@@ -4,15 +4,17 @@
       "id": "4aa7771b-d6dd-465e-89f3-81cd3c209d02",
       "name": "Add Project",
       "type": "Template",
-      "command": false,
-      "templatePath": "",
+      "command": true,
+      "templatePath": "content/templates/project.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
       },
       "folder": {
-        "enabled": false,
-        "folders": [],
+        "enabled": true,
+        "folders": [
+          "content/projects"
+        ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
         "chooseFromSubfolders": false
@@ -23,9 +25,9 @@
         "direction": "vertical",
         "focus": true
       },
-      "openFile": false,
-      "openFileInMode": "default",
-      "fileExistsMode": "Increment the file name",
+      "openFile": true,
+      "openFileInMode": "source",
+      "fileExistsMode": "Nothing",
       "setFileExistsBehavior": false
     }
   ],

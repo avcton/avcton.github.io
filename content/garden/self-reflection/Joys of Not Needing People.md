@@ -40,13 +40,8 @@ People expects us in many regards to perform how they do, adapt how they do and 
 # True Sense of Solitude
 
 Not needing people doesn't imply not associating with people at all but it grants us the possibility to embrace solitude when desired. We can associate with people, befriend them and even develop intimacy, but with the freedom to walk away whenever we please, we can achieve the true self-happiness.
-
 ‍
-[^1]: # Hawthorne’s effect
-
-    > Individual modify an aspect of their behaviour in response to their awareness of being observed
-    >
-
-    *Simply observing someone can change the way they perform a particular act*
-
-    This can also relate to the dual nature of light discovered by the double-slit experiment.
+[^1]: **Hawthorne’s effect**
+	> Individual modify an aspect of their behaviour in response to their awareness of being observed
+	
+	Simply observing someone can change the way they perform a particular act. This can also relate to the dual nature of light discovered by the double-slit experiment.

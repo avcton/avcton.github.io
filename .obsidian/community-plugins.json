@@ -1,5 +1,7 @@
 [
   "obsidian-git",
   "obsidian-style-settings",
-  "quickadd"
+  "quickadd",
+  "hugo-preview-obsidian",
+  "omnisearch"
 ]

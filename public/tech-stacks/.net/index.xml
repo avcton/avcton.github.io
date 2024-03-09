@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>.NET on Muhammad Ahmad</title>
-    <link>//localhost:1313/tech-stacks/.net/</link>
+    <link>//localhost:51143/tech-stacks/.net/</link>
     <description>Recent content in .NET on Muhammad Ahmad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 avcton</copyright>
     <lastBuildDate>Tue, 09 May 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tech-stacks/.net/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:51143/tech-stacks/.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fiscal Count</title>
-      <link>//localhost:1313/projects/fiscal-count/</link>
+      <link>//localhost:51143/projects/fiscal-count/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/fiscal-count/</guid>
+      <guid>//localhost:51143/projects/fiscal-count/</guid>
       <description>A bookkeeping application built as a solution to address accounting and management needs of Aqsa Traders PVT LTD.</description>
     </item>
   </channel>

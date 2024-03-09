@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bdbac8581f81bec1",
+        "id": "36bf2bea1c638a89",
         "type": "tabs",
         "children": [
           {
-            "id": "f1839934b3e8a194",
+            "id": "657fdfc49cc0cc96",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -134,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,13 +144,26 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "f1839934b3e8a194",
+  "active": "657fdfc49cc0cc96",
   "lastOpenFiles": [
-    "content/templates/project.md",
+    "content/garden/self-reflection/Joys of Not Needing People.md",
+    "public/templates/index.xml",
+    "public/templates/page/1/index.html",
+    "public/templates/project/index.html",
+    "public/templates/page/1",
+    "public/templates/project",
+    "public/templates/page",
+    "public/templates/index.html",
+    "public/templates",
+    "content/_index.md",
     "content/projects/_index.md",
+    "content/projects/FYP.md",
+    "FYP.md",
+    "content/templates/project.md",
     "content/projects/Auto-Insta Bot.md",
     "content/projects/Daily Weather.md",
     "content/projects/Fast Date Sheet Analyser.md",

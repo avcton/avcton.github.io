@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dart on Muhammad Ahmad</title>
-    <link>//localhost:1313/tech-stacks/dart/</link>
+    <link>//localhost:51143/tech-stacks/dart/</link>
     <description>Recent content in Dart on Muhammad Ahmad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 avcton</copyright>
     <lastBuildDate>Tue, 26 Jul 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/tech-stacks/dart/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:51143/tech-stacks/dart/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Owlet Run</title>
-      <link>//localhost:1313/projects/owlet-run/</link>
+      <link>//localhost:51143/projects/owlet-run/</link>
       <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/owlet-run/</guid>
+      <guid>//localhost:51143/projects/owlet-run/</guid>
       <description>An infinite side scroller 2D runner game built in Flutter using the powerful Flame Engine.</description>
     </item>
     <item>
       <title>Daily Weather</title>
-      <link>//localhost:1313/projects/daily-weather/</link>
+      <link>//localhost:51143/projects/daily-weather/</link>
       <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/projects/daily-weather/</guid>
+      <guid>//localhost:51143/projects/daily-weather/</guid>
       <description>A weather application with future forecasts and notifications fulfilling all of your needs.</description>
     </item>
   </channel>
