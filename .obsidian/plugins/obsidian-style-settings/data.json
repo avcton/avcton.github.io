@@ -2,7 +2,7 @@
   "obsidian-prism-theme@@color-schemes-dt": "pt-color-scheme-raven-dt",
   "obsidian-prism-theme@@color-scheme-style-dt": "pt-color-scheme-style-minimal-dt",
   "obsidian-prism-theme@@accent-style-dt": "pt-accent-style-filled-dt",
-  "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-cyan-dt",
+  "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-purple-dt",
   "obsidian-prism-theme@@highlight-text-accent-dt": "pt-highlight-text-accent-dt",
   "obsidian-prism-theme@@pt-custom-vault-banner": false,
   "obsidian-prism-theme@@custom-vault-banner-horizontal-align": "pt-custom-vault-banner-justify-content-left",
@@ -11,5 +11,10 @@
   "obsidian-prism-theme@@pt-disable-blur": false,
   "obsidian-prism-theme@@pt-disable-callout-styling": false,
   "obsidian-prism-theme@@pt-pdf-dark-theme": true,
-  "obsidian-prism-theme@@pt-collapsed-pinned-tab": false
+  "obsidian-prism-theme@@pt-collapsed-pinned-tab": false,
+  "obsidian-prism-theme@@pt-focused-mode": false,
+  "obsidian-prism-theme@@color-schemes-lt": "pt-color-scheme-swan-lt",
+  "obsidian-prism-theme@@color-scheme-style-lt": "pt-color-scheme-style-minimal-lt",
+  "obsidian-prism-theme@@accent-style-lt": "pt-accent-style-filled-lt",
+  "obsidian-prism-theme@@light-accent-color-preset": "pt-accent-color-purple-lt"
 }

@@ -4,5 +4,4 @@ date: 2024-01-03
 externalUrl: https://github.com/avcton/multilabel-genre-prediction
 tech-stacks: ['Tensorflow', 'Keras', 'Plotly', 'Python', 'Pandas']
 ---
-
 A genre prediction model that given a plot allows the user to predict possible genre for the movie or tv-show.

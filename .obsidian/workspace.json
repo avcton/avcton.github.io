@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "d70be994602d3988",
+        "id": "bdbac8581f81bec1",
         "type": "tabs",
         "children": [
           {
-            "id": "63ca43d51d1b104f",
+            "id": "f1839934b3e8a194",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -146,6 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dbeca4059bd3dd32",
-  "lastOpenFiles": []
+  "active": "f1839934b3e8a194",
+  "lastOpenFiles": [
+    "content/templates/project.md",
+    "content/projects/_index.md",
+    "content/projects/Auto-Insta Bot.md",
+    "content/projects/Daily Weather.md",
+    "content/projects/Fast Date Sheet Analyser.md",
+    "content/projects/Fiscal Count.md",
+    "content/projects/Genre Predictor.md",
+    "content/projects/Owlet Run.md",
+    "{{<.md",
+    "content/templates"
+  ]
 }
