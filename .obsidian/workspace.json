@@ -120,9 +120,17 @@
               "type": "outline",
               "state": {}
             }
+          },
+          {
+            "id": "2d776c8d1fa4c651",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
