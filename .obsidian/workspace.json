@@ -121,7 +121,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -137,6 +138,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "63ca43d51d1b104f",
+  "active": "dbeca4059bd3dd32",
   "lastOpenFiles": []
 }
