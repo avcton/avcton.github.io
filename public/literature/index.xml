@@ -2,46 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Literature on Muhammad Ahmad</title>
-    <link>//localhost:51143/literature/</link>
+    <link>//localhost:1313/literature/</link>
     <description>Recent content in Literature on Muhammad Ahmad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 avcton</copyright>
     <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:51143/literature/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/literature/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design &amp; Analysis of Algorithms</title>
-      <link>//localhost:51143/literature/bds-5th-semester/design--analysis-of-algorithms/</link>
+      <link>//localhost:1313/literature/bds-5th-semester/design--analysis-of-algorithms/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/literature/bds-5th-semester/design--analysis-of-algorithms/</guid>
+      <guid>//localhost:1313/literature/bds-5th-semester/design--analysis-of-algorithms/</guid>
       <description>Algorithms Material for 5th Semester of my Data Science Degree.</description>
     </item>
     <item>
       <title>Operating Systems</title>
-      <link>//localhost:51143/literature/bds-5th-semester/operating-systems/</link>
+      <link>//localhost:1313/literature/bds-5th-semester/operating-systems/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/literature/bds-5th-semester/operating-systems/</guid>
+      <guid>//localhost:1313/literature/bds-5th-semester/operating-systems/</guid>
       <description>Operating Systems Material for 5th Semester of my Data Science Degree.</description>
     </item>
     <item>
       <title>Data Visualisation</title>
-      <link>//localhost:51143/literature/bds-5th-semester/data-visualisation/</link>
+      <link>//localhost:1313/literature/bds-5th-semester/data-visualisation/</link>
       <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/literature/bds-5th-semester/data-visualisation/</guid>
+      <guid>//localhost:1313/literature/bds-5th-semester/data-visualisation/</guid>
       <description>Data Visualisation Material for 5th Semester of my Data Science Degree.</description>
     </item>
     <item>
       <title>Data Warehousing</title>
-      <link>//localhost:51143/literature/bds-5th-semester/data-warehousing/</link>
+      <link>//localhost:1313/literature/bds-5th-semester/data-warehousing/</link>
       <pubDate>Mon, 25 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/literature/bds-5th-semester/data-warehousing/</guid>
+      <guid>//localhost:1313/literature/bds-5th-semester/data-warehousing/</guid>
       <description>Data Warehousing Material for 5th Semester of my Data Science Degree.</description>
     </item>
     <item>
       <title>Database Systems</title>
-      <link>//localhost:51143/literature/bds-4th-semester/database-systems/</link>
+      <link>//localhost:1313/literature/bds-4th-semester/database-systems/</link>
       <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/literature/bds-4th-semester/database-systems/</guid>
+      <guid>//localhost:1313/literature/bds-4th-semester/database-systems/</guid>
       <description>Database Material for 4th Semester of my Data Science Degree.</description>
     </item>
   </channel>

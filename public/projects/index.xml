@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Muhammad Ahmad</title>
-    <link>//localhost:51143/projects/</link>
+    <link>//localhost:1313/projects/</link>
     <description>Recent content in Projects on Muhammad Ahmad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 avcton</copyright>
     <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:51143/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multi-Label Genre Predictor</title>
-      <link>//localhost:51143/projects/genre-predictor/</link>
+      <link>//localhost:1313/projects/genre-predictor/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/projects/genre-predictor/</guid>
+      <guid>//localhost:1313/projects/genre-predictor/</guid>
       <description>A genre prediction model that given a plot allows the user to predict possible genre for the movie or tv-show.</description>
     </item>
     <item>
       <title>FAST Date Sheet Analyser</title>
-      <link>//localhost:51143/projects/fast-date-sheet-analyser/</link>
+      <link>//localhost:1313/projects/fast-date-sheet-analyser/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/projects/fast-date-sheet-analyser/</guid>
+      <guid>//localhost:1313/projects/fast-date-sheet-analyser/</guid>
       <description>This utility allows the students of FAST LHR to input their campus date sheets and dig out their relevant subjects from it.</description>
     </item>
     <item>
       <title>Fiscal Count</title>
-      <link>//localhost:51143/projects/fiscal-count/</link>
+      <link>//localhost:1313/projects/fiscal-count/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/projects/fiscal-count/</guid>
+      <guid>//localhost:1313/projects/fiscal-count/</guid>
       <description>A bookkeeping application built as a solution to address accounting and management needs of Aqsa Traders PVT LTD.</description>
     </item>
     <item>
       <title>Owlet Run</title>
-      <link>//localhost:51143/projects/owlet-run/</link>
+      <link>//localhost:1313/projects/owlet-run/</link>
       <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/projects/owlet-run/</guid>
+      <guid>//localhost:1313/projects/owlet-run/</guid>
       <description>An infinite side scroller 2D runner game built in Flutter using the powerful Flame Engine.</description>
     </item>
     <item>
       <title>Daily Weather</title>
-      <link>//localhost:51143/projects/daily-weather/</link>
+      <link>//localhost:1313/projects/daily-weather/</link>
       <pubDate>Sat, 23 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/projects/daily-weather/</guid>
+      <guid>//localhost:1313/projects/daily-weather/</guid>
       <description>A weather application with future forecasts and notifications fulfilling all of your needs.</description>
     </item>
     <item>
       <title>Auto-Insta Bot</title>
-      <link>//localhost:51143/projects/auto-insta-bot/</link>
+      <link>//localhost:1313/projects/auto-insta-bot/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/projects/auto-insta-bot/</guid>
+      <guid>//localhost:1313/projects/auto-insta-bot/</guid>
       <description>An automation bot to automate the workflow of posting multiple instagram feeds and stories for businesses.</description>
     </item>
   </channel>

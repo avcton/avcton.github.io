@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pandas on Muhammad Ahmad</title>
-    <link>//localhost:51143/tech-stacks/pandas/</link>
+    <link>//localhost:1313/tech-stacks/pandas/</link>
     <description>Recent content in Pandas on Muhammad Ahmad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 avcton</copyright>
     <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:51143/tech-stacks/pandas/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tech-stacks/pandas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multi-Label Genre Predictor</title>
-      <link>//localhost:51143/projects/genre-predictor/</link>
+      <link>//localhost:1313/projects/genre-predictor/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/projects/genre-predictor/</guid>
+      <guid>//localhost:1313/projects/genre-predictor/</guid>
       <description>A genre prediction model that given a plot allows the user to predict possible genre for the movie or tv-show.</description>
     </item>
     <item>
       <title>FAST Date Sheet Analyser</title>
-      <link>//localhost:51143/projects/fast-date-sheet-analyser/</link>
+      <link>//localhost:1313/projects/fast-date-sheet-analyser/</link>
       <pubDate>Tue, 12 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/projects/fast-date-sheet-analyser/</guid>
+      <guid>//localhost:1313/projects/fast-date-sheet-analyser/</guid>
       <description>This utility allows the students of FAST LHR to input their campus date sheets and dig out their relevant subjects from it.</description>
     </item>
   </channel>

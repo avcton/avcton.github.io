@@ -2,88 +2,88 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tech Stacks on Muhammad Ahmad</title>
-    <link>//localhost:51143/tech-stacks/</link>
+    <link>//localhost:1313/tech-stacks/</link>
     <description>Recent content in Tech Stacks on Muhammad Ahmad</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 avcton</copyright>
     <lastBuildDate>Wed, 03 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:51143/tech-stacks/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tech-stacks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Keras</title>
-      <link>//localhost:51143/tech-stacks/keras/</link>
+      <link>//localhost:1313/tech-stacks/keras/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/tech-stacks/keras/</guid>
+      <guid>//localhost:1313/tech-stacks/keras/</guid>
       <description></description>
     </item>
     <item>
       <title>Pandas</title>
-      <link>//localhost:51143/tech-stacks/pandas/</link>
+      <link>//localhost:1313/tech-stacks/pandas/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/tech-stacks/pandas/</guid>
+      <guid>//localhost:1313/tech-stacks/pandas/</guid>
       <description></description>
     </item>
     <item>
       <title>Plotly</title>
-      <link>//localhost:51143/tech-stacks/plotly/</link>
+      <link>//localhost:1313/tech-stacks/plotly/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/tech-stacks/plotly/</guid>
+      <guid>//localhost:1313/tech-stacks/plotly/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>//localhost:51143/tech-stacks/python/</link>
+      <link>//localhost:1313/tech-stacks/python/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/tech-stacks/python/</guid>
+      <guid>//localhost:1313/tech-stacks/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Tensorflow</title>
-      <link>//localhost:51143/tech-stacks/tensorflow/</link>
+      <link>//localhost:1313/tech-stacks/tensorflow/</link>
       <pubDate>Wed, 03 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/tech-stacks/tensorflow/</guid>
+      <guid>//localhost:1313/tech-stacks/tensorflow/</guid>
       <description></description>
     </item>
     <item>
       <title>.NET</title>
-      <link>//localhost:51143/tech-stacks/.net/</link>
+      <link>//localhost:1313/tech-stacks/.net/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/tech-stacks/.net/</guid>
+      <guid>//localhost:1313/tech-stacks/.net/</guid>
       <description></description>
     </item>
     <item>
       <title>React</title>
-      <link>//localhost:51143/tech-stacks/react/</link>
+      <link>//localhost:1313/tech-stacks/react/</link>
       <pubDate>Tue, 09 May 2023 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/tech-stacks/react/</guid>
+      <guid>//localhost:1313/tech-stacks/react/</guid>
       <description></description>
     </item>
     <item>
       <title>Dart</title>
-      <link>//localhost:51143/tech-stacks/dart/</link>
+      <link>//localhost:1313/tech-stacks/dart/</link>
       <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/tech-stacks/dart/</guid>
+      <guid>//localhost:1313/tech-stacks/dart/</guid>
       <description></description>
     </item>
     <item>
       <title>Flame</title>
-      <link>//localhost:51143/tech-stacks/flame/</link>
+      <link>//localhost:1313/tech-stacks/flame/</link>
       <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/tech-stacks/flame/</guid>
+      <guid>//localhost:1313/tech-stacks/flame/</guid>
       <description></description>
     </item>
     <item>
       <title>Flutter</title>
-      <link>//localhost:51143/tech-stacks/flutter/</link>
+      <link>//localhost:1313/tech-stacks/flutter/</link>
       <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/tech-stacks/flutter/</guid>
+      <guid>//localhost:1313/tech-stacks/flutter/</guid>
       <description></description>
     </item>
     <item>
       <title>Instagrapi</title>
-      <link>//localhost:51143/tech-stacks/instagrapi/</link>
+      <link>//localhost:1313/tech-stacks/instagrapi/</link>
       <pubDate>Fri, 20 May 2022 00:00:00 +0000</pubDate>
-      <guid>//localhost:51143/tech-stacks/instagrapi/</guid>
+      <guid>//localhost:1313/tech-stacks/instagrapi/</guid>
       <description></description>
     </item>
   </channel>
