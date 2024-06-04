@@ -18,7 +18,8 @@
     "format": "npx prettier . --write",
     "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
-    "build-css": "sass --no-source-map ./quartz/styles/custom.scss custom.css"
+    "build-css": "sass --no-source-map ./quartz/styles/custom.scss custom.css",
+    "serve" : "npx quartz build --serve -d Obsidian"
   },
   "engines": {
     "npm": ">=9.3.1",

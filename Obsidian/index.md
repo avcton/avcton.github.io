@@ -64,4 +64,4 @@ I am a passionate student dedicated to crafting immersive experiences and solvin
 I’m deeply passionate about developing innovative and digital solutions. This journey of mine began in middle school, where I delved into various programming languages, igniting a lifelong love for learning and creating. Ever since then, I’ve immersed myself in numerous technologies and projects within this ever evolving field.
 # Misc
 
-- Learn how I built this site [[Inspiration|Here]]
+- [[Inspiration|Learn how I built this site]]
