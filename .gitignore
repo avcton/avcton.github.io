@@ -4,9 +4,10 @@ node_modules
 public
 prof
 tsconfig.tsbuildinfo
-.obsidian
 .quartz-cache
-private/
+private
 .replit
 replit.nix
-.env
+.obsidian
+templates
+.excalidraw
