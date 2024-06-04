@@ -17,7 +17,8 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
+    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
+    "build-css": "sass --no-source-map ./quartz/styles/custom.scss custom.css"
   },
   "engines": {
     "npm": ">=9.3.1",
@@ -43,6 +44,7 @@
     "chokidar": "^3.6.0",
     "cli-spinner": "^0.2.10",
     "d3": "^7.9.0",
+    "dotenv": "^16.4.5",
     "esbuild-sass-plugin": "^2.16.1",
     "flexsearch": "0.7.43",
     "github-slugger": "^2.0.0",

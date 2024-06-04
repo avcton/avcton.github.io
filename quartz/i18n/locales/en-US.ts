@@ -23,7 +23,7 @@ export default {
     },
     backlinks: {
       title: "Backlinks",
-      noBacklinksFound: "No backlinks found",
+      noBacklinksFound: "Oops.. No backlinks found",
     },
     themeToggle: {
       lightMode: "Light mode",
@@ -33,7 +33,7 @@ export default {
       title: "Explorer",
     },
     footer: {
-      createdWith: "Created with",
+      createdWith: "Created with <3",
     },
     graph: {
       title: "Graph View",
@@ -48,7 +48,7 @@ export default {
     },
     search: {
       title: "Search",
-      searchBarPlaceholder: "Search for something",
+      searchBarPlaceholder: "Close your eyes and search for anything",
     },
     tableOfContents: {
       title: "Table of Contents",
@@ -63,8 +63,8 @@ export default {
       lastFewNotes: ({ count }) => `Last ${count} notes`,
     },
     error: {
-      title: "Not Found",
-      notFound: "Either this page is private or doesn't exist.",
+      title: "Page Not Found",
+      notFound: "Either this page is linked to one of my private notes or doesn't exist at all.",
       home: "Return to Homepage",
     },
     folderContent: {

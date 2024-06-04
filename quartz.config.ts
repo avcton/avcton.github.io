@@ -8,15 +8,20 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "avcton",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "avcton.github.io",
+    ignorePatterns: [
+      ".obsidian",
+      "templates",
+      "*.excalidraw",
+      "!(@essentials/public/**)/!(*.md)"
+    ],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
@@ -38,12 +43,12 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#161618",
+          light: "#1a1915",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
+          secondary: "#5d7da5",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
@@ -65,12 +70,12 @@ const config: QuartzConfig = {
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
-      Plugin.TableOfContents(),
+      Plugin.TableOfContents({maxDepth: 6}),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
-    filters: [Plugin.RemoveDrafts()],
+    filters: [Plugin.RemoveDrafts(), Plugin.ExplicitPublish()],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),

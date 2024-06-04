@@ -1,3 +1,126 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+.intro-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0%;
+}
+
+.intro-text {
+    order: 1;
+}
+
+.intro-pfp {
+    order: 2;
+    width: 220px;
+    height: 220px;
+    margin-left: 2%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name {
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: var(--headerFont);
+    margin-top: 2.25rem;
+    margin-bottom: 0.3rem;
+    color: var(--dark);
+    font-weight: revert;
+    display: block;
+}
+
+.headline {
+    color: var(--darkgray) !important;
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+/* Container for the icons */
+.icons-container {
+    // margin-top: 5%;
+    // margin-bottom: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: center;
+    // text-align: center;
+    
+    /* Link styles */
+    .icon-link {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+        transition: transform 0.3s;
+
+        &.external .external-icon {
+            display: none;
+        }
+    }
+
+    /* Hover effects */
+    .icon-link:hover {
+        transform: scale(1.25);
+    }
+
+    .icon-link:hover .icon {
+        color: var(--tertiary) !important;
+    }
+
+    /* Icon styles */
+    .icon {
+        position: relative;
+        display: inline-block;
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+        vertical-align: text-bottom;
+        width: 24px;
+        height: 24px;
+    }
+    
+    /* SVG styles */
+    .icon svg {
+        width: 100%;
+        height: 100%;
+        fill: currentColor;
+    }
+}
+
+// Horizontal Image Pair
+.img-pair img {
+    display: inline-block;
+    width: 48%;
+}
+
+.img-pair img:nth-child(even) {
+    float: right;
+}
+
+// Single Tall Image
+tall-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+// Mobile View
+@media (max-width: 550px) {
+    .intro-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .intro-text {
+        order: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .intro-pfp {
+        order: 1;
+    }
+}
