@@ -7,4 +7,7 @@ content=$(cat)
 if echo "$content" | grep -q '^publish: true'; then
     # Pass the file through unchanged
     echo "$content"
+else
+    # Exit without emitting anything
+    exit 0
 fi
