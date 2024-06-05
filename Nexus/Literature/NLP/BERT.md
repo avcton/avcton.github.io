@@ -19,6 +19,5 @@ lastmod: 2024-05-26T10:50:52Z
 * Trains model in both directions, forward and backwards. Thanks to Self Attention
 	* This allows BERT to truly capture the *Bi-directional* semantics of the language and understand it better, a level to which even LSTM and BiLSTM were not able to interpret
 
-> [! abstract] [BERT explained: Training, Inference, BERT vs GPT/LLamA, Fine tuning, [CLS] token](https://www.youtube.com/watch?v=90mGPxR2GgY)
-
+> [!abstract] [BERT explained: Training, Inference, BERT vs GPT/LLamA, Fine tuning, [CLS] token](https://www.youtube.com/watch?v=90mGPxR2GgY)
 <iframe sandbox="allow-forms allow-presentation allow-same-origin allow-scripts allow-modals" src="https://www.youtube.com/embed/xI0HHN5XKDo" data-src="" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 747px; height: 417px;"></iframe>
