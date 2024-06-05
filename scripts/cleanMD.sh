@@ -9,5 +9,5 @@ if echo "$content" | grep -q '^publish: true'; then
     echo "$content"
 else
     # Exit without emitting anything
-    exit 0
+    exit 1
 fi
