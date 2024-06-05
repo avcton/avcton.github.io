@@ -1,13 +1,25 @@
 .DS_Store
 .gitignore
 node_modules
+# ignore the quartz public folder
 /public
 prof
 tsconfig.tsbuildinfo
 .quartz-cache
-private
 .replit
 replit.nix
-.obsidian
-templates
-.excalidraw
+
+# Ignore everything within the Obsidian folder
+Obsidian/**/*
+# Do not ignore directories within Obsidian
+!Obsidian/**/
+# Do not ignore markdown files within the Obsidian folder
+!Obsidian/**/*.md
+# Do not ignore the contents of the @essentials/public directory within Obsidian
+!Obsidian/@essentials/public/**
+# Ignore content within Obsidian/.obsidian/
+Obsidian/.obsidian
+# Ignore templates within Obsidian/@essentials/templates/
+Obsidian/@essentials/templates
+# Ignore .excalidraw files within Obsidian/@essentials/public/
+Obsidian/**/*.excalidraw
