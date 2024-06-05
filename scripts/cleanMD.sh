@@ -4,7 +4,7 @@
 content=$(cat)
 
 # Check if the frontmatter contains 'public: true'
-if echo "$content" | grep -q '^public: true'; then
+if echo "$content" | grep -q '^publish: true'; then
     # Pass the file through unchanged
     echo "$content"
 else
