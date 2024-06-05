@@ -8,6 +8,6 @@ if echo "$content" | grep -q '^publish: true'; then
     # Pass the file through unchanged
     echo "$content"
 else
-    # Output an empty file
-    echo ""
+    # Exit with a status code indicating that the file should be skipped
+    exit 1
 fi
