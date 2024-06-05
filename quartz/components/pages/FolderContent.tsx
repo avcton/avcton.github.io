@@ -48,6 +48,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
     return (
       <div class={classes}>
         <article>{content}</article>
+        <hr />
         <div class="page-listing">
           {options.showFolderCount && (
             <p>
