@@ -65,7 +65,14 @@ I am a passionate student dedicated to crafting immersive experiences and solvin
 I’m deeply passionate about developing innovative and digital solutions. This journey of mine began in middle school, where I delved into various programming languages, igniting a lifelong love for learning and creating. Ever since then, I’ve immersed myself in numerous technologies and projects within this ever evolving field.
 ## Browse
 
-You must have came here to browse through something right? .. Well lets feed it to you shall we?
+I invite you to browse through my **highlights** and accumulated **miscellaneous**.
 
-- [[Literature/index|Take a look into my literature and study material]]
+### Highlights
+
+- [[Projects/index|Projects - Find about my success stories]]
+- [[Literature/index|Literature - Take a look into my study material]]
+- [[Garden/index|Garden - Explore my digital blog and technical views]]
+
+### Miscellaneous
+
 - [[Inspiration|Learn how I built this site]]
