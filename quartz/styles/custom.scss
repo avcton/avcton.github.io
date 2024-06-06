@@ -48,6 +48,16 @@
     // text-align: center;
     
     /* Link styles */
+
+    .icon-text {
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+        text-decoration: none;
+        &.external .external-icon {
+            display: none;
+        }
+    }
+
     .icon-link {
         padding-left: 0.25rem;
         padding-right: 0.25rem;
