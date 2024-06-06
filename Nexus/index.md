@@ -13,7 +13,8 @@ description: Explore me and my craft
 <strong class="headline">Data Scientist | Full Stack Developer</strong>
 
 <div class="icons-container">
-	<a href="https://drive.google.com/file/d/1H6II8UVCMrwBevq_5HlwrOQ5G2fvZCHw/view?usp=sharing" class={classNames(displayClass, "resume")}>Resume</a>
+	<a  href="https://drive.google.com/file/d/1H6II8UVCMrwBevq_5HlwrOQ5G2fvZCHw/view?usp=sharing" class="icon-text">Resume</a>
+	<strong class="headline">|</strong>
     <a class="icon-link" style="will-change:transform;" href="mailto:avcton@gmail.com" target="_blank"
         aria-label="Email" rel="me noopener noreferrer">
         <span class="icon">
