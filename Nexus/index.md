@@ -3,7 +3,7 @@ title: Muhammad Ahmad
 publish: true
 cssclasses:
   - index
-description: Explore my digital garden where every project is a story waiting to unfold
+description: Explore me and my craft
 ---
 <div class="intro-container">
 
