@@ -1,6 +1,7 @@
 ---
 title: Literature
 created: 2024-06-05 20:12
+descriptin: Explore resources which relate to my course of study
 publish: true
 tags:
 ---
