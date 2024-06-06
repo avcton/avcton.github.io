@@ -1,5 +1,9 @@
+import dotenv from 'dotenv';
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+
+// Initialising Environment VAR
+dotenv.config();
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -19,7 +23,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
-    Component.MobileOnly(Component.TableOfContents()),
   ],
   left: [
     Component.PageLogo(),
