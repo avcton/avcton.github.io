@@ -13,7 +13,7 @@ publish: true
 * Performance depends on how big we want BERT to be:
 * **BERT Base**
 	* 12 Encoders and 110M Parameters
-  * **BERT Large**
+* **BERT Large**
 	  * 24 Encoders and 340M Parameters
 * Major application in Feature Engineering and creating Dynamic / Contextual Embeddings
 	* **Dynamic Embeddings:**  Embeddings differ with respect to the context surrounding the word

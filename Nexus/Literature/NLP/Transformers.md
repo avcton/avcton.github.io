@@ -74,7 +74,7 @@ This process can be broken down into:
 
 # Variants
 
-* Bidirectional Encoder Representations from Transformers (BERT)
+* [[BERT|Bidirectional Encoder Representations from Transformers (BERT)]]
 * GPT
 
 ‍
