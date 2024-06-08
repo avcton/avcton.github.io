@@ -4,6 +4,9 @@ description: Natural Language Processing Notes for 6th Semester of My DS Degree
 publish: true
 date: 2024-01-23T22:31:09Z
 lastmod: 2024-05-31T01:20:58Z
+tags:
+  - course
+  - study
 ---
 `Natural Language Processing`
 ## Book
