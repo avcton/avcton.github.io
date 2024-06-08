@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Architectures of Data Warehouse
 date: 2023-09-11T17:57:32Z
 lastmod: 2023-12-24T19:56:54Z
+publish: true
 ---
 
 [Data Warehouse Architectural Types](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=64)  

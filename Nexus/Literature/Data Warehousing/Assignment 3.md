@@ -1,9 +1,10 @@
 ---
-publish: true
 title: Assignment 3
 date: 2023-10-21T12:57:35Z
 lastmod: 2023-10-26T13:02:23Z
+publish: true
 ---
+
 Reference Documents: 
 
 [Fall2023_DW_BDS_A3_Joining Techniques.pdf](Fall2023_DW_BDS_A3_Joining%20Techniques-20231021130333-b2u4wtt.pdf)

@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Data Modelling
 date: 2023-09-11T17:56:04Z
 lastmod: 2023-12-25T13:13:27Z
+publish: true
 ---
 
 > A process used to define and organise data in a systematic way. It involves creating abstract representations of the structure and relationships within a database or information system.

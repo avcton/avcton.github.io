@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Byte Pair Encoding
 date: 2024-02-06T16:04:26Z
 lastmod: 2024-02-17T21:30:42Z
+publish: true
 ---
 
 > Byte Pair Encoding (BPE) is a data compression technique and also a subword tokenisation algorithm used primarily in natural language processing (NLP) and machine learning.

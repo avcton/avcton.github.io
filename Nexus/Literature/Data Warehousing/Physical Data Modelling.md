@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Physical Data Modelling
 date: 2023-12-25T13:20:19Z
 lastmod: 2023-12-25T19:00:25Z
+publish: true
 ---
 
 ## Partitioning Techniques

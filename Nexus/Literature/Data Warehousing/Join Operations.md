@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Join Operations
 date: 2023-10-19T14:42:47Z
 lastmod: 2023-12-25T19:44:21Z
+publish: true
 ---
 
 # High Selectivity

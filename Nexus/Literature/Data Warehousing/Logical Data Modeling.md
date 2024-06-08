@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Logical Data Modeling
 date: 2023-12-25T13:20:30Z
 lastmod: 2023-12-25T15:51:15Z
+publish: true
 ---
 
 ## Storage Structures

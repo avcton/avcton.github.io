@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Assignment 4
 date: 2023-10-27T17:16:26Z
 lastmod: 2023-10-30T19:53:13Z
+publish: true
 ---
 
 Reference Documents:

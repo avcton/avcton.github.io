@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Regular Expressions
 date: 2024-01-28T15:49:39Z
 lastmod: 2024-01-28T15:50:26Z
+publish: true
 ---
 
 > A regex is a string of text that lets you create patterns that help match, locate, and manage text.

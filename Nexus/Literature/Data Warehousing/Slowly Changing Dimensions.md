@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Slowly Changing Dimensions
 date: 2023-09-24T16:58:03Z
 lastmod: 2023-09-24T17:03:19Z
+publish: true
 ---
 
 > The dimensions that are ought to change with time.

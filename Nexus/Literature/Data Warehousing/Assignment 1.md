@@ -1,9 +1,10 @@
 ---
-publish: true
 title: Assignment 1
 date: 2023-09-11T17:57:38Z
 lastmod: 2023-09-11T18:02:35Z
+publish: true
 ---
+
 # Question 1
 
 **What's the scope of what can be considered a data warehousing failure? Discuss.**

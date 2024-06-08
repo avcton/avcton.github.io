@@ -1,9 +1,10 @@
 ---
-publish: true
 title: Assignment 2
 date: 2023-09-21T14:51:00Z
 lastmod: 2023-10-21T12:58:13Z
+publish: true
 ---
+
 Reference Documents:
 
 [Fall2023_DW_BDS_A2_Dimensional Modeling.pdf](Fall2023_DW_BDS_A2_Dimensional%20Modeling-20230921151937-rekl8sn.pdf)

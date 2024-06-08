@@ -1,8 +1,8 @@
 ---
-publish: true
 title: ETL | ELT Processing
 date: 2023-10-03T15:11:32Z
 lastmod: 2023-12-27T08:58:40Z
+publish: true
 ---
 
 > The process of extracting data into the warehouse from operational systems, also called Acquisition.

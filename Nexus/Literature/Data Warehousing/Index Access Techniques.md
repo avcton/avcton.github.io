@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Index Access Techniques
 date: 2023-10-27T18:57:37Z
 lastmod: 2023-10-27T21:16:18Z
+publish: true
 ---
 
 ==Traditional indexing is good for OLTP style queries, but is not so great for traditional DSS queries.==

@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Types of Facts
 date: 2023-09-30T14:28:38Z
 lastmod: 2023-12-24T19:35:30Z
+publish: true
 ---
 
 # Additive Facts
