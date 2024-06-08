@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Indexing Techniques
 date: 2023-10-19T14:55:40Z
 lastmod: 2023-12-25T21:19:58Z
+publish: true
 ---
 
 # Need for Indexing

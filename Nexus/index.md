@@ -1,9 +1,9 @@
 ---
 title: Muhammad Ahmad
+description: Explore me and my craft
 publish: true
 cssclasses:
   - index
-description: Explore me and my craft
 ---
 <div class="intro-container">
 

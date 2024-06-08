@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Machine Translation
 date: 2024-04-15T14:52:16Z
 lastmod: 2024-04-17T15:14:51Z
+publish: true
 ---
 
 > Cross translation of human languages

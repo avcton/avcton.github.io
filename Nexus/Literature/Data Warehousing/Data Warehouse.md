@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Data Warehouse
 date: 2023-09-11T17:55:49Z
 lastmod: 2024-03-28T09:52:03Z
+publish: true
 ---
 
 # Operational Systems

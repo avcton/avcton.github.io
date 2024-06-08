@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Language Model
 date: 2023-10-15T19:22:13Z
 lastmod: 2024-03-17T11:04:10Z
+publish: true
 ---
 
 > A language model learns to predict the probability of a sequence of words.

@@ -1,8 +1,8 @@
 ---
-publish: true
 title: OLAP
 date: 2023-09-11T17:56:45Z
 lastmod: 2023-12-24T18:22:13Z
+publish: true
 ---
 
 > Online Analytical Processing  

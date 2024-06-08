@@ -1,9 +1,10 @@
 ---
-publish: true
 title: BERT
 date: 2024-05-13T19:45:03Z
 lastmod: 2024-05-26T10:50:52Z
+publish: true
 ---
+
 > Bidirectional Encoder Representations from Transformers
 > 
 > Based on transformers, a deep learning model in which every output element is connected to every input element, and the weightings between them are dynamically calculated based upon their connection.

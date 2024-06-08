@@ -1,8 +1,8 @@
 ---
-publish: true
 title: N-Grams
 date: 2023-10-15T19:11:46Z
 lastmod: 2024-03-13T13:47:28Z
+publish: true
 ---
 
 > An N-gram is a sequence of N tokens (or words).

@@ -1,8 +1,8 @@
 ---
-publish: true
 title: Transformers
 date: 2024-04-17T15:31:05Z
 lastmod: 2024-04-28T20:52:01Z
+publish: true
 ---
 
 > A transformer is **a deep learning** sequence-to-sequence **architecture developed by Google** representing departure from the traditional RNN and LSTM based seq-to-seq models **and based on the multi-head attention mechanism**, proposed in a 2017 paper [&quot;Attention Is All You Need&quot;](attention-is-all-you-need-20240428205150-tbz6s25.pdf).

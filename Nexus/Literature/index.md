@@ -1,9 +1,9 @@
 ---
 title: Literature
-created: 2024-06-05 20:12
+created: 2024-06-05
 descriptin: Explore resources which relate to my course of study
+tags: 
 publish: true
-tags:
 ---
 > [!quote] Dive into my intellectual world
 

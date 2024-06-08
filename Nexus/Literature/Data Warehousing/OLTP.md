@@ -1,8 +1,8 @@
 ---
-publish: true
 title: OLTP
 date: 2023-09-11T17:57:50Z
 lastmod: 2023-10-12T15:29:04Z
+publish: true
 ---
 
 > Online Transaction Processing Systems  
