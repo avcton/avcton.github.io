@@ -7,7 +7,7 @@ cssclasses:
 ---
 <div class="intro-container">
 
-<img class="intro-pfp" src="@essentials/public/assets/me.jpg" alt="me">
+<img class="intro-pfp" src="@essentials/public/assets/me.png" alt="me">
 <div class="intro-text">
 <strong class="name">Muhammad Ahmad</strong>
 <strong class="headline">Data Scientist | Full Stack Developer</strong>

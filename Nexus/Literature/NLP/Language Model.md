@@ -6,7 +6,6 @@ publish: true
 ---
 
 > A language model learns to predict the probability of a sequence of words.
-> 
 > Task of predicting what word comes next given the previous word or context.
 
 ## Statistical Language Models
