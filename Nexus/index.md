@@ -66,7 +66,7 @@ I am a passionate student dedicated to crafting immersive experiences and solvin
 ---
 ## Journey
 
-> [!quote] Experience the technical journey of my life.
+> [!quote] Experience the technical journey of my life
 
 I’m deeply passionate about developing innovative and digital solutions. This journey of mine began in middle school, where I delved into various programming languages, igniting a lifelong love for learning and creating. Ever since then, I’ve immersed myself in numerous technologies and projects within this ever evolving field.
 ## Browse
