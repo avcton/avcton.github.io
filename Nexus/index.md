@@ -75,10 +75,10 @@ I invite you to browse through my **highlights** and accumulated **miscellaneous
 
 ### Highlights
 
-- Explore my digital blog and technical views in [[Garden/index|Garden]]
-- Take a look into my study material in [[Literature/index|Literature]]
-- Find about my success stories in [[Projects/index|Projects]]
-- Browse my stacked up in resources [[Resources/index|Resources]]
+- Explore my digital blog and technical views in - [[Garden/index|Garden]]
+- Take a look into my study material in - [[Literature/index|Literature]]
+- Find about my success stories in - [[Projects/index|Projects]]
+- Browse my stacked up material in - [[Resources/index|Resources]]
 
 ### Miscellaneous
 
