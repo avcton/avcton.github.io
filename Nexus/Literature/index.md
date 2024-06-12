@@ -1,7 +1,7 @@
 ---
 title: Literature
-created: 2024-06-05
-descriptin: Explore resources which relate to my course of study
+description: Explore resources which relate to my course of study
+date: 2024-06-05
 tags: 
 publish: true
 ---

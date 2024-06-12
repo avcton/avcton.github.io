@@ -1,9 +1,9 @@
 ---
 title: How did I Built this Garden
-created: 2024-06-01
-publish: true
+date: 2024-06-01
 tags:
   - musing
+publish: true
 ---
 I came across numerous solutions over the internet to work my way through the site.
 ## Realization

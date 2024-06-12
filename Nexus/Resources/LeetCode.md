@@ -1,7 +1,7 @@
 ---
 title: LeetCode
 description: How should you get started with LeetCode?
-created: 2024-06-08 22:42
+date: 2024-06-08 22:42
 tags:
   - resource
 publish: true
