@@ -42,6 +42,6 @@ While doing all of these is *theoretically* possible without regex, ==when regex
 
 # Cheat Sheet
 
-​![image](image-20240124214236-zsic0ow.png)​
+​![image](regex-cheat-sheet.png)​
 
 ‍

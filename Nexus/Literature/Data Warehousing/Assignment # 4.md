@@ -5,13 +5,9 @@ lastmod: 2023-10-30T19:53:13Z
 publish: true
 ---
 
-Reference Documents:
-
-[Fall2023_DW_BDS_A4_Indexing Techniques.pdf](Fall2023_DW_BDS_A4_Indexing%20Techniques-20231027171706-am71ouk.pdf)
-
-[Indexing_PracticeProblem1_Sol.pdf](Indexing_PracticeProblem1_Sol-20231027171818-5pku8nb.pdf)
-
-[Indexing_PracticeProblem2_Sol.pdf](Indexing_PracticeProblem2_Sol-20231027171823-8eudo5c.pdf)
+- [data-warehousing-assignment-indexing-techniques.pdf](data-warehousing-assignment-indexing-techniques.pdf)
+- [indexing-practice-problems-1.pdf](indexing-practice-problems-1.pdf)
+- [indexing-practice-problems-2.pdf](indexing-practice-problems-2.pdf)
 
 # Assumptions
 

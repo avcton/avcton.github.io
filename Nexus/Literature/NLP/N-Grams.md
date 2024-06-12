@@ -37,19 +37,15 @@ Similarly, we use can NLP and n-grams to train voice-based personal assistant bo
 
 * AKA ==Add One Smoothing==
 * Method
-
-  * Increment frequency of each word by 1
-  * Normalise by adding vocabulary to frequency counts when dividing
+	* Increment frequency of each word by 1
+	* Normalize by adding vocabulary to frequency counts when dividing
 * General Formula
-
   $$
   \frac{C(W|W_{i-1}) + 1}{C(W_{i-1})+V}
   $$
-* Add K Smoothing
-
-  * Extension to Add One Smoothing
-  * Formula
-
+* Can also be utilized through add K Smoothing
+	* Extension to Add One Smoothing
+	* Formula
     $$
     \frac{C(W|W_{i-1}) + K}{C(W_{i-1})+V\times K}
     $$
@@ -62,17 +58,14 @@ Similarly, we use can NLP and n-grams to train voice-based personal assistant bo
 ### Stupid Backoff
 
 * Used in Web-Scale Models
-
-  * For Retrieval Purposes
+	* For Retrieval Purposes
 * Fall back to lower n-gram model probabilities when the current one doesn't exist
 
 ### Good-Turing
 
 * Relate unseen words to the probability of the words which are the rarest in our corpus
-* Formula
-
+* Formula:
   For Unknown Words:
-
   $$
   P* = \frac{N_1}{N}
   $$
@@ -80,7 +73,6 @@ Similarly, we use can NLP and n-grams to train voice-based personal assistant bo
   Where $N_1$ is lowest combined frequency count out of all classes
 
   For Known Words:
-
   $$
   C^* = \frac{(c+1)\times N_{c+1}}{N_c}
   $$
@@ -90,11 +82,10 @@ Similarly, we use can NLP and n-grams to train voice-based personal assistant bo
   $$
 
   Where N = Total Class Instances, $N_i$ is the combined frequency count of the classes with $i$<sup>th</sup> frequency rank
-
+  
 ## Cons
 
 * No long term dependency
 * Might limit the context when predicting next word
 * Generating text might not be a good idea
-
-  * n-gram models might overfit the data and start producing the same text as it sees in the training data and thus there won't be any creativity
+* N-gram models might overfit the data and start producing the same text as it sees in the training data and thus there won't be any creativity

@@ -6,7 +6,6 @@ publish: true
 ---
 
 > Bidirectional Encoder Representations from Transformers
-> 
 > Based on transformers, a deep learning model in which every output element is connected to every input element, and the weightings between them are dynamically calculated based upon their connection.
 
 * Pre-training of Deep Bidirectional Transformers for language understanding
@@ -14,7 +13,7 @@ publish: true
 * **BERT Base**
 	* 12 Encoders and 110M Parameters
 * **BERT Large**
-	  * 24 Encoders and 340M Parameters
+	* 24 Encoders and 340M Parameters
 * Major application in Feature Engineering and creating Dynamic / Contextual Embeddings
 	* **Dynamic Embeddings:**  Embeddings differ with respect to the context surrounding the word
 * Trains model in both directions, forward and backwards. Thanks to Self Attention

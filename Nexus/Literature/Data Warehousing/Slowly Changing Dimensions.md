@@ -11,16 +11,15 @@ publish: true
 
 # Example
 
-[Consider the customer demographics dimension table. What happens when a customer’s status changes from rental home to own home? The corresponding row in that dimension table must be changed. Next, look at the payment method dimension table. When finance type changes for one of the payment methods, this change must be reflected in the payment method dimension table.](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=281)
+Consider the customer demographics dimension table. What happens when a customer’s status changes from rental home to own home? The corresponding row in that dimension table must be changed. Next, look at the payment method dimension table. When finance type changes for one of the payment methods, this change must be reflected in the payment method dimension table.
 
 # Techniques
 
-[Data warehousing practitioners have come up with different techniques for applying the changes. They have also given names to these three types of dimension table changes. Yes, your guess in right. The given names are type 1 changes, type 2 changes, and type 3 changes](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=281)
+Data warehousing practitioners have come up with different techniques for applying the changes. They have also given names to these three types of dimension table changes. Yes, your guess in right. The given names are type 1 changes, type 2 changes, and type 3 changes
 
 ## Type 1
 
-[Type 1 Change](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=283)  
-​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P283-20230924171103-20230924171103-aenru8q.png)​
+​![](type-1-dimension-change.png)​
 
 ### Principles
 
@@ -46,8 +45,7 @@ publish: true
 
 ## Type 2
 
-[Type 2 Change](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=284)  
-​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P284-20230924171142-20230924171143-oxrb64d.png)​
+​![](type-2-dimension-change.png)​
 
 ### Principles
 
@@ -66,8 +64,7 @@ publish: true
 
 ## Type 3
 
-[Type 3 Change](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=285)  
-​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P285-20230924171236-20230924171236-o3x65s6.png)​
+​![](type-3-dimension-change.png)​
 
 ### Principles
 
@@ -87,5 +84,3 @@ publish: true
 * Any queries that need to use the “old” value must be revised accordingly.
 * The technique works best for one “soft” change at a time.
 * If there is a succession of changes, more sophisticated techniques must be devised
-
----

@@ -5,8 +5,6 @@ lastmod: 2023-12-24T19:10:37Z
 publish: true
 ---
 
----
-
 * [https://athena.ecs.csus.edu/~mei/olap/OLAPoperations.php](https://athena.ecs.csus.edu/~mei/olap/OLAPoperations.php)
 * 2023-09-30 12:42:18
 
@@ -16,7 +14,7 @@ In the multidimensional model, data are organised into multiple dimensions, and 
 
 For example, we have attributes as day, temperature and humidity, we can group values in subsets and name these subsets, thus obtaining a set of hierarchies as shown in figure below.
 
-​![](concept%20hierarchy-20230930124218-vbfxq5g.JPG)**Fig 6:**  Concept hierarchy.
+​![](data-concept-hierarchy.jpg)**Fig 6:**  Concept hierarchy.
 
 > OLAP provides a user-friendly environment for interactive data analysis.  A number of OLAP data cube operations exist to materialise different views of data, allowing interactive querying and analysis of the data.
 
@@ -28,13 +26,13 @@ The roll-up operation (also called drill-up or aggregation operation) performs a
 
 Consider the following cube illustrating temperature of certain days recorded weekly:
 
-​![](rollupexample-20230930124218-f6u91bf.JPG)  
+​![](rollup-operation-olap-before.jpg)  
 **Fig 7:**  Example.
 
 Assume we want to set up levels (hot(80-85), mild(70-75), cold(64-69)) in temperature from the above cube. To do this we have to group columns and add up the values according to the concept hierarchy. This operation is called roll-up.  
 By doing this we obtain the following cube:
 
-​![](newrollup-20230930124218-7hhkpqk.JPG)  
+​![](rollup-operation-olap-after.jpg)  
 **Fig 8:**  Rollup.
 
 The concept hierarchy can be defined as hot-->day-->week. The roll-up operation groups the data by levels of temperature.
@@ -43,7 +41,7 @@ The concept hierarchy can be defined as hot-->day-->week. The roll-up operation 
 
 The roll down operation (also called drill down) is the reverse of roll up. It navigates from less detailed data to more detailed data. It can be realised by either stepping down a concept hierarchy for a dimension or introducing additional dimensions.  Performing roll down operation on the same cube mentioned above:
 
-​![](drilldown-20230930124218-fmhfwi7.JPG)  
+​![](drilldown-operation-olap.jpg)  
 **Fig 9:**  Roll down
 
 The result of a drill-down operation performed on the central cube by stepping down a concept hierarchy for temperature can be defined as day<--week<--cool. Drill-down occurs by descending the time hierarchy from the level of week to the more detailed level of day. Also new dimensions can be added to the cube, because drill-down adds more detail to the given data.
@@ -52,21 +50,21 @@ The result of a drill-down operation performed on the central cube by stepping d
 
 Slice performs a ==selection on one dimension of the given cube==, thus resulting in a sub-cube. For example, in the cube example above, if we make the selection, temperature=cool we will obtain the following cube:
 
-​![](slice-20230930124218-hp9swoq.JPG)  
+​![](slice-operation-olap.jpg)  
 **Fig 10:**  Slicing
 
 # Dicing
 
 The dice operation defines a sub-cube by performing a ==selection on two or more dimensions==.  For example, applying the selection (time = day 3 OR time = day 4) AND (temperature = cool OR temperature = hot) to the original cube we get the following sub-cube (still two-dimensional):
 
-​![](dicing-20230930124218-eopvdth.JPG)  
+​![](dicing-operation-olap.jpg)  
 **Fig 11: ** Dicing
 
 # Pivot
 
 Pivot otherwise known as Rotate, changes the dimensional orientation of the cube, i.e. rotates the data axes to view the data from different perspectives. Pivot groups data with different dimensions. The below cubes shows 2D representation of Pivot.
 
-​![](PIVOT-20230930124218-r8o6cg7.jpg)**Fig 12: ** Pivot
+​![](pivot-operation-olap.jpg)**Fig 12: ** Pivot
 
 # Other OLAP operations
 

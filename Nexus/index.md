@@ -81,5 +81,4 @@ I invite you to browse through my **highlights** and accumulated **miscellaneous
 - Browse my stacked up material in - [[Resources/index|Resources]]
 
 ### Miscellaneous
-
 - [[Inspiration|Learn how I built this site]]

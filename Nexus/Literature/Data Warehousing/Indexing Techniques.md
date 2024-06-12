@@ -119,7 +119,7 @@ Single I/O operation for accessing a data row via NUPI whenever all rows with th
 
 # Non-Clustered Indexes
 
-​![CleanShot 2023-10-27 at 18.13.17@2x](CleanShot%202023-10-27%20at%2018.13.17@2x-20231027181329-q46w1bf.png)​
+​![CleanShot 2023-10-27 at 18.13.17@2x](clustered-vs-non-clustered-indexing.png)​
 
 > There is no consecutive appearance of rows according to the indexed criteria
 
