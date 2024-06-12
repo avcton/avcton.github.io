@@ -13,4 +13,4 @@ Here lies some of the resources to make your way through LeetCode if you're just
 
 Download the below roadmap created by [Aman](https://www.youtube.com/@AmanManazir) by `right clicking` and `saving` the document.
 
-![[Pareto Problem Set.pdf]]
+![[pareto-problem-set.pdf]]

@@ -5,11 +5,8 @@ lastmod: 2023-10-21T12:58:13Z
 publish: true
 ---
 
-Reference Documents:
-
-[Fall2023_DW_BDS_A2_Dimensional Modeling.pdf](Fall2023_DW_BDS_A2_Dimensional%20Modeling-20230921151937-rekl8sn.pdf)
-
-[Dimensional Modelling - Sample Case Studies-sol.pdf](Dimensional%20Modeling-%20Sample%20Case%20Studies-sol-20230923212802-wek2zpq.pdf)
+- [data-warehousing-assignment-dimensional-modeling.pdf](data-warehousing-assignment-dimensional-modeling.pdf)
+- [Dimensional Modelling - Sample Case Studies-sol.pdf](dimensional-modeling-sample-case-studies.pdf)
 
 # TU Hotels System
 
@@ -178,4 +175,4 @@ The urgency with which the data should be extracted and loaded from transactiona
 
 # Dimensional Model
 
-​![CleanShot 2023-09-26 at 03.09.50@2x](CleanShot%202023-09-26%20at%2003.09.50@2x-20230926031008-f2ervsv.png)​
+​![CleanShot 2023-09-26 at 03.09.50@2x](fact-tables-schema.png)​

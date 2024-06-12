@@ -229,7 +229,7 @@ the store dimension is aggregated into country*
 [Start Schema](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=264)
 
 Fact table resides in the centre while the dimensions connected to it forming a shape of a star  
-​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P264-20230914153525-20230914153525-vtxzl8e.png)​
+​![](star-schema-example.png)​
 
 Also See: [Drill Down Steps](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=265)
 
@@ -239,7 +239,7 @@ Also See: [Drill Down Steps](assets/Data%20Warehousing%20Fundamentals%20for%20IT
 
 [A Snowflake Schema](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=292)  
 Further normalisation of dimensions can lead us to a Snowflake Schema  
-​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P292-20230914154446-20230914154447-34zum96.png)​
+​![](snowflake-schema-example.png)​
 
 #### StarFlake Schema
 
@@ -247,4 +247,4 @@ Further normalisation of dimensions can lead us to a Snowflake Schema
 > 
 > Starflake schemas aim to leverage the benefits of both star schemas and snowflake schemas.
 
-### Slowly Changing Dimensions
+Next comes [[Slowly Changing Dimensions]]

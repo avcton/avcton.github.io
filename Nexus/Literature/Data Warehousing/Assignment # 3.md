@@ -5,11 +5,8 @@ lastmod: 2023-10-26T13:02:23Z
 publish: true
 ---
 
-Reference Documents: 
-
-[Fall2023_DW_BDS_A3_Joining Techniques.pdf](Fall2023_DW_BDS_A3_Joining%20Techniques-20231021130333-b2u4wtt.pdf)
-
-[Joins_PracticeProblems_Sol.pdf](Joins_PracticeProblems_Sol-20231021130350-b8z8i28.pdf)
+- [data-warehousing-assignment-joining-techniques.pdf](data-warehousing-assignment-joining-techniques.pdf)
+- [Joins_PracticeProblems_Sol.pdf](joins-practice-problems.pdf)
 
 # Assumptions
 
@@ -43,8 +40,6 @@ Number of Blocks in Index Table = $\frac{r2}{ifr}$ = $\frac{70K}{640}$= 110
 ## 1 : 1 Mapping
 
 One row of table_1 joins with at most one row of table_2
-
-‍
 
 ### Insufficient Memory
 

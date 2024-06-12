@@ -12,7 +12,7 @@ publish: true
 
 # OLTP VS Decision Support Systems (DSS)
 
-​![CleanShot 2023-10-20 at 18.25.02@2x](CleanShot%202023-10-20%20at%2018.25.02@2x-20231020182641-0tkamg1.png)​
+​![CleanShot 2023-10-20 at 18.25.02@2x](dss-vs-oltp.png)​
 
 ==OLTP Databases use a Paged Based File System while on the other hand various DSS systems use a Hash Based File System==
 
@@ -26,5 +26,3 @@ Also the resource allocated to that system might not be sufficient and may bottl
 **What is the average result set join of OLTP systems?** 
 
 They have a relatively small result set for queries
-
----
