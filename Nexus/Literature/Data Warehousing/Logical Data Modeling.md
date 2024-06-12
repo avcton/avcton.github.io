@@ -224,22 +224,17 @@ the store dimension is aggregated into country*
 > 
 > Denormalised Structure, therefore ==huge data redundancies==
 
-[For modeling the data warehouse, we are interested in the dimensional modeling technique. Most of the existing vendors have expanded their modeling case tools to include dimensional modeling. You can create fact tables, dimension tables, and establish the relationships between each dimension table and the fact table. The result is a STAR schema for your model. Again, you can forward-engineer the dimensional STAR model into a relational schema for your chosen database management system](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=263)
+For modeling the data warehouse, we are interested in the dimensional modeling technique. Most of the existing vendors have expanded their modeling case tools to include dimensional modeling. You can create fact tables, dimension tables, and establish the relationships between each dimension table and the fact table. The result is a STAR schema for your model. Again, you can forward-engineer the dimensional STAR model into a relational schema for your chosen database management system
 
-[Start Schema](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=264)
-
-Fact table resides in the centre while the dimensions connected to it forming a shape of a star  
 ​![](star-schema-example.png)​
-
-Also See: [Drill Down Steps](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=265)
+Fact table resides in the centre while the dimensions connected to it forming a shape of a star  
 
 #### SnowFlake Schema
 
-[“Snowflaking” is a method of normalizing the dimension tables in a STAR schema. When you completely normalize all the dimension tables, the resultant structure resembles a snowflake with the fact table in the middle.](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=290)
+“Snowflaking” is a method of normalizing the dimension tables in a STAR schema. When you completely normalize all the dimension tables, the resultant structure resembles a snowflake with the fact table in the middle.
 
-[A Snowflake Schema](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=292)  
-Further normalisation of dimensions can lead us to a Snowflake Schema  
 ​![](snowflake-schema-example.png)​
+Further normalization of above dimensions can lead us to a Snowflake Schema  
 
 #### StarFlake Schema
 
