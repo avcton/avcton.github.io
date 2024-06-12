@@ -1,5 +1,5 @@
 ---
-title: Assignment # 1
+title: Assignment 1
 date: 2023-09-23T11:42:52Z
 lastmod: 2023-09-23T12:38:43Z
 publish: true
