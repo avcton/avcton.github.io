@@ -34,7 +34,7 @@ It is not always that indexing will save us cost, it might overshoot our cost in
     * A scenario could be when only count is required thus accessing table is not required
 * Qualifying rows should be less than the total number of blocks in the table
 
-# We can utilise indexing techniques in a number of ways
+> [!info] We can utilise indexing techniques in a number of ways
 
 # Criteria for Indexing
 
@@ -119,7 +119,7 @@ Single I/O operation for accessing a data row via NUPI whenever all rows with th
 
 # Non-Clustered Indexes
 
-​![CleanShot 2023-10-27 at 18.13.17@2x](Literature/_old-attachments/clustered-vs-non-clustered-indexing.png)​
+​![CleanShot 2023-10-27 at 18.13.17@2x](../_old-attachments/clustered-vs-non-clustered-indexing.png)​
 
 > There is no consecutive appearance of rows according to the indexed criteria
 

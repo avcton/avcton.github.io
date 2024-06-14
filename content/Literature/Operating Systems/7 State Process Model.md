@@ -5,9 +5,9 @@ lastmod: 2023-12-30T22:27:04Z
 publish: true
 ---
 
-> [[5 State Process Model]] transformation because of Medium Term Swapper
+> [5 State Process Model](5%20State%20Process%20Model.md) transformation because of Medium Term Swapper
 
-​![image](7%20State%20Process%20Model-1.png)​
+​![image](../_old-attachments/7%20State%20Process%20Model-1.png)​
 
 ## New State
 

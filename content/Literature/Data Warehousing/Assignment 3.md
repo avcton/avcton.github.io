@@ -5,8 +5,8 @@ lastmod: 2023-10-26T13:02:23Z
 publish: true
 ---
 
-- [data-warehousing-assignment-joining-techniques.pdf](Literature/_old-attachments/data-warehousing-assignment-joining-techniques.pdf)
-- [Joins_PracticeProblems_Sol.pdf](Literature/_old-attachments/joins-practice-problems.pdf)
+- [data-warehousing-assignment-joining-techniques.pdf](../_old-attachments/data-warehousing-assignment-joining-techniques.pdf)
+- [Joins_PracticeProblems_Sol.pdf](../_old-attachments/joins-practice-problems.pdf)
 
 # Assumptions
 

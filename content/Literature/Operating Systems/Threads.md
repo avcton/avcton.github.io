@@ -41,7 +41,7 @@ Each Thread Holds its Unique:
 
 # Types
 
-​![CleanShot 2023-10-08 at 13.44.39@2x](Literature/_old-attachments/Threads-3.png)​
+​![CleanShot 2023-10-08 at 13.44.39@2x](../_old-attachments/Threads-3.png)​
 
 ## User Threads
 
@@ -98,11 +98,11 @@ return 0 = Successful Creation
 
 Consider we have the following function:
 
-​![image](Literature/_old-attachments/Threads.png)​
+​![image](../_old-attachments/Threads.png)​
 
 Following is the main function / process:
 
-​![image](Literature/_old-attachments/Threads-4.png)​
+​![image](../_old-attachments/Threads-4.png)​
 
 # Multithreading
 

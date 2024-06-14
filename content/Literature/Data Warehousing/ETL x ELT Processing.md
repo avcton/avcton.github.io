@@ -31,7 +31,7 @@ An ETL Process typically involves the following steps:
 * Transforming Techniques
 * Loading Techniques
 
-​![](Literature/_old-attachments/etl-elt-processing.png)​
+​![etl-elt-processing](../_old-attachments/etl-elt-processing.png)​
 
 # Data Pipelining
 
@@ -51,13 +51,13 @@ An example could be:
 
 > Before examining the various data extraction techniques, you must clearly understand the nature of the source data you are extracting or capturing. Also, you need to get an insight into how the extracted data will be used. Source data is in a state of constant flux
 
-​![](Literature/_old-attachments/data-sources-in-warehouse.png)​
+​![data-sources-in-warehouse](../_old-attachments/data-sources-in-warehouse.png)​
 
 ### Deferred Source Data
 
 > Deferred data extraction do not capture the changes in real time. The capture happens later.
 
-​![](Literature/_old-attachments/data-staging-techniques-2.png)​
+​![data-staging-techniques-2](../_old-attachments/data-staging-techniques-2.png)​
 
 #### Deferred Extraction Techniques
 
@@ -74,7 +74,7 @@ This technique necessitates the keeping of prior copies of all the relevant sour
 
 > In this option, the data extraction is real-time. It occurs as the transactions happen at the source databases and files.
 
-​![](Literature/_old-attachments/data-staging-techniques-1.png)​
+​![data-staging-techniques-1](../_old-attachments/data-staging-techniques-1.png)​
 
 #### Immediate Extraction Techniques
 
@@ -92,7 +92,7 @@ We can configure our source or transaction systems to send data to the warehouse
 
 ### Data Capture Techniques: Advantages and Disadvantages​
 
-![](Literature/_old-attachments/data-capturing-techniques.png)​
+![data-capturing-techniques](../_old-attachments/data-capturing-techniques.png)​
 
 # Data Loading
 

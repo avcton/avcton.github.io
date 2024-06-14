@@ -36,12 +36,12 @@ While doing all of these is *theoretically* possible without regex, ==when regex
 
 [regex101: build, test, and debug regex](https://regex101.com/)
 
-[The Complete Guide to Regular Expressions (Regex) - CoderPad](https://coderpad.io/blog/development/the-complete-guide-to-regular-expressions-regex/)
+[The Complete Guide to Regular Expressions (Regex) - CoderPad](Regex)%20-%20CoderPad)
 
 [Regular expression syntax cheat sheet - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet)
 
 # Cheat Sheet
 
-​![image](Literature/_old-attachments/regex-cheat-sheet.png)​
+​![image](../_old-attachments/regex-cheat-sheet.png)​
 
 ‍

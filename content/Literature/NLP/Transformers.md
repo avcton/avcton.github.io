@@ -5,9 +5,9 @@ lastmod: 2024-04-28T20:52:01Z
 publish: true
 ---
 
-> A transformer is **a deep learning** sequence-to-sequence **architecture developed by Google** representing departure from the traditional RNN and LSTM based seq-to-seq models **and based on the multi-head attention mechanism**, proposed in a 2017 paper ["Attention Is All You Need"](Literature/_old-attachments/attention-is-all-you-need.pdf).
+> A transformer is **a deep learning** sequence-to-sequence **architecture developed by Google** representing departure from the traditional RNN and LSTM based seq-to-seq models **and based on the multi-head attention mechanism**, proposed in a 2017 paper ["Attention Is All You Need"](../_old-attachments/attention-is-all-you-need.pdf).
 
-* Introduced in the paper ["Attention Is All You Need"](Literature/_old-attachments/attention-is-all-you-need.pdf) by Vaswani et al. (2017)
+* Introduced in the paper ["Attention Is All You Need"](../_old-attachments/attention-is-all-you-need.pdf) by Vaswani et al. (2017)
 * [The Illustrated Transformer – Jay Alammar](https://jalammar.github.io/illustrated-transformer/ "The Illustrated Transformer – Jay Alammar – Visualizing machine learning one concept at a time.")
 * [Solving Transformer by Hand: A Step-by-Step Math Example](https://levelup.gitconnected.com/understanding-transformers-from-start-to-end-a-step-by-step-math-example-16d4e64e6eb1)
 * [The matrix math behind transformer neural networks, one step at a time!!! - YouTube](https://www.youtube.com/watch?v=KphmOJnLAdI "The matrix math behind transformer neural networks, one step at a time!!! - YouTube")
@@ -16,7 +16,7 @@ publish: true
 
 # Transition from Traditional Models
 
-In traditional [[Sequence To Sequence Models]] like those based on RNNs and LSTMs, the input sequence is processed one token at a time, typically in a recurrent manner where each token is processed sequentially, and the hidden state evolves over time. Transformers on the other hand, use an attention mechanism to directly capture dependencies between all pairs of tokens in the input sequence simultaneously. This means that the entire input sequence is processed in parallel, rather than sequentially. This parallel processing is made possible by the self-attention mechanism, which allows each token in the sequence to attend to all other tokens, enabling the model to capture long-range dependencies more effectively.
+In traditional [Sequence To Sequence Models](Sequence%20To%20Sequence%20Models.md) like those based on RNNs and LSTMs, the input sequence is processed one token at a time, typically in a recurrent manner where each token is processed sequentially, and the hidden state evolves over time. Transformers on the other hand, use an attention mechanism to directly capture dependencies between all pairs of tokens in the input sequence simultaneously. This means that the entire input sequence is processed in parallel, rather than sequentially. This parallel processing is made possible by the self-attention mechanism, which allows each token in the sequence to attend to all other tokens, enabling the model to capture long-range dependencies more effectively.
 
 So, in transformers, the input sequence is not fed one token at a time, but rather the entire sequence is processed simultaneously in parallel.
 
@@ -33,7 +33,7 @@ So, in transformers, the input sequence is not fed one token at a time, but rath
 
 # Architecture
 
-​![image](Literature/_old-attachments/transformers-architecture.png)​
+​![image](../_old-attachments/transformers-architecture.png)​
 
 1. **Encoder-Decoder Architecture**
 	1. Transformers typically consist of an encoder and a decoder. The original paper "Attention is all you need", there were $6$ encoders and $6$ decoders. The encoder processes the input sequence and generates a sequence of hidden representations, while the decoder generates the output sequence based on the encoder's representations and any previous output tokens. ==This training is done in== $O(1)$.
@@ -83,7 +83,7 @@ However if we are training the model, we already know the actual output and thus
 
 # Variants
 
-* [[BERT|Bidirectional Encoder Representations from Transformers (BERT)]]
+* [Bidirectional Encoder Representations from Transformers (BERT)](BERT))
 * GPT
 
 ‍

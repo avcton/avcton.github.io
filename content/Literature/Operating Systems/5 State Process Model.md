@@ -5,7 +5,7 @@ lastmod: 2023-12-30T22:24:32Z
 publish: true
 ---
 
-​![](5%20State%20Process%20Model.png)​
+​![5 State Process Model](../_old-attachments/5%20State%20Process%20Model.png)​
 
 ## New State
 

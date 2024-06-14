@@ -8,4 +8,5 @@ tsconfig.tsbuildinfo
 .quartz-cache
 .replit
 replit.nix
-
+.obsidian
+templates

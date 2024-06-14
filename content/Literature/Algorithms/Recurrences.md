@@ -9,6 +9,6 @@ publish: true
 
 # Resources
 
-[99-recurrences.pdf](Literature/_old-attachments/99-recurrences.pdf)
+[99-recurrences.pdf](../_old-attachments/99-recurrences.pdf)
 
 ‍

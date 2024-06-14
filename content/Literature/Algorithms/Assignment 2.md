@@ -5,7 +5,7 @@ lastmod: 2023-09-24T23:27:14Z
 publish: true
 ---
 
-Reference Document: [HW 2.pdf](algo-HW%202.pdf)
+Reference Document: [HW 2.pdf](../_old-attachments/algo-HW%202.pdf)
 ‍
 # Q1
 

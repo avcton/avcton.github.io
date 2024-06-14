@@ -6,7 +6,7 @@ publish: true
 ---
 
 [Data Warehouse Architectural Types](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=64)  
-​![](Literature/_old-attachments/warehousing-architectures.png)​
+​![warehousing-architectures](../_old-attachments/warehousing-architectures.png)​
 
 # Centralised Architecture
 

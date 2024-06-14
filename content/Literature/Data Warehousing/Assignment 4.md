@@ -5,9 +5,9 @@ lastmod: 2023-10-30T19:53:13Z
 publish: true
 ---
 
-- [data-warehousing-assignment-indexing-techniques.pdf](Literature/_old-attachments/data-warehousing-assignment-indexing-techniques.pdf)
-- [indexing-practice-problems-1.pdf](Literature/_old-attachments/indexing-practice-problems-1.pdf)
-- [indexing-practice-problems-2.pdf](Literature/_old-attachments/indexing-practice-problems-2.pdf)
+- [data-warehousing-assignment-indexing-techniques.pdf](../_old-attachments/data-warehousing-assignment-indexing-techniques.pdf)
+- [indexing-practice-problems-1.pdf](../_old-attachments/indexing-practice-problems-1.pdf)
+- [indexing-practice-problems-2.pdf](../_old-attachments/indexing-practice-problems-2.pdf)
 
 # Assumptions
 

@@ -32,7 +32,7 @@ IO Devices, timers, disks, memories, network interfaces, printers etc.
 There are four events that cause execution of a piece of code in the kernel.
 These events are: interrupt, trap, system call, and signal.
 
-​![](What%20is%20an%20OS.png)​
+​![What is an OS](../_old-attachments/What%20is%20an%20OS.png)​
 
 ## Bootstrap Loading
 
@@ -54,4 +54,4 @@ These events are: interrupt, trap, system call, and signal.
 
 > A frequency of 2.3 GHz can about perform 2.3 Giga Oscillations
 
-### See Also : [[Timeline of the Computer Systems]]
+### See Also : [Timeline of the Computer Systems](Timeline%20of%20the%20Computer%20Systems.md)

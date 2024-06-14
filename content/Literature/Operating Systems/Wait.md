@@ -7,7 +7,7 @@ publish: true
 
 > POSIX System call to make the parent process wait for all of its child processes to complete / run some status using the Exit() system call
 
-​![](Literature/_old-attachments/Wait-1.png)​
+​![Wait-1](../_old-attachments/Wait-1.png)​
 
 * If any process has more than one child processes, then after calling wait(), parent process has to be in wait state if no child terminates
 * If only one child process is terminated, then wait() returns process ID of the terminated child process.

@@ -30,7 +30,7 @@ Applications can be:
 
 ### Logistic Regression
 
-* [Basically, logistic regression is a feed-forward neural network without a hidden layer, where the output layer directly connects with the input layer. In other words, logistic regression is a single neuron that maps the input to the output layer.](https://www.oreilly.com/library/view/r-deep-learning/9781788478403/0c4ae722-74b3-422b-a67d-4b21e4aa1c96.xhtml#:~:text=Basically%2C%20logistic%20regression%20is%20a,input%20to%20the%20output%20layer.)
+* [](https://www.oreilly.com/library/view/r-deep-learning/9781788478403/0c4ae722-74b3-422b-a67d-4b21e4aa1c96.xhtml#:~:text=Basically%2C%20logistic%20regression%20is%20a,input%20to%20the%20output%20layer.)
 * It works with linear combinations and the sigmoid activation function but modern language problems are not linearly mappable thus It might not be able learn complex patterns within the linguistic context
 
 ### Standard Neural Language Model

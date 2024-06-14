@@ -94,4 +94,4 @@ The process of extracting data into the warehouse from operational systems, also
   - The lowest level is called the *Grain Level*
 - Further done in OLAP
 
-A Data warehouse may consist of a [[Data Mart]]
+A Data warehouse may consist of a [Data Mart](Data%20Mart.md)

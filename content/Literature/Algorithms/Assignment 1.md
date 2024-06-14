@@ -5,7 +5,7 @@ lastmod: 2023-09-19T18:45:15Z
 publish: true
 ---
 
-**​Reference Document:** [HW1.pdf](Literature/_old-attachments/algo-HW1.pdf)​
+**​Reference Document:** [HW1.pdf](../_old-attachments/algo-HW1.pdf)​
 
 # Question 1
 
@@ -237,7 +237,7 @@ $$
 T(n) = T(\frac{n}{5}) + T(\frac{2n}{5}) + O(n)
 $$
 
-​![[algo-embed-Assignment 1.jpeg]]​
+​![algo-embed-Assignment 1](../_old-attachments/algo-embed-Assignment%201.jpeg)​
 
 We can observe that at each level there are $c \space \frac{3}{5}^k$n count of instructions being executed  
 where k is the level count
@@ -275,57 +275,57 @@ Hence, we have $O(n)$ as our runtime for this algorithm
 
 $T(n) = 2T(\frac{n}{4}) + O(lgn)$
 
-![[algo-embed-Assignment 1-1.jpeg]]​
+![algo-embed-Assignment 1-1](../_old-attachments/algo-embed-Assignment%201-1.jpeg)​
 
 ### Solution
 
-![[algo-embed-Assignment 1-2.jpeg]]​
+![algo-embed-Assignment 1-2](../_old-attachments/algo-embed-Assignment%201-2.jpeg)​
 
 ## (b)
 
 $T(n) = 3T(\frac{n}{2}) + O(n^3)$
 
-![[algo-embed-Assignment 1-3.jpeg]]​
+![algo-embed-Assignment 1-3](../_old-attachments/algo-embed-Assignment%201-3.jpeg)​
 
 ### Solution
 
-![[algo-embed-Assignment 1-3-1.jpeg]]​
+![algo-embed-Assignment 1-3-1](../_old-attachments/algo-embed-Assignment%201-3-1.jpeg)​
 
 ## (c)
 
 $T(n) = 7T(\frac{n}{5}) + \theta(1)$
 
-![[algo-embed-Assignment 1-4.jpeg]]​
+![algo-embed-Assignment 1-4](../_old-attachments/algo-embed-Assignment%201-4.jpeg)​
 
 ### Solution
 
-![[algo-embed-Assignment 1-4-1.jpeg]]​
+![algo-embed-Assignment 1-4-1](../_old-attachments/algo-embed-Assignment%201-4-1.jpeg)​
 
 ## (d)
 
 $T(n) = 2T(\frac{n}{2}) + O(\frac{n}{logn})$
 
-![[algo-embed-Assignment 1-5.jpeg]]​
+![algo-embed-Assignment 1-5](../_old-attachments/algo-embed-Assignment%201-5.jpeg)​
 
 ### Solution
 
-![[algo-embed-Assignment 1-5-1.jpeg]]​
+![algo-embed-Assignment 1-5-1](../_old-attachments/algo-embed-Assignment%201-5-1.jpeg)​
 
 ## (e)
 
 $T(n) = 3T(n-1) + \theta(1)$
 
-![[algo-embed-Assignment 1-6.jpeg]]​
+![algo-embed-Assignment 1-6](../_old-attachments/algo-embed-Assignment%201-6.jpeg)​
 
 ### Solution
 
-![[algo-embed-Assignment 1-6-1.jpeg]]​
+![algo-embed-Assignment 1-6-1](../_old-attachments/algo-embed-Assignment%201-6-1.jpeg)​
 
 # Question 8
 
 ## Inversion Pairs Algorithm
 
-![[algo-embed-Assignment 1-7.jpeg]]​
+![algo-embed-Assignment 1-7](../_old-attachments/algo-embed-Assignment%201-7.jpeg)​
 
 {} Curly Braces represent the return value, which is an array in our case, of each recursive call  
 The value followed by it is the count of the split inversion pairs

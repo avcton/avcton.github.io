@@ -12,7 +12,7 @@ publish: true
 
 # OLTP VS Decision Support Systems (DSS)
 
-​![CleanShot 2023-10-20 at 18.25.02@2x](Literature/_old-attachments/dss-vs-oltp.png)​
+​![CleanShot 2023-10-20 at 18.25.02@2x](../_old-attachments/dss-vs-oltp.png)​
 
 ==OLTP Databases use a Paged Based File System while on the other hand various DSS systems use a Hash Based File System==
 

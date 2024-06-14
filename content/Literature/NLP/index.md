@@ -7,7 +7,7 @@ date: 2024-01-23
 `Natural Language Processing`
 ## Book
 
-[Speech and Language Processing.pdf](Literature/_old-attachments/speech-and-language-processing.pdf)
+[Speech and Language Processing.pdf](../_old-attachments/speech-and-language-processing.pdf)
 ## Resources
 
 - [Entire NLP Lectures Playlist](https://www.youtube.com/playlist?list=PLfng5rv4gTmqfLtZcK85wDXDTOgZn0132)

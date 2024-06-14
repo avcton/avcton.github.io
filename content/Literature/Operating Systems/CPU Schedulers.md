@@ -5,7 +5,7 @@ lastmod: 2023-12-30T21:03:40Z
 publish: true
 ---
 
-​![CleanShot 2023-09-23 at 12.11.36@2x](CPU%20Schedulers.png)​
+​![CleanShot 2023-09-23 at 12.11.36@2x](../_old-attachments/CPU%20Schedulers.png)​
 
 ## Long-Term / Job Scheduler
 

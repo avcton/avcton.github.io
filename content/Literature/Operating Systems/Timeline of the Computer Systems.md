@@ -13,7 +13,7 @@ publish: true
 * Process is called a ***Job***
 * The reason is that there is no interactivity, the user cannot interact at the time of the execution
 
-​![](Timeline%20of%20the%20Computer%20Systems-1.png)​
+​![Timeline of the Computer Systems-1](../_old-attachments/Timeline%20of%20the%20Computer%20Systems-1.png)​
 
 ## The Monitor - Simple Batch System
 

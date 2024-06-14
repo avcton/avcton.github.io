@@ -8,8 +8,8 @@ date: 2023-09-11
 
 ## Book
 
-[Introduction_to_Algorithms_by_Cormen_Leiserson_Rivest_and_Stein_3rd_Edition.pdf](Literature/_old-attachments/Introduction_to_Algorithms_by_Cormen_Leiserson_Rivest_and_Stein_3rd_Ed._MIT_Press_2001.pdf)
+[Introduction_to_Algorithms_by_Cormen_Leiserson_Rivest_and_Stein_3rd_Edition.pdf](../_old-attachments/Introduction_to_Algorithms_by_Cormen_Leiserson_Rivest_and_Stein_3rd_Ed._MIT_Press_2001.pdf)
 
 ## Course Outline
 
-[Algo Course Outline.pdf](Algo%20Course%20Outline.pdf)
+[Algo Course Outline.pdf](../_old-attachments/Algo%20Course%20Outline.pdf)

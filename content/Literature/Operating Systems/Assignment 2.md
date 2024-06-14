@@ -5,7 +5,7 @@ lastmod: 2023-11-21T12:07:57Z
 publish: true
 ---
 
-Reference Document: [Assignment 2.pdf](os-Assignment%202.pdf)
+Reference Document: [Assignment 2.pdf](../_old-attachments/os-Assignment%202.pdf)
 
 # Q1
 

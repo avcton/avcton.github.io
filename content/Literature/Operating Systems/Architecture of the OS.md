@@ -45,4 +45,4 @@ In order for the CPU to be able to differentiate between a user process and an o
 > All system calls are to be executed in Kernel mode
 
 
-​![](Architecture%20of%20the%20OS.png)​
+​![Architecture of the OS](../_old-attachments/Architecture%20of%20the%20OS.png)​
