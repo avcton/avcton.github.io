@@ -16,7 +16,7 @@ publish: true
 A situation like this, where several processes access and manipulate the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place, is called a race condition
 
 We need to avoid this race condition:
-​![](Literature/_old-attachments/Synchronization.png)​
+​![Synchronization](../_old-attachments/Synchronization.png)​
 
 ### Critical Section
 
@@ -25,7 +25,7 @@ We need to avoid this race condition:
 
 Consider a system consisting of n processes{P0 , P1 , ..., P n−1 }. Each process has a segment of code, called a critical section in which the process may be accessing — and updating — data that is shared with at least one other process. The important feature of the system is that, when one process is executing in its critical section, no other process is allowed to execute in its critical section. That is, no two processes are executing in their critical sections at the same time
 
-​![](Literature/_old-attachments/Synchronization-1.png)​
+​![Synchronization-1](../_old-attachments/Synchronization-1.png)​
 
 Each process must request permission to enter its critical section. The section of code implementing this request is the entry section. The critical section may be followed by an exit section. The remaining code is the remainder section
 
@@ -39,7 +39,7 @@ Each process must request permission to enter its critical section. The section 
 
 if one process is executing its critical section then no other co-operative process should be allowed to execute its dependent critical section at same time.
 
-​![CleanShot 2023-10-29 at 18.37.55@2x](Literature/_old-attachments/Synchronization-2.png)​
+​![CleanShot 2023-10-29 at 18.37.55@2x](../_old-attachments/Synchronization-2.png)​
 
 ##### Progress
 
@@ -309,7 +309,7 @@ while(true){
 > A semaphore S is an integer variable that, apart from initialisation, is accessed only through two standard atomic operations: wait() and signal()
 
 
-> [!tip] Must Read -> [LittleBookOfSemaphores.pdf](Literature/_old-attachments/LittleBookOfSemaphores.pdf)
+> [!tip](../_old-attachments/LittleBookOfSemaphores.pdf)
 
 ```C
 signal(S){

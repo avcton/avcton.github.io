@@ -226,14 +226,14 @@ the store dimension is aggregated into country*
 
 For modeling the data warehouse, we are interested in the dimensional modeling technique. Most of the existing vendors have expanded their modeling case tools to include dimensional modeling. You can create fact tables, dimension tables, and establish the relationships between each dimension table and the fact table. The result is a STAR schema for your model. Again, you can forward-engineer the dimensional STAR model into a relational schema for your chosen database management system
 
-​![](Literature/_old-attachments/star-schema-example.png)​
+​![star-schema-example](../_old-attachments/star-schema-example.png)​
 Fact table resides in the centre while the dimensions connected to it forming a shape of a star  
 
 #### SnowFlake Schema
 
 “Snowflaking” is a method of normalizing the dimension tables in a STAR schema. When you completely normalize all the dimension tables, the resultant structure resembles a snowflake with the fact table in the middle.
 
-​![](Literature/_old-attachments/snowflake-schema-example.png)​
+​![snowflake-schema-example](../_old-attachments/snowflake-schema-example.png)​
 Further normalization of above dimensions can lead us to a Snowflake Schema  
 
 #### StarFlake Schema
@@ -242,4 +242,4 @@ Further normalization of above dimensions can lead us to a Snowflake Schema
 > 
 > Starflake schemas aim to leverage the benefits of both star schemas and snowflake schemas.
 
-Next comes [[Slowly Changing Dimensions]]
+Next comes [Slowly Changing Dimensions](Slowly%20Changing%20Dimensions.md)

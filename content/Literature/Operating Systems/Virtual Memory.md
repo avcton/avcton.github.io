@@ -53,14 +53,14 @@ $$
 * ​`Swap In`​ Cost is the cost of bringing in the pages into the memory from Virtual Memory
 * ​`Swap Out`​ Cost is added if the memory was full and there a need to create some space
 
-​![](Virtual%20Memory.png)​
+​![Virtual Memory](../_old-attachments/Virtual%20Memory.png)​
 
 #### Example
 
 >[!question]
 >If memory access time is equal to the year you enrolled in FAST. e.g. 18 nanoseconds, and page fault overhead time is equal to your registration number, e.g. 4111 nanoseconds. If the probability of having a page fault is 0.85, then calculate the Effective Access Time. Here, the page fault overhead time also includes the page swap in and swap out time.
 
-​![WhatsApp Image 2023-12-21 at 19.16.33](Virtual%20Memory.jpeg)​
+​![WhatsApp Image 2023-12-21 at 19.16.33](../_old-attachments/Virtual%20Memory.jpeg)​
 
 ## Page Replacement Policies
 
@@ -73,7 +73,7 @@ We evaluate an algorithm by running it on a particular string of memory referenc
 > First in First Out Structure
 > The page which was came the oldest into the memory, i.e which came first and has the longest time in the main memory, will be replaced and swapped out
 
-​![](Virtual%20Memory-1.png)​
+​![Virtual Memory-1](../_old-attachments/Virtual%20Memory-1.png)​
 
 ### LRU
 
@@ -82,10 +82,10 @@ We evaluate an algorithm by running it on a particular string of memory referenc
 
 * LRU looks in the previous pages which were demanded in the reference string
 
-​![](Virtual%20Memory-2.png)​
+​![Virtual Memory-2](../_old-attachments/Virtual%20Memory-2.png)​
 
 ### Optimal Algorithm
 
 > Look into the Future / Far into the Reference string given that we have the complete reference string, and determine page will be least frequently used in the future and discard that page
 
-​![](Virtual%20Memory-3.png)​
+​![Virtual Memory-3](../_old-attachments/Virtual%20Memory-3.png)​

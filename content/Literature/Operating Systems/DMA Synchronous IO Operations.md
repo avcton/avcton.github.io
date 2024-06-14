@@ -26,7 +26,7 @@ publish: true
 * ==CPU writes this word into the memory==
 * If another instructions is to be read then the same cycle repeats.
 
-​![image](DMA%20Synchronous%20IO%20Operations.png)​
+​![image](../_old-attachments/DMA%20Synchronous%20IO%20Operations.png)​
 
 ## Polling / Con
 
@@ -43,7 +43,7 @@ publish: true
 
   * During the I/O Operation, If the caller program needs the I/O result to process further then it has to wait or else it can process it's own operations
 
-​![image](DMA%20Synchronous%20IO%20Operations-1.png)​
+​![image](../_old-attachments/DMA%20Synchronous%20IO%20Operations-1.png)​
 
 ## Cons
 
@@ -53,7 +53,7 @@ publish: true
 
 ### [More Detailed Concept](https://stackoverflow.com/a/35012646)
 
-​![image](DMA%20Synchronous%20IO%20Operations-2.png)​
+​![image](../_old-attachments/DMA%20Synchronous%20IO%20Operations-2.png)​
 
 # DMA
 

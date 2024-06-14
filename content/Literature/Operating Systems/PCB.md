@@ -19,5 +19,5 @@ Following information is sustained within it:
 * Accounting information. This information includes the amount of CPU and real time used, time limits, account numbers, job or process numbers, and so on.
 * I/O status information. This information includes the list of I/O devices allocated to the process, a list of open files, and so on.
 
-​![|400](Literature/_old-attachments/PCB-1.png)​
+​![|400](../_old-attachments/PCB-1.png)​
 

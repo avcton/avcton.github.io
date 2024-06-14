@@ -7,7 +7,7 @@ publish: true
 
 # Monolithic
 
-![](Operating%20System%20Structures-2.png)
+![Operating System Structures-2](../_old-attachments/Operating%20System%20Structures-2.png)
 
 The simplest structure for organising an operating system is no structure at all. That is, place all of the functionality of the kernel into a single, static binary file that runs in a single address space. This approach—known as a monolithic structure—is a common technique for designing operating systems
 
@@ -21,7 +21,7 @@ Monolithic kernels do have a distinct performance advantage, however: there is v
 
 # Layered
 
-​![](Operating%20System%20Structures.png)​
+​![Operating System Structures](../_old-attachments/Operating%20System%20Structures.png)​
 
 In a layered operating system structure, the operating system is divided into layers, where each layer provides a set of related services. Each layer builds upon the layer below it, and higher layers depend on lower layers for functionality. This structure allows for modular design, separation of concerns, and ease of maintenance. Each layer provides a well-defined interface for the layer above, hiding the implementation details. For example, one layer may handle process management, another layer may handle file systems, and so on. The need for a layered structure arises from the desire for modularity, abstraction, and easier debugging and development of operating systems.
 

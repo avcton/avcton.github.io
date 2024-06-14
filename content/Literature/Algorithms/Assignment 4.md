@@ -5,7 +5,7 @@ lastmod: 2023-10-23T21:17:08Z
 publish: true
 ---
 
-Reference Document: [HW 4.pdf](algo-HW%204.pdf)
+Reference Document: [HW 4.pdf](../_old-attachments/algo-HW%204.pdf)
 
 # Task1
 
@@ -67,7 +67,7 @@ MaxSum[9] = 9
 **Dry run Kadane’s algorithm on following array and show all working.
 Show all values of MaxSum[i] array.** 
 
-​![CleanShot 2023-10-07 at 18.10.58@2x](algo-HW%204-embed.png)​
+​![CleanShot 2023-10-07 at 18.10.58@2x](../_old-attachments/algo-HW%204-embed.png)​
 
 MaxSum[i] = Max (A[i] + MaxSum[i-1] , A[i])
 

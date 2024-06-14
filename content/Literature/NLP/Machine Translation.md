@@ -33,5 +33,5 @@ Machine translation using hand picked mappings
 
 > Machine Translation using Neural Networks
 
-- The Neural Network architecture is called [[Sequence To Sequence Models]]
+- The Neural Network architecture is called [Sequence To Sequence Models](Sequence%20To%20Sequence%20Models.md)
 - Encoder is given the source language and Decoder generates the translated or required language

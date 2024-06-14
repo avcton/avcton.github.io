@@ -5,7 +5,7 @@ lastmod: 2023-12-08T18:08:40Z
 publish: true
 ---
 
-Reference Document: [HW 6 Graph Algorithms.pdf](algo-HW%206.pdf)
+Reference Document: [HW 6 Graph Algorithms.pdf](../_old-attachments/algo-HW%206.pdf)
 
 # Q1
 

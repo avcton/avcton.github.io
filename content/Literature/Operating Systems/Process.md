@@ -6,7 +6,7 @@ publish: true
 ---
 
 > Program in Execution>
-> A process must have a [[PCB]]
+> A process must have a [PCB](PCB.md)
 
 > [!abstract]
 > A process is the unit of work in most systems. Such a system consists of a collection of processes: operating system processes execute system code and user processes execute user code. All these processes may execute concurrently.
@@ -43,7 +43,7 @@ Although we personally prefer the more contemporary term process, the term job h
 
 > The process table is an array of PCB’s, that means logically contains a PCB for all of the current processes in the system
 
-[3.4: Process Control - Engineering LibreTexts](https://eng.libretexts.org/Courses/Delta_College/Operating_System%3A_The_Basics/03%3A__Processes_Concepts/3.4%3A_Process_Control#:~:text=A%20process%20control%20block%20(PCB,current%20processes%20in%20the%20system.)
+[](https://eng.libretexts.org/Courses/Delta_College/Operating_System%3A_The_Basics/03%3A__Processes_Concepts/3.4%3A_Process_Control#:~:text=A%20process%20control%20block%20(PCB,current%20processes%20in%20the%20system.)
 
 # Types
 
@@ -65,7 +65,7 @@ The init process, usually identified as process ID 1, is the ancestor of all oth
 
 # Process Models
 
-- [[5 State Process Model]]
-- [[7 State Process Model]]
+- [5 State Process Model](5%20State%20Process%20Model.md)
+- [7 State Process Model](7%20State%20Process%20Model.md)
 
-Look more in [[Synchronization]]
+Look more in [Synchronization](Synchronization.md)

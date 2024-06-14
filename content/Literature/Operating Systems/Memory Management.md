@@ -76,7 +76,7 @@ The size of the partitions might break down too small for larger upcoming progra
 
 > ​Each process is divided into the same count of blocks / frames as the memory is divided into
 
-​![image](Memory%20Management.png "The Paging Process")​
+​![image](Memory%20Management.png%20"The%20Paging%20Process")​
 
 ##### Address Allocation Scheme
 

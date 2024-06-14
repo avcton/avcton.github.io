@@ -5,7 +5,7 @@ lastmod: 2023-10-12T19:46:24Z
 publish: true
 ---
 
-Reference Document: [algo-HW 5.pdf](algo-HW%205.pdf)
+Reference Document: [algo-HW 5.pdf](../_old-attachments/algo-HW%205.pdf)
 
 # Task1
 

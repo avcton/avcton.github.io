@@ -6,14 +6,14 @@ date: 2023-09-11
 
 ## Book
 
-[Abraham-Silberschatz-Operating-System-Concepts-10th-2018.pdf](Literature/_old-attachments/Abraham-Silberschatz-Operating-System-Concepts-10th-2018.pdf)
+[Abraham-Silberschatz-Operating-System-Concepts-10th-2018.pdf](../_old-attachments/Abraham-Silberschatz-Operating-System-Concepts-10th-2018.pdf)
 
 ## Course Outline
 
-[OS Course Outline.pdf](OS%20Course%20Outline.pdf)
+[OS Course Outline.pdf](../_old-attachments/OS%20Course%20Outline.pdf)
 
 ## Resources
 
-- [Operating Systems - CS604 Handouts.pdf](Literature/_old-attachments/operating-systems-handouts.pdf)
+- [Operating Systems - CS604 Handouts.pdf](../_old-attachments/operating-systems-handouts.pdf)
 - [Slides of Entire Book](https://www.os-book.com/OS10/slide-dir/index.html)
-- [Little Book Of Semaphores.pdf](Literature/_old-attachments/LittleBookOfSemaphores.pdf)
+- [Little Book Of Semaphores.pdf](../_old-attachments/LittleBookOfSemaphores.pdf)

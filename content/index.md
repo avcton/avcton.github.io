@@ -78,4 +78,4 @@ I invite you to browse through my **highlights** and accumulated **miscellaneous
 - Browse my stacked up material in - [Resources](Resources/index.md)
 
 ### Miscellaneous
-- [Learn how i built this site](Inspiration.md)
+- [Learn how i built this site](Garden/Inspiration.md)

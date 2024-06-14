@@ -5,8 +5,8 @@ lastmod: 2023-10-21T12:58:13Z
 publish: true
 ---
 
-- [data-warehousing-assignment-dimensional-modeling.pdf](Literature/_old-attachments/data-warehousing-assignment-dimensional-modeling.pdf)
-- [Dimensional Modelling - Sample Case Studies-sol.pdf](Literature/_old-attachments/dimensional-modeling-sample-case-studies.pdf)
+- [data-warehousing-assignment-dimensional-modeling.pdf](../_old-attachments/data-warehousing-assignment-dimensional-modeling.pdf)
+- [Dimensional Modelling - Sample Case Studies-sol.pdf](../_old-attachments/dimensional-modeling-sample-case-studies.pdf)
 
 # TU Hotels System
 
@@ -175,5 +175,5 @@ The urgency with which the data should be extracted and loaded from transactiona
 
 # Dimensional Model
 
-​![CleanShot 2023-09-26 at 03.09.50@2x](Literature/_old-attachments/fact-tables-schema.png)​
+​![CleanShot 2023-09-26 at 03.09.50@2x](../_old-attachments/fact-tables-schema.png)​
 

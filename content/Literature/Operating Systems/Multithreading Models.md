@@ -11,13 +11,13 @@ publish: true
 
 > Multithreading allows the application to divide its task into individual threads. In multi-threads, the same process or task can be done by the number of threads, or we can say that there is more than one thread to perform the task in multithreading. With the use of multithreading, multitasking can be achieved
 
-​![CleanShot 2023-10-07 at 18.59.43@2x](Multithreading%20Models.png)​
+​![CleanShot 2023-10-07 at 18.59.43@2x](../_old-attachments/Multithreading%20Models.png)​
 
 The main drawback of single threading systems is that only one task can be performed at a time, so to overcome the drawback of this single threading, there is multithreading that allows multiple tasks to be performed.
 
 **For example:**
 
-​![CleanShot 2023-10-07 at 19.00.01@2x](Multithreading%20Models-1.png)​
+​![CleanShot 2023-10-07 at 19.00.01@2x](../_old-attachments/Multithreading%20Models-1.png)​
 
 In the above example, client1, client2, and client3 are accessing the web server without any waiting. In multithreading, several tasks can run at the same time.
 
@@ -39,7 +39,7 @@ The disadvantage of this model is that since there is only one kernel-level thre
 
 As we can see from the figure, the many to one model associates all user-level threads to single kernel-level threads.
 
-​![CleanShot 2023-10-07 at 19.00.16@2x|400](Multithreading%20Models-2.png)​
+​![CleanShot 2023-10-07 at 19.00.16@2x|400](../_old-attachments/Multithreading%20Models-2.png)​
 
 # One to one multithreading model
 
@@ -47,7 +47,7 @@ The one-to-one model maps a single user-level thread to a single kernel-level th
 
 As we can see in the figure, one model associates that one user-level thread to a single kernel-level thread.
 
-![CleanShot 2023-10-07 at 19.00.36@2x|400](Multithreading%20Models-3.png)
+![CleanShot 2023-10-07 at 19.00.36@2x|400](../_old-attachments/Multithreading%20Models-3.png)
 
 # Many to Many multithreading model
 
@@ -55,5 +55,5 @@ In this type of model, there are several user-level threads and several kernel-l
 
 Many to many versions of the multithreading model associate several user-level threads to the same or much less variety of kernel-level threads as in the right figure.
 
-​![CleanShot 2023-10-07 at 19.01.52@2x|400](Multithreading%20Models-4.png)​
+​![CleanShot 2023-10-07 at 19.01.52@2x|400](../_old-attachments/Multithreading%20Models-4.png)​
 

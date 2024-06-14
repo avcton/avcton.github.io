@@ -6,11 +6,11 @@ publish: true
 ---
 
 There are a ton of them however, you can find some of them below:
-- [[Merge Sort]]
-- [[Radix Sort]]
+- [Merge Sort](Merge%20Sort.md)
+- [Radix Sort](Radix%20Sort.md)
 # Stability
 
 > A sorting algorithm is stable when numbers with the same values appear in the output array in the same order as they do in the input array
 
-​![image](Literature/_old-attachments/comparison-sorting-algorithms.png)​
+​![image](../_old-attachments/comparison-sorting-algorithms.png)​
 

@@ -9,7 +9,7 @@ publish: true
 
 * From the given input sequence, we generate an output predicted sequence
 	* Example, Predict response of an input text, as in the case of a chat
-* [What is Sequence to Sequence and how does the Attention work?](Literature/_old-attachments/seq2seq-attention.pdf)
+* [What is Sequence to Sequence and how does the Attention work?](../_old-attachments/seq2seq-attention.pdf)
 
 # Applications
 
@@ -66,7 +66,7 @@ The layer count of the encoder and decoder are the same
 	  * This cost function is then further used to Back Propagate from the Decoder model till the Encoder model while updating the weights in the same way a normal RNN does.
 ## Attention Mechanism
 
-*Mainly used in [[Transformers]]*
+*Mainly used in [Transformers](Transformers.md)*
 
 - Add bunch of new paths from the Encoder to the Decoder, one per input value, so that each step of the decoder can directly input values
 	- These paths are also called as Skip-links
@@ -76,7 +76,7 @@ The layer count of the encoder and decoder are the same
 >The similarity score that helps us to define if any context of the input coming from the Encoder should be used to generate the current word
 ### Procedure
 
-![](Literature/_old-attachments/attention-in-lstms.png "Calculating attention scores to make predictions")​
+![Literature/_old-attachments/attention-in-lstms.png "Calculating attention scores to make predictions"](Literature/_old-attachments/attention-in-lstms.png%20"Calculating%20attention%20scores%20to%20make%20predictions")​
 
 1. Calculate prediction of current unit of the decoder
 2. Calculate similarity of the computed prediction with hidden output $h_t$ of each and every input in the encoder through <u>dot product</u>

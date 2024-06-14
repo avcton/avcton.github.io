@@ -5,7 +5,7 @@ lastmod: 2023-10-23T20:57:53Z
 publish: true
 ---
 
-Reference Document: [HW 3.pdf](algo-HW%203.pdf)
+Reference Document: [HW 3.pdf](../_old-attachments/algo-HW%203.pdf)
 
 $$
 C(0) = 1

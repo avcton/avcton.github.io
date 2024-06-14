@@ -14,11 +14,11 @@ They both solve bigger problems by dividing them into smaller sub problems and b
 However,
 Divide and Conqueror applies to non-overlapping sub problems. That is the sub problems do not overlap with one another.
 
-​![CleanShot 2023-10-07 at 12.50.09@2x](Dynamic%20Programming.png "Each sub problem is different from sub problems of other branches")​
+​![CleanShot 2023-10-07 at 12.50.09@2x](Dynamic%20Programming.png%20"Each%20sub%20problem%20is%20different%20from%20sub%20problems%20of%20other%20branches")​
 
 Dynamic Programming on the other hand, applies when the ***sub problems overlap***. That is when a sub problems repeat for other branches too.
 
-​![image](Dynamic%20Programming-1.png "Sub problems are overlapping for various branches")​
+​![image](Dynamic%20Programming-1.png%20"Sub%20problems%20are%20overlapping%20for%20various%20branches")​
 
 # Memoization
 

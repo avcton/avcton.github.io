@@ -19,7 +19,7 @@ Data warehousing practitioners have come up with different techniques for applyi
 
 ## Type 1
 
-​![](Literature/_old-attachments/type-1-dimension-change.png)​
+​![type-1-dimension-change](../_old-attachments/type-1-dimension-change.png)​
 
 ### Principles
 
@@ -45,7 +45,7 @@ Data warehousing practitioners have come up with different techniques for applyi
 
 ## Type 2
 
-​![](Literature/_old-attachments/type-2-dimension-change.png)​
+​![type-2-dimension-change](../_old-attachments/type-2-dimension-change.png)​
 
 ### Principles
 
@@ -64,7 +64,7 @@ Data warehousing practitioners have come up with different techniques for applyi
 
 ## Type 3
 
-​![](Literature/_old-attachments/type-3-dimension-change.png)​
+​![type-3-dimension-change](../_old-attachments/type-3-dimension-change.png)​
 
 ### Principles
 

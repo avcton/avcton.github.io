@@ -69,6 +69,6 @@ Materialised Views help us just with that
 
 Purpose is to restrict data access from user groups
 
-# [[Join Operations]]
+# [Join Operations](Join%20Operations.md)
 
-# [[Indexing Techniques]]
+# [Indexing Techniques](Indexing%20Techniques.md)

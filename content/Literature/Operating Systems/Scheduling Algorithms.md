@@ -5,7 +5,7 @@ lastmod: 2023-12-31T00:28:09Z
 publish: true
 ---
 
-- [CPU-Scheduling-and-Algorithm - Handouts.pdf](Literature/_old-attachments/CPU-Scheduling-and-Algorithm-handouts.pdf)
+- [CPU-Scheduling-and-Algorithm - Handouts.pdf](../_old-attachments/CPU-Scheduling-and-Algorithm-handouts.pdf)
 
 #### Burst Time
 
