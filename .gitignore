@@ -9,17 +9,3 @@ tsconfig.tsbuildinfo
 .replit
 replit.nix
 
-# Ignore everything within the Nexus
-Nexus/**/*
-# Do not ignore directories within Nexus
-!Nexus/**/
-# Do not ignore markdown files within the Nexus
-!Nexus/**/*.md
-# Do not ignore the contents of the @essentials/public directory within Nexus
-!Nexus/@essentials/public/**
-# Ignore content within Nexus/.obsidian/
-Nexus/.obsidian
-# Ignore templates within Nexus/@essentials/templates/
-Nexus/@essentials/templates
-# Ignore .excalidraw files within Nexus/@essentials/public/
-Nexus/**/*.excalidraw

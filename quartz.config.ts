@@ -16,12 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "avcton.github.io",
-    ignorePatterns: [
-      ".obsidian",
-      "templates",
-      "*.excalidraw",
-      "!(@essentials/public/**)/!(*.md)"
-    ],
+    ignorePatterns: [],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
@@ -76,7 +71,7 @@ const config: QuartzConfig = {
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
-    filters: [Plugin.RemoveDrafts(), Plugin.ExplicitPublish()],
+    filters: [Plugin.RemoveDrafts()],
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),

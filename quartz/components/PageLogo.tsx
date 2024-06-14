@@ -7,8 +7,8 @@ import { classNames } from "../util/lang"
 
 const PageLogo: QuartzComponent = ({ fileData, displayClass }: QuartzComponentProps) => {
   const baseDir = pathToRoot(fileData.slug!)
-  const blackLogoPath = joinSegments(baseDir, "@essentials/public/assets/logo_black.png")
-  const whiteLogoPath = joinSegments(baseDir, "@essentials/public/assets/logo_white.png")
+  const blackLogoPath = joinSegments(baseDir, "_assets/logo_black.png")
+  const whiteLogoPath = joinSegments(baseDir, "_assets/logo_white.png")
   
   return (
       <a href={baseDir} class={classNames(displayClass, "page-logo")}>
