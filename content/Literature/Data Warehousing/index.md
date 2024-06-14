@@ -16,4 +16,4 @@ date: 2023-09-11
 
 - [Concepts.pdf](Literature/_old-attachments/core-warehouse-concepts.pdf)
 - [Designing / Modelling](https://www.ibm.com/docs/en/ida/9.1.2?topic=designing-modeling)
-- [[Literature/_old-attachments/dimensional-modeling-concepts.txt|Dimensional Modeling Concepts Outline]]
+- [Dimensional Modeling Concepts Outline](Literature/_old-attachments/dimensional-modeling-concepts.txt)
