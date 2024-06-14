@@ -2,7 +2,7 @@
 title: Data Warehousing
 date: 2023-09-11
 ---
->Warehousing Material for 5th Semester of My Data Science Degree
+Warehousing Material for 5th Semester of My Data Science Degree
 
 ## Book
 
