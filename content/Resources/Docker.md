@@ -1,6 +1,15 @@
+---
+title: Docker
+date: 2023-09-16T09:28:00Z
+lastmod: 2024-06-15T21:09:15Z
+---
+
 # Docker
+
 > Packaging and containerisation of software so that they could run on any hardware
+
 ## Components
+
 - **Docker File**
   - Blueprint for building a docker image.
 - **Docker Image**
@@ -9,7 +18,9 @@
   - The actual running process.
 - **Docker Compose**
   - Tool for running multiple docker containers at the same time.
+
 # Writing Dockerfile
+
 |Dockerfile Instruction|Explanation|
 | :----------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |FROM|To specify the base image which can be pulled from a container registry( Docker hub, GCR, Quay, ECR, etc)|
@@ -25,11 +36,13 @@
 |ARG|Is used to set build-time variables with key and value. the ARG variables will not be available when the container is running. If you want to persist a variable on a running container, use ENV.|
 |CMD|It is used to execute a command in a running container. There can be only one CMD, if multiple CMD there then it only applies to the last one. It **can be overridden** from the Docker CLI.|
 |ENTRYPOINT|Specifies the commands that will execute when the Docker container starts. If you don’t specify any ENTRYPOINT, it defaults to `/bin/sh -c`​. You can also **override ENTRYPOINT** using the `--entrypoint`​ flag using CLI. Please refer [CMD vs ENTRYPOINT](https://devopscube.com/run-scripts-docker-arguments/) for more information.|
+
 # Docs / Resources
+
 * [Build Docker Files / Images](https://devopscube.com/build-docker-image/)
 * [Dockerfile Guide](https://youtu.be/-2X4JP3HgYU)
 * [CMD VS ENTRYPOINT](https://devtron.ai/blog/cmd-and-entrypoint-differences/)
 * [Commands Cheatsheet](https://dockerlabs.collabnix.com/docker/cheatsheet/)
 * [Docker for Data Science](https://www.dataquest.io/blog/docker-data-science/)
-* [Master Guide to Docker.pdf](Docker/Master%20Guide%20to%20Docker.pdf)<!-- {"embed":"true","width":180} -->
-
+* [Guide to Docker.pdf](assets/guide-to-docker-20240613201705-eti15a5.pdf)
+* ​![docker-cheat-sheet](assets/docker-cheat-sheet-20240209131052-vhrpslp.png "Docker Cheat-Sheet")​

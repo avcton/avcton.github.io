@@ -63,7 +63,14 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
+      // Remove First Heading if it is same as page title / name
       Plugin.RemoveInitialH1(),
+      // Convert PDF Page Number Query Redirects to Anchors
+      Plugin.ConvertQueryParamToAnchor(),
+      // Transform Headings to Lower Levels so only Title stays H1
+      Plugin.TransformHeadings(),
+      // Remove the divider at the end if it occurs in the document
+      Plugin.RemoveLastDivider(),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown({linkHeadings: true}),
       Plugin.HardLineBreaks(),
