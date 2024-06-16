@@ -1,8 +1,8 @@
 ---
 title: Operating Systems
+description: Operating Systems Material for 5th Semester of My Data Science Degree
 date: 2023-09-11
 ---
-> Operating Systems Material for 5th Semester of My Data Science Degree
 
 ## Book
 

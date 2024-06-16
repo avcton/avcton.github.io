@@ -1,8 +1,8 @@
 ---
 title: NLP
+description: Natural Language Processing Notes for 6th Semester of My DS Degree
 date: 2024-01-23
 ---
-> Natural Language Processing Notes for 6th Semester of My DS Degree
 
 `Natural Language Processing`
 ## Book

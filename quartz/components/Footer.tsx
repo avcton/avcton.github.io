@@ -14,11 +14,12 @@ export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ fileData, displayClass, cfg }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
+    const shouldNotDisplayComments = fileData.slug?.endsWith('index') || fileData.slug?.endsWith('404')
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
         {/* Giscus Comment Container - only on leaf pages */}
-        {fileData.slug?.endsWith('index')? <></> : (<div id="giscus-container"></div>)}
+        {shouldNotDisplayComments? <></> : (<div id="giscus-container"></div>)}
         <p>
           {i18n(cfg.locale).components.footer.createdWith}{" "}
           <br />

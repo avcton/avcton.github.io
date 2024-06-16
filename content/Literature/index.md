@@ -1,5 +1,6 @@
 ---
 title: Literature
+description: Dive into my intellectual world
 date: 2024-06-05
 ---
 > [!quote] Dive into my intellectual world

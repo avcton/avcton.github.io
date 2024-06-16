@@ -1,8 +1,8 @@
 ---
 title: Algorithms
+description: Algorithms Material for 5th Semester of My Data Science Degree
 date: 2023-09-11
 ---
-> Algorithms Material for 5th Semester of My Data Science Degree
 
 `Design and Analysis of Algorithms`
 
