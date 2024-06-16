@@ -1,9 +1,6 @@
-import dotenv from 'dotenv';
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
-
-// Initialising Environment VAR
-dotenv.config();
+import { SimpleSlug } from "./quartz/util/path"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -19,7 +16,7 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
+    Component.Breadcrumbs({hideOnRoot: true}),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
@@ -49,5 +46,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({folderClickBehavior: 'link'})),
   ],
-  right: [],
+  right: [
+    Component.DesktopOnly(Component.RecentNotes({limit: 2}))
+  ],
 }

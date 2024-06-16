@@ -20,3 +20,4 @@ Long story short, I came across different ==ideas== people have built using [Qua
 Following the resources which helped me craft one of my own:
 1. [Quartz + Obsidian Note Publishing Setup | oliverfalvai ](https://oliverfalvai.com/evergreen/my-quartz-+-obsidian-note-publishing-setup)
 2. [Ellie's Notes](https://ellie.wtf/)
+3. [Why I Blog and How I Automate it | ryanwwest](https://ryanwwest.com/why-blog/)
