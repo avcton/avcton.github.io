@@ -1,8 +1,11 @@
 ---
 title: Transactions
 date: 2023-10-14T16:28:45Z
-lastmod: 2024-06-12T14:00:58+05:00
-publish: true
+lastmod: 2024-06-17T18:11:15+05:00
+---
+
+# Transactions
+
 ---
 
 > Sequence of steps
@@ -46,6 +49,9 @@ publish: true
 > T1 Updates X
 > T2 Reads X (Again)
 > (*incorrect read this time - not repeatable*)
+
+# Lifecycle of a transaction
+
 # System Log
 
 > A log maintaining the operations, states and effect of a transaction
@@ -72,3 +78,4 @@ publish: true
 |Level 2|Level 1 + No Dirty Reads|
 |Level 3|Level 2 + Repeatable Reads|
 
+---

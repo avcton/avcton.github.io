@@ -1,10 +1,12 @@
 ---
 title: 3NF
 date: 2023-10-14T16:29:02Z
-tags: [3nf]
 lastmod: 2023-10-14T16:29:02Z
-publish: true
 ---
+
+# 3NF
+
+#3nf#
 
 ## Conditions
 

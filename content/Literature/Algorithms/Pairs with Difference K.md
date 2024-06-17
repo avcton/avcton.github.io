@@ -2,8 +2,9 @@
 title: Pairs with Difference 'K'
 date: 2023-12-23T14:16:14Z
 lastmod: 2023-12-23T15:30:14Z
-publish: true
 ---
+
+# Pairs with Difference 'K'
 
 # Input
 
@@ -28,3 +29,4 @@ def find_KDiff_Pair(arr, K):
 
 $O(n\space logn)$
 
+---

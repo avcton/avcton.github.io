@@ -2,8 +2,9 @@
 title: Join Operations
 date: 2023-10-19T14:42:47Z
 lastmod: 2023-12-25T19:44:21Z
-publish: true
 ---
+
+# Join Operations
 
 # High Selectivity
 
@@ -40,7 +41,7 @@ publish: true
 ## Nested Loop Joins
 
 > For every row of an Outer Table, an inner table is searched and joined
-> 
+>
 > Join table T1 to table T2 by taking each (qualifying) row of T1 and searching table T2 for matches
 
 * T1 is referred to as the Outer table
@@ -90,7 +91,7 @@ Break even point will be even more optimistic if we assume that substantial port
 
 ## Sort Merge Join
 
-​![CleanShot 2023-10-20 at 19.09.19@2x](../_old-attachments/sort-merge-join.png)​
+​![CleanShot 2023-10-20 at 19.09.19@2x](assets/CleanShot%202023-10-20%20at%2019.09.19@2x-20231020190941-7y5fnz9.png)​
 
 > We can sort two tables independently and join them together just as in the case of Merge Sort
 
@@ -116,7 +117,7 @@ Where R is the size of Table 1, S the size of Table 2 and K the memory Size
 
 > If both table are already sorted then this could be special case of Sort Merge Join in which sorting is already done and thus the only cost is to merge the two sorted tables together
 
-​![CleanShot 2023-10-20 at 19.44.28@2x](../_old-attachments/merge-join.png)​
+​![CleanShot 2023-10-20 at 19.44.28@2x](assets/CleanShot%202023-10-20%20at%2019.44.28@2x-20231020194441-qa8mye6.png)​
 
 ## Hash Joins
 
@@ -156,11 +157,11 @@ The log(R/K) factor arises from the average number of comparisons required to fi
 ### Build Input
 
 > Table that is used in hash table construction
-> 
+>
 > It could be the table that is able to fit into the memory
 
 ### Probe Input
 
 > Table that is used to search into the hash table
-> 
+>
 > We will take the input into our Hash function from this table and reach the corresponding index in the build input

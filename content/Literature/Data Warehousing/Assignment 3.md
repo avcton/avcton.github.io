@@ -1,12 +1,16 @@
 ---
 title: Assignment 3
 date: 2023-10-21T12:57:35Z
-lastmod: 2023-10-26T13:02:23Z
-publish: true
+lastmod: 2024-06-17T17:52:12Z
 ---
 
-- [data-warehousing-assignment-joining-techniques.pdf](../_old-attachments/data-warehousing-assignment-joining-techniques.pdf)
-- [Joins_PracticeProblems_Sol.pdf](../_old-attachments/joins-practice-problems.pdf)
+# Assignment 3
+
+Reference Documents: 
+
+[Fall2023_DW_BDS_A3_Joining Techniques.pdf](assets/Fall2023_DW_BDS_A3_Joining%20Techniques-20231021130333-b2u4wtt.pdf)
+
+[Joins_PracticeProblems_Sol.pdf](assets/Joins_PracticeProblems_Sol-20231021130350-b8z8i28.pdf)
 
 # Assumptions
 
@@ -40,6 +44,8 @@ Number of Blocks in Index Table = $\frac{r2}{ifr}$ = $\frac{70K}{640}$= 110
 ## 1 : 1 Mapping
 
 One row of table_1 joins with at most one row of table_2
+
+‍
 
 ### Insufficient Memory
 
@@ -215,3 +221,4 @@ Hashing Cost (Sum of both table block sizes)
 
 875 + 1,750
 
+---

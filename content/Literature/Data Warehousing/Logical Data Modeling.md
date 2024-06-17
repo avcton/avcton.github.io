@@ -2,8 +2,9 @@
 title: Logical Data Modeling
 date: 2023-12-25T13:20:30Z
 lastmod: 2023-12-25T15:51:15Z
-publish: true
 ---
+
+# Logical Data Modeling
 
 ## Storage Structures
 
@@ -62,7 +63,7 @@ Following are the techniques to implement denormalisation:
 #### Pre-Join
 
 > Take tables which are frequently joined and “glue” them together into a single table
-> 
+>
 > AKA Join Indexing
 
 * Avoids performance impact of the frequent joins.
@@ -108,7 +109,7 @@ Following are the techniques to implement denormalisation:
 #### Pre-Aggregation
 
 > Pre Aggregate columns which are accessed on a frequent basis
-> 
+>
 > AKA Aggregate Join Indexing
 
 * Avoids performance impact of the frequent joins
@@ -141,7 +142,7 @@ An aggregate table must be used many, many times per day to justify its existenc
 ### Fact Table
 
 > A fact table is a central table in a dimensional data model that captures the quantitative or measurable data about a particular event or business process. It is a key component of a data warehouse or a data mart.
-> 
+>
 > Count of fact tables depend on the business requirements
 
 #### Cardinality Level
@@ -221,25 +222,30 @@ the store dimension is aggregated into country*
 #### Star Schema
 
 > A Star Schema consists of fact tables, dimension tables and establish relationship between each dimension table and the fact table.
-> 
+>
 > Denormalised Structure, therefore ==huge data redundancies==
 
-For modeling the data warehouse, we are interested in the dimensional modeling technique. Most of the existing vendors have expanded their modeling case tools to include dimensional modeling. You can create fact tables, dimension tables, and establish the relationships between each dimension table and the fact table. The result is a STAR schema for your model. Again, you can forward-engineer the dimensional STAR model into a relational schema for your chosen database management system
+[For modeling the data warehouse, we are interested in the dimensional modeling technique. Most of the existing vendors have expanded their modeling case tools to include dimensional modeling. You can create fact tables, dimension tables, and establish the relationships between each dimension table and the fact table. The result is a STAR schema for your model. Again, you can forward-engineer the dimensional STAR model into a relational schema for your chosen database management system](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=263)
 
-​![star-schema-example](../_old-attachments/star-schema-example.png)​
+[Start Schema](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=264)
+
 Fact table resides in the centre while the dimensions connected to it forming a shape of a star  
+​![](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P264-20230914153525-20230914153525-vtxzl8e.png)​
+
+Also See: [Drill Down Steps](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=265)
 
 #### SnowFlake Schema
 
-“Snowflaking” is a method of normalizing the dimension tables in a STAR schema. When you completely normalize all the dimension tables, the resultant structure resembles a snowflake with the fact table in the middle.
+[“Snowflaking” is a method of normalizing the dimension tables in a STAR schema. When you completely normalize all the dimension tables, the resultant structure resembles a snowflake with the fact table in the middle.](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=290)
 
-​![snowflake-schema-example](../_old-attachments/snowflake-schema-example.png)​
-Further normalization of above dimensions can lead us to a Snowflake Schema  
+[A Snowflake Schema](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=292)  
+Further normalisation of dimensions can lead us to a Snowflake Schema  
+​![](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P292-20230914154446-20230914154447-34zum96.png)​
 
 #### StarFlake Schema
 
 > A starflake schema is a combination of a star schema and a snowflake schema. Starflake schemas are snowflake schemas where only some of the dimension tables have been normalised.
-> 
+>
 > Starflake schemas aim to leverage the benefits of both star schemas and snowflake schemas.
 
-Next comes [Slowly Changing Dimensions](Slowly%20Changing%20Dimensions.md)
+### Slowly Changing Dimensions

@@ -1,10 +1,14 @@
 ---
 title: BCNF
 date: 2023-10-14T16:28:58Z
-tags: [bcnf]
-lastmod: 2024-06-12T14:00:58+05:00
-publish: true
+lastmod: 2024-06-17T18:11:15+05:00
 ---
+
+# BCNF
+
+---
+
+#bcnf#
 
 > Boyce Cod Normal Form also known as 3 1/2 form
 > BCNF says that redundancy can exists even if there are no transitive dependencies
@@ -31,3 +35,4 @@ We have the following dependencies:
 
 There is a non-trivial functional dependency "Instructor → Department" because each instructor belongs to a specific department. However, "Instructor" is not a super key of R because there are two different instructors
 
+---

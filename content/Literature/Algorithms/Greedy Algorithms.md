@@ -2,7 +2,10 @@
 title: Greedy Algorithms
 date: 2023-11-04T17:16:40Z
 lastmod: 2023-11-04T17:20:44Z
-publish: true
+---
+
+# Greedy Algorithms
+
 ---
 
 * [https://www.programiz.com/dsa/greedy-algorithm](https://www.programiz.com/dsa/greedy-algorithm)
@@ -41,7 +44,7 @@ As mentioned earlier, the greedy algorithm doesn't always produce the optimal so
 
 For example, suppose we want to find the longest path in the graph below from root to leaf. Let's use the greedy algorithm here.
 
-​![Apply greedy approach to this tree to find the longest route](Greedy%20Algorithms.png%20"Apply%20greedy%20approach%20to%20this%20tree%20to%20find%20the%20longest%20route")  
+​![Apply greedy approach to this tree to find the longest route](assets/greedy_approach_na-20231104171640-m09wp7o.png "Apply greedy approach to this tree to find the longest route")  
 Apply greedy approach to this tree to find the longest route
 
 **Greedy Approach**
@@ -52,7 +55,7 @@ Apply greedy approach to this tree to find the longest route
 
 However, it is not the optimal solution. There is another path that carries more weight (`20 + 2 + 10 = 32`​) as shown in the image below.
 
-​![Longest path](Greedy%20Algorithms-1.png%20"Longest%20path")  
+​![Longest path](assets/greedy_approach_longest-20231104171640-67e29ca.png "Longest path")  
 Longest path
 
 Therefore, greedy algorithms do not always give an optimal/feasible solution.
@@ -102,7 +105,7 @@ There is no limit to the number of each coin you can use.
 * [Knapsack Problem](https://en.wikipedia.org/wiki/Knapsack_problem)
 * [Minimum Spanning Tree](https://www.programiz.com/dsa/spanning-tree-and-minimum-spanning-tree)
 * [Single-Source Shortest Path Problem](https://en.wikipedia.org/wiki/Shortest_path_problem)
-* [Job Scheduling Problem](../Operating%20Systems/Scheduling%20Algorithms.md)
+* Job Scheduling Problem
 * [Prim&apos;s Minimal Spanning Tree Algorithm](https://www.programiz.com/dsa/prim-algorithm)
 * [Kruskal&apos;s Minimal Spanning Tree Algorithm](https://www.programiz.com/dsa/kruskal-algorithm)
 * [Dijkstra&apos;s Minimal Spanning Tree Algorithm](https://www.programiz.com/dsa/dijkstra-algorithm)

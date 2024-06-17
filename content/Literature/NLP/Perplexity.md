@@ -1,12 +1,12 @@
 ---
 title: Perplexity
 date: 2024-02-06T18:08:55Z
-lastmod: 2024-02-12T18:21:22Z
-publish: true
+lastmod: 2024-06-15T19:26:22Z
 ---
 
-> Perplexity is an intrinsic measure used to evaluate the performance of a language model in NLP.
-> It quantifies how well a language model predicts a sample or a sequence of words.
+# Perplexity
+
+> Perplexity is an intrinsic measure used to evaluate the performance of a language model in natural language processing (NLP). It quantifies how well a language model predicts a sample or a sequence of words.
 
 Lower perplexity values indicate better performance, meaning the model provides more accurate predictions.
 

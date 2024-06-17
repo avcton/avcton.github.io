@@ -2,8 +2,9 @@
 title: Counting Inversion Pairs
 date: 2023-09-13T15:06:54Z
 lastmod: 2023-10-01T21:53:35Z
-publish: true
 ---
+
+# Counting Inversion Pairs
 
 # Problem
 

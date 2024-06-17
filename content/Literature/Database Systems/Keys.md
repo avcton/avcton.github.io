@@ -2,8 +2,9 @@
 title: Keys
 date: 2023-10-14T16:28:02Z
 lastmod: 2024-01-09T17:47:15Z
-publish: true
 ---
+
+# Keys
 
 > An attribute or group of attributes which uniquely identifies a relation or a table.
 
@@ -29,6 +30,7 @@ publish: true
 * Super key whose proper subset is not a super key.
 * It is a minimal super key.
 * Attributes that can be used as primary key.
+* ![[30 Jan, 2023 2023-01-30.excalidraw| 600]]
 
 ### Secondary Key
 
@@ -43,11 +45,11 @@ publish: true
 
 * Fields that dictate the sequence of the record.
 
-| Sr # | Name   |
-| ---- | ------ |
-| 1    | Ahmad  |
-| 2    | Ali    |
-| 3    | Asghar |
+|Sr ##|Name|
+| -------| --------|
+|1|Ahmad|
+|2|Ali|
+|3|Asghar|
 
 ### Foreign Key
 

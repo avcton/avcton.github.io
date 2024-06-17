@@ -2,8 +2,9 @@
 title: First or Last Occurrence
 date: 2023-12-23T15:52:15Z
 lastmod: 2023-12-23T16:31:14Z
-publish: true
 ---
+
+# First or Last Occurrence
 
 **First or Last Occurrence** of a given number in a sorted array
 
@@ -43,4 +44,4 @@ def getOccurrence(arr, i, j, K):
 
 $\theta(log\space n)$
 
-
+---

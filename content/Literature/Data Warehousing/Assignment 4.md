@@ -1,13 +1,18 @@
 ---
 title: Assignment 4
 date: 2023-10-27T17:16:26Z
-lastmod: 2023-10-30T19:53:13Z
-publish: true
+lastmod: 2024-06-17T17:52:20Z
 ---
 
-- [data-warehousing-assignment-indexing-techniques.pdf](../_old-attachments/data-warehousing-assignment-indexing-techniques.pdf)
-- [indexing-practice-problems-1.pdf](../_old-attachments/indexing-practice-problems-1.pdf)
-- [indexing-practice-problems-2.pdf](../_old-attachments/indexing-practice-problems-2.pdf)
+# Assignment 4
+
+Reference Documents:
+
+[Fall2023_DW_BDS_A4_Indexing Techniques.pdf](assets/Fall2023_DW_BDS_A4_Indexing%20Techniques-20231027171706-am71ouk.pdf)
+
+[Indexing_PracticeProblem1_Sol.pdf](assets/Indexing_PracticeProblem1_Sol-20231027171818-5pku8nb.pdf)
+
+[Indexing_PracticeProblem2_Sol.pdf](assets/Indexing_PracticeProblem2_Sol-20231027171823-8eudo5c.pdf)
 
 # Assumptions
 
@@ -236,3 +241,4 @@ Blocks in Index Table = b<sub>i</sub> = $\frac{r}{bfr_i}$ = $\frac{100K}{512}$ =
     = $\frac{20,000}{64}$ + $\frac{20,000}{512}$  
     = 313 + 40 = 353
 
+---

@@ -1,9 +1,10 @@
 ---
 title: What is an OS?
 date: 2023-09-11T17:31:14Z
-lastmod: 2024-01-27T14:37:53Z
-publish: true
+lastmod: 2024-06-14T20:04:15Z
 ---
+
+# What is an OS?
 
 # What is OS?
 
@@ -14,8 +15,9 @@ publish: true
 Resources can be shareable and non-shareable
 IO Devices, timers, disks, memories, network interfaces, printers etc.
 
-- Top-down view is that it is a program that acts as an intermediary between a user of a computer and the computer hardware, and makes the computer system convenient to use
-- The bottom-up view is that operating system is a resource manager who manages the hardware and software resources in the computer system
+[top-down view is that it is a program that acts as an intermediary between a user of a computer and the computer hardware, and makes the computer system convenient to use](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf?p=3)
+
+[the bottom-up view is that operating system is a resource manager who manages the hardware and software resources in the computer system](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf?p=3)
 
 # Purpose
 
@@ -29,10 +31,10 @@ IO Devices, timers, disks, memories, network interfaces, printers etc.
 
 > Those files / software which are stored in the RAM from ROM to load the operating system into the memory
 
-There are four events that cause execution of a piece of code in the kernel.
-These events are: interrupt, trap, system call, and signal.
+[there are four events that cause execution of a piece of code in the kernel. These events are: ](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf?p=14)[interrupt, trap, system call, and signal.](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf?p=14)
 
-​![What is an OS](../_old-attachments/What%20is%20an%20OS.png)​
+[Entry points into the operating system kernel](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf?p=15)  
+​![](assets/Operating%20Systems%20-%20CS604%20Handouts-P15-20230929112645-20230929112645-l17wflk.png)​
 
 ## Bootstrap Loading
 
@@ -54,4 +56,6 @@ These events are: interrupt, trap, system call, and signal.
 
 > A frequency of 2.3 GHz can about perform 2.3 Giga Oscillations
 
-### See Also : [Timeline of the Computer Systems](Timeline%20of%20the%20Computer%20Systems.md)
+---
+
+### See Also : Timeline of the Computer Systems

@@ -1,16 +1,19 @@
 ---
 title: Assignment 4
 date: 2023-10-06T19:53:29Z
-lastmod: 2023-10-23T21:17:08Z
-publish: true
+lastmod: 2024-06-17T15:48:46Z
 ---
 
-Reference Document: [HW 4.pdf](../_old-attachments/algo-HW%204.pdf)
+# Assignment 4
+
+Reference Document: [HW 4.pdf](assets/HW%204-20231006195547-uena1gb.pdf)
 
 # Task1
 
 **This algorithm keeps track of end of Max sub array.
 Modify this algorithm to keep track of start of Max sub array**
+
+‍
 
 ```c++
 MaxSubArraySum(A,n) {
@@ -37,8 +40,8 @@ We can manage to do that if we store the point where the MaxSum becomes the curr
 
 # Task2
 
-**Dry run brute force O(n****<sup>2</sup>) algorithm on given array and show all working.
-Show all values of MaxSum[i] array. 
+**Dry run brute force O(n****<sup>2</sup>** **) algorithm on given array and show all working.
+Show all values of MaxSum[i] array. ** 
 
 **MaxSum[i] array stores maximum sum out of all subarrays ending at index i.** 
 
@@ -67,7 +70,9 @@ MaxSum[9] = 9
 **Dry run Kadane’s algorithm on following array and show all working.
 Show all values of MaxSum[i] array.** 
 
-​![CleanShot 2023-10-07 at 18.10.58@2x](../_old-attachments/algo-HW%204-embed.png)​
+‍
+
+​![CleanShot 2023-10-07 at 18.10.58@2x](assets/CleanShot%202023-10-07%20at%2018.10.58@2x-20231007181113-qrccxmh.png)​
 
 MaxSum[i] = Max (A[i] + MaxSum[i-1] , A[i])
 
@@ -120,4 +125,4 @@ MaxSubArraySum(A,n) {
 }
 ```
 
-
+---

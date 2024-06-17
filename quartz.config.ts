@@ -73,7 +73,7 @@ const config: QuartzConfig = {
       Plugin.RemoveLastDivider(),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown({linkHeadings: true}),
-      Plugin.HardLineBreaks(),
+      // Plugin.HardLineBreaks(),
       Plugin.TableOfContents({maxDepth: 6}),
       Plugin.CrawlLinks({ markdownLinkResolution: "relative" }),
       Plugin.Description(),

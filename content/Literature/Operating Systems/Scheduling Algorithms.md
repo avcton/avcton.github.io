@@ -2,10 +2,11 @@
 title: Scheduling Algorithms
 date: 2023-09-19T09:12:22Z
 lastmod: 2023-12-31T00:28:09Z
-publish: true
 ---
 
-- [CPU-Scheduling-and-Algorithm - Handouts.pdf](../_old-attachments/CPU-Scheduling-and-Algorithm-handouts.pdf)
+# Scheduling Algorithms
+
+[CPU-Scheduling-and-Algorithm - Handouts.pdf](assets/CPU-Scheduling-and-Algorithm-%20handouts-20230930085621-i0kut1y.pdf)
 
 #### Burst Time
 
@@ -25,7 +26,7 @@ $\sum$ Waiting Time / Number of Processes
 
 #### Priority Numbers
 
-Based on these numbers, the algorithm prioritizes processes
+Based on these numbers, the algorithm prioritises processes
 
 *The lowest the number the higher the priority*
 

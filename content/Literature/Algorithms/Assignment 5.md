@@ -1,11 +1,12 @@
 ---
 title: Assignment 5
 date: 2023-10-11T10:20:22Z
-lastmod: 2023-10-12T19:46:24Z
-publish: true
+lastmod: 2024-06-17T15:48:55Z
 ---
 
-Reference Document: [algo-HW 5.pdf](../_old-attachments/algo-HW%205.pdf)
+# Assignment 5
+
+Reference Document: [Rod Cutting Assignment.pdf](assets/Rod%20Cutting%20Assignment-20231011102039-z6yux13.pdf)
 
 # Task1
 
@@ -147,4 +148,4 @@ Rod-Cutting-DP(V, n){
 }
 ```
 
-
+---

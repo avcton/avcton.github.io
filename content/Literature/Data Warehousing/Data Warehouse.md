@@ -2,8 +2,9 @@
 title: Data Warehouse
 date: 2023-09-11T17:55:49Z
 lastmod: 2024-03-28T09:52:03Z
-publish: true
 ---
+
+# Data Warehouse
 
 # Operational Systems
 
@@ -16,7 +17,7 @@ Informational systems, also known as management information systems (MIS), decis
 # What is Data Warehouse?
 
 > Denormalised and read-only version of a Database
-> 
+>
 > It is a complete **repository of corporate data extracted from transactional systems** that is intended for analytical rather than transactional purposes.  
 > In Information Systems we have a concept such as a ==SSOT==  
 > A data warehouse is very much like that single source of data truth
@@ -94,4 +95,4 @@ The process of extracting data into the warehouse from operational systems, also
   - The lowest level is called the *Grain Level*
 - Further done in OLAP
 
-A Data warehouse may consist of a [Data Mart](Data%20Mart.md)
+### A Data warehouse may consist of a Data Mart

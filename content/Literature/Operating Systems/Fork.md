@@ -2,8 +2,9 @@
 title: Fork
 date: 2023-09-12T11:10:16Z
 lastmod: 2023-09-17T19:38:10Z
-publish: true
 ---
+
+# Fork
 
 > When a process executes a fork command it's whole heap, stack and data is duplicated into the child process, it created.
 
@@ -97,4 +98,4 @@ int main()
 	- Hello World
 ```
 
-
+---

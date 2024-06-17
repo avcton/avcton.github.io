@@ -1,11 +1,12 @@
 ---
 title: Assignment 3
 date: 2023-10-04T15:41:22Z
-lastmod: 2023-10-23T20:57:53Z
-publish: true
+lastmod: 2024-06-17T15:47:54Z
 ---
 
-Reference Document: [HW 3.pdf](../_old-attachments/algo-HW%203.pdf)
+# Assignment 3
+
+Reference Document: [HW 3.pdf](assets/HW%203-20231004155443-5gtxnor.pdf)
 
 $$
 C(0) = 1
@@ -120,3 +121,4 @@ float C(int N, float *arr){
 }
 ```
 
+---

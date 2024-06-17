@@ -1,11 +1,12 @@
 ---
 title: Assignment 6
 date: 2023-11-29T13:47:42Z
-lastmod: 2023-12-08T18:08:40Z
-publish: true
+lastmod: 2024-06-17T15:49:05Z
 ---
 
-Reference Document: [HW 6 Graph Algorithms.pdf](../_old-attachments/algo-HW%206.pdf)
+# Assignment 6
+
+Reference Document: [HW 6 Graph Algorithms.pdf](assets/HW%206%20Graph%20Algorithms-20231129134803-odhba6m.pdf)
 
 # Q1
 
@@ -20,6 +21,7 @@ The algorithm consists of the following steps:
 ### Pass 1: G<sup>Original</sup> - DFS on A
 
 DFS is applied on the original graph, starting from ==A== and finish times are noted.
+
 
 Format = `s/f`​ where s = starting time while f = finishing time
 
@@ -42,6 +44,7 @@ Format = `s/f`​ where s = starting time while f = finishing time
 ### Pass 2: G<sup>Rev</sup> - DFS on Decreasing Finishing Times
 
 The original graph is reversed (direction of edges altered) and DFS is applied starting from the node with highest finishing time obtained in Pass 1, continuing with the unvisited node with the highest finish time if stopped in between.
+
 
 ### Determined SCC from Pass 2
 
@@ -85,7 +88,6 @@ flowchart TD
 	F --> D((D))
 	D --> E((E))
 ```
-
 
 # Q3
 
@@ -272,3 +274,4 @@ produceAgentPaths(graph, A, hotels) {
 
 The algorithm is divided into two different modules. The first function calculates the shortest distances from the given point to all the other points. It utilises dijkstra's algorithm to produce that. The second function given all the hotels and the reaching point `A`​, first finds the shortest distance from point A to all the other hotels and then again for each hotel finds the shortest distance from that hotel to all vertices. Then for each hotel, it finds the vertex that minimises the sum of distances from A to the hotel and from the hotel to that vertex. This represents the path with the minimum total risk for the agent traveling from A to that hotel.
 
+---

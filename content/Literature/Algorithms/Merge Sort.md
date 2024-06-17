@@ -2,8 +2,9 @@
 title: Merge Sort
 date: 2023-09-11T17:28:22Z
 lastmod: 2023-09-11T17:28:36Z
-publish: true
 ---
+
+# Merge Sort
 
 > A sorting algorithm invented by John von Neumann (1903-1957) that follows a divide and conquer paradigm. It was developed in 1945.
 

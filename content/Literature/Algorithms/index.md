@@ -1,15 +1,21 @@
 ---
 title: Algorithms
-description: Algorithms Material for 5th Semester of My Data Science Degree
-date: 2023-09-11
+date: 2023-09-11T17:17:26Z
+lastmod: 2024-06-17T15:49:50Z
+tags: [course]
 ---
 
-`Design and Analysis of Algorithms`
+# Algorithms
 
-## Book
+# Course Outline
 
-[Introduction_to_Algorithms_by_Cormen_Leiserson_Rivest_and_Stein_3rd_Edition.pdf](../_old-attachments/Introduction_to_Algorithms_by_Cormen_Leiserson_Rivest_and_Stein_3rd_Ed._MIT_Press_2001.pdf)
+[Algo Course Outline.pdf](assets/Algo%20Course%20Outline-20230911172124-06nifop.pdf)
 
-## Course Outline
+# Weightage
 
-[Algo Course Outline.pdf](../_old-attachments/Algo%20Course%20Outline.pdf)
+[Ref. From Outline](assets/Algo%20Course%20Outline-20230911172124-06nifop.pdf?p=3)  
+​![](assets/Algo%20Course%20Outline-P3-20230911172139-20230911172244-rnj5iw9.png)​
+
+# Book
+
+[Introduction_to_Algorithms_by_Cormen_Leiserson_Rivest_and_Stein_3rd_Ed._MIT_Press_2001.pdf](assets/Introduction_to_Algorithms_by_Cormen_Leiserson_Rivest_and_Stein_3rd_Ed._MIT_Press_2001-20230927134020-x9gdvys.pdf)

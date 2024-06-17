@@ -1,12 +1,15 @@
 ---
 title: Assignment 2
 date: 2023-09-19T20:17:23Z
-lastmod: 2023-09-24T23:27:14Z
-publish: true
+lastmod: 2024-06-17T15:47:45Z
 ---
 
-Reference Document: [HW 2.pdf](../_old-attachments/algo-HW%202.pdf)
+# Assignment 2
+
+Reference Document: [HW 2.pdf](assets/HW%202-20230919201750-h7bvdmt.pdf)
+
 ‍
+
 # Q1
 
 ## Algorithm
@@ -234,7 +237,7 @@ int GetMajorElement(arr, size){
 
 # Q5
 
-**Size of Array = 10<sup>9</sup> = 1 Billion**
+#### Size of Array = 10<sup>9</sup> = 1 Billion
 
 ## (a)
 
@@ -256,3 +259,4 @@ int GetMajorElement(arr, size){
 |Heap Sort|1642001<br />|1701511<br />|2291343<br />|2178784<br />|1744858<br />|1,911,699 ms ≅ 32 min<br />|
 |Quick Sort|356906<br />|376065<br />|455117<br />|715699<br />|376219<br />|456,001 ms ≅ 8 min<br />|
 
+---

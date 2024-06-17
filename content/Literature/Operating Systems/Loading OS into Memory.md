@@ -2,8 +2,9 @@
 title: Loading OS into Memory
 date: 2024-01-27T14:33:17Z
 lastmod: 2024-01-27T14:34:21Z
-publish: true
 ---
+
+# Loading OS into Memory
 
 In the context of loading the operating system into RAM, ROM is involved during the initial stages of the boot process. Here's a simplified overview:
 

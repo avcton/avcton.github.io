@@ -2,8 +2,9 @@
 title: Memory Management
 date: 2023-11-21T09:00:12Z
 lastmod: 2023-12-31T22:21:31Z
-publish: true
 ---
+
+# Memory Management
 
 Once needs to understand Program Compilation and the concept of Dynamic Loading to understand
 
@@ -43,7 +44,6 @@ We use Hardware Based Solutions to avoid Critical Section Problems
 
 > Keeps track of the size / limit of the partition / block in the memory
 
-
 # Fixed Sized Partitioning
 
 ## Cons
@@ -52,7 +52,10 @@ We use Hardware Based Solutions to avoid Critical Section Problems
 
 The Fixed Sizes when allocated lesser sized processes, have some space left which might be too small to be used by any other upcoming process
 
-**Solutions**:
+‍
+
+**Solutions**
+
 ##### Non-Continuous Memory Allocation
 
 # Variable Sized Partitioning
@@ -63,7 +66,10 @@ The Fixed Sizes when allocated lesser sized processes, have some space left whic
 
 The size of the partitions might break down too small for larger upcoming programs to fit in
 
+‍
+
 **Solutions**
+
 #### Compaction
 
 > We can move our being used memory blocks to the other part of the memory, this can give us free sized blocks combined on the other part of the memory
@@ -76,7 +82,7 @@ The size of the partitions might break down too small for larger upcoming progra
 
 > ​Each process is divided into the same count of blocks / frames as the memory is divided into
 
-​![image](Memory%20Management.png%20"The%20Paging%20Process")​
+​![image](assets/image-20231121094800-4366ij2.png "The Paging Process")​
 
 ##### Address Allocation Scheme
 
@@ -194,3 +200,4 @@ A Node not only stores the the state of the block (process or a hole), it also t
 
 [Paging in Operating System | Geeks for Geek](https://www.geeksforgeeks.org/paging-in-operating-system/)
 
+---

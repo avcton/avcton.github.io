@@ -2,8 +2,9 @@
 title: Dynamic Programming
 date: 2023-10-07T12:43:13Z
 lastmod: 2023-12-23T16:44:59Z
-publish: true
 ---
+
+# Dynamic Programming
 
 > Strategy to quickly and correctly solve large sub problems given solution to smaller sub problems
 
@@ -12,13 +13,14 @@ publish: true
 They both solve bigger problems by dividing them into smaller sub problems and build solution of larger problems from the solution of smaller problems
 
 However,
+
 Divide and Conqueror applies to non-overlapping sub problems. That is the sub problems do not overlap with one another.
 
-​![CleanShot 2023-10-07 at 12.50.09@2x](Dynamic%20Programming.png%20"Each%20sub%20problem%20is%20different%20from%20sub%20problems%20of%20other%20branches")​
+​![CleanShot 2023-10-07 at 12.50.09@2x](assets/CleanShot%202023-10-07%20at%2012.50.09@2x-20231007125016-w3rttxx.png "Each sub problem is different from sub problems of other branches")​
 
 Dynamic Programming on the other hand, applies when the ***sub problems overlap***. That is when a sub problems repeat for other branches too.
 
-​![image](Dynamic%20Programming-1.png%20"Sub%20problems%20are%20overlapping%20for%20various%20branches")​
+​![image](assets/image-20231007125332-0ot4nwe.png "Sub problems are overlapping for various branches")​
 
 # Memoization
 
@@ -40,12 +42,13 @@ DP is used for optimisation problems: problems that have many solutions but we w
 
 For a problem to be able to solve by Dynamic Programming, it should contain the following traits:
 
-## Overlapping Problems
+* ## Overlapping Problems
 
   * Bigger problems can be divided into smaller overlapping sub problems in such as a way that solution to each sub problem is only calculated once
-## Optimal Substructure
+* ## Optimal Substructure
 
   * The optimal solution to bigger problems can be built by utilising the optimised solution of that of the smaller sub problems
 
+---
 
 ‍

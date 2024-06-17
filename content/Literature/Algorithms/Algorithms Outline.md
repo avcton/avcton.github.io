@@ -2,8 +2,9 @@
 title: Algorithms Outline
 date: 2024-01-01T16:32:30Z
 lastmod: 2024-01-01T21:43:05Z
-publish: true
 ---
+
+# Algorithms Outline
 
 Curated List of algorithms that have been studied
 

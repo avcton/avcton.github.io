@@ -1,11 +1,12 @@
 ---
 title: Assignment 2
 date: 2023-11-01T18:34:33Z
-lastmod: 2023-11-21T12:07:57Z
-publish: true
+lastmod: 2024-06-17T18:04:55Z
 ---
 
-Reference Document: [Assignment 2.pdf](../_old-attachments/os-Assignment%202.pdf)
+# Assignment 2
+
+Reference Document: [Assignment 2.pdf](assets/Assignment%202-20231101183723-aceqjys.pdf)
 
 # Q1
 
@@ -64,11 +65,11 @@ The main difference between the two programs is the count of threads running con
 
 **The above solution satisfies which necessary or optional requirement of critical section problem Conditions? Justify your answer.** 
 
-**Mutual Exclusion:** Since only one process can access the critical section in a given time as the other will be waiting because of the lock, there exists mutual exclusion.
+**Mutual Exclusion: ** Since only one process can access the critical section in a given time as the other will be waiting because of the lock, there exists mutual exclusion.
 
-**Progress:** The process after executing in the critical section and returning to the exit section, only gives the turn to other process if it is waiting and wants access to the critical section. Thus progress is satisfied as no process in its remainder section given access to the critical section.
+**Progress: ** The process after executing in the critical section and returning to the exit section, only gives the turn to other process if it is waiting and wants access to the critical section. Thus progress is satisfied as no process in its remainder section given access to the critical section.
 
-**Bounded Waiting:** Since the current process in the critical section after leaving it, checks if the other process is waiting for the access to the critical section and if so, gives access to. There exists a bound.
+**Bounded Waiting: ** Since the current process in the critical section after leaving it, checks if the other process is waiting for the access to the critical section and if so, gives access to. There exists a bound.
 
 **What is the purpose of line6 (While Loop) in Function1() ?** 
 
@@ -78,3 +79,4 @@ This while loop is responsible for busy waiting processes which wants access to 
 
 This while loop checks if the next processes after the current process are waiting and hence wants access to the critical section. And if they do so, it stops their waiting and thus they gain access to the section while the lock is still not free. If no process requires the critical section which mean none is waiting, the lock is simply freed.
 
+---

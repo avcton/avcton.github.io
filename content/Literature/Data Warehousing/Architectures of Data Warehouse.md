@@ -2,11 +2,12 @@
 title: Architectures of Data Warehouse
 date: 2023-09-11T17:57:32Z
 lastmod: 2023-12-24T19:56:54Z
-publish: true
 ---
 
+# Architectures of Data Warehouse
+
 [Data Warehouse Architectural Types](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=64)  
-​![warehousing-architectures](../_old-attachments/warehousing-architectures.png)​
+​![](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P64-20230929231710-20230929231710-kl1owt6.png)​
 
 # Centralised Architecture
 
@@ -19,7 +20,7 @@ publish: true
 # Federated Architecture
 
 * Data remains in separate sources, and the data warehouse acts as a virtual layer that integrates and provides a unified view of the data. Queries are distributed to the appropriate sources, and the results are combined form a consolidated response.
-* In this architectural type, there is no one overall data warehouse
+* [In this architectural type, there is no one overall data warehouse](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=64)
 
 # Hub-and-Spoke Architecture
 
@@ -29,3 +30,4 @@ publish: true
 
 * Several independent data marts are created, each focused on a specific subject area or business function. The data marts are connected through a common bus architecture, providing integration and consistency across them.
 
+---

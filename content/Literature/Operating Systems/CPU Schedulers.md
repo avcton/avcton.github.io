@@ -2,10 +2,11 @@
 title: CPU Schedulers
 date: 2023-09-11T17:31:19Z
 lastmod: 2023-12-30T21:03:40Z
-publish: true
 ---
 
-​![CleanShot 2023-09-23 at 12.11.36@2x](../_old-attachments/CPU%20Schedulers.png)​
+# CPU Schedulers
+
+​![CleanShot 2023-09-23 at 12.11.36@2x](assets/CleanShot%202023-09-23%20at%2012.11.36@2x-20230923121202-5qcuml3.png)​
 
 ## Long-Term / Job Scheduler
 

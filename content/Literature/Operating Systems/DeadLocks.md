@@ -2,8 +2,9 @@
 title: DeadLocks
 date: 2023-10-31T08:43:22Z
 lastmod: 2024-01-07T18:10:39Z
-publish: true
 ---
+
+# DeadLocks
 
 > Deadlocks arise when there exist a hold and wait situation when multiple processes share multiple resources simultaneously
 
@@ -22,7 +23,9 @@ Consider two processes that require Printer and Scanner but interchangeably. P1 
 At time **T1: ** P1 will acquire Printer and P2 will acquire Scanner  
 Both of them will then further wait for their respective resource to be free and stuck in a deadlock
 
-# Conditions for Deadlock
+# Condition for Deadlock
+
+## ((20231012084432-isl2itg "Mutual Exclusion"))
 
 Only one process can use the resource at a single time unit
 
@@ -94,7 +97,7 @@ If free resources are less than the available needs of all of the processes, the
 
 ### Banker's Algorithm
 
-1. If Need`[i]`$\le$ Available then Available = Available + Allocation`[i]`
+1. If Need[i] $\le$ Available then Available = Available + Allocation[i]
 
 #### Example 1
 

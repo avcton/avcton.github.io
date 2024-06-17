@@ -2,8 +2,9 @@
 title: Data Mart
 date: 2023-09-11T17:57:45Z
 lastmod: 2023-09-11T17:57:52Z
-publish: true
 ---
+
+# Data Mart
 
 > A data mart is a specialised subset of a Data Warehouse that is designed to support the specific reporting and analysis needs of a particular business unit, department, or functional area within an organisation. It contains a focused and curated set of data that is relevant to the specific requirements of the users who access it.
 
