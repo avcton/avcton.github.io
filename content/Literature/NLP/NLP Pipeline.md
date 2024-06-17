@@ -168,11 +168,7 @@ $$
 Generates Dense Vectors / Embeddings
 
 > Vectorisation technique that utilises prediction techniques
-
-<iframe sandbox="allow-forms allow-presentation allow-same-origin allow-scripts allow-modals" src="" data-src="" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 747px; height: 417px;"></iframe>
-
 ‍
-
 ### CBOW
 
 > Continuous Bag of Words

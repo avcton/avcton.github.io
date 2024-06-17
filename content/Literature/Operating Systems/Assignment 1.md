@@ -50,8 +50,6 @@ After swapping out, the processes are put into the Suspend Ready Queue or the Su
 
 ## Process Tree
 
-<iframe src="/widgets/widget-excalidraw" data-src="/widgets/widget-excalidraw" data-subtype="widget" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height: 490px;"></iframe>
-
 # Q3
 
 |Process ID|Arrival Time|Burst Time|Priority|
