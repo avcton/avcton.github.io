@@ -2,20 +2,21 @@
 title: Physical Data Modelling
 date: 2023-12-25T13:20:19Z
 lastmod: 2023-12-25T19:00:25Z
-publish: true
 ---
+
+# Physical Data Modelling
 
 ## Partitioning Techniques
 
-Partitioning means deliberate splitting of a table and its index data into manageable parts. The DBMS supports and provides the mechanism for partitioning. When you define the table, you can define the partitions as well. Each partition of a table is treated as a separate object. As the volume increases in one partition, you can split that partition further. The partitions are spread across multiple disks to gain optimum performance. Each partition in a table may have distinct physical attributes, but all partitions of the table have the same logical attributes.
+[Partitioning means deliberate splitting of a table and its index data into manageable parts. The DBMS supports and provides the mechanism for partitioning. When you define the table, you can define the partitions as well. Each partition of a table is treated as a separate object. As the volume increases in one partition, you can split that partition further. The partitions are spread across multiple disks to gain optimum performance. Each partition in a table may have distinct physical attributes, but all partitions of the table have the same logical attributes.](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=515)
 
 ### Vertical Partitioning
 
-In vertical partitioning, you separate out the partitions by grouping selected columns together. Each partitioned table contains the same number of rows as the original table. Usually, wide dimension tables are candidates for vertical partitioning.
+[In vertical partitioning, you separate out the partitions by grouping selected columns together. Each partitioned table contains the same number of rows as the original table. Usually, wide dimension tables are candidates for vertical partitioning.](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=515)
 
 ### Horizontal Partitioning
 
-In horizontal partitioning, you divide the table by grouping selected rows together
+[In horizontal partitioning, you divide the table by grouping selected rows together](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf?p=515)
 
 ## Pros
 
@@ -31,8 +32,8 @@ In horizontal partitioning, you divide the table by grouping selected rows toget
 ## Materialised Views
 
 > A materialised view is a database object that contains the result of a precomputed query. Unlike regular (virtual) views, which are defined by a query but do not store the actual data, materialised views store the data resulting from the execution of a query. This precomputed or materialised data is periodically refreshed to reflect changes in the underlying data.
-> 
-> More advanced form of Pre-Join Denormalization
+>
+> More advanced form of ((20230911175655-ia0heej "Pre-Join Denormalisation")) and ((20230911175705-ano618i 'Pre-Aggregation'))
 
 Materialised before run-time, thus Permanent Storage is required
 
@@ -59,7 +60,7 @@ Materialised Views help us just with that
 ### Traditional Views
 
 > AKA Virtual Tables
-> 
+>
 > A window that projects the state of a database relation / table
 
 * Created at Runtime
@@ -69,6 +70,6 @@ Materialised Views help us just with that
 
 Purpose is to restrict data access from user groups
 
-# [Join Operations](Join%20Operations.md)
+## Joining Techniques
 
-# [Indexing Techniques](Indexing%20Techniques.md)
+## Indexing Techniques

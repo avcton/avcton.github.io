@@ -2,15 +2,16 @@
 title: DMA | Synchronous IO Operations
 date: 2023-09-11T17:30:37Z
 lastmod: 2023-12-30T20:16:55Z
-publish: true
 ---
+
+# DMA | Synchronous IO Operations
 
 # Synchronous IO Operation
 
 > Some flow of execution, such as a process or a thread is waiting for the operation to complete and once it does complete, then the same process maybe performs some action on it or simply utilises it's result.
 
 > Blocking of input device until the operation is not performed completely
-> 
+>
 > The processes requiring that specific I/O device need to wait in the Device Queue
 
 * There is no acknowledgment or signal to inform the CPU about the I/O operations
@@ -26,7 +27,7 @@ publish: true
 * ==CPU writes this word into the memory==
 * If another instructions is to be read then the same cycle repeats.
 
-​![image](../_old-attachments/DMA%20Synchronous%20IO%20Operations.png)​
+​![image](assets/image-20230929172720-t2ik1ns.png)​
 
 ## Polling / Con
 
@@ -43,7 +44,7 @@ publish: true
 
   * During the I/O Operation, If the caller program needs the I/O result to process further then it has to wait or else it can process it's own operations
 
-​![image](../_old-attachments/DMA%20Synchronous%20IO%20Operations-1.png)​
+​![image](assets/image-20230929172757-jkvuw43.png)​
 
 ## Cons
 
@@ -53,7 +54,7 @@ publish: true
 
 ### [More Detailed Concept](https://stackoverflow.com/a/35012646)
 
-​![image](../_old-attachments/DMA%20Synchronous%20IO%20Operations-2.png)​
+​![image](assets/image-20230929170659-1c5vyd9.png)​
 
 # DMA
 
@@ -75,3 +76,4 @@ DMA alleviates this burden on the CPU by enabling data transfer between the 1/O 
 
 > Only once access to memory is possible at a time. Therefore, DMA steals the memory access from the Machine Cycle to be able to use the memory. During this time, the CPU has to wait for memory access. It can slow it down but this still is more efficient then tying up the entire CPU rather than only its access to memory.
 
+---

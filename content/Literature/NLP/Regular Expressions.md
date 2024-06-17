@@ -2,8 +2,9 @@
 title: Regular Expressions
 date: 2024-01-28T15:49:39Z
 lastmod: 2024-01-28T15:50:26Z
-publish: true
 ---
+
+# Regular Expressions
 
 > A regex is a string of text that lets you create patterns that help match, locate, and manage text.
 
@@ -36,12 +37,12 @@ While doing all of these is *theoretically* possible without regex, ==when regex
 
 [regex101: build, test, and debug regex](https://regex101.com/)
 
-[The Complete Guide to Regular Expressions (Regex) - CoderPad](Regex)%20-%20CoderPad)
+[The Complete Guide to Regular Expressions (Regex) - CoderPad](https://coderpad.io/blog/development/the-complete-guide-to-regular-expressions-regex/)
 
 [Regular expression syntax cheat sheet - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet)
 
 # Cheat Sheet
 
-​![image](../_old-attachments/regex-cheat-sheet.png)​
+​![image](assets/image-20240124214236-zsic0ow.png)​
 
 ‍

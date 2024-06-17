@@ -2,8 +2,9 @@
 title: Types of Facts
 date: 2023-09-30T14:28:38Z
 lastmod: 2023-12-24T19:35:30Z
-publish: true
 ---
+
+# Types of Facts
 
 # Additive Facts
 
@@ -31,3 +32,4 @@ For example, ==the balance of a bank account==, the inventory level of a product
 
 For example, the profit margin, the conversion rate, or the customer satisfaction score are non-additive facts. You cannot aggregate them by any dimension, because the result will not be meaningful or accurate. The profit margin of a product is not the sum of the profit margins of its components. The conversion rate of a campaign is not the sum of the conversion rates of its channels. The customer satisfaction score of a service is not the sum of the customer satisfaction scores of its features. Non-additive facts require the most attention, because you need to store them separately from other facts, and use special SQL expressions or calculations to perform analysis on them. For example, you can use the CASE statement or the DIVIDE function to compute non-additive facts from other facts.
 
+---

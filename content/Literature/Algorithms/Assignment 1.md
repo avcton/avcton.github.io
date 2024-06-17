@@ -1,11 +1,12 @@
 ---
 title: Assignment 1
 date: 2023-09-11T17:25:24Z
-lastmod: 2023-09-19T18:45:15Z
-publish: true
+lastmod: 2024-06-17T15:47:26Z
 ---
 
-**​Reference Document:** [HW1.pdf](../_old-attachments/algo-HW1.pdf)​
+# Assignment 1
+
+###### ​Reference Document: [HW1.pdf](assets/HW1-20230911192622-lysiogl.pdf)​
 
 # Question 1
 
@@ -65,6 +66,7 @@ for(i=n; i>=1; i--)		---- n + 1
 
 Total = 1 + 1 + 1 + (n + 1) + n  
 T(n)	= 2n + 4  
+O(n)
 
 * **T(n) &lt;= c f(n)**
 
@@ -237,7 +239,7 @@ $$
 T(n) = T(\frac{n}{5}) + T(\frac{2n}{5}) + O(n)
 $$
 
-​![algo-embed-Assignment 1](../_old-attachments/algo-embed-Assignment%201.jpeg)​
+​![Recursion Tree Q5](assets/WhatsApp%20Image%202023-09-13%20at%207.59.43%20PM-20230913200005-us1529d.jpeg "Recursion Tree of the above Function")​
 
 We can observe that at each level there are $c \space \frac{3}{5}^k$n count of instructions being executed  
 where k is the level count
@@ -273,61 +275,63 @@ Hence, we have $O(n)$ as our runtime for this algorithm
 
 ## (a)
 
-$T(n) = 2T(\frac{n}{4}) + O(lgn)$
+### $T(n) = 2T(\frac{n}{4}) + O(lgn)$
 
-![algo-embed-Assignment 1-1](../_old-attachments/algo-embed-Assignment%201-1.jpeg)​
+​![Q1](assets/Q1-20230913232025-holw2fd.jpeg)​
 
 ### Solution
 
-![algo-embed-Assignment 1-2](../_old-attachments/algo-embed-Assignment%201-2.jpeg)​
+​![WhatsApp Image 2023-09-13 at 11.49.34 PM](assets/WhatsApp%20Image%202023-09-13%20at%2011.49.34%20PM-20230913235014-4gwo3at.jpeg)​
 
 ## (b)
 
-$T(n) = 3T(\frac{n}{2}) + O(n^3)$
+### $T(n) = 3T(\frac{n}{2}) + O(n^3)$
 
-![algo-embed-Assignment 1-3](../_old-attachments/algo-embed-Assignment%201-3.jpeg)​
+​![Q2](assets/Q2-20230913232056-vl0pwzx.jpeg)​
 
 ### Solution
 
-![algo-embed-Assignment 1-3-1](../_old-attachments/algo-embed-Assignment%201-3-1.jpeg)​
+​![2](assets/2-20230913233359-ojqh90w.jpeg)​
 
 ## (c)
 
-$T(n) = 7T(\frac{n}{5}) + \theta(1)$
+### $T(n) = 7T(\frac{n}{5}) + \theta(1)$
 
-![algo-embed-Assignment 1-4](../_old-attachments/algo-embed-Assignment%201-4.jpeg)​
+​![Q3](assets/Q3-20230913232118-010fjz2.jpeg)​
 
 ### Solution
 
-![algo-embed-Assignment 1-4-1](../_old-attachments/algo-embed-Assignment%201-4-1.jpeg)​
+​![3](assets/3-20230913233416-vgg9f4u.jpeg)​
 
 ## (d)
 
-$T(n) = 2T(\frac{n}{2}) + O(\frac{n}{logn})$
+### $T(n) = 2T(\frac{n}{2}) + O(\frac{n}{logn})$
 
-![algo-embed-Assignment 1-5](../_old-attachments/algo-embed-Assignment%201-5.jpeg)​
+​![Q4](assets/Q4-20230913232208-8r7eqv0.jpeg)​
 
 ### Solution
 
-![algo-embed-Assignment 1-5-1](../_old-attachments/algo-embed-Assignment%201-5-1.jpeg)​
+​![4](assets/4-20230913233425-yhdic2a.jpeg)​
 
 ## (e)
 
-$T(n) = 3T(n-1) + \theta(1)$
+### $T(n) = 3T(n-1) + \theta(1)$
 
-![algo-embed-Assignment 1-6](../_old-attachments/algo-embed-Assignment%201-6.jpeg)​
+​![WhatsApp Image 2023-09-13 at 11.17.21 PM](assets/WhatsApp%20Image%202023-09-13%20at%2011.17.21%20PM-20230913232217-9yyfwe0.jpeg)​
 
 ### Solution
 
-![algo-embed-Assignment 1-6-1](../_old-attachments/algo-embed-Assignment%201-6-1.jpeg)​
+​![5](assets/5-20230913233436-bcto8km.jpeg)​
 
 # Question 8
 
 ## Inversion Pairs Algorithm
 
-![algo-embed-Assignment 1-7](../_old-attachments/algo-embed-Assignment%201-7.jpeg)​
+​![WhatsApp Image 2023-09-13 at 9.07.20 PM](assets/WhatsApp%20Image%202023-09-13%20at%209.07.20%20PM-20230913212244-pdi8yru.jpeg "Count Inversion Pairs Algorithm - Dry Run")​
 
 {} Curly Braces represent the return value, which is an array in our case, of each recursive call  
 The value followed by it is the count of the split inversion pairs
 
 The given array has a **total count of inversion pairs of 30**
+
+---

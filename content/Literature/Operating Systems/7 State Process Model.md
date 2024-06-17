@@ -2,12 +2,15 @@
 title: 7 State Process Model
 date: 2023-09-11T17:31:46Z
 lastmod: 2023-12-30T22:27:04Z
-publish: true
 ---
 
-> [5 State Process Model](5%20State%20Process%20Model.md) transformation because of Medium Term Swapper
+# 7 State Process Model
 
-​![image](../_old-attachments/7%20State%20Process%20Model-1.png)​
+5 State Process Model transformation because of Medium Term Swapper
+
+<iframe src="/widgets/widget-excalidraw" data-src="/widgets/widget-excalidraw" data-subtype="widget" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 756px; height: 444px;"></iframe>
+
+​![image](assets/image-20230918205946-pivhqms.png)​
 
 ## New State
 
@@ -85,7 +88,7 @@ On the completion of that specific I/O operation, the state of the process is tr
 
 ## **Why is there a need to Suspend Processes?** 
 
-Swapping may be necessary to improve the job mix, or because a change in memory requirements has over committed available memory, requiring memory to be freed up
+[Swapping may be necessary to improve the job mix, or because a change in memory requirements has over committed available memory, requiring memory to be freed up](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf?p=34)
 
 * To Free Resources
 
@@ -110,3 +113,4 @@ The operating system prefers to suspend a blocked process instead of a ready pro
 * In this state, a process is suspended but waiting for a specific event to occur, such as input from a user or completion of an I/O operation. The process is not eligible for execution until the event it is waiting for happens
 * If the wait is complete and the process is ready to execute further, it still has the state of Suspended and thus will be moved to the Suspend Ready State
 
+---

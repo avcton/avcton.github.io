@@ -2,8 +2,9 @@
 title: Count 1s
 date: 2023-12-23T15:33:02Z
 lastmod: 2023-12-23T16:40:06Z
-publish: true
 ---
+
+# Count 1s
 
 # Input
 
@@ -27,3 +28,4 @@ def countOnes(arr, i, j):
 
 $\theta(log\space n)$
 
+---

@@ -2,12 +2,14 @@
 title: Database Terminologies
 date: 2023-10-14T16:25:47Z
 lastmod: 2023-10-27T17:38:57Z
-publish: true
 ---
+
+# Database Terminologies
 
 # Data
 
 > Collection of facts and figures that can be recorded and have implicit meaning.
+
 > Name, age, address of people.
 
 # Database
@@ -39,12 +41,14 @@ publish: true
 
 > The retrieval and updating of a database to reflect changes in the mini-world.
 
+‍
+
 # I/Os
 
 > The cost of reading from the disk to memory
-> 
+>
 > or
-> 
+>
 > The cost of writing from the memory to disk
 
 # Query
@@ -152,7 +156,7 @@ Responsible for following:
 > Change in internal schema when file structure is reorganised or new indexes are created to improve performance.
 
 > When a schema at a lower level is changed only the mappings between this schema and higher level schemas are changed. The higher level schemas themselves are unchanged.
-> 
+>
 > Hence, the application programs need not to be changed.
 
 # Database Languages
@@ -204,3 +208,4 @@ Responsible for following:
   - Everything resides at a single system such as
     - DBMS, Hardware, Application Program and User Interface
 
+---

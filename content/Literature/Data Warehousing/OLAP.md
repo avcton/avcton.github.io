@@ -2,8 +2,9 @@
 title: OLAP
 date: 2023-09-11T17:56:45Z
 lastmod: 2023-12-24T18:22:13Z
-publish: true
 ---
+
+# OLAP
 
 > Online Analytical Processing  
 > A framework for decision support / Operational Systems
@@ -17,17 +18,17 @@ Counter to OLTP
 # Facts / Measures
 
 > Quantitative values are known as “facts” or “measures.”
-> 
+>
 > E.g., sales $, units sold, etc.
 
 # Dimensions
 
 > Descriptive categories are known as “dimensions.”  
 > e.g., geography, time, product, scenario (budget or actual), etc.
-> 
+>
 > OLAP provides us a way to conduct *Multilevel Dimension Analysis*  
 > This works in correspondence with Facts and Measures
-> 
+>
 > More on ((20230914145049-dv1kb93 'Logical Data Model'))
 
 - Dimensions have set of levels
@@ -82,7 +83,7 @@ The techniques you will be utilising will vary according to your needs.
 ## MOLAP
 
 > ==Multidimensional Structure== of Data for Analysis
-> 
+>
 > Typically outperform relational database technology because all answers are ==pre-computed== into cubes (and overhead for accessing cubes is very low)
 
 - First Preference
@@ -92,7 +93,7 @@ The techniques you will be utilising will vary according to your needs.
 ## ROLAP
 
 > Relational Structure of Data for Analysis
-> 
+>
 > Relational OLAP often makes heavy use of summary tables to provide near instantaneous access for multi-dimensional queries
 
 - A choice if ==large amount of data== is to stored

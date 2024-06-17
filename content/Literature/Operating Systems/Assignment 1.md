@@ -1,11 +1,12 @@
 ---
 title: Assignment 1
 date: 2023-09-23T11:42:52Z
-lastmod: 2023-09-23T12:38:43Z
-publish: true
+lastmod: 2024-06-17T18:04:52Z
 ---
 
-Reference Document: [OS Assignment1.pdf](../_old-attachments/os-Assignment%201.pdf)
+# Assignment 1
+
+Reference Document: [OS Assignment1.pdf](assets/OS%20Assignment1-20230923114511-5sn3ue3.pdf)
 
 # Q1
 
@@ -44,6 +45,12 @@ The operating system prefers to suspend a blocked process instead of a ready pro
 ### Priority
 
 After swapping out, the processes are put into the Suspend Ready Queue or the Suspend Blocked Queue. The OS can use different policies to manage each queue (FIFO, Round Robin, Priority, etc.). Based on these policies, the OS prioritises one process above others to be swapped back into the ready queue or the blocked queue.
+
+# Q2
+
+## Process Tree
+
+<iframe src="/widgets/widget-excalidraw" data-src="/widgets/widget-excalidraw" data-subtype="widget" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="height: 490px;"></iframe>
 
 # Q3
 

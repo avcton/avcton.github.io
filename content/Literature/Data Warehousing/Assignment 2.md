@@ -1,12 +1,16 @@
 ---
 title: Assignment 2
 date: 2023-09-21T14:51:00Z
-lastmod: 2023-10-21T12:58:13Z
-publish: true
+lastmod: 2024-06-17T17:52:06Z
 ---
 
-- [data-warehousing-assignment-dimensional-modeling.pdf](../_old-attachments/data-warehousing-assignment-dimensional-modeling.pdf)
-- [Dimensional Modelling - Sample Case Studies-sol.pdf](../_old-attachments/dimensional-modeling-sample-case-studies.pdf)
+# Assignment 2
+
+**Resources**
+
+[Fall2023_DW_BDS_A2_Dimensional Modeling.pdf](assets/Fall2023_DW_BDS_A2_Dimensional%20Modeling-20230921151937-rekl8sn.pdf)
+
+[Dimensional Modelling - Sample Case Studies-sol.pdf](assets/Dimensional%20Modeling-%20Sample%20Case%20Studies-sol-20230923212802-wek2zpq.pdf)
 
 # TU Hotels System
 
@@ -175,5 +179,6 @@ The urgency with which the data should be extracted and loaded from transactiona
 
 # Dimensional Model
 
-​![CleanShot 2023-09-26 at 03.09.50@2x](../_old-attachments/fact-tables-schema.png)​
+​![CleanShot 2023-09-26 at 03.09.50@2x](assets/CleanShot%202023-09-26%20at%2003.09.50@2x-20230926031008-f2ervsv.png)​
 
+---

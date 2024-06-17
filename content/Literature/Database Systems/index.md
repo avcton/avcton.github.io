@@ -1,7 +1,10 @@
 ---
 title: Database Systems
-description: Database Material for 5th Semester of My Data Science Degree
-date: 2023-05-14
+date: 2023-10-14T16:29:22Z
+lastmod: 2024-06-17T18:11:10Z
+tags: [course]
 ---
 
-No additional materials recorded for this one.
+# Database Systems
+
+No recorded material in here.

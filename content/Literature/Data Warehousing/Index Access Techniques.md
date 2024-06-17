@@ -2,8 +2,9 @@
 title: Index Access Techniques
 date: 2023-10-27T18:57:37Z
 lastmod: 2023-10-27T21:16:18Z
-publish: true
 ---
+
+# Index Access Techniques
 
 ==Traditional indexing is good for OLTP style queries, but is not so great for traditional DSS queries.==
 
@@ -22,7 +23,7 @@ $$
 # Single Index Access
 
 > Access index entry stored in the index table based on the column value specified in the query
-> 
+>
 > Use RID(s) from the fetched index entry to locate row(s) with specified column value
 
 * Accessing via an index helps only when the selectivity of the indexed column is very high

@@ -2,10 +2,9 @@
 title: Synchronisation
 date: 2023-12-30T18:52:46Z
 lastmod: 2023-12-31T19:23:24Z
-publish: true
 ---
 
-> [!tip] Must Check -> [Operating System: What's the standard technique to test if the algorithm satisfies mutual exclusion, progress and bounded waiting or not?](https://gateoverflow.in/407559/standard-technique-algorithm-satisfies-exclusion-progress)
+# Synchronisation
 
 > When we have multiple processes running at the same time (i.e. concurrently) we know that we must protect them from one another but also at the same time we also might want multiple threads to work on a same problem and thus synchronisation is required.
 
@@ -13,37 +12,41 @@ publish: true
 
 > Conflicts that can arose as process / threads share same memory space / variables
 
-A situation like this, where several processes access and manipulate the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place, is called a race condition
+[A situation like this, where several processes access and manipulate the same data concurrently and the outcome of the execution depends on the particular order in which the access takes place, is called a race condition](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf?p=334)
 
-We need to avoid this race condition:
-​![Synchronization](../_old-attachments/Synchronization.png)​
+We need to avoid this race condition
+
+[Race condition when assigning a pid.](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf?p=336)  
+​![](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P336-20231012090411-20231012090412-57pyi13.png)​
 
 ### Critical Section
 
 > When there is shared memory but the mode is in non-shareable
+>
 > That piece of code where multiple processes / threads access the same shared data
 
-Consider a system consisting of n processes{P0 , P1 , ..., P n−1 }. Each process has a segment of code, called a critical section in which the process may be accessing — and updating — data that is shared with at least one other process. The important feature of the system is that, when one process is executing in its critical section, no other process is allowed to execute in its critical section. That is, no two processes are executing in their critical sections at the same time
+[Consider a system consisting of n processes{P0 , P1 , ..., P n−1 }. Each process has a segment of code, called a critical section in which the process may be accessing — and updating — data that is shared with at least one other process. The important feature of the system is that, when one process is executing in its critical section, no other process is allowed to execute in its critical section. That is, no two processes are executing in their critical sections at the same time.](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf?p=335)
 
-​![Synchronization-1](../_old-attachments/Synchronization-1.png)​
+[General structure of a typical process](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf?p=335)  
+​![](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P335-20231012092003-20231012092003-j4mrpjw.png)​
 
-Each process must request permission to enter its critical section. The section of code implementing this request is the entry section. The critical section may be followed by an exit section. The remaining code is the remainder section
+[Each process must request permission to enter its critical section. The section of code implementing this request is the entry section. The critical section may be followed by an exit section. The remaining code is the remainder section](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf?p=335)
 
 ### Solutions to Race Condition / Critical Section
 
-#### Required Criteria Fulfill
+#### Required Criteria to Fulfil
 
 ##### Mutual Exclusion
 
-> If process Pi is executing in its critical section, then no other processes can be executing in their critical sections
+[If process Pi is executing in its critical section, then no other processes can be executing in their critical sections](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf?p=335)
 
 if one process is executing its critical section then no other co-operative process should be allowed to execute its dependent critical section at same time.
 
-​![CleanShot 2023-10-29 at 18.37.55@2x](../_old-attachments/Synchronization-2.png)​
+​![CleanShot 2023-10-29 at 18.37.55@2x](assets/CleanShot%202023-10-29%20at%2018.37.55@2x-20231029183843-fjfys0h.png)​
 
 ##### Progress
 
-> If no process is executing in its critical section and some processes wish to enter their critical sections, then only those processes that are not executing in their remainder sections can participate in deciding which will enter its critical section next, and this selection cannot be postponed indefinitely
+[If no process is executing in its critical section and some processes wish to enter their critical sections, then only those processes that are not executing in their remainder sections can participate in deciding which will enter its critical section next, and this selection cannot be postponed indefinitely.](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf?p=335)
 
 * If only one process wants to enter, it should be able to.
 * If two or more want to enter, one of them should succeed.
@@ -55,7 +58,7 @@ If both process can run individually one after other in any order (firstly P\_0 
 
 ##### Bounded Waiting
 
-> There exists a bound, or limit, on the number of times that other processes are allowed to enter their critical sections after a process has made a request to enter its critical section and before that request is granted
+[There exists a bound, or limit, on the number of times that other processes are allowed to enter their critical sections after a process has made a request to enter its critical section and before that request is granted.](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf?p=336)
 
 if one process(X) is executing its critical section and other cooperative process(Y) is waiting to go in critical section then when X is completed and if again X wants to go in critical section it should be not be allowed as Y is waiting for Critical section for a long time so Y must get chance before X.
 
@@ -305,11 +308,9 @@ while(true){
 
 ##### Semaphore
 
+[LittleBookOfSemaphores.pdf](assets/LittleBookOfSemaphores-20231114082910-5f7a4jr.pdf)
 
-> A semaphore S is an integer variable that, apart from initialisation, is accessed only through two standard atomic operations: wait() and signal()
-
-
-> [!tip](../_old-attachments/LittleBookOfSemaphores.pdf)
+[A semaphore S is an integer variable that, apart from initialisation, is accessed only through two standard atomic operations: wait() and signal().](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf?p=347)
 
 ```C
 signal(S){
@@ -328,7 +329,7 @@ wait(S){
 * N Process Solution
 * Consists of a single Variable that manages the waiting or access to the critical section
 
-Initialized with 1 or N which allows the count of processes that can access the critical section
+Initialised with 1 or N which allows the count of processes that can access the critical section
 
 Consists of Wait Function which makes the process wait according to the value of S
 
@@ -341,7 +342,7 @@ Upon Exiting the value of S is incremented
 ###### Mutex
 
 > Mutual Exclusion Variable
-> 
+>
 > The semaphore variable that can be owned by one process at a time
 
 ###### Applications

@@ -2,8 +2,9 @@
 title: Binary Search
 date: 2023-12-23T12:23:47Z
 lastmod: 2023-12-23T12:32:27Z
-publish: true
 ---
+
+# Binary Search
 
 # Inputs
 
@@ -58,4 +59,4 @@ $log_2(n)$
 
 $O(log_2(n))$
 
-
+---

@@ -2,8 +2,9 @@
 title: Indexing Techniques
 date: 2023-10-19T14:55:40Z
 lastmod: 2023-12-25T21:19:58Z
-publish: true
 ---
+
+# Indexing Techniques
 
 # Need for Indexing
 
@@ -34,7 +35,7 @@ It is not always that indexing will save us cost, it might overshoot our cost in
     * A scenario could be when only count is required thus accessing table is not required
 * Qualifying rows should be less than the total number of blocks in the table
 
-> [!info] We can utilise indexing techniques in a number of ways
+# We can utilise indexing techniques in a number of ways
 
 # Criteria for Indexing
 
@@ -61,7 +62,7 @@ Where `n`​ is the number of nodes until the required index value, total height
 # Hash Indexing
 
 > Index entry in the index table is located by hashing index value
-> 
+>
 > Index entry contains `Row ID`​ values for each row corresponding to the index value
 
 * Row IDs kept in sorted order to facilitate maximum I/O performance
@@ -69,19 +70,19 @@ Where `n`​ is the number of nodes until the required index value, total height
 ### Build Input
 
 > Table that is used in hash table construction
-> 
+>
 > It could be the table that is able to fit into the memory
 
 ### Probe Input
 
 > Table that is used to search into the hash table
-> 
+>
 > We will take the input into our Hash function from this table and reach the corresponding index in the build input
 
 # Clustered Indexing
 
 > A clustered index is as same as a dictionary where the data is arranged in alphabetical order
-> 
+>
 > There is a consecutive appearance of rows according to the indexed criteria
 
 Clustered Indexes are also called Primary Indexes in some DBMSs however, if the column / file is ordered but that column is not a unique key then that column can be a suitable candidate for forming a clustered index.
@@ -119,7 +120,7 @@ Single I/O operation for accessing a data row via NUPI whenever all rows with th
 
 # Non-Clustered Indexes
 
-​![CleanShot 2023-10-27 at 18.13.17@2x](../_old-attachments/clustered-vs-non-clustered-indexing.png)​
+​![CleanShot 2023-10-27 at 18.13.17@2x](assets/CleanShot%202023-10-27%20at%2018.13.17@2x-20231027181329-q46w1bf.png)​
 
 > There is no consecutive appearance of rows according to the indexed criteria
 
@@ -237,7 +238,7 @@ i.e. Count of Rows etc.
 ## Partial Indexes
 
 > We will only apply indexing on a special segment of the records in the table
-> 
+>
 > The criteria for this special segment could be the according to the frequency of access etc.
 
 Also known as the 80/20 Rule -- ==Pareto Principle==

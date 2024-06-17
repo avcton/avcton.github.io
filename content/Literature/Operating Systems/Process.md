@@ -2,22 +2,23 @@
 title: Process
 date: 2023-09-11T17:31:34Z
 lastmod: 2023-12-30T21:37:52Z
-publish: true
 ---
 
-> Program in Execution>
-> A process must have a [PCB](PCB.md)
+# Process
 
-> [!abstract]
-> A process is the unit of work in most systems. Such a system consists of a collection of processes: operating system processes execute system code and user processes execute user code. All these processes may execute concurrently.
+> Program in Execution
+>
+> A process has a PCB
+
+[A process is the unit of work in most systems. Such a system consists of a collectionof processes: operating system processes execute system code and user processes executeuser code. All these processes may execute concurrently.](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf?p=28)
 
 # State
 
-The state of a process is defined in part by the current activity of that process.
+[The state of a process is defined in part by the current activity of that process.](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf?p=145)
 
 # Jobs or Process?
 
-Although we personally prefer the more contemporary term process, the term job has historical significance, as much of operating system theory and terminology was developed during a time when the major activity of operating systems was job processing. Therefore, in some appropriate instances we use job when describing the role of the operating system. As an example, it would be misleading to avoid the use of commonly accepted terms that include the word job (such as job scheduling) simply because process has superseded job
+[Although we personally prefer the more contemporary term process, the term job has historical significance, as much of operating system theory and terminology was developed during a time when the major activity of operating systems was job processing. Therefore, in some appropriate instances we use job when describing the role of the operating system. As an example, it would be misleading to avoid the use of commonly accepted terms that include the word job (such as job scheduling) simply because process has superseded job.](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf?p=144)
 
 # Process or Program
 
@@ -43,13 +44,15 @@ Although we personally prefer the more contemporary term process, the term job h
 
 > The process table is an array of PCB’s, that means logically contains a PCB for all of the current processes in the system
 
-[](https://eng.libretexts.org/Courses/Delta_College/Operating_System%3A_The_Basics/03%3A__Processes_Concepts/3.4%3A_Process_Control#:~:text=A%20process%20control%20block%20(PCB,current%20processes%20in%20the%20system.)
+[Process Control Block Vs Process Table](https://eng.libretexts.org/Courses/Delta_College/Operating_System%3A_The_Basics/03%3A__Processes_Concepts/3.4%3A_Process_Control#:~:text=A%20process%20control%20block%20(PCB,current%20processes%20in%20the%20system.)
 
 # Types
 
 ## Zombie Process
 
-> A process that has completed its execution but still has an entry in the process table, waiting for its parent process to read its exit status
+A process that has completed its execution but still has an entry in the process table, waiting for its parent process to read its exit status
+
+<iframe src="/widgets/widget-excalidraw" data-src="/widgets/widget-excalidraw" data-subtype="widget" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 588px; height: 383px;"></iframe>
 
 **What about the resources consumed by the Zombie Process?** 
 
@@ -57,7 +60,7 @@ Until the zombie process is reaped by the parent, it consumes only a small amoun
 
 ## Orphan Process
 
-> if a parent did not invoke wait() and instead terminated, thereby leaving its child processes as orphans
+[if a parent did not invoke wait() and instead terminated, thereby leaving its child processes as orphans.](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf?p=160)
 
 **What about the orphan process whose Parents are terminated?** 
 
@@ -65,7 +68,10 @@ The init process, usually identified as process ID 1, is the ancestor of all oth
 
 # Process Models
 
-- [5 State Process Model](5%20State%20Process%20Model.md)
-- [7 State Process Model](7%20State%20Process%20Model.md)
+## 5 State Process Model
 
-Look more in [Synchronization](Synchronization.md)
+## 7 State Process Model
+
+# Process Synchronisation
+
+---

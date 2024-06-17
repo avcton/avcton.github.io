@@ -2,12 +2,15 @@
 title: Threads
 date: 2023-10-03T08:42:08Z
 lastmod: 2023-12-31T15:43:51Z
-publish: true
 ---
 
+# Threads
+
 > A single process can have multiple code segments which are called ==threads== that run concurrently within the context of that process.
+>
 > Multiple tasks within a process can be implemented by separate threads
-> Processes that utilize threads are called Multithreaded Processes
+>
+> Processes that utilise threads are called Multithreaded Processes
 
 * Every thread belongs to a Process
 * A process initially has only one thread called the main thread
@@ -34,14 +37,14 @@ Each Thread Holds its Unique:
 # TCB
 
 > Thread Control Block
-> 
+>
 > Stores the data related to each thread
-> 
+>
 > Stored within the program's memory
 
 # Types
 
-​![CleanShot 2023-10-08 at 13.44.39@2x](../_old-attachments/Threads-3.png)​
+​![CleanShot 2023-10-08 at 13.44.39@2x](assets/CleanShot%202023-10-08%20at%2013.44.39@2x-20231008134457-x1j3kzq.png)​
 
 ## User Threads
 
@@ -62,7 +65,7 @@ Virtually all general purpose operating systems have these
 # Correlation with State Process Model
 
 > If one of the thread of a process requires an I/O operation, according to the Process Model used in the CPU, that entire process needs to be blocked and hence all of its other threads will also be blocked
-> 
+>
 > If a process or even if one of its thread requires an I/O operation, the whole process is blocked
 
 Threads share data and thus to control synchronisation, all other threads should be blocked when even one of the thread is communicating with I/O
@@ -98,11 +101,11 @@ return 0 = Successful Creation
 
 Consider we have the following function:
 
-​![image](../_old-attachments/Threads.png)​
+​![image](assets/image-20231003094248-3osi25r.png)​
 
 Following is the main function / process:
 
-​![image](../_old-attachments/Threads-4.png)​
+​![image](assets/image-20231003094318-g1a1nij.png)​
 
 # Multithreading
 
@@ -112,6 +115,8 @@ Multithreading allows the application to divide its task into individual threads
 
 In an [operating system](https://www.javatpoint.com/os-tutorial), threads are divided into the user-level thread and the Kernel-level thread. User-level threads handled independent form above the kernel and thereby managed without any kernel support. On the opposite hand, the operating system directly manages the kernel-level threads. Nevertheless, there must be a form of relationship between user-level and kernel-level threads.
 
+# Threads Synchronisation
+
 ---
 
 # Misc
@@ -120,7 +125,7 @@ In an [operating system](https://www.javatpoint.com/os-tutorial), threads are di
 
 The `fork()`​ system call creates a new process by duplicating the calling process. However, when called within a multithreaded program, the behaviour can be complex and platform-dependent. In general, ==the new process will have a single thread, a copy of the calling thread, and any other threads in the calling process are not duplicated==. The child process will start its execution from the point of the `fork()`​ call.
 
-If we call fork(2) in a multi-threaded environment the thread doing the call is now the main-thread in the new process and all the other threads, which ran in the parent process, are dead. And everything they did was left exactly as it was just before the call to fork(2).
+[If we call fork(2) in a multi-threaded environment the thread doing the call is now the main-thread in the new process and all the other threads, which ran in the parent process, are dead. And everything they did was left exactly as it was just before the call to fork(2).](https://thorstenball.com/blog/2014/10/13/why-threads-cant-fork/#:~:text=If%20we%20call%20fork(2)%20in%20a%20multi%2Dthreaded%20environment%20the%20thread%20doing%20the%20call%20is%20now%20the%20main%2Dthread%20in%20the%20new%20process%20and%20all%20the%20other%20threads%2C%20which%20ran%20in%20the%20parent%20process%2C%20are%20dead.%20And%20everything%20they%20did%20was%20left%20exactly%20as%20it%20was%20just%20before%20the%20call%20to%20fork(2).)
 
 ### Example
 

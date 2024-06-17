@@ -2,10 +2,12 @@
 title: 5 State Process Model
 date: 2023-09-11T17:31:00Z
 lastmod: 2023-12-30T22:24:32Z
-publish: true
 ---
 
-​![5 State Process Model](../_old-attachments/5%20State%20Process%20Model.png)​
+# 5 State Process Model
+
+[The 5 State Process Model](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf?p=147)  
+​![](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P147-20230917192548-20230917192548-97ae1i3.png)​
 
 ## New State
 
@@ -65,3 +67,4 @@ On the completion of that specific I/O operation, the state of the process is tr
 
 * If a process is completed entirely then it is put here
 
+---

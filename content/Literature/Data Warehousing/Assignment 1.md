@@ -1,9 +1,10 @@
 ---
 title: Assignment 1
 date: 2023-09-11T17:57:38Z
-lastmod: 2023-09-11T18:02:35Z
-publish: true
+lastmod: 2024-06-17T17:51:49Z
 ---
+
+# Assignment 1
 
 # Question 1
 
@@ -27,4 +28,6 @@ One interesting aspect is the impact of change in operational data flow while de
 
 **Do they provide any insights about how a failure might be avoided?**
 
-Yes. A number of insights to avoid failure are provided and can be also be deduced from the cases. Firstly, strong management support should be ensured right from the beginning of a project. Clear sponsorship and involvement from top-level management can help shape the direction of the project. Secondly, selecting a proven technology is recommended. Widely accepted technology can be reliable and also fit the requirements and capabilities of the organization. Thirdly, managing expectations and requirements of the stakeholders can help avoid disappointments from the project. Lastly, proper budgeting and resource planning can also help project future directions and contribute to the success of the project.
+Yes. A number of insights to avoid failure are provided and can be also be deduced from the cases. Firstly, strong management support should be ensured right from the beginning of a project. Clear sponsorship and involvement from top-level management can help shape the direction of the project. Secondly, selecting a proven technology is recommended. Widely accepted technology can be reliable and also fit the requirements and capabilities of the organisation. Thirdly, managing expectations and requirements of the stakeholders can help avoid disappointments from the project. Lastly, proper budgeting and resource planning can also help project future directions and contribute to the success of the project.
+
+---

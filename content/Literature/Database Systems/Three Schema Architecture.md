@@ -2,8 +2,9 @@
 title: Three Schema Architecture
 date: 2023-10-14T16:28:54Z
 lastmod: 2023-10-14T16:28:54Z
-publish: true
 ---
+
+# Three Schema Architecture
 
 1. Internal Scheme - Internal Level
    1. Describes physical storage structure
@@ -15,4 +16,6 @@ publish: true
    1. Describes various user views
    2. Usually uses the same model as conceptual schema
 
-Mapping among schemas are needed to process requests
+- Mapping among schemas are needed to process requests.
+
+---

@@ -2,8 +2,9 @@
 title: Data Modelling
 date: 2023-09-11T17:56:04Z
 lastmod: 2023-12-25T13:13:27Z
-publish: true
 ---
+
+# Data Modelling
 
 > A process used to define and organise data in a systematic way. It involves creating abstract representations of the structure and relationships within a database or information system.
 
@@ -17,7 +18,7 @@ Logical database design, which focuses on defining the ==structure of the databa
 # Emerging Functions in SQL
 
 > Emerging Functions allows us to use 1 Query to get the results of 3 Queries Combined
-> 
+>
 > Thus it allows us to read the Base Table only once
 
 * Aggregation is done in Parallel

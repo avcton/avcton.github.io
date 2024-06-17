@@ -2,7 +2,10 @@
 title: Relation Decomposition
 date: 2023-10-14T16:28:56Z
 lastmod: 2024-01-09T17:41:01Z
-publish: true
+---
+
+# Relation Decomposition
+
 ---
 
 # Lossless Decomposition
@@ -59,3 +62,4 @@ Thus, the join on these relations on `EMP_ID` will generate the same relation as
 
 > For example, suppose there is a relation R (A, B, C, D) with functional dependency set (A->BC). The relational R is decomposed into R1(ABC) and R2(AD) which is dependency preserving because FD A->BC is a part of relation R1(ABC).
 
+---

@@ -2,8 +2,9 @@
 title: OLTP
 date: 2023-09-11T17:57:50Z
 lastmod: 2023-10-12T15:29:04Z
-publish: true
 ---
+
+# OLTP
 
 > Online Transaction Processing Systems  
 > Operational Systems
@@ -12,7 +13,7 @@ publish: true
 
 # OLTP VS Decision Support Systems (DSS)
 
-​![CleanShot 2023-10-20 at 18.25.02@2x](../_old-attachments/dss-vs-oltp.png)​
+​![CleanShot 2023-10-20 at 18.25.02@2x](assets/CleanShot%202023-10-20%20at%2018.25.02@2x-20231020182641-0tkamg1.png)​
 
 ==OLTP Databases use a Paged Based File System while on the other hand various DSS systems use a Hash Based File System==
 
@@ -27,3 +28,4 @@ Also the resource allocated to that system might not be sufficient and may bottl
 
 They have a relatively small result set for queries
 
+---
