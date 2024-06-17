@@ -8,8 +8,6 @@ lastmod: 2023-12-30T22:27:04Z
 
 5 State Process Model transformation because of Medium Term Swapper
 
-<iframe src="/widgets/widget-excalidraw" data-src="/widgets/widget-excalidraw" data-subtype="widget" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 756px; height: 444px;"></iframe>
-
 ​![image](assets/image-20230918205946-pivhqms.png)​
 
 ## New State

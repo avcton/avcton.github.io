@@ -44,15 +44,13 @@ lastmod: 2023-12-30T21:37:52Z
 
 > The process table is an array of PCB’s, that means logically contains a PCB for all of the current processes in the system
 
-[Process Control Block Vs Process Table](https://eng.libretexts.org/Courses/Delta_College/Operating_System%3A_The_Basics/03%3A__Processes_Concepts/3.4%3A_Process_Control#:~:text=A%20process%20control%20block%20(PCB,current%20processes%20in%20the%20system.)
+[Process Control Block Vs Process Table](<https://eng.libretexts.org/Courses/Delta_College/Operating_System%3A_The_Basics/03%3A__Processes_Concepts/3.4%3A_Process_Control#:~:text=A%20process%20control%20block%20(PCB,current%20processes%20in%20the%20system.>)
 
 # Types
 
 ## Zombie Process
 
 A process that has completed its execution but still has an entry in the process table, waiting for its parent process to read its exit status
-
-<iframe src="/widgets/widget-excalidraw" data-src="/widgets/widget-excalidraw" data-subtype="widget" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 588px; height: 383px;"></iframe>
 
 **What about the resources consumed by the Zombie Process?** 
 
