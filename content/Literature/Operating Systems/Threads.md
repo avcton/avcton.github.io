@@ -115,13 +115,14 @@ Multithreading allows the application to divide its task into individual threads
 
 In an [operating system](https://www.javatpoint.com/os-tutorial), threads are divided into the user-level thread and the Kernel-level thread. User-level threads handled independent form above the kernel and thereby managed without any kernel support. On the opposite hand, the operating system directly manages the kernel-level threads. Nevertheless, there must be a form of relationship between user-level and kernel-level threads.
 
-# Threads Synchronisation
+> [!tip]
+> Also look into **thread synchronisation**.
 
 ---
 
 # Misc
 
-## **What happens when you call a **​**​`fork()`​** ​ ** in a thread?**
+## What happens when you call a ​`fork()` in a thread?
 
 The `fork()`​ system call creates a new process by duplicating the calling process. However, when called within a multithreaded program, the behaviour can be complex and platform-dependent. In general, ==the new process will have a single thread, a copy of the calling thread, and any other threads in the calling process are not duplicated==. The child process will start its execution from the point of the `fork()`​ call.
 
@@ -149,18 +150,18 @@ printf("Hello!");
 
 If the thread has done some execution while the process was active then that will count however, as soon as the parent process terminates, ==all of its threads are discarded==.
 
-## **What happens when a thread calls an **​**​`exit()`​** ​​ ** function?**
+## What happens when a thread calls an ​​`exit()` function?
 
 When a thread calls the `exit()`​ function, it ==terminates not only the calling thread but also the entire process==. The `exit()`​ function is typically used to gracefully terminate the program, and it causes the termination of all threads within the process.
 
-## **Can a function that is a part of the program be called from a thread?**
+## Can a function that is a part of the program be called from a thread?
 
 Yes, a function that is part of the program can be called from a thread. Threads in a program share the same address space, and they ==can execute any function or code that is accessible== within that address space. However, caution is needed to ensure proper synchronisation mechanisms (e.g., mutexes) are in place to avoid data corruption in a multi-threaded environment.
 
-## **What happens when you call **​**​`pthread_exit()`​** ​​ ** in the main thread?**
+## What happens when you call ​`pthread_exit()`​ in the main thread?
 
 If `pthread_exit()`​ is called in the main thread, ==it will terminate just the main thread, not the entire process. Other threads, if any, will continue to execute==. It's a way to exit the main thread while leaving other threads running. The resources associated with the main thread will be released once it exits.
 
-## **Why do we fork when we can use threads?**
+## Why do we fork when we can use threads?
 
 Forking and using threads serve different purposes. Forking creates a new process, which is useful for parallelism and creating independent processes. Each process has its own address space and runs independently of the others. On the other hand, threads share the same address space, making them suitable for tasks that can benefit from shared data and communication between threads. The choice between forking and using threads depends on the specific requirements of the task and the desired concurrency model. In some cases, a combination of both processes and threads might be appropriate.

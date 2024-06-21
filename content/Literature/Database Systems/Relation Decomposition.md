@@ -6,8 +6,6 @@ lastmod: 2024-01-09T17:41:01Z
 
 # Relation Decomposition
 
----
-
 # Lossless Decomposition
 
 > If the information is not lost from the relation that is decomposed, then the decomposition will be lossless.

@@ -20,12 +20,12 @@ lastmod: 2024-01-07T18:10:39Z
 
 Consider two processes that require Printer and Scanner but interchangeably. P1 requires printer first and then scanner while P2 requires scanner first and then printer.
 
-At time **T1: ** P1 will acquire Printer and P2 will acquire Scanner  
+At time **T1:** P1 will acquire Printer and P2 will acquire Scanner  
 Both of them will then further wait for their respective resource to be free and stuck in a deadlock
 
 # Condition for Deadlock
 
-## ((20231012084432-isl2itg "Mutual Exclusion"))
+## Mutual Exclusion
 
 Only one process can use the resource at a single time unit
 
@@ -41,7 +41,7 @@ A resource can be released only voluntarily by the thread holding it, after that
 
 There exists a set {T0, T1, ..., Tn} of waiting threads such that TO is waiting for a resource that is held by T1, T1 is waiting for a resource that is held by T2, ..., Tn-1 is waiting for a resource that is held by Tn, and Tn is waiting for a resource that is held by T0.
 
-We can break this condition to overcome the deadlock in ((20231026093032-1ldaqb6 'Dining Philosopher Problem'))
+We can break this condition to overcome the deadlock in Dining Philosopher Problem
 
 # Resource Allocation Graph
 

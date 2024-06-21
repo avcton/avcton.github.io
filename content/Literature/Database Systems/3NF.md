@@ -6,8 +6,6 @@ lastmod: 2023-10-14T16:29:02Z
 
 # 3NF
 
-#3nf#
-
 ## Conditions
 
 > - Relations has to be in 2NF

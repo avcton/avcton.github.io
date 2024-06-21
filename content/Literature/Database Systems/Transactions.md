@@ -1,12 +1,10 @@
 ---
 title: Transactions
 date: 2023-10-14T16:28:45Z
-lastmod: 2024-06-17T18:11:15+05:00
+lastmod: 2024-06-21T20:55:19+05:00
 ---
 
 # Transactions
-
----
 
 > Sequence of steps
 > Batches of statements interacting with the database

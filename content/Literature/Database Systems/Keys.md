@@ -30,7 +30,6 @@ lastmod: 2024-01-09T17:47:15Z
 * Super key whose proper subset is not a super key.
 * It is a minimal super key.
 * Attributes that can be used as primary key.
-* ![[30 Jan, 2023 2023-01-30.excalidraw| 600]]
 
 ### Secondary Key
 
@@ -45,7 +44,7 @@ lastmod: 2024-01-09T17:47:15Z
 
 * Fields that dictate the sequence of the record.
 
-|Sr ##|Name|
+|Sr #|Name|
 | -------| --------|
 |1|Ahmad|
 |2|Ali|
