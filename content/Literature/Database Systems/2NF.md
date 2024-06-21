@@ -6,10 +6,6 @@ lastmod: 2023-12-25T13:57:58Z
 
 # 2NF
 
----
-
-#2nf#
-
 ## Conditions
 
 > - Relations has to be in 1st Normal Form

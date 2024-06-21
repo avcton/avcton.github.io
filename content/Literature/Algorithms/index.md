@@ -1,6 +1,7 @@
 ---
 title: Algorithms
 date: 2023-09-11T17:17:26Z
+description: Algorithms Material for 5th Semester of my Data Science Degree
 lastmod: 2024-06-17T15:49:50Z
 tags: [course]
 ---

@@ -1,6 +1,7 @@
 ---
 title: Operating Systems
 date: 2023-09-11T17:31:51Z
+description: Operating Systems Material for 5th Semester of my Data Science Degree
 lastmod: 2024-06-15T22:24:12Z
 tags: [course]
 ---

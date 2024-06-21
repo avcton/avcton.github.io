@@ -1,6 +1,7 @@
 ---
 title: Data Warehousing
 date: 2023-09-11T17:57:56Z
+description: Warehousing for 5th Semester of my Data Science Degree
 lastmod: 2024-01-08T23:28:20Z
 tags: [course]
 ---

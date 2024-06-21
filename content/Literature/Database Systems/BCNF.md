@@ -1,14 +1,10 @@
 ---
 title: BCNF
 date: 2023-10-14T16:28:58Z
-lastmod: 2024-06-17T18:11:15+05:00
+lastmod: 2024-06-21T20:55:19+05:00
 ---
 
 # BCNF
-
----
-
-#bcnf#
 
 > Boyce Cod Normal Form also known as 3 1/2 form
 > BCNF says that redundancy can exists even if there are no transitive dependencies

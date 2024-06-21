@@ -1,6 +1,7 @@
 ---
 title: Data Mining
 date: 2024-01-24T13:29:03Z
+description: Data Mining Material for 6th Semester of my Data Science Degree
 lastmod: 2024-06-21T15:16:46Z
 tags: [course]
 ---

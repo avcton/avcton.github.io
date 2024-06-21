@@ -6,8 +6,6 @@ lastmod: 2023-10-14T16:29:20Z
 
 # Normal Forms
 
----
-
 |Normal Form|Definition|Dependency Rule|
 | -------------| :------------------------------------------------------------------------------------------------------------------------------------------------------| :---------------------------------------------------------------------------------------------------|
 |1NF|A relation is in 1NF if all the attribute values are atomic and each column contains only one value per record.|All attribute values must be atomic (indivisible) and there must be no repeating groups.|

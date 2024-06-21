@@ -1,6 +1,7 @@
 ---
 title: NLP
 date: 2024-01-23T22:31:09Z
+description: Natural Language Processing Material for 6th Semester of my Data Science Degree
 lastmod: 2024-06-17T18:17:46Z
 tags: [course]
 ---
