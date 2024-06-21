@@ -12,7 +12,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: 'umami', host: 'https://cloud.umami.is', websiteId: '7006c287-bc68-4ba8-b273-47d8ff091542'
     },
     locale: "en-US",
     baseUrl: "avcton.github.io",
@@ -69,8 +69,8 @@ const config: QuartzConfig = {
       Plugin.ConvertQueryParamToAnchor(),
       // Transform Headings to Lower Levels so only Title stays H1
       Plugin.TransformHeadings(),
-      // Remove the divider at the end if it occurs in the document
-      Plugin.RemoveLastDivider(),
+      // Remove the divider at the end, extra spaces and empty paras if they occur in the document
+      Plugin.ReformatEndPart(),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown({linkHeadings: true}),
       // Plugin.HardLineBreaks(),

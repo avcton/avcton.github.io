@@ -25,8 +25,10 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
   function ContentMetadata({ cfg, fileData, displayClass }: QuartzComponentProps) {
     const text = fileData.text
-
-    if (text && fileData.slug != "index") {
+    const isIndexPage = fileData.slug === 'index'
+    const isParentPage = fileData.slug?.endsWith('index')
+    
+    if (text && !isIndexPage) {
       const segments: (string | JSX.Element)[] = []
 
       if (fileData.dates) {
@@ -34,7 +36,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
       }
 
       // Display reading time if enabled
-      if (options.showReadingTime) {
+      if (options.showReadingTime && !isParentPage) {
         const { minutes, words: _words } = readingTime(text)
         const displayedTime = i18n(cfg.locale).components.contentMeta.readingTime({
           minutes: Math.ceil(minutes),
