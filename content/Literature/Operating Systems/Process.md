@@ -66,10 +66,10 @@ The init process, usually identified as process ID 1, is the ancestor of all oth
 
 # Process Models
 
-## 5 State Process Model
+## [5 State Process Model](5%20State%20Process%20Model.md)
 
-## 7 State Process Model
+## [7 State Process Model](7%20State%20Process%20Model.md)
 
-# Process Synchronisation
+# [Process Synchronisation](Synchronisation.md)
 
 ---
