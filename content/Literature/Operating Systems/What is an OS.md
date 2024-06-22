@@ -6,8 +6,6 @@ lastmod: 2024-06-14T20:04:15Z
 
 # What is an OS?
 
-# What is OS?
-
 > An intermediary layer between user and computer hardware
 > Provides abstraction for user to communicate with hardware
 > Serves as a Resource Allocator
@@ -58,4 +56,4 @@ IO Devices, timers, disks, memories, network interfaces, printers etc.
 
 ---
 
-### See Also : Timeline of the Computer Systems
+### See Also : [Timeline of the Computer Systems](Timeline%20of%20the%20Computer%20Systems.md)
