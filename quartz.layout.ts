@@ -26,7 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({folderClickBehavior: 'link'})),
-    Component.DesktopOnly(Component.RecentNotes({title: 'Recent Note', limit: 1}))
+    Component.DesktopOnly(Component.RecentNotes({title: 'Recent Note', limit: 1})),
   ],
   right: [
     Component.Graph(),

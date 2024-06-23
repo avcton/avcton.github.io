@@ -14,7 +14,11 @@ export default ((opts?: Options) => {
   const Footer: QuartzComponent = ({ fileData, displayClass, cfg }: QuartzComponentProps) => {
     const year = new Date().getFullYear()
     const links = opts?.links ?? []
-    const shouldNotDisplayComments = fileData.slug?.endsWith('index') || fileData.slug?.endsWith('404')
+    console.log(fileData.slug!)
+    const shouldNotDisplayComments = 
+    fileData.slug?.endsWith('index') // any index page - root + folder
+    || fileData.slug?.endsWith('404') // the 404 page
+    || fileData.slug?.startsWith('tags') // any tag page
     return (
       <footer class={`${displayClass ?? ""}`}>
         <hr />
