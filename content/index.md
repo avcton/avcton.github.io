@@ -4,7 +4,7 @@ description: Explore me and my craft
 ---
 <div class="intro-container">
 
-<img class="intro-pfp" src="_assets/me.png" alt="me">
+<img class="intro-pfp" src="_assets/me.jpeg" alt="me">
 <div class="intro-text">
 <strong class="name">Muhammad Ahmad</strong>
 <strong class="headline">Data Scientist | Full Stack Developer</strong>

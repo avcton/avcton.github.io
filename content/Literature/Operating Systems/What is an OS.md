@@ -54,6 +54,4 @@ IO Devices, timers, disks, memories, network interfaces, printers etc.
 
 > A frequency of 2.3 GHz can about perform 2.3 Giga Oscillations
 
----
-
-### See Also : [Timeline of the Computer Systems](Timeline%20of%20the%20Computer%20Systems.md)
+## See Also : [Timeline of the Computer Systems](Timeline%20of%20the%20Computer%20Systems.md)
