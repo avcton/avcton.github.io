@@ -46,6 +46,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.DesktopOnly(Component.Explorer({folderClickBehavior: 'link'})),
   ],
   right: [
-    Component.DesktopOnly(Component.RecentNotes({limit: 2}))
+    Component.DesktopOnly(Component.RecentNotes({limit: 5}))
   ],
 }
