@@ -7,7 +7,7 @@ description: Explore me and my craft
 <img class="intro-pfp" src="_assets/me.jpeg" alt="me">
 <div class="intro-text">
 <strong class="name">Muhammad Ahmad</strong>
-<strong class="headline">Data Scientist | Full Stack Developer</strong>
+<strong class="headline">FAST '25 | Data Scientist | Full Stack Developer | ML Engineer</strong>
 
 <div class="icons-container">
 	<a  href="https://drive.google.com/file/d/1H6II8UVCMrwBevq_5HlwrOQ5G2fvZCHw/view?usp=sharing" class="icon-text" target="_blank">

@@ -52,8 +52,6 @@ We use Hardware Based Solutions to avoid Critical Section Problems
 
 The Fixed Sizes when allocated lesser sized processes, have some space left which might be too small to be used by any other upcoming process
 
-‍
-
 **Solutions**
 
 ##### Non-Continuous Memory Allocation
@@ -65,8 +63,6 @@ The Fixed Sizes when allocated lesser sized processes, have some space left whic
 ### External Fragmentation
 
 The size of the partitions might break down too small for larger upcoming programs to fit in
-
-‍
 
 **Solutions**
 
