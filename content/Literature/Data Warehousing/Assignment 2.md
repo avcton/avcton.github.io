@@ -2,6 +2,7 @@
 title: Assignment 2
 date: 2023-09-21T14:51:00Z
 lastmod: 2024-06-17T17:52:06Z
+draft: true
 ---
 
 # Assignment 2
