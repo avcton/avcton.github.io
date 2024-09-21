@@ -1,6 +1,6 @@
 ---
 title: Logical Data Modeling
-date: 2023-12-25T13:20:30Z
+date: 2023-09-12T17:56:45Z
 lastmod: 2023-12-25T15:51:15Z
 ---
 
