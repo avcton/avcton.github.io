@@ -5,11 +5,24 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: "giscus",
+      options: {
+        repo: "avcton/avcton.github.io",
+        repoId: "R_kgDOME1DnA",
+        category: "Site Comments",
+        categoryId: "DIC_kwDOME1DnM4CgHjp",
+        mapping: "pathname",
+        themeUrl: "themes",
+        inputPosition: "top",
+        reactionsEnabled: true,
+      },
+    }),
+  ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      // Linkedin: "https://www.linkedin.com/in/avcton/",
     },
   }),
 }
@@ -17,17 +30,18 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs(),
+    Component.Breadcrumbs({ hideOnRoot: true }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
+    Component.PageLogo(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({ folderClickBehavior: "link" })),
+    Component.DesktopOnly(Component.RecentNotes({ title: "Recent Note", limit: 1 })),
   ],
   right: [
     Component.Graph(),
@@ -40,11 +54,12 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
-    Component.PageTitle(),
+    Component.PageLogo(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(Component.Explorer({ folderClickBehavior: "link" })),
+    Component.DesktopOnly(Component.RecentNotes({ title: "Recent Note", limit: 1 })),
   ],
   right: [],
 }

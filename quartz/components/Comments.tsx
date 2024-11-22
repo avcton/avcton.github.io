@@ -28,7 +28,11 @@ export default ((opts: Options) => {
   const Comments: QuartzComponent = ({ displayClass, fileData, cfg }: QuartzComponentProps) => {
     // check if comments should be displayed according to frontmatter
     const disableComment: boolean =
-      !fileData.frontmatter?.comments || fileData.frontmatter?.comments === "false"
+      fileData.frontmatter?.comments === "false" ||
+      fileData.slug!.endsWith("index") || // any index page - root + folder
+      fileData.slug!.endsWith("404") || // the 404 page
+      fileData.slug!.startsWith("tags") // any tag page
+
     if (disableComment) {
       return <></>
     }
