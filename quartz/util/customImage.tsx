@@ -117,7 +117,7 @@ export const customImage: SocialImageOptions["imageStructure"] = (
             WebkitLineClamp: 7,
             WebkitBoxOrient: "vertical",
             lineClamp: 7,
-            fontWeight: 700,
+            fontWeight: "bold",
             fontFamily: fonts[1].name,
           }}
         >
