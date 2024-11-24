@@ -46,7 +46,7 @@ export const customImage: SocialImageOptions["imageStructure"] = (
           left: 0,
           right: 0,
           bottom: 0,
-          background: "radial-gradient(circle at center, transparent, rgba(0, 0, 0, 0.4) 0%)", // Can change percentage to change the darkness
+          background: "radial-gradient(circle at center, transparent, rgba(0, 0, 0, 0.55) 0%)", // Can change percentage to change the circle size
         }}
       />
       <div
