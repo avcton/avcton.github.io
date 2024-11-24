@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import customImage from "./quartz/util/customImage"
 
 /**
  * Quartz 4.0 Configuration
@@ -13,14 +14,18 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: 'umami', host: 'https://cloud.umami.is',
-      websiteId: '7006c287-bc68-4ba8-b273-47d8ff091542'
+      provider: "umami",
+      host: "https://cloud.umami.is",
+      websiteId: "7006c287-bc68-4ba8-b273-47d8ff091542",
     },
     locale: "en-US",
     baseUrl: "avcton.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
-    generateSocialImages: true,
+    generateSocialImages: {
+      colorScheme: "lightMode",
+      imageStructure: customImage,
+    },
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -69,7 +74,7 @@ const config: QuartzConfig = {
         keepBackground: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
-      Plugin.GitHubFlavoredMarkdown({linkHeadings: true}),
+      Plugin.GitHubFlavoredMarkdown({ linkHeadings: true }),
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "relative" }),
       Plugin.Description(),
