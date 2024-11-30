@@ -15,9 +15,9 @@ In a monolithic operating system structure, the entire operating system is imple
 
 [Monolithic kernels do have a distinct performance advantage, however: there is very little overhead in the system-call interface, and communication within the kernel is fast.](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=112)
 
-* Entire O.S. is placed in kernel space
-* All O.S. code runs in privileged mode
-* Higher performance but higher risk for system crash
+- Entire O.S. is placed in kernel space
+- All O.S. code runs in privileged mode
+- Higher performance but higher risk for system crash
 
 ## Layered
 
@@ -25,8 +25,6 @@ In a monolithic operating system structure, the entire operating system is imple
 ​![](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P114-20230917183607-20230917183607-zieptfi.png)​
 
 In a layered operating system structure, the operating system is divided into layers, where each layer provides a set of related services. Each layer builds upon the layer below it, and higher layers depend on lower layers for functionality. This structure allows for modular design, separation of concerns, and ease of maintenance. Each layer provides a well-defined interface for the layer above, hiding the implementation details. For example, one layer may handle process management, another layer may handle file systems, and so on. The need for a layered structure arises from the desire for modularity, abstraction, and easier debugging and development of operating systems.
-
-‍
 
 [The monolithic approach is often known as a tightly coupled system because changes to one part of the system can have wide-ranging effects on other parts. Alternatively, we could design a loosely coupled system. Such a system is divided into separate, smaller components that have specific and limited functionality. All these components together comprise the kernel.](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=113)
 
