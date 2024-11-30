@@ -77,6 +77,7 @@ I invite you to browse through my **highlights** and accumulated **miscellaneous
 ### Highlights
 
 - Explore my digital blog and technical views in - [Garden](Garden/index.md)
+- Take a look into my study material in - [Literature](Literature/index.md)
 - Find about my success stories in - [Projects](Projects/index.md)
 - Browse my stacked up material in - [Resources](Resources/index.md)
 
