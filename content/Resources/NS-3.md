@@ -1,3 +1,8 @@
+---
+date: 2024-11-11
+description: A comprehensive guide to installing and running NS-3, a network simulator, using manual methods or Docker containers.
+---
+
 NS-3 is a discrete-event network simulator used for research and education in networking. It is the successor to NS-2, providing a more modular and efficient framework for simulating networks. NS-3 offers better support for wireless networks, IPv6, and improved performance compared to NS-2.
 
 There are two options to install ns-3:

@@ -1,7 +1,7 @@
 ---
 title: Garden
 description: Take a walk through my garden
-date: 2024-06-05 20:34
+date: 2024-06-05
 ---
 
 > [!quote] Take a walk through my garden

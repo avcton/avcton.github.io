@@ -1,6 +1,6 @@
 ---
 title: Muhammad Ahmad
-date: 01-06-2024
+date: 2024-06-05
 description: Explore me and my craft
 ---
 
