@@ -74,12 +74,12 @@ I’m deeply passionate about developing innovative and digital solutions. This 
 
 I invite you to browse through my **highlights** and accumulated **miscellaneous**.
 
-### Highlights
-
-- Explore my digital blog and technical views in - [Garden](Garden/index.md)
-- Take a look into my study material in - [Literature](Literature/index.md)
-- Find about my success stories in - [Projects](Projects/index.md)
-- Browse my stacked up material in - [Resources](Resources/index.md)
+| Section                           | Description                                 |
+| --------------------------------- | ------------------------------------------- |
+| [Garden](Garden/index.md)         | Explore my digital blog and technical views |
+| [Literature](Literature/index.md) | Take a look into my study material          |
+| [Projects](Projects/index.md)     | Find about my success stories               |
+| [Resources](Resources/index.md)   | Browse my stacked up material               |
 
 ### Miscellaneous
 

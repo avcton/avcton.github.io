@@ -75,6 +75,8 @@ AKA High Level Implementation
 
 The process of extracting data into the warehouse from operational systems, also called Acquisition.
 
+For more details, look into [[ETL-Processing]].
+
 #### Things to Consider
 
 * Top-down approach or bottom-up approach?
@@ -91,6 +93,7 @@ The process of extracting data into the warehouse from operational systems, also
 * Every dimension must have levels
   * Levels further have attributes
   * The lowest level is called the *Grain Level*
-* Further done in OLAP
+* Further done in [[OLAP]]
 
-#### A Data warehouse may consist of a Data Mart
+> [!info]
+> A Data warehouse may consist of a [[Data-Mart]]
