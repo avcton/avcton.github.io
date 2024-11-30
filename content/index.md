@@ -1,7 +1,7 @@
 ---
 title: Muhammad Ahmad
+description: Explore me and my craft.
 date: 2024-06-05
-description: Explore me and my craft
 ---
 
 <div class="intro-container">

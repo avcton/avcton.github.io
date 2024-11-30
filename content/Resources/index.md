@@ -1,6 +1,6 @@
 ---
 title: Resources
-description: Browse through my diverse findings
+description: Browse through my diverse findings.
 date: 2024-06-08
 ---
 

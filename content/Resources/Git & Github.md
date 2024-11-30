@@ -1,6 +1,6 @@
 ---
-date: 2024-01-13
 description: Explore setup and integerations of Git and Github.
+date: 2024-01-13
 ---
 
 ## Tutorial / Setting Up

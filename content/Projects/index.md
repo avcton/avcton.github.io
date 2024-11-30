@@ -1,6 +1,6 @@
 ---
 title: Projects
-description: Experience my success stories
+description: Experience my success stories.
 date: 2024-06-06
 ---
 

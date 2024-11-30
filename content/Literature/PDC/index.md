@@ -1,8 +1,7 @@
 ---
 title: PDC
-date: 2024-01-24T21:33:07Z
-description: PDC Material for 6th Semester of my Data Science Degree
-lastmod: 2024-06-22T16:10:53Z
+description: PDC Material for 6th Semester of my Data Science Degree.
+date: 2024-01-24
 tags: [course]
 ---
 

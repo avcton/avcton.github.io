@@ -1,6 +1,6 @@
 ---
 title: Garden
-description: Take a walk through my garden
+description: Take a walk through my garden.
 date: 2024-06-05
 ---
 

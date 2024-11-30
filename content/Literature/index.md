@@ -1,6 +1,6 @@
 ---
 title: Literature
-description: Dive into my intellectual world
+description: Dive into my intellectual world.
 date: 2024-06-05
 ---
 

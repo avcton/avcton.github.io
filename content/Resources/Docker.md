@@ -3,7 +3,7 @@ title: Docker
 date: 2023-09-16
 ---
 
-> Packaging and containerisation of software so that they could run on any hardware
+> Packaging and containerisation of software so that they could run on any hardware.
 
 ## Components
 
