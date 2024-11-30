@@ -6,6 +6,8 @@ lastmod: 2024-06-17T18:17:46Z
 tags: [course]
 ---
 
+`Natural Language Processing`
+
 ## Book
 
 [Speech and Language Processing.pdf](assets/Speech-20231011155605-1ab02xj.pdf)

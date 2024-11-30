@@ -1,5 +1,5 @@
 ---
-title: ETL | ELT Processing
+title: ETL Processing
 date: 2023-10-03T15:11:32Z
 lastmod: 2023-12-27T08:58:40Z
 ---
