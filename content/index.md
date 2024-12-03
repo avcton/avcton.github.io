@@ -9,7 +9,7 @@ date: 2024-06-05
 <img class="intro-pfp" src="pfp.jpeg" alt="me">
 <div class="intro-text">
 <strong class="name">Muhammad Ahmad</strong>
-<strong class="headline">FAST '25 | Data Scientist | Full Stack Developer | ML Engineer</strong>
+<strong class="headline">FAST '25 | Data Scientist | Full Stack Developer | AI Engineer</strong>
 
 <div class="icons-container">
 	<a  href="https://drive.google.com/file/d/1H6II8UVCMrwBevq_5HlwrOQ5G2fvZCHw/view?usp=sharing" class="icon-text" target="_blank">
