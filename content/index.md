@@ -74,7 +74,7 @@ I’m deeply passionate about developing innovative and digital solutions. This 
 
 I invite you to browse through my **highlights** and accumulated **miscellaneous**.
 
-| Section                           | Description                                 |
+| Highlight                         | Description                                 |
 | --------------------------------- | ------------------------------------------- |
 | [Garden](Garden/index.md)         | Explore my digital blog and technical views |
 | [Literature](Literature/index.md) | Take a look into my study material          |
