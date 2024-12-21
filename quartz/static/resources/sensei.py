@@ -15,8 +15,9 @@ def main(snippets, arg=None):
         try:
             choice = int(arg)
             if 1 <= choice <= len(snippets):
-                print(f"\n--- {snippets[choice-1]['title']} ---")
-                print(snippets[choice-1]['code'])
+                snippet = snippets[choice-1]['code']
+                print(f"#--- {snippets[choice-1]['title']} ---#")
+                print(snippet)
             else:
                 print("Invalid choice. Please try again.")
         except ValueError:
@@ -202,113 +203,6 @@ if __name__ == "__main__":
     client_socket.close()
          """
          },
-        {'title': 'UDP Server with Threading',
-         'code':
-         """
-import os
-import re
-import socket
-import threading
-
-PORT = 5695
-thread_lock = threading.Lock()
-database = 'database.txt'
-
-# Create database.txt if it does not exist
-if not os.path.exists(database):
-    print(f"Database Not Found: Creating One.. ")
-    with open(database, 'w') as db_file:
-        db_file.write("")
-
-
-def handle_checkin(sock, decoded_message, client_address):
-    global database
-
-    with thread_lock:
-        with open(database, 'a+') as db_file:
-            db_file.seek(0)
-            records = db_file.readlines()
-            print('Current Records in datbase:\n', records, sep='')
-            for record in records:
-                if decoded_message in record:
-                    response = f"You are already here."
-                    sock.sendto(response.encode('utf-8'), client_address)
-                    return
-
-            db_file.seek(0, 2)
-            db_file.write(f"{decoded_message}\n")
-
-    response = f"Welcome Student {decoded_message}"
-    sock.sendto(response.encode('utf-8'), client_address)
-
-
-def handle_checkout(sock, client_message, client_address):
-    global database
-
-    with thread_lock:
-        with open(database, 'a+') as db_file:
-            db_file.seek(0)
-            records = db_file.readlines()
-            print('Current Records in datbase:\n', records, sep='')
-            for record in records:
-                if client_message in record:
-                    records.remove(record)
-                    db_file.seek(0)
-                    db_file.truncate()
-                    db_file.writelines(records)
-                    response = "GoodBye Student" + ' ' +  \
-                        f"{client_message}! Have a nice day."
-                    sock.sendto(response.encode('utf-8'), client_address)
-                    return
-
-    response = f"You didn't check in today. Contact System Administrator."
-    sock.sendto(response.encode('utf-8'), client_address)
-
-
-def main():
-    # Create a UDP socket
-    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-
-    # Bind the socket to the server address and port
-    server_address = ('127.0.0.1', PORT)
-    sock.bind(server_address)
-
-    print("Socket created and bound")
-    print(f"Server Listening for messages on PORT {PORT}...\n")
-
-    while True:
-        try:
-            client_message, client_address = sock.recvfrom(2000)
-            print(f"Received message from IP: {client_address[0]}",
-                  f"and Port No: {client_address[1]}")
-
-            decoded_message = client_message.decode('utf-8')
-            print(f"Client Message: {decoded_message}")
-
-            if re.match(r'\d{2}-\d{4}-CI', decoded_message.upper()):
-                threading.Thread(target=handle_checkin,
-                                 args=(sock, decoded_message.split('-CI')[0], client_address)).start()
-
-            elif re.match(r'\d{2}-\d{4}-CO', decoded_message.upper()):
-                threading.Thread(target=handle_checkout,
-                                 args=(sock, decoded_message.split('-CO')[0], client_address)).start()
-
-            else:
-                response = "Invalid Check In/OUT format"
-                sock.sendto(response.encode('utf-8'), client_address)
-
-        except Exception as e:
-            print(f"An error occurred: {e}")
-            break
-
-    # Closing the socket
-    sock.close()
-
-
-if __name__ == "__main__":
-    main()
-         """
-         },
         {'title': 'TCP Server with Threading',
          'code':
          """
@@ -386,6 +280,260 @@ if __name__ == '__main__':
 
     finally:
         server_socket.close()
+         """
+         },
+        {'title': 'TCP Weather Server with Threading',
+         'code':
+             """
+import re
+import socket
+import threading
+
+DATABASE = "weather_data.txt"
+PINS = "pin.txt"
+
+thread_lock = threading.Lock()
+weather_data = dict()
+pin_data = dict()
+
+# Reading from location database
+with open(DATABASE, 'r') as database:
+    content = database.readlines()
+    for row in content:
+        re_match = re.match(
+            r'Location: ([a-zA-Z\s]+), Forecast: (.*)', row.strip())
+        location, forecast = re_match.groups()
+        weather_data[location.lower()] = dict(
+            orig_loc=location, forecast=forecast)
+
+# Reading admin pins
+with open(PINS, 'r') as pins:
+    content = pins.readlines()
+    for row in content:
+        re_match = re.match(
+            r'Pin: (\d+), Location: ([a-zA-Z\s]+)', row.strip())
+        pin, location = re_match.groups()
+        pin_data[location.lower()] = pin
+
+
+def forecast_weather(client_socket, location):
+    global weather_data
+    if location in weather_data:
+        try:
+            client_socket.send(weather_data[location]['forecast'].encode())
+            return
+        except socket.error as err:
+            print(
+                'Error sending forecast response to the client:', err)
+
+    # At this point, we could not find the user requested location in database
+    try:
+        client_socket.send(
+            "Could not find the requested location in database. Please verify it.".encode())
+    except socket.error as err:
+        print('Error sending forecast response to the client:', err)
+
+
+def update_weather(client_socket, pin, location, forecast):
+    try:
+        if location not in pin_data or location not in weather_data:
+            response = 'Invalid Location Provided'
+            client_socket.send(response.encode())
+            return
+
+        if pin_data[location] == pin:
+            # Correct Pin for Location
+            with thread_lock:
+                weather_data[location]['forecast'] = forecast
+                with open(DATABASE, 'w') as db:
+                    for data in weather_data.values():
+                        db.write(
+                            f"Location: {data['orig_loc']}, Forecast: {data['forecast']}" + '\\n')
+
+            response = 'Location updated successfully'
+            client_socket.send(response.encode())
+
+        else:
+            response = 'Invalid PIN provided for location'
+            client_socket.send(response.encode())
+    except socket.error as err:
+        print('Error sending response to client', err)
+
+
+def main():
+    # Creating the socket
+    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+    # Binding the socket to IP and port
+    server_address = ('127.0.0.1', 2000)  # Localhost, port 2000
+    try:
+        server_socket.bind(server_address)
+        print("Socket successfully bound to IP and port")
+    except socket.error as err:
+        print(f"Bind failed. Error: {err}")
+        return
+
+    # Putting the socket into listening state
+    server_socket.listen(1)
+    print("Listening for incoming connections...")
+
+    while True:
+        # Accepting a connection
+        client_socket, client_address = server_socket.accept()
+        print(
+            f"Client connected with IP: {client_address[0]} and Port: {client_address[1]}")
+
+        # Receiving the message from the client
+        try:
+            client_message = client_socket.recv(2000).decode('utf-8')
+            print(f"Client Message: {client_message}")
+
+            if 'pin' in client_message.lower():
+                re_match = re.match(
+                    r'[Pp]in: (\d+), [Ll]ocation: ([a-zA-Z\s]+), [Ff]orecast: (.*)', client_message)
+                if re_match:
+                    pin, location, forecast = re_match.groups()
+                    threading.Thread(target=update_weather,
+                                     args=(client_socket, pin, location.lower(), forecast)).start()
+                else:
+                    response = "Invalid Pin Format. Please enter: 'Pin: [YOUR PIN], Location: [LOCATION NAME], Forecast: [UPDATED FORECAST]'"
+                    client_socket.send(response.encode())
+
+            elif 'location' in client_message.lower():
+                requested_location = None
+                re_match = re.match(
+                    r'[Ll]ocation: ([a-zA-Z\s]+)', client_message)
+
+                if re_match:
+                    requested_location = re_match.group(1).lower()
+                    threading.Thread(target=forecast_weather, args=(
+                        client_socket, requested_location)).start()
+
+                else:
+                    response = "Invalid Location Format. Please enter: 'Location: [LOCATION NAME]'"
+                    client_socket.send(response.encode())
+
+            else:
+                response = "Invalid input..\\n If you're an admin use: 'Pin: [YOUR PIN], Location: [LOCATION NAME], Forecast: [UPDATED FORECAST]'\\n If you're a user use: 'Location: [LOCATION NAME]'"
+                client_socket.send(response.encode())
+
+        except socket.error as err:
+            print(f"Receive failed. Error: {err}")
+            client_socket.close()
+            continue
+
+    # Closing the server socket (this won't be reached in an infinite loop, but could be useful in modifications)
+    server_socket.close()
+
+
+if __name__ == "__main__":
+    main()
+             """
+         },
+        {'title': 'UDP Server with Threading',
+         'code':
+         """
+import os
+import re
+import socket
+import threading
+
+PORT = 5695
+thread_lock = threading.Lock()
+database = 'database.txt'
+
+# Create database.txt if it does not exist
+if not os.path.exists(database):
+    print(f"Database Not Found: Creating One.. ")
+    with open(database, 'w') as db_file:
+        db_file.write("")
+
+
+def handle_checkin(sock, decoded_message, client_address):
+    global database
+
+    with thread_lock:
+        with open(database, 'a+') as db_file:
+            db_file.seek(0)
+            records = db_file.readlines()
+            print('Current Records in datbase:\\n', records, sep='')
+            for record in records:
+                if decoded_message in record:
+                    response = f"You are already here."
+                    sock.sendto(response.encode('utf-8'), client_address)
+                    return
+
+            db_file.seek(0, 2)
+            db_file.write(f"{decoded_message}\\n")
+
+    response = f"Welcome Student {decoded_message}"
+    sock.sendto(response.encode('utf-8'), client_address)
+
+
+def handle_checkout(sock, client_message, client_address):
+    global database
+
+    with thread_lock:
+        with open(database, 'a+') as db_file:
+            db_file.seek(0)
+            records = db_file.readlines()
+            print('Current Records in datbase:\\n', records, sep='')
+            for record in records:
+                if client_message in record:
+                    records.remove(record)
+                    db_file.seek(0)
+                    db_file.truncate()
+                    db_file.writelines(records)
+                    response = "GoodBye Student" + ' ' + f"{client_message}! Have a nice day."
+                    sock.sendto(response.encode('utf-8'), client_address)
+                    return
+
+    response = f"You didn't check in today. Contact System Administrator."
+    sock.sendto(response.encode('utf-8'), client_address)
+
+
+def main():
+    # Create a UDP socket
+    sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+
+    # Bind the socket to the server address and port
+    server_address = ('127.0.0.1', PORT)
+    sock.bind(server_address)
+
+    print("Socket created and bound")
+    print(f"Server Listening for messages on PORT {PORT}...\\n")
+
+    while True:
+        try:
+            client_message, client_address = sock.recvfrom(2000)
+            print(f"Received message from IP: {client_address[0]}",
+                  f"and Port No: {client_address[1]}")
+
+            decoded_message = client_message.decode('utf-8')
+            print(f"Client Message: {decoded_message}")
+
+            if re.match(r'\d{2}-\d{4}-CI', decoded_message.upper()):
+                threading.Thread(target=handle_checkin,
+                                 args=(sock, decoded_message.split('-CI')[0], client_address)).start()
+
+            elif re.match(r'\d{2}-\d{4}-CO', decoded_message.upper()):
+                threading.Thread(target=handle_checkout,
+                                 args=(sock, decoded_message.split('-CO')[0], client_address)).start()
+
+            else:
+                response = "Invalid Check In/OUT format"
+                sock.sendto(response.encode('utf-8'), client_address)
+
+        except Exception as e:
+            print(f"An error occurred: {e}")
+            break
+
+    # Closing the socket
+    sock.close()
+
+
+if __name__ == "__main__":
+    main()
          """
          },
         {'title': 'TCP Continuous Client with Threading',
@@ -577,6 +725,88 @@ cbr_client.Stop(ns.Seconds(4.5))
 ns.Simulator.Run()
 ns.Simulator.Destroy()
          """},
+        {'title': 'NS3 Mesh Network Simulation with 5 Nodes',
+         'code':
+             """
+from ns import ns
+
+
+def main():
+    # Set up logging
+    ns.LogComponentEnable("UdpEchoClientApplication", ns.LOG_LEVEL_ALL)
+    ns.LogComponentEnable("UdpEchoServerApplication", ns.LOG_LEVEL_ALL)
+
+    # Create nodes
+    nodes = ns.NodeContainer()
+    nodes.Create(5)
+
+    # Set up point-to-point connections for a mesh network
+    pointToPoint = ns.PointToPointHelper()
+    pointToPoint.SetDeviceAttribute("DataRate", ns.StringValue("512Kbps"))
+    pointToPoint.SetChannelAttribute("Delay", ns.StringValue("5ms"))
+
+    # Create a list to hold all devices
+    devices = []
+
+    # Install network devices and create links between all nodes
+    for i in range(5):
+        for j in range(i + 1, 5):
+            device = pointToPoint.Install(nodes.Get(i), nodes.Get(j))
+            devices.append(device)
+
+    # Install the Internet stack
+    stack = ns.InternetStackHelper()
+    stack.Install(nodes)
+
+    # Assign IP addresses to each link
+    address = ns.Ipv4AddressHelper()
+    address.SetBase(ns.Ipv4Address("10.1.0.0"), ns.Ipv4Mask("255.255.255.0"))
+
+    interfaces = []
+    for device in devices:
+        interfaces.append(address.Assign(device))
+
+    # Set up server application on node 4
+    echoServer = ns.UdpEchoServerHelper(8080)
+    serverApps = echoServer.Install(nodes.Get(4))
+    serverApps.Start(ns.Seconds(0.0))
+    serverApps.Stop(ns.Seconds(1.5))
+
+    # Set up client application on node 0
+    echoClient = ns.UdpEchoClientHelper(
+        interfaces[4].GetAddress(4).ConvertTo(), 8080)
+
+    # 100 packets per second
+    echoClient.SetAttribute("MaxPackets", ns.UintegerValue(100))
+    echoClient.SetAttribute("Interval", ns.TimeValue(ns.Seconds(0.01)))
+    # Packet size of 1 KB
+    echoClient.SetAttribute("PacketSize", ns.UintegerValue(1024))
+
+    clientApps = echoClient.Install(nodes.Get(0))
+    clientApps.Start(ns.Seconds(0.02))
+    clientApps.Stop(ns.Seconds(1.5))
+
+    # Manipulate the link between node 2 and node 3
+    linkDevices = pointToPoint.Install(nodes.Get(2), nodes.Get(3))
+
+    # Bring down the link at simulation time 0.4
+    ns.Simulator.Schedule(ns.Seconds(
+        0.4), pointToPoint.SetChannelAttribute, "Delay", ns.StringValue("inf"))
+
+    # Restore the link at simulation time 1.0
+    ns.Simulator.Schedule(ns.Seconds(
+        1.0), pointToPoint.SetChannelAttribute, "Delay", ns.StringValue("5ms"))
+
+    # Enable tracing for packets
+    ns.PcapHelper().EnablePcapAll("mesh-network")
+
+    # Run the simulation
+    ns.Simulator.Run()
+
+    # Clean up and destroy the simulator
+    ns.Simulator.Destroy()
+             """
+         },
         # {'title': '',
         #  'code':
         #      """
