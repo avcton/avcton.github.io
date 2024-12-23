@@ -25,7 +25,7 @@ lastmod: 2023-12-30T20:16:55Z
 * <span class="text-highlight">CPU writes this word into the memory</span>
 * If another instructions is to be read then the same cycle repeats.
 
-​![image](assets/image-20230929172720-t2ik1ns.png)​
+​![image](image-20230929172720-t2ik1ns.png)​
 
 ### Polling / Con
 
@@ -42,7 +42,7 @@ lastmod: 2023-12-30T20:16:55Z
 
   * During the I/O Operation, If the caller program needs the I/O result to process further then it has to wait or else it can process it’s own operations
 
-​![image](assets/image-20230929172757-jkvuw43.png)​
+​![image](image-20230929172757-jkvuw43.png)​
 
 ### Cons
 
@@ -52,7 +52,7 @@ lastmod: 2023-12-30T20:16:55Z
 
 #### [More Detailed Concept](https://stackoverflow.com/a/35012646)
 
-​![image](assets/image-20230929170659-1c5vyd9.png)​
+​![image](image-20230929170659-1c5vyd9.png)​
 
 ## DMA
 

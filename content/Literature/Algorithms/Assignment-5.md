@@ -4,7 +4,7 @@ date: 2023-10-11T10:20:22Z
 lastmod: 2024-06-17T15:48:55Z
 ---
 
-Reference Document: [Rod Cutting Assignment.pdf](assets/Rod%20Cutting%20Assignment-20231011102039-z6yux13.pdf)
+Reference Document: [Rod Cutting Assignment.pdf](Rod%20Cutting%20Assignment-20231011102039-z6yux13.pdf)
 
 ## Task1
 

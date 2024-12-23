@@ -4,7 +4,7 @@ date: 2024-02-15T19:46:42Z
 lastmod: 2024-02-20T22:29:17Z
 ---
 
-**Reference Document:**  [A 1.pdf](assets/A%201-20240215194910-09yc2k8.pdf)
+**Reference Document:**  [A 1.pdf](A%201-20240215194910-09yc2k8.pdf)
 
 ## Q1
 
@@ -108,7 +108,7 @@ The approaches to implement explicit multithreading are as follow:
 
 Interleaved Multithreading AKA **fine-grained multithreading**, is a technique where the CPU switches between multiple threads on every clock cycle. This means that instructions from different threads are interleaved and multiple instructions from different threads are executed in a single cycle.
 
-​![CleanShot 2024-02-21 at 20.14.39@2x](assets/CleanShot%202024-02-21%20at%2020.14.39@2x-20240221201500-hzsyzgq.png)​
+​![CleanShot 2024-02-21 at 20.14.39@2x](CleanShot%202024-02-21%20at%2020.14.39@2x-20240221201500-hzsyzgq.png)​
 
 #### Block Multithreading
 
@@ -124,7 +124,7 @@ A technique where a single physical CPU core appears as multiple logical cores t
 
 4x4 two-dimensional mesh with wraparound links
 
-​![CleanShot 2024-02-21 at 06.48.47@2x](assets/CleanShot%202024-02-21%20at%2006.48.47@2x-20240221064858-v7oil1v.png)​
+​![CleanShot 2024-02-21 at 06.48.47@2x](CleanShot%202024-02-21%20at%2006.48.47@2x-20240221064858-v7oil1v.png)​
 
 #### (a) Cost
 
@@ -162,7 +162,7 @@ $$
 
 4x4 two-dimensional mesh with no wraparound links
 
-​![CleanShot 2024-02-21 at 06.47.15@2x](assets/CleanShot%202024-02-21%20at%2006.47.15@2x-20240221064724-4e2ozk2.png)​
+​![CleanShot 2024-02-21 at 06.47.15@2x](CleanShot%202024-02-21%20at%2006.47.15@2x-20240221064724-4e2ozk2.png)​
 
 #### (a) Cost
 
@@ -204,8 +204,8 @@ $$
 
 ### iii
 
-[Four-dimensional hypercube (size=16 Nodes)](assets/A%201-20240215194910-09yc2k8.pdf#page=2)\
-​![](assets/A%201-P2-20240220211602-20240220211602-xv1w757.png)​
+[Four-dimensional hypercube (size=16 Nodes)](A%201-20240215194910-09yc2k8.pdf#page=2)\
+​![](A%201-P2-20240220211602-20240220211602-xv1w757.png)​
 
 #### (a) Cost
 
@@ -249,8 +249,8 @@ $$
 
 ### iv
 
-[A complete binary tree of 3 levels as shown in the image below:](assets/A%201-20240215194910-09yc2k8.pdf#page=2)\
-​![](assets/A%201-P2-20240220211717-20240220211718-118k2ra.png)​
+[A complete binary tree of 3 levels as shown in the image below:](A%201-20240215194910-09yc2k8.pdf#page=2)\
+​![](A%201-P2-20240220211717-20240220211718-118k2ra.png)​
 
 #### (a) Cost
 

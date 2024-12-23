@@ -4,7 +4,7 @@ date: 2024-02-10T12:23:00Z
 lastmod: 2024-06-21T15:24:22Z
 ---
 
-Reference Document: [DataMining Assignment1.pdf](assets/DataMining%20Assignment1-20240210123817-i34ay9c.pdf)
+Reference Document: [DataMining Assignment1.pdf](DataMining%20Assignment1-20240210123817-i34ay9c.pdf)
 
 ## Question 1: Calculate Entropy
 
@@ -46,8 +46,8 @@ $$
 
 ## Question 2
 
-[Sample Data](assets/DataMining%20Assignment1-20240210123817-i34ay9c.pdf#page=1)\
-​![](assets/DataMining%20Assignment1-P1-20240210123927-20240210123928-w4apqj0.png)​
+[Sample Data](DataMining%20Assignment1-20240210123817-i34ay9c.pdf#page=1)\
+​![](DataMining%20Assignment1-P1-20240210123927-20240210123928-w4apqj0.png)​
 
 ### (a)
 
@@ -296,8 +296,8 @@ The best feature to split the examples is still “Width” since it has the hig
 
 ## Question 3
 
-[Sample Data](assets/DataMining%20Assignment1-20240210123817-i34ay9c.pdf#page=2)\
-​![](assets/DataMining%20Assignment1-P2-20240210135433-20240210135433-qvgb2fu.png)​
+[Sample Data](DataMining%20Assignment1-20240210123817-i34ay9c.pdf#page=2)\
+​![](DataMining%20Assignment1-P2-20240210135433-20240210135433-qvgb2fu.png)​
 
 ### (a) P(A = t)
 

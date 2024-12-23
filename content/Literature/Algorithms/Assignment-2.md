@@ -4,7 +4,7 @@ date: 2023-09-19T20:17:23Z
 lastmod: 2024-06-17T15:47:45Z
 ---
 
-Reference Document: [HW 2.pdf](assets/HW%202-20230919201750-h7bvdmt.pdf)
+Reference Document: [HW 2.pdf](HW%202-20230919201750-h7bvdmt.pdf)
 
 ‍
 

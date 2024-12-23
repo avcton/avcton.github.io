@@ -4,7 +4,7 @@ date: 2023-10-04T15:41:22Z
 lastmod: 2024-06-17T15:47:54Z
 ---
 
-Reference Document: [HW 3.pdf](assets/HW%203-20231004155443-5gtxnor.pdf)
+Reference Document: [HW 3.pdf](HW%203-20231004155443-5gtxnor.pdf)
 
 $$
 C(0) = 1

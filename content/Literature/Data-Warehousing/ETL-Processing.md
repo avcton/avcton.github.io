@@ -32,8 +32,8 @@ An ETL Process typically involves the following steps:
 * Transforming Techniques
 * Loading Techniques
 
-[Major steps in the ETL process](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=316)\
-​![](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P316-20231003152154-20231003152241-cvppjh8.png)​
+[Major steps in the ETL process](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=316)\
+​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P316-20231003152154-20231003152241-cvppjh8.png)​
 
 ## Data Pipelining
 
@@ -51,42 +51,42 @@ An example could be:
 
 ### Techniques
 
-> [Before examining the various data extraction techniques, you must clearly understand the nature of the source data you are extracting or capturing. Also, you need to get an insight into how the extracted data will be used. Source data is in a state of constant flux](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=318)
+> [Before examining the various data extraction techniques, you must clearly understand the nature of the source data you are extracting or capturing. Also, you need to get an insight into how the extracted data will be used. Source data is in a state of constant flux](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=318)
 
-[Source identification: a stepwise approach](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=319)\
-​![](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P319-20231003153608-20231003154633-ucvufo2.png)​
+[Source identification: a stepwise approach](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=319)\
+​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P319-20231003153608-20231003154633-ucvufo2.png)​
 
 #### Deferred Source Data
 
-> [Deferred data extraction do not capture the changes in real time. The capture happens later.](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=323)
+> [Deferred data extraction do not capture the changes in real time. The capture happens later.](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=323)
 
-[Options for Deferred Data Extraction](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=324)\
-​![](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P324-20231005153317-20231005153318-otngslu.png)​
+[Options for Deferred Data Extraction](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=324)\
+​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P324-20231005153317-20231005153318-otngslu.png)​
 
 ##### Deferred Extraction Techniques
 
 ###### Data and Time Stamps
 
-[Every time a source record is created or updated it may be marked with a stamp showing the date and time.](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=323)
+[Every time a source record is created or updated it may be marked with a stamp showing the date and time.](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=323)
 
-[For Example, If you run your data extraction program at midnight every day, each day you will extract only those with the date and time stamp later than midnight of the previous day.](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=323)
+[For Example, If you run your data extraction program at midnight every day, each day you will extract only those with the date and time stamp later than midnight of the previous day.](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=323)
 
 ###### Comparing Files
 
-[This technique necessitates the ](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=324)[keeping of prior copies](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=324)[ of all the relevant source data. Though simple and straightforward, ](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=324)[comparison of full rows in a large file can be very inefficient](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=324)[. However, this may be the only feasible option for some legacy data sources that do not have transaction logs or time stamps on source records](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=324)
+[This technique necessitates the ](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=324)[keeping of prior copies](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=324)[ of all the relevant source data. Though simple and straightforward, ](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=324)[comparison of full rows in a large file can be very inefficient](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=324)[. However, this may be the only feasible option for some legacy data sources that do not have transaction logs or time stamps on source records](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=324)
 
 #### Immediate Data Extraction
 
-> [In this option, the data extraction is real-time. It occurs as the transactions happen at the source databases and files.](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=321)
+> [In this option, the data extraction is real-time. It occurs as the transactions happen at the source databases and files.](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=321)
 
-[Options for Immediate Data Extraction](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=321)\
-​![](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P321-20231003154020-20231003154021-m4jqga8.png)​
+[Options for Immediate Data Extraction](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=321)\
+​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P321-20231003154020-20231003154021-m4jqga8.png)​
 
 ##### Immediate Extraction Techniques
 
 ###### Transaction Logs
 
-[This option uses the transaction logs of the DBMSs maintained for recovery from possible failures. As each transaction adds, updates, or deletes a row from a database table, the DBMS immediately writes entries on the log file. This data extraction technique reads the transaction log and selects all the committed transactions. There is no extra overhead in the operational systems because logging is already part of the transaction processing](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=322)
+[This option uses the transaction logs of the DBMSs maintained for recovery from possible failures. As each transaction adds, updates, or deletes a row from a database table, the DBMS immediately writes entries on the log file. This data extraction technique reads the transaction log and selects all the committed transactions. There is no extra overhead in the operational systems because logging is already part of the transaction processing](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=322)
 
 ###### Database Triggers
 
@@ -96,7 +96,7 @@ Get data from the transactional systems based on the triggers defined. A trigger
 
 We can configure our source or transaction systems to send data to the warehouse based on our specifications.
 
-#### [Data Capture Techniques: Advantages and Disadvantages](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=325)​![](assets/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P325-20231005151801-20231005151802-t6upkj3.png)​
+#### [Data Capture Techniques: Advantages and Disadvantages](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=325)​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P325-20231005151801-20231005151802-t6upkj3.png)​
 
 ## Data Loading
 

@@ -4,7 +4,7 @@ date: 2023-10-06T19:53:29Z
 lastmod: 2024-06-17T15:48:46Z
 ---
 
-Reference Document: [HW 4.pdf](assets/HW%204-20231006195547-uena1gb.pdf)
+Reference Document: [HW 4.pdf](HW%204-20231006195547-uena1gb.pdf)
 
 ## Task1
 
@@ -70,7 +70,7 @@ Show all values of MaxSum\[i] array.**
 
 ‍
 
-​![CleanShot 2023-10-07 at 18.10.58@2x](assets/CleanShot%202023-10-07%20at%2018.10.58@2x-20231007181113-qrccxmh.png)​
+​![CleanShot 2023-10-07 at 18.10.58@2x](CleanShot%202023-10-07%20at%2018.10.58@2x-20231007181113-qrccxmh.png)​
 
 MaxSum\[i] = Max (A\[i] + MaxSum\[i-1] , A\[i])
 

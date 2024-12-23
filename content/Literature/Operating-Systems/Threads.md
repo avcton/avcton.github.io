@@ -42,7 +42,7 @@ Each Thread Holds its Unique:
 
 ## Types
 
-​![CleanShot 2023-10-08 at 13.44.39@2x](assets/CleanShot%202023-10-08%20at%2013.44.39@2x-20231008134457-x1j3kzq.png)​
+​![CleanShot 2023-10-08 at 13.44.39@2x](CleanShot%202023-10-08%20at%2013.44.39@2x-20231008134457-x1j3kzq.png)​
 
 ### User Threads
 
@@ -99,11 +99,11 @@ return 0 = Successful Creation
 
 Consider we have the following function:
 
-​![image](assets/image-20231003094248-3osi25r.png)​
+​![image](image-20231003094248-3osi25r.png)​
 
 Following is the main function / process:
 
-​![image](assets/image-20231003094318-g1a1nij.png)​
+​![image](image-20231003094318-g1a1nij.png)​
 
 ## Multithreading
 

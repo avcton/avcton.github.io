@@ -8,4 +8,4 @@ lastmod: 2023-09-17T23:11:50Z
 
 ## Resources
 
-[99-recurrences.pdf](assets/99-recurrences-20230914144603-nnwao6m.pdf)
+[99-recurrences.pdf](99-recurrences-20230914144603-nnwao6m.pdf)

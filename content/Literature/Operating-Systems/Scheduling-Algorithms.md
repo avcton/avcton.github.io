@@ -4,7 +4,7 @@ date: 2023-09-19T09:12:22Z
 lastmod: 2023-12-31T00:28:09Z
 ---
 
-[CPU-Scheduling-and-Algorithm - Handouts.pdf](assets/CPU-Scheduling-and-Algorithm-%20handouts-20230930085621-i0kut1y.pdf)
+[CPU-Scheduling-and-Algorithm - Handouts.pdf](CPU-Scheduling-and-Algorithm-%20handouts-20230930085621-i0kut1y.pdf)
 
 ##### Burst Time
 

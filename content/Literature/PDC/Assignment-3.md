@@ -4,7 +4,7 @@ date: 2024-04-01T19:48:15Z
 lastmod: 2024-06-22T16:05:23Z
 ---
 
-**Reference Document:**  [A 3.pdf](assets/A%203-20240401194846-pdrh3fw.pdf)
+**Reference Document:**  [A 3.pdf](A%203-20240401194846-pdrh3fw.pdf)
 
 ## Q1
 
@@ -51,19 +51,19 @@ Total threads in parallel region2= 6
 
 ## Q2
 
-​![CleanShot 2024-04-02 at 00.12.19@2x](assets/CleanShot%202024-04-02%20at%2000.12.19@2x-20240402001253-ncodv04.png)​
+​![CleanShot 2024-04-02 at 00.12.19@2x](CleanShot%202024-04-02%20at%2000.12.19@2x-20240402001253-ncodv04.png)​
 
-​![CleanShot 2024-04-02 at 00.12.37@2x](assets/CleanShot%202024-04-02%20at%2000.12.37@2x-20240402001413-63frflo.png)​
+​![CleanShot 2024-04-02 at 00.12.37@2x](CleanShot%202024-04-02%20at%2000.12.37@2x-20240402001413-63frflo.png)​
 
 **Final State**
 
-​![CleanShot 2024-06-22 at 4 .05.14@2x](assets/CleanShot%202024-06-22%20at%204.05.14@2x-20240622160522-s469w5g.png)​
+​![CleanShot 2024-06-22 at 4 .05.14@2x](CleanShot%202024-06-22%20at%204.05.14@2x-20240622160522-s469w5g.png)​
 
 ## Q3
 
-​![CleanShot 2024-04-02 at 00.10.00@2x](assets/CleanShot%202024-04-02%20at%2000.10.00@2x-20240402001130-7e5eu9z.png)​
+​![CleanShot 2024-04-02 at 00.10.00@2x](CleanShot%202024-04-02%20at%2000.10.00@2x-20240402001130-7e5eu9z.png)​
 
-​![CleanShot 2024-04-02 at 00.10.27@2x](assets/CleanShot%202024-04-02%20at%2000.10.27@2x-20240402001141-me9ko00.png)​
+​![CleanShot 2024-04-02 at 00.10.27@2x](CleanShot%202024-04-02%20at%2000.10.27@2x-20240402001141-me9ko00.png)​
 
 ## Q4
 
@@ -73,8 +73,8 @@ All to All Personalised AKA Total Exchange
 
 ### (ii)
 
-​![CleanShot 2024-06-22 at 4 .04.55@2x](assets/CleanShot%202024-06-22%20at%204.04.55@2x-20240622160505-jmmb22u.png)​
+​![CleanShot 2024-06-22 at 4 .04.55@2x](CleanShot%202024-06-22%20at%204.04.55@2x-20240622160505-jmmb22u.png)​
 
 ### (iii)
 
-​![CleanShot 2024-06-22 at 4 .04.29@2x](assets/CleanShot%202024-06-22%20at%204.04.29@2x-20240622160443-5cbpxth.png)​
+​![CleanShot 2024-06-22 at 4 .04.29@2x](CleanShot%202024-06-22%20at%204.04.29@2x-20240622160443-5cbpxth.png)​

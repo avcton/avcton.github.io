@@ -13,8 +13,8 @@ lastmod: 2023-12-30T19:18:32Z
 
   * The reason is that there is no interactivity, the user cannot interact at the time of the execution
 
-[Memory partitioned into user and system spaces](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=5)\
-​![](assets/Operating%20Systems%20-%20CS604%20Handouts-P5-20230929092908-20230929092909-ma5tbb5.png)​
+[Memory partitioned into user and system spaces](Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=5)\
+​![](Operating%20Systems%20-%20CS604%20Handouts-P5-20230929092908-20230929092909-ma5tbb5.png)​
 
 ### The Monitor - Simple Batch System
 
@@ -63,7 +63,7 @@ Involves Process Preemption
 
 ## Difference between Multitasking and Multiprogramming
 
-[The objective of multiprogramming is to have some process running all the time so as to maximize CPU utilization](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=31)[. The objective of time-sharing is to switch the CPU among processors so frequently that users can interact with each program while it is running.](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=31)
+[The objective of multiprogramming is to have some process running all the time so as to maximize CPU utilization](Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=31)[. The objective of time-sharing is to switch the CPU among processors so frequently that users can interact with each program while it is running.](Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=31)
 
 ## Multiprocessing OS
 

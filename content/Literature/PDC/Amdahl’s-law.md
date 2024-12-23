@@ -20,7 +20,7 @@ lastmod: 2024-05-24T17:46:27Z
   * [Speedup achieved by a parallel algorithm is defined as the ratio of the time required by the best sequential algorithm to solve a problem, T(1), to the time required by parallel algorithm using p processors to solve the same problem, T(p).](https://arc.net/l/quote/wchdsuss)
 * ## Example
 
-  ​![CleanShot 2024-02-13 at 13.50.17@2x](assets/CleanShot%202024-02-13%20at%2013.50.17@2x-20240213135024-kuwdb9o.png)​
+  ​![CleanShot 2024-02-13 at 13.50.17@2x](CleanShot%202024-02-13%20at%2013.50.17@2x-20240213135024-kuwdb9o.png)​
 * ## Karp-Flatt Metric
 
   * Amdahl’s law ignore the parallelisation overhead due to which it overestimate the achievable speedup

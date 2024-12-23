@@ -4,7 +4,7 @@ date: 2023-11-01T18:34:33Z
 lastmod: 2024-06-17T18:04:55Z
 ---
 
-Reference Document: [Assignment 2.pdf](assets/Assignment%202-20231101183723-aceqjys.pdf)
+Reference Document: [Assignment 2.pdf](Assignment%202-20231101183723-aceqjys.pdf)
 
 ## Q1
 

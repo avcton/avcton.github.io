@@ -9,7 +9,7 @@ tags: [course]
 
 ## Book
 
-[Speech and Language Processing.pdf](assets/Speech-20231011155605-1ab02xj.pdf)
+[Speech and Language Processing.pdf](Speech-20231011155605-1ab02xj.pdf)
 
 ## Resources
 

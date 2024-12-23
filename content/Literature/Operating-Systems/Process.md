@@ -8,15 +8,15 @@ lastmod: 2023-12-30T21:37:52Z
 >
 > A process has a PCB
 
-[A process is the unit of work in most systems. Such a system consists of a collectionof processes: operating system processes execute system code and user processes executeuser code. All these processes may execute concurrently.](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=28)
+[A process is the unit of work in most systems. Such a system consists of a collectionof processes: operating system processes execute system code and user processes executeuser code. All these processes may execute concurrently.](Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=28)
 
 ## State
 
-[The state of a process is defined in part by the current activity of that process.](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=145)
+[The state of a process is defined in part by the current activity of that process.](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=145)
 
 ## Jobs or Process?
 
-[Although we personally prefer the more contemporary term process, the term job has historical significance, as much of operating system theory and terminology was developed during a time when the major activity of operating systems was job processing. Therefore, in some appropriate instances we use job when describing the role of the operating system. As an example, it would be misleading to avoid the use of commonly accepted terms that include the word job (such as job scheduling) simply because process has superseded job.](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=144)
+[Although we personally prefer the more contemporary term process, the term job has historical significance, as much of operating system theory and terminology was developed during a time when the major activity of operating systems was job processing. Therefore, in some appropriate instances we use job when describing the role of the operating system. As an example, it would be misleading to avoid the use of commonly accepted terms that include the word job (such as job scheduling) simply because process has superseded job.](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=144)
 
 ## Process or Program
 
@@ -56,7 +56,7 @@ Until the zombie process is reaped by the parent, it consumes only a small amoun
 
 ### Orphan Process
 
-[if a parent did not invoke wait() and instead terminated, thereby leaving its child processes as orphans.](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=160)
+[if a parent did not invoke wait() and instead terminated, thereby leaving its child processes as orphans.](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=160)
 
 **What about the orphan process whose Parents are terminated?**
 

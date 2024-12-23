@@ -11,9 +11,9 @@ lastmod: 2024-06-14T20:04:15Z
 Resources can be shareable and non-shareable
 IO Devices, timers, disks, memories, network interfaces, printers etc.
 
-[top-down view is that it is a program that acts as an intermediary between a user of a computer and the computer hardware, and makes the computer system convenient to use](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=3)
+[top-down view is that it is a program that acts as an intermediary between a user of a computer and the computer hardware, and makes the computer system convenient to use](Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=3)
 
-[the bottom-up view is that operating system is a resource manager who manages the hardware and software resources in the computer system](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=3)
+[the bottom-up view is that operating system is a resource manager who manages the hardware and software resources in the computer system](Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=3)
 
 ## Purpose
 
@@ -27,10 +27,10 @@ IO Devices, timers, disks, memories, network interfaces, printers etc.
 
 > Those files / software which are stored in the RAM from ROM to load the operating system into the memory
 
-[there are four events that cause execution of a piece of code in the kernel. These events are: ](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=14)[interrupt, trap, system call, and signal.](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=14)
+[there are four events that cause execution of a piece of code in the kernel. These events are: ](Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=14)[interrupt, trap, system call, and signal.](Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=14)
 
-[Entry points into the operating system kernel](assets/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=15)\
-​![](assets/Operating%20Systems%20-%20CS604%20Handouts-P15-20230929112645-20230929112645-l17wflk.png)​
+[Entry points into the operating system kernel](Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=15)\
+​![](Operating%20Systems%20-%20CS604%20Handouts-P15-20230929112645-20230929112645-l17wflk.png)​
 
 ### Bootstrap Loading
 

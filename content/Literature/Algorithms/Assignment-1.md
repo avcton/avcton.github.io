@@ -4,7 +4,7 @@ date: 2023-09-11T17:25:24Z
 lastmod: 2024-06-17T15:47:26Z
 ---
 
-**​Reference Document: [HW1.pdf](assets/HW1-20230911192622-lysiogl.pdf)​**:
+**​Reference Document: [HW1.pdf](HW1-20230911192622-lysiogl.pdf)​**:
 
 ## Question 1
 
@@ -237,7 +237,7 @@ $$
 T(n) = T(\frac{n}{5}) + T(\frac{2n}{5}) + O(n)
 $$
 
-​![Recursion Tree Q5](assets/WhatsApp%20Image%202023-09-13%20at%207.59.43%20PM-20230913200005-us1529d.jpeg "Recursion Tree of the above Function")​
+​![Recursion Tree Q5](WhatsApp%20Image%202023-09-13%20at%207.59.43%20PM-20230913200005-us1529d.jpeg "Recursion Tree of the above Function")​
 
 We can observe that at each level there are $c \space \frac{3}{5}^k$n count of instructions being executed\
 where k is the level count
@@ -275,57 +275,57 @@ Hence, we have $O(n)$ as our runtime for this algorithm
 
 #### $T(n) = 2T(\frac{n}{4}) + O(lgn)$
 
-​![Q1](assets/Q1-20230913232025-holw2fd.jpeg)​
+​![Q1](Q1-20230913232025-holw2fd.jpeg)​
 
 #### Solution
 
-​![WhatsApp Image 2023-09-13 at 11.49.34 PM](assets/WhatsApp%20Image%202023-09-13%20at%2011.49.34%20PM-20230913235014-4gwo3at.jpeg)​
+​![WhatsApp Image 2023-09-13 at 11.49.34 PM](WhatsApp%20Image%202023-09-13%20at%2011.49.34%20PM-20230913235014-4gwo3at.jpeg)​
 
 ### (b)
 
 #### $T(n) = 3T(\frac{n}{2}) + O(n^3)$
 
-​![Q2](assets/Q2-20230913232056-vl0pwzx.jpeg)​
+​![Q2](Q2-20230913232056-vl0pwzx.jpeg)​
 
 #### Solution
 
-​![2](assets/2-20230913233359-ojqh90w.jpeg)​
+​![2](2-20230913233359-ojqh90w.jpeg)​
 
 ### (c)
 
 #### $T(n) = 7T(\frac{n}{5}) + \theta(1)$
 
-​![Q3](assets/Q3-20230913232118-010fjz2.jpeg)​
+​![Q3](Q3-20230913232118-010fjz2.jpeg)​
 
 #### Solution
 
-​![3](assets/3-20230913233416-vgg9f4u.jpeg)​
+​![3](3-20230913233416-vgg9f4u.jpeg)​
 
 ### (d)
 
 #### $T(n) = 2T(\frac{n}{2}) + O(\frac{n}{logn})$
 
-​![Q4](assets/Q4-20230913232208-8r7eqv0.jpeg)​
+​![Q4](Q4-20230913232208-8r7eqv0.jpeg)​
 
 #### Solution
 
-​![4](assets/4-20230913233425-yhdic2a.jpeg)​
+​![4](4-20230913233425-yhdic2a.jpeg)​
 
 ### (e)
 
 #### $T(n) = 3T(n-1) + \theta(1)$
 
-​![WhatsApp Image 2023-09-13 at 11.17.21 PM](assets/WhatsApp%20Image%202023-09-13%20at%2011.17.21%20PM-20230913232217-9yyfwe0.jpeg)​
+​![WhatsApp Image 2023-09-13 at 11.17.21 PM](WhatsApp%20Image%202023-09-13%20at%2011.17.21%20PM-20230913232217-9yyfwe0.jpeg)​
 
 #### Solution
 
-​![5](assets/5-20230913233436-bcto8km.jpeg)​
+​![5](5-20230913233436-bcto8km.jpeg)​
 
 ## Question 8
 
 ### Inversion Pairs Algorithm
 
-​![WhatsApp Image 2023-09-13 at 9.07.20 PM](assets/WhatsApp%20Image%202023-09-13%20at%209.07.20%20PM-20230913212244-pdi8yru.jpeg "Count Inversion Pairs Algorithm - Dry Run")​
+​![WhatsApp Image 2023-09-13 at 9.07.20 PM](WhatsApp%20Image%202023-09-13%20at%209.07.20%20PM-20230913212244-pdi8yru.jpeg "Count Inversion Pairs Algorithm - Dry Run")​
 
 {} Curly Braces represent the return value, which is an array in our case, of each recursive call\
 The value followed by it is the count of the split inversion pairs

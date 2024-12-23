@@ -8,7 +8,7 @@ date: 2024-03-24
 > [!info]
 > You can find the source of this project on [Github](https://github.com/avcton/snake-ai)
 
-<center><img src="assets/snake-ai.gif"></center>
+<center><img src="snake-ai.gif"></center>
 
 # Search Algorithms Implemented
 

@@ -14,11 +14,11 @@ However,
 
 Divide and Conqueror applies to non-overlapping sub problems. That is the sub problems do not overlap with one another.
 
-​![CleanShot 2023-10-07 at 12.50.09@2x](assets/CleanShot%202023-10-07%20at%2012.50.09@2x-20231007125016-w3rttxx.png "Each sub problem is different from sub problems of other branches")​
+​![CleanShot 2023-10-07 at 12.50.09@2x](CleanShot%202023-10-07%20at%2012.50.09@2x-20231007125016-w3rttxx.png "Each sub problem is different from sub problems of other branches")​
 
 Dynamic Programming on the other hand, applies when the ***sub problems overlap***. That is when a sub problems repeat for other branches too.
 
-​![image](assets/image-20231007125332-0ot4nwe.png "Sub problems are overlapping for various branches")​
+​![image](image-20231007125332-0ot4nwe.png "Sub problems are overlapping for various branches")​
 
 ## Memoization
 

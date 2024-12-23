@@ -7,9 +7,9 @@ draft: true
 
 **Resources**
 
-[Fall2023\_DW\_BDS\_A2\_Dimensional Modeling.pdf](assets/Fall2023_DW_BDS_A2_Dimensional%20Modeling-20230921151937-rekl8sn.pdf)
+[Fall2023\_DW\_BDS\_A2\_Dimensional Modeling.pdf](Fall2023_DW_BDS_A2_Dimensional%20Modeling-20230921151937-rekl8sn.pdf)
 
-[Dimensional Modelling - Sample Case Studies-sol.pdf](assets/Dimensional%20Modeling-%20Sample%20Case%20Studies-sol-20230923212802-wek2zpq.pdf)
+[Dimensional Modelling - Sample Case Studies-sol.pdf](Dimensional%20Modeling-%20Sample%20Case%20Studies-sol-20230923212802-wek2zpq.pdf)
 
 ## TU Hotels System
 
@@ -178,4 +178,4 @@ The urgency with which the data should be extracted and loaded from transactiona
 
 ## Dimensional Model
 
-​![CleanShot 2023-09-26 at 03.09.50@2x](assets/CleanShot%202023-09-26%20at%2003.09.50@2x-20230926031008-f2ervsv.png)​
+​![CleanShot 2023-09-26 at 03.09.50@2x](CleanShot%202023-09-26%20at%2003.09.50@2x-20230926031008-f2ervsv.png)​

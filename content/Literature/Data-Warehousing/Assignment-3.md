@@ -7,9 +7,9 @@ draft: true
 
 Reference Documents:
 
-[Fall2023\_DW\_BDS\_A3\_Joining Techniques.pdf](assets/Fall2023_DW_BDS_A3_Joining%20Techniques-20231021130333-b2u4wtt.pdf)
+[Fall2023\_DW\_BDS\_A3\_Joining Techniques.pdf](Fall2023_DW_BDS_A3_Joining%20Techniques-20231021130333-b2u4wtt.pdf)
 
-[Joins\_PracticeProblems\_Sol.pdf](assets/Joins_PracticeProblems_Sol-20231021130350-b8z8i28.pdf)
+[Joins\_PracticeProblems\_Sol.pdf](Joins_PracticeProblems_Sol-20231021130350-b8z8i28.pdf)
 
 ## Assumptions
 

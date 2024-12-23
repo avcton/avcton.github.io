@@ -4,7 +4,7 @@ date: 2024-03-29T21:00:10Z
 lastmod: 2024-03-30T12:52:00Z
 ---
 
-**Reference Document:**  [Written Assignment NLP DS.pdf](assets/Written%20Assignment%20NLP%20DS-20240329210025-n0pxoic.pdf)
+**Reference Document:**  [Written Assignment NLP DS.pdf](Written%20Assignment%20NLP%20DS-20240329210025-n0pxoic.pdf)
 
 ## Task 1
 

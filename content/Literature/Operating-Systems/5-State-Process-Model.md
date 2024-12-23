@@ -4,8 +4,8 @@ date: 2023-09-11T17:31:00Z
 lastmod: 2023-12-30T22:24:32Z
 ---
 
-[The 5 State Process Model](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=147)\
-​![](assets/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P147-20230917192548-20230917192548-97ae1i3.png)​
+[The 5 State Process Model](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=147)\
+​![](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P147-20230917192548-20230917192548-97ae1i3.png)​
 
 ## New State
 

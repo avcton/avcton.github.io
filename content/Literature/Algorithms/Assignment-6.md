@@ -4,7 +4,7 @@ date: 2023-11-29T13:47:42Z
 lastmod: 2024-06-17T15:49:05Z
 ---
 
-Reference Document: [HW 6 Graph Algorithms.pdf](assets/HW%206%20Graph%20Algorithms-20231129134803-odhba6m.pdf)
+Reference Document: [HW 6 Graph Algorithms.pdf](HW%206%20Graph%20Algorithms-20231129134803-odhba6m.pdf)
 
 ## Q1
 

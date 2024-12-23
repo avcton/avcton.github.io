@@ -4,9 +4,9 @@ date: 2024-02-15T13:26:23Z
 lastmod: 2024-02-19T21:44:03Z
 ---
 
-[Flynn’s taxonomy distinguishes multi-processor computer architectures according to how they can be classified along the two independent dimensions of Instruction Stream and Data Stream. Each of these dimensions can have only one of two possible states: Single or Multiple](assets/Flynns%20Classical%20Taxonomy-20240215132756-grpjso4.pdf#page=1)
+[Flynn’s taxonomy distinguishes multi-processor computer architectures according to how they can be classified along the two independent dimensions of Instruction Stream and Data Stream. Each of these dimensions can have only one of two possible states: Single or Multiple](Flynns%20Classical%20Taxonomy-20240215132756-grpjso4.pdf#page=1)
 
-* [One of the more widely used classifications, in use since 1966](assets/Flynns%20Classical%20Taxonomy-20240215132756-grpjso4.pdf#page=1)
+* [One of the more widely used classifications, in use since 1966](Flynns%20Classical%20Taxonomy-20240215132756-grpjso4.pdf#page=1)
 
 ## Instruction stream
 
@@ -86,4 +86,4 @@ print(x+y)
 
 ## Resources
 
-* [Flynns Classical Taxonomy.pdf](assets/Flynns%20Classical%20Taxonomy-20240215132756-grpjso4.pdf)
+* [Flynns Classical Taxonomy.pdf](Flynns%20Classical%20Taxonomy-20240215132756-grpjso4.pdf)
