@@ -3,6 +3,7 @@ import fs from "fs/promises"
 
 // Constants
 const VAULT_DIR = "/Users/avcton/Mind Palace"
+const ATTACHMENTS_DIR = path.join(VAULT_DIR, "_attachments")
 
 // Helper function to log warnings
 const logWarning = (message) => {
@@ -13,8 +14,6 @@ const logWarning = (message) => {
 const copyFileToOutput = async (sourcePath, destinationPath) => {
   await fs.mkdir(path.dirname(destinationPath), { recursive: true })
   await fs.copyFile(sourcePath, destinationPath)
-  // Debug log
-  // console.log(`Copied file from: ${sourcePath} to ${destinationPath}`)
 }
 
 // Parse markdown file for Wikilinks and Markdown links
@@ -35,10 +34,16 @@ const parseMarkdownForLinks = async (filePath) => {
     }
   }
 
-  // Match standard Markdown links ![](path)
-  const markdownLinkRegex = /!\[.*?\]\((.+?)\)/g
-  while ((match = markdownLinkRegex.exec(content)) !== null) {
+  // Match standard Markdown attachment links ![](path)
+  const markdownAttachmentRegex = /!\[.*?\]\((.+?)\)/g
+  while ((match = markdownAttachmentRegex.exec(content)) !== null) {
     attachmentLinks.push(match[1])
+  }
+
+  // Match standard Markdown note links [note name](path/to/note.md)
+  const markdownNoteRegex = /\[(.+?)\]\((.+?\.md)\)/g
+  while ((match = markdownNoteRegex.exec(content)) !== null) {
+    noteLinks.push(path.basename(match[2], ".md")) // Add the note name without extension
   }
 
   return { attachments: attachmentLinks, notes: noteLinks }
@@ -46,26 +51,25 @@ const parseMarkdownForLinks = async (filePath) => {
 
 // Resolve and copy attachments to a centralized output folder (references/attachments)
 const resolveAndCopyAttachments = async (
-  vaultDir,
   attachments,
-  noteDir,
   outputDir,
   uniqueAttachments,
   isReference = false,
 ) => {
   for (const attachment of attachments) {
-    let resolvedPath = path.join(noteDir, "attachments", attachment)
+    let resolvedPath = path.join(ATTACHMENTS_DIR, attachment) // Check global attachments folder
     let attachmentOutputDir = isReference
       ? path.join(outputDir, "references", "attachments")
       : path.join(outputDir, "attachments")
 
-    // If not found in attachments folder, search entire vault
+    // Check if the attachment exists in the global attachments folder
     try {
       await fs.access(resolvedPath)
     } catch {
-      resolvedPath = await findFileInVault(vaultDir, attachment)
+      // If not found, search throughout the vault
+      resolvedPath = await findFileInVault(VAULT_DIR, attachment)
       if (!resolvedPath) {
-        logWarning(`Attachment not found: ${attachment}`)
+        logWarning(`Attachment not found anywhere in the vault: ${attachment}`)
         continue
       }
     }
@@ -80,8 +84,15 @@ const resolveAndCopyAttachments = async (
   }
 }
 
-// Resolve and copy linked notes to references folder (no subfolders)
-const resolveAndCopyNotes = async (vaultDir, notes, outputDir, uniqueNotes, visitedNotes) => {
+// Resolve and copy linked notes to references folder (flat structure)
+const resolveAndCopyNotes = async (
+  vaultDir,
+  notes,
+  outputDir,
+  uniqueNotes,
+  visitedNotes,
+  inputFolder,
+) => {
   const referenceDir = path.join(outputDir, "references")
 
   for (const note of notes) {
@@ -91,39 +102,46 @@ const resolveAndCopyNotes = async (vaultDir, notes, outputDir, uniqueNotes, visi
 
     visitedNotes.add(note)
 
-    const resolvedPath = await findFileInVault(vaultDir, `${note}.md`)
-    if (!resolvedPath) {
-      logWarning(`Note not found: ${note}`)
-      continue
+    // Check if the note exists in the input folder
+    const notePathInInputFolder = path.join(inputFolder, `${note}.md`)
+    let resolvedPath
+    try {
+      await fs.access(notePathInInputFolder) // Note exists in input folder
+      resolvedPath = notePathInInputFolder
+    } catch {
+      // If not found in the input folder, look for it in the vault
+      resolvedPath = await findFileInVault(vaultDir, `${note}.md`)
+      if (!resolvedPath) {
+        logWarning(`Note not found: ${note}`)
+        continue
+      }
     }
 
-    const destinationPath = path.join(referenceDir, path.basename(resolvedPath))
+    // If the note is outside the input folder, copy it to the references folder
+    if (resolvedPath !== notePathInInputFolder) {
+      const destinationPath = path.join(referenceDir, path.basename(resolvedPath))
 
-    // Debug log for checking paths
-    // console.log(`Resolved note path: ${resolvedPath}`)
-    // console.log(`Destination path for references: ${destinationPath}`)
+      // Check for duplicates before copying
+      if (!uniqueNotes.has(destinationPath)) {
+        await copyFileToOutput(resolvedPath, destinationPath)
+        uniqueNotes.add(destinationPath)
 
-    // Check for duplicates before copying
-    if (!uniqueNotes.has(destinationPath)) {
-      await copyFileToOutput(resolvedPath, destinationPath)
-      uniqueNotes.add(destinationPath)
+        // Process the attachments for this note
+        const { attachments } = await parseMarkdownForLinks(resolvedPath)
+        const uniqueAttachments = new Set()
+        await resolveAndCopyAttachments(attachments, outputDir, uniqueAttachments, true)
 
-      // Process the attachments for this note
-      const noteDir = path.dirname(resolvedPath)
-      const { attachments } = await parseMarkdownForLinks(resolvedPath)
-      const uniqueAttachments = new Set()
-      await resolveAndCopyAttachments(
-        vaultDir,
-        attachments,
-        noteDir,
-        outputDir,
-        uniqueAttachments,
-        true,
-      )
-
-      // Recursively resolve and copy nested linked notes
-      const { notes: nestedNotes } = await parseMarkdownForLinks(resolvedPath)
-      await resolveAndCopyNotes(vaultDir, nestedNotes, outputDir, uniqueNotes, visitedNotes)
+        // Recursively resolve and copy nested linked notes
+        const { notes: nestedNotes } = await parseMarkdownForLinks(resolvedPath)
+        await resolveAndCopyNotes(
+          vaultDir,
+          nestedNotes,
+          outputDir,
+          uniqueNotes,
+          visitedNotes,
+          inputFolder,
+        )
+      }
     }
   }
 }
@@ -146,22 +164,20 @@ const findFileInVault = async (vaultDir, fileName) => {
 }
 
 // Process a single markdown file (No recursion for linked notes)
-const processMarkdownFile = async (vaultDir, filePath, outputDir, visitedNotes) => {
-  const relativePath = path.relative(vaultDir, filePath)
-  const destinationPath = path.join(outputDir, relativePath)
+const processMarkdownFile = async (vaultDir, filePath, outputDir, visitedNotes, inputFolder) => {
+  const destinationPath = path.join(outputDir, path.basename(filePath))
 
   await copyFileToOutput(filePath, destinationPath)
 
   const { attachments, notes } = await parseMarkdownForLinks(filePath)
 
   // Resolve and copy attachments for the target note (stored in output/attachments)
-  const noteDir = path.dirname(filePath)
   const uniqueAttachments = new Set()
-  await resolveAndCopyAttachments(vaultDir, attachments, noteDir, outputDir, uniqueAttachments)
+  await resolveAndCopyAttachments(attachments, outputDir, uniqueAttachments)
 
   // Resolve and copy linked notes (stored in output/references)
   const uniqueNotes = new Set()
-  await resolveAndCopyNotes(vaultDir, notes, outputDir, uniqueNotes, visitedNotes)
+  await resolveAndCopyNotes(vaultDir, notes, outputDir, uniqueNotes, visitedNotes, inputFolder)
 }
 
 // Main function to handle user input
@@ -177,15 +193,7 @@ const main = async () => {
   const stats = await fs.stat(fullPath)
 
   // Determine the output directory name dynamically based on input file/folder
-  let outputDir
-  if (stats.isDirectory()) {
-    outputDir = path.join(process.cwd(), path.basename(fullPath))
-  } else if (stats.isFile()) {
-    outputDir = path.join(process.cwd(), path.basename(fullPath, ".md"))
-  } else {
-    console.error("Invalid input path: Must be a markdown file or folder")
-    process.exit(1)
-  }
+  const outputDir = path.join(process.cwd(), path.basename(fullPath).replace(/\.md$/, ""))
 
   try {
     if (stats.isDirectory()) {
@@ -193,12 +201,24 @@ const main = async () => {
       for (const file of files) {
         if (file.endsWith(".md")) {
           const visitedNotes = new Set()
-          await processMarkdownFile(VAULT_DIR, path.join(fullPath, file), outputDir, visitedNotes)
+          await processMarkdownFile(
+            VAULT_DIR,
+            path.join(fullPath, file),
+            outputDir,
+            visitedNotes,
+            fullPath,
+          )
         }
       }
     } else if (stats.isFile() && fullPath.endsWith(".md")) {
       const visitedNotes = new Set()
-      await processMarkdownFile(VAULT_DIR, fullPath, outputDir, visitedNotes)
+      await processMarkdownFile(
+        VAULT_DIR,
+        fullPath,
+        outputDir,
+        visitedNotes,
+        path.dirname(fullPath),
+      )
     }
   } catch (err) {
     console.error(`Error: ${err.message}`)
