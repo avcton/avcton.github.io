@@ -19,7 +19,7 @@
     "test": "tsx ./quartz/util/path.test.ts && tsx ./quartz/depgraph.test.ts",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
     "serve": "npx quartz build --serve",
-    "import": "node ./obsidian-importer/importer.js"
+    "export": "node obsidian-exporter.js"
   },
   "engines": {
     "npm": ">=9.3.1",
