@@ -23,29 +23,29 @@ lastmod: 2024-05-24T17:46:27Z
 
 ## Example
 
-![](attachments/CleanShot%202024-02-13%20at%2013.50.17@2x-20240213135024-kuwdb9o.png)
+![](CleanShot%202024-02-13%20at%2013.50.17@2x-20240213135024-kuwdb9o.png)
 
-- ## Karp-Flatt Metric
+## Karp-Flatt Metric
 
-  - Amdahl’s law ignore the parallelisation overhead due to which it overestimate the achievable speedup
-  - Deals with the overestimation issue of Amdahl’s law
-  - The Karp-Flatt metric is used to calculate serial fraction for a given parallel configuration
+- Amdahl’s law ignore the parallelisation overhead due to which it overestimate the achievable speedup
+- Deals with the overestimation issue of Amdahl’s law
+- The Karp-Flatt metric is used to calculate serial fraction for a given parallel configuration
 
-    - Experimentally determined serial fraction $e$ takes into account parallel overhead
+  - Experimentally determined serial fraction $e$ takes into account parallel overhead
 
-  - Used to calculate serial fraction of synchronisation
-  - Can determine if the efficiency drop with increasing p for a fixed size problem is:
+- Used to calculate serial fraction of synchronisation
+- Can determine if the efficiency drop with increasing p for a fixed size problem is:
 
-    1. Because of limited parallelism
-    2. Because of increases in algorithmic or architectural overhead
+  1. Because of limited parallelism
+  2. Because of increases in algorithmic or architectural overhead
 
-  - The less the value of e the better the parallelisation
+- The less the value of e the better the parallelisation
 
-    - $e$ can be considered as the overhead contributing to speedup
-    - If $e$ is less then speedup should be better and if it isn’t then it’s likely due to more sequential tasks
+  - $e$ can be considered as the overhead contributing to speedup
+  - If $e$ is less then speedup should be better and if it isn’t then it’s likely due to more sequential tasks
 
-  - ### Formula
+### Formula
 
-    - $$
-      \text{e} = \frac{\frac{1}{S}-\frac{1}{P}}{1-\frac{1}{P}}
-      $$
+- $$
+  \text{e} = \frac{\frac{1}{S}-\frac{1}{P}}{1-\frac{1}{P}}
+  $$
