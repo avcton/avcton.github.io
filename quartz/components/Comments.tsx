@@ -27,9 +27,17 @@ function boolToStringBool(b: boolean): string {
 export default ((opts: Options) => {
   const Comments: QuartzComponent = ({ displayClass, fileData, cfg }: QuartzComponentProps) => {
     // check if comments should be displayed according to frontmatter
-    const disableComment: boolean =
+    let disableComment: boolean =
       typeof fileData.frontmatter?.comments !== "undefined" &&
       (!fileData.frontmatter?.comments || fileData.frontmatter?.comments === "false")
+
+    // Filter out pages where comment shouldn't be displayed
+    disableComment =
+      disableComment ||
+      fileData.slug!.endsWith("index") || // any index page - root + folder
+      fileData.slug!.endsWith("404") || // the 404 page
+      fileData.slug!.startsWith("tags") // any tag page
+
     if (disableComment) {
       return <></>
     }
