@@ -1,15 +1,13 @@
 ---
 title: Muhammad Ahmad
-description: Explore me and my craft.
-date: 2024-06-05
+description: Explore me and my craft
 ---
-
 <div class="intro-container">
 
-<img class="intro-pfp" src="pfp.jpeg" alt="me">
+<img class="intro-pfp" src="_assets/me.jpeg" alt="me">
 <div class="intro-text">
 <strong class="name">Muhammad Ahmad</strong>
-<strong class="headline">FAST '25 | Data Scientist | AI & Full Stack Engineer</strong>
+<strong class="headline">FAST '25 | Data Scientist | Full Stack Developer | ML Engineer</strong>
 
 <div class="icons-container">
 	<a  href="https://drive.google.com/file/d/1H6II8UVCMrwBevq_5HlwrOQ5G2fvZCHw/view?usp=sharing" class="icon-text" target="_blank">
@@ -63,24 +61,21 @@ I am a passionate student dedicated to crafting immersive experiences and solvin
 </div>
 
 ---
-
 ## Journey
 
 > [!quote] Experience the technical journey of my life
 
 I’m deeply passionate about developing innovative and digital solutions. This journey of mine began in middle school, where I delved into various programming languages, igniting a lifelong love for learning and creating. Ever since then, I’ve immersed myself in numerous technologies and projects within this ever evolving field.
-
 ## Browse
 
 I invite you to browse through my **highlights** and accumulated **miscellaneous**.
 
-| Highlight                         | Description                                 |
-| --------------------------------- | ------------------------------------------- |
-| [Garden](Garden/index.md)         | Explore my digital blog and technical views |
-| [Literature](Literature/index.md) | Take a look into my study material          |
-| [Projects](Projects/index.md)     | Find about my success stories               |
-| [Resources](Resources/index.md)   | Browse my stacked up material               |
+### Highlights
+
+- Explore my digital blog and technical views in - [Garden](Garden/index.md)
+- Take a look into my study material in - [Literature](Literature/index.md)
+- Find about my success stories in - [Projects](Projects/index.md)
+- Browse my stacked up material in - [Resources](Resources/index.md)
 
 ### Miscellaneous
-
 - [Learn how i built this site](Garden/Inspiration.md)

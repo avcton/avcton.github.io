@@ -20,7 +20,7 @@ const TableOfContents: QuartzComponent = ({
   displayClass,
   cfg,
 }: QuartzComponentProps) => {
-  if (!fileData.toc) {
+  if (!fileData.toc || fileData.slug == "index") {
     return null
   }
 
@@ -67,7 +67,7 @@ TableOfContents.css = modernStyle
 TableOfContents.afterDOMLoaded = script
 
 const LegacyTableOfContents: QuartzComponent = ({ fileData, cfg }: QuartzComponentProps) => {
-  if (!fileData.toc) {
+  if (!fileData.toc || fileData.slug == "index") {
     return null
   }
   return (
