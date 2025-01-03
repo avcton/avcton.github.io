@@ -9,6 +9,3 @@ publish: true
 obsidianUIMode: preview
 ---
 
-Following concepts, *which may or may not be technical in nature*, help me expand my knowledge base:
-
-
