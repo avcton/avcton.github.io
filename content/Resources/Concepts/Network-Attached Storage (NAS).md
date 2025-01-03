@@ -6,6 +6,8 @@ highlight: Resources/Concepts
 publish: true
 ---
 
+xD
+
 A **Network-Attached Storage (NAS)** is a file-level storage solution that connects to a standard Ethernet network, providing centralized and shared access to files across multiple devices and users. It is designed for simplicity, cost-effectiveness, and ease of management, making it popular in both home and business environments.
 
 ## Key Characteristics of NAS:
