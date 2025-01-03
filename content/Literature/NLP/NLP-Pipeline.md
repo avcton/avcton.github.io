@@ -83,7 +83,7 @@ Embeddings always have defined dimensions
 
 > Every word is represented as a unique ‘One-Hot’ binary vector of 0s and 1s
 
-​![CleanShot 2023-10-15 at 17.33.30@2x](CleanShot%202023-10-15%20at%2017.33.30@2x-20231015173340-k3q9slv.png)​
+​![CleanShot 2023-10-15 at 17.33.30@2x](../../attachments/CleanShot%202023-10-15%20at%2017.33.30@2x-20231015173340-k3q9slv.png)​
 
 For every unique word in the vocabulary, the vector contains a single 1 and rest all values are 0s, the position of 1 in the vector uniquely identifies a word.
 
@@ -97,15 +97,15 @@ For every unique word in the vocabulary, the vector contains a single 1 and rest
 
 **Reviews**
 
-​![CleanShot 2023-10-15 at 17.37.51@2x](CleanShot%202023-10-15%20at%2017.37.51@2x-20231015173800-u8gv60c.png)​
+​![CleanShot 2023-10-15 at 17.37.51@2x](../../attachments/CleanShot%202023-10-15%20at%2017.37.51@2x-20231015173800-u8gv60c.png)​
 
 **Unique Words**
 
-​​![CleanShot 2023-10-15 at 17.38.06@2x](CleanShot%202023-10-15%20at%2017.38.06@2x-20231015173825-3o7rnks.png)​
+​​![CleanShot 2023-10-15 at 17.38.06@2x](../../attachments/CleanShot%202023-10-15%20at%2017.38.06@2x-20231015173825-3o7rnks.png)​
 
 **BOW for Review 4 Document**
 
-​![CleanShot 2023-10-15 at 17.38.36@2x](CleanShot%202023-10-15%20at%2017.38.36@2x-20231015174103-s4hhbmd.png)​
+​![CleanShot 2023-10-15 at 17.38.36@2x](../../attachments/CleanShot%202023-10-15%20at%2017.38.36@2x-20231015174103-s4hhbmd.png)​
 
 After converting the documents into such vectors we can compare different sentences and calculate the Euclidean distance between them so as to check if two sentences are similar or not. If there would be no common words distance would be much larger and vice-versa.
 
@@ -152,7 +152,7 @@ Sentence 1: The car is driven on the road
 
 Sentence 2: The truck is driven on the highway
 
-​![CleanShot 2023-10-15 at 18.02.07@2x](CleanShot%202023-10-15%20at%2018.02.07@2x-20231015180219-xr1qljr.png)​
+​![CleanShot 2023-10-15 at 18.02.07@2x](../../attachments/CleanShot%202023-10-15%20at%2018.02.07@2x-20231015180219-xr1qljr.png)​
 
 #### Shortcomings
 
@@ -207,7 +207,7 @@ CBOW is used when the corpus is very large
 
 ##### Architecture
 
-​![CleanShot 2024-03-13 at 01.58.53@2x](CleanShot%202024-03-13%20at%2001.58.53@2x-20240313015924-njga4n7.png)​
+​![CleanShot 2024-03-13 at 01.58.53@2x](../../attachments/CleanShot%202024-03-13%20at%2001.58.53@2x-20240313015924-njga4n7.png)​
 
 #### Skip Gram
 
@@ -236,7 +236,7 @@ Skip Gram is used when the corpus is small
 
 ##### Architecture
 
-​![CleanShot 2024-03-13 at 01.57.40@2x](CleanShot%202024-03-13%20at%2001.57.40@2x-20240313015805-kghejmx.png)​
+​![CleanShot 2024-03-13 at 01.57.40@2x](../../attachments/CleanShot%202024-03-13%20at%2001.57.40@2x-20240313015805-kghejmx.png)​
 
 ## Language Modelling
 

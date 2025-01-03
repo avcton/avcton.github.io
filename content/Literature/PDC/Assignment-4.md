@@ -8,7 +8,7 @@ lastmod: 2024-05-14T19:08:41Z
 
 **Write a single page summary of the uploaded research paper “The Google File System”**
 
-[The Google File System.pdf](The%20Google%20File%20System-20240506195502-u9u4ujg.pdf)
+[The Google File System.pdf](../../attachments/The%20Google%20File%20System-20240506195502-u9u4ujg.pdf)
 
 ### Introduction
 

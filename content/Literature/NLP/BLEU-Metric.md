@@ -108,7 +108,7 @@ Now, let’s do two things in a different way:
 * We’ll check every word in the predicted sentence against all the words in the target sentences. When a word matches any word in the target sentence, it’s counted as correct.
 * To manage repetition, we restrict the count of each correct word to the highest number of times it appears in the target sentence. This approach will be clearer in the following explanation.
 
-​![](655dce7a599603e74afc5658_Screenshot%202023-11-22%20at%2010.48.33-20240507224852-2cb88rw.png)​
+​![](../../attachments/655dce7a599603e74afc5658_Screenshot%202023-11-22%20at%2010.48.33-20240507224852-2cb88rw.png)​
 
 In our example, the word “She” appears once in each target sentence. Even though it occurs three times in the predicted sentence, we limit the count to one, the maximum count in any target sentence.
 
@@ -156,7 +156,7 @@ For instance, if we have only one word in the prediction, then for 1-gram precis
 
 To overcome this, the brevity penalty penalizes texts that are too short.
 
-​![](655dcdaf6959979a0f047584_EDOkyHReq6h0_UW1Kux8egIeuKBqiG0sch71IgqbF6m-Xt19oOZf_8XKh96kiTPcdmLXf5ZXvDjjMeMFegSxYhObL9hnzFSRoj2DZqPgzymsk9HR-r-Lq6aNnL-DSSUpvxa1yyiPoRsWhb_P0-liCug-20240507224852-3i4e03a.png)​
+​![](../../attachments/655dcdaf6959979a0f047584_EDOkyHReq6h0_UW1Kux8egIeuKBqiG0sch71IgqbF6m-Xt19oOZf_8XKh96kiTPcdmLXf5ZXvDjjMeMFegSxYhObL9hnzFSRoj2DZqPgzymsk9HR-r-Lq6aNnL-DSSUpvxa1yyiPoRsWhb_P0-liCug-20240507224852-3i4e03a.png)​
 
 Where
 
@@ -175,7 +175,7 @@ BLEU Score (N) = Brevity Penalty \* (Geometric Average Precision Score)
 
 Here’s how you can calculate the geometric average precision score.
 
-​![](655dcdaf3fdbd344aa25c7be_r7NdT2C1Zw06OOORgrwhyyVjdZc5ym8pbTY4EkR93ANMI5Rxjd0Rpvc8HLoXkUBvRUgRaUp74alOoKyltNPR56xMt2Ygg5CIiIq5kaag3FKjKuApOEhT-6Afva-tYUFVrmxx-vA8oNZ3R7rHellP3KU-20240507224852-7q6k2ko.png)​
+​![](../../attachments/655dcdaf3fdbd344aa25c7be_r7NdT2C1Zw06OOORgrwhyyVjdZc5ym8pbTY4EkR93ANMI5Rxjd0Rpvc8HLoXkUBvRUgRaUp74alOoKyltNPR56xMt2Ygg5CIiIq5kaag3FKjKuApOEhT-6Afva-tYUFVrmxx-vA8oNZ3R7rHellP3KU-20240507224852-7q6k2ko.png)​
 
 This can be calculated for different values of N and different weight values.
 

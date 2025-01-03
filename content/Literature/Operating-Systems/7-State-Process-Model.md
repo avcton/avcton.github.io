@@ -6,7 +6,7 @@ lastmod: 2023-12-30T22:27:04Z
 
 5 State Process Model transformation because of Medium Term Swapper
 
-​![image](image-20230918205946-pivhqms.png)​
+​![image](../../attachments/image-20230918205946-pivhqms.png)​
 
 ### New State
 
@@ -84,7 +84,7 @@ On the completion of that specific I/O operation, the state of the process is tr
 
 ### **Why is there a need to Suspend Processes?**
 
-[Swapping may be necessary to improve the job mix, or because a change in memory requirements has over committed available memory, requiring memory to be freed up](Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=34)
+[Swapping may be necessary to improve the job mix, or because a change in memory requirements has over committed available memory, requiring memory to be freed up](../../attachments/Operating%20Systems%20-%20CS604%20Handouts-20230917173807-mvuhx4l.pdf#page=34)
 
 * To Free Resources
 

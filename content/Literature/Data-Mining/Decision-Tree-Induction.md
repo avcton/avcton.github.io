@@ -6,7 +6,7 @@ lastmod: 2024-06-20T09:04:12Z
 
 > A classification algorithm that predicts the class labels given the attributes by building a decision tree where each node represents the state of the attribute values
 
-​![image](image-20240205182125-x1xc6cw.png)​
+​![image](../../attachments/image-20240205182125-x1xc6cw.png)​
 
 * ## Criteria Splits
 
@@ -36,12 +36,12 @@ lastmod: 2024-06-20T09:04:12Z
 
     * The number of records imbalance the split criteria
     * Greedy Algorithms look for more degree of purity
-    * ​![CleanShot 2024-02-05 at 19.05.55@2x](CleanShot%202024-02-05%20at%2019.05.55@2x-20240205190614-li27zce.png)​
+    * ​![CleanShot 2024-02-05 at 19.05.55@2x](../../attachments/CleanShot%202024-02-05%20at%2019.05.55@2x-20240205190614-li27zce.png)​
   * Impurity
 
     * The number of records balance out the split criteria
     * Inverse of Purity
-    * ​![CleanShot 2024-02-05 at 19.05.50@2x](CleanShot%202024-02-05%20at%2019.05.50@2x-20240205190630-5x87fn5.png)​
+    * ​![CleanShot 2024-02-05 at 19.05.50@2x](../../attachments/CleanShot%202024-02-05%20at%2019.05.50@2x-20240205190630-5x87fn5.png)​
   * ### Measures
 
     Let $p_i(t)$ the frequency of class $i$ at node $t$ and $c$ the no. of classes:
@@ -189,7 +189,7 @@ Construction of the decision tree
 
 ### General Pseudocode
 
-​![CleanShot 2024-02-05 at 22.46.48@2x](CleanShot%202024-02-05%20at%2022.46.48@2x-20240205225153-thnq9kg.png)​
+​![CleanShot 2024-02-05 at 22.46.48@2x](../../attachments/CleanShot%202024-02-05%20at%2022.46.48@2x-20240205225153-thnq9kg.png)​
 
 * ### Hunt’s Algorithm
 

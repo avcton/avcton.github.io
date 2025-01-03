@@ -4,9 +4,9 @@ date: 2023-12-02T14:26:19Z
 lastmod: 2024-06-20T08:59:26Z
 ---
 
-> [Naïve Bayes is a Bayes classifier which uses Bayes’ theorem with two simplifying assumptions: the independence between the attributes and position independence of attributes.](Naive%20Bayes%20and%20N-Grams-20231202142909-mjkl0y0.pdf#page=10)
+> [Naïve Bayes is a Bayes classifier which uses Bayes’ theorem with two simplifying assumptions: the independence between the attributes and position independence of attributes.](../../attachments/Naive%20Bayes%20and%20N-Grams-20231202142909-mjkl0y0.pdf#page=10)
 
-[Using Naive Bayes and N-Gram for Document Classification](Naive%20Bayes%20and%20N-Grams-20231202142909-mjkl0y0.pdf)
+[Using Naive Bayes and N-Gram for Document Classification](../../attachments/Naive%20Bayes%20and%20N-Grams-20231202142909-mjkl0y0.pdf)
 
 ## Bayesian Rule
 
@@ -44,7 +44,7 @@ Removing stop words don’t improve and contribute that much to the performance 
 
 ### Example
 
-​![CleanShot 2024-02-14 at 15.48.18@2x](CleanShot%202024-02-14%20at%2015.48.18@2x-20240214154838-wgwmyee.png)​
+​![CleanShot 2024-02-14 at 15.48.18@2x](../../attachments/CleanShot%202024-02-14%20at%2015.48.18@2x-20240214154838-wgwmyee.png)​
 
 ## Pros
 

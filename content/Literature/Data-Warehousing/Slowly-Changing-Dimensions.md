@@ -10,16 +10,16 @@ lastmod: 2023-09-24T17:03:19Z
 
 ## Example
 
-[Consider the customer demographics dimension table. What happens when a customer’s status changes from rental home to own home? The corresponding row in that dimension table must be changed. Next, look at the payment method dimension table. When finance type changes for one of the payment methods, this change must be reflected in the payment method dimension table.](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=281)
+[Consider the customer demographics dimension table. What happens when a customer’s status changes from rental home to own home? The corresponding row in that dimension table must be changed. Next, look at the payment method dimension table. When finance type changes for one of the payment methods, this change must be reflected in the payment method dimension table.](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=281)
 
 ## Techniques
 
-[Data warehousing practitioners have come up with different techniques for applying the changes. They have also given names to these three types of dimension table changes. Yes, your guess in right. The given names are type 1 changes, type 2 changes, and type 3 changes](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=281)
+[Data warehousing practitioners have come up with different techniques for applying the changes. They have also given names to these three types of dimension table changes. Yes, your guess in right. The given names are type 1 changes, type 2 changes, and type 3 changes](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=281)
 
 ### Type 1
 
-[Type 1 Change](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=283)\
-​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P283-20230924171103-20230924171103-aenru8q.png)​
+[Type 1 Change](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=283)\
+​![](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P283-20230924171103-20230924171103-aenru8q.png)​
 
 #### Principles
 
@@ -45,8 +45,8 @@ lastmod: 2023-09-24T17:03:19Z
 
 ### Type 2
 
-[Type 2 Change](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=284)\
-​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P284-20230924171142-20230924171143-oxrb64d.png)​
+[Type 2 Change](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=284)\
+​![](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P284-20230924171142-20230924171143-oxrb64d.png)​
 
 #### Principles
 
@@ -65,8 +65,8 @@ lastmod: 2023-09-24T17:03:19Z
 
 ### Type 3
 
-[Type 3 Change](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=285)\
-​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P285-20230924171236-20230924171236-o3x65s6.png)​
+[Type 3 Change](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=285)\
+​![](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P285-20230924171236-20230924171236-o3x65s6.png)​
 
 #### Principles
 

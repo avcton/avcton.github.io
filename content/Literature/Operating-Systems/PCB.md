@@ -24,5 +24,5 @@ lastmod: 2023-09-17T19:29:32Z
 
 * I/O status information. This information includes the list of I/O devices allocated to the process, a list of open files, and so on.
 
-[A Process Control Block of a Process](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=147)\
-​![](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P147-20230917192803-20230917192803-seug4u6.png)​
+[A Process Control Block of a Process](../../attachments/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=147)\
+​![](../../attachments/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P147-20230917192803-20230917192803-seug4u6.png)​

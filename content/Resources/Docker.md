@@ -41,5 +41,5 @@ date: 2023-09-16
 * [CMD VS ENTRYPOINT](https://devtron.ai/blog/cmd-and-entrypoint-differences/)
 * [Commands Cheatsheet](https://dockerlabs.collabnix.com/docker/cheatsheet/)
 * [Docker for Data Science](https://www.dataquest.io/blog/docker-data-science/)
-* [Guide to Docker.pdf](guide-to-docker.pdf)
-* ​[Docker Cheat-Sheet](docker-cheat-sheet.png)​
+* [Guide to Docker.pdf](../attachments/guide-to-docker.pdf)
+* ​[Docker Cheat-Sheet](../attachments/docker-cheat-sheet.png)​

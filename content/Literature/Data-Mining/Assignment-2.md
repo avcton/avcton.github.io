@@ -4,7 +4,7 @@ date: 2024-03-22T21:21:36Z
 lastmod: 2024-03-25T11:45:34Z
 ---
 
-Reference Document: [HW2 Data Mining.pdf](HW2%20Data%20Mining-20240322212158-mq63x83.pdf)
+Reference Document: [HW2 Data Mining.pdf](../../attachments/HW2%20Data%20Mining-20240322212158-mq63x83.pdf)
 
 [Association Analysis: Basic Concepts and Algorithms](https://people.inf.elte.hu/kiss/14dwhdm/solution2.pdf)
 
@@ -64,8 +64,8 @@ Reference Document: [HW2 Data Mining.pdf](HW2%20Data%20Mining-20240322212158-mq6
 
 ## Q2
 
-[Transaction Table](HW2%20Data%20Mining-20240322212158-mq63x83.pdf#page=2)\
-​![](HW2%20Data%20Mining-P2-20240322212551-20240322212552-9751t62.png)​
+[Transaction Table](../../attachments/HW2%20Data%20Mining-20240322212158-mq63x83.pdf#page=2)\
+​![](../../attachments/HW2%20Data%20Mining-P2-20240322212551-20240322212552-9751t62.png)​
 
 **Compute the support for item-sets {e}, {b, d}, and {b, d, e} by treating each transaction ID as a market basket**
 
@@ -77,8 +77,8 @@ Support(${b, d, e}$) = $\frac{\text{Baskets with item b, d and e}}{\text{Total B
 
 ## Q3
 
-[Hash Tree](HW2%20Data%20Mining-20240322212158-mq63x83.pdf#page=2)\
-​![](HW2%20Data%20Mining-P2-20240322212627-20240322212627-0wyjq8n.png)​
+[Hash Tree](../../attachments/HW2%20Data%20Mining-20240322212158-mq63x83.pdf#page=2)\
+​![](../../attachments/HW2%20Data%20Mining-P2-20240322212627-20240322212627-0wyjq8n.png)​
 
 **Given a transaction that contains items {1, 3, 4, 5, 8}, which of the hash tree leaf nodes will be visited when finding the candidates of the transaction?**
 
@@ -103,11 +103,11 @@ The leaf nodes that will be visited using the hash tree are **L1, L3, L5, L9, an
 
 Assume that the support threshold is equal to 30%.
 
-[Transaction Table](HW2%20Data%20Mining-20240322212158-mq63x83.pdf#page=3)\
-​![](HW2%20Data%20Mining-P3-20240322212912-20240322212912-d5wisrl.png)​
+[Transaction Table](../../attachments/HW2%20Data%20Mining-20240322212158-mq63x83.pdf#page=3)\
+​![](../../attachments/HW2%20Data%20Mining-P3-20240322212912-20240322212912-d5wisrl.png)​
 
-[Lattice Structure](HW2%20Data%20Mining-20240322212158-mq63x83.pdf#page=3)\
-​![](HW2%20Data%20Mining-P3-20240322212851-20240322212852-k6ck56a.png)​
+[Lattice Structure](../../attachments/HW2%20Data%20Mining-20240322212158-mq63x83.pdf#page=3)\
+​![](../../attachments/HW2%20Data%20Mining-P3-20240322212851-20240322212852-k6ck56a.png)​
 
 | 1 Item-set | Support |
 | :--------: | :-----: |
@@ -137,4 +137,4 @@ Assume that the support threshold is equal to 30%.
 | :--------: | :-----: |
 |      -     |    -    |
 
-​![CleanShot 2024-03-23 at 14.59.41@2x](CleanShot%202024-03-23%20at%2014.59.41@2x-20240323152838-cafvzhk.png)​
+​![CleanShot 2024-03-23 at 14.59.41@2x](../../attachments/CleanShot%202024-03-23%20at%2014.59.41@2x-20240323152838-cafvzhk.png)​

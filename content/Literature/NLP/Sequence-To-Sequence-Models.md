@@ -9,7 +9,7 @@ lastmod: 2024-05-30T11:31:09Z
 * From the given input sequence, we generate an output predicted sequence
 
   * Example, Predict response of an input text, as in the case of a chat
-* [What is Sequence to Sequence and how does the Attention work?](Seq2Seq-Attention.pdf)
+* [What is Sequence to Sequence and how does the Attention work?](../../attachments/Seq2Seq-Attention.pdf)
 
 ## Applications
 
@@ -79,7 +79,7 @@ The layer count of the encoder and decoder are the same
     * The similarity score that helps us to define if any context of the input coming from the Encoder should be used to generate the current word
   * #### Procedure
 
-    ​![](Seq2Seq-Attention.pdf-P35-20240428180603-88ienrt.png "Calculating attention scores to make predictions")​
+    ​![](../../attachments/Seq2Seq-Attention.pdf-P35-20240428180603-88ienrt.png "Calculating attention scores to make predictions")​
 
     1. Calculate prediction of current unit of the decoder
     2. Calculate similarity of the computed prediction with hidden output $h_t$ of each and every input in the encoder through <u>dot product</u>

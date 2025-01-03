@@ -223,22 +223,22 @@ the store dimension is aggregated into country*\
 >
 > Denormalised Structure, therefore <span class="text-highlight">huge data redundancies</span>
 
-[For modeling the data warehouse, we are interested in the dimensional modeling technique. Most of the existing vendors have expanded their modeling case tools to include dimensional modeling. You can create fact tables, dimension tables, and establish the relationships between each dimension table and the fact table. The result is a STAR schema for your model. Again, you can forward-engineer the dimensional STAR model into a relational schema for your chosen database management system](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=263)
+[For modeling the data warehouse, we are interested in the dimensional modeling technique. Most of the existing vendors have expanded their modeling case tools to include dimensional modeling. You can create fact tables, dimension tables, and establish the relationships between each dimension table and the fact table. The result is a STAR schema for your model. Again, you can forward-engineer the dimensional STAR model into a relational schema for your chosen database management system](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=263)
 
-[Start Schema](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=264)
+[Start Schema](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=264)
 
 Fact table resides in the centre while the dimensions connected to it forming a shape of a star\
-​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P264-20230914153525-20230914153525-vtxzl8e.png)​
+​![](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P264-20230914153525-20230914153525-vtxzl8e.png)​
 
-Also See: [Drill Down Steps](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=265)
+Also See: [Drill Down Steps](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=265)
 
 #### SnowFlake Schema
 
-[“Snowflaking” is a method of normalizing the dimension tables in a STAR schema. When you completely normalize all the dimension tables, the resultant structure resembles a snowflake with the fact table in the middle.](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=290)
+[“Snowflaking” is a method of normalizing the dimension tables in a STAR schema. When you completely normalize all the dimension tables, the resultant structure resembles a snowflake with the fact table in the middle.](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=290)
 
-[A Snowflake Schema](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=292)\
+[A Snowflake Schema](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-20230914150509-6drb56f.pdf#page=292)\
 Further normalisation of dimensions can lead us to a Snowflake Schema\
-​![](Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P292-20230914154446-20230914154447-34zum96.png)​
+​![](../../attachments/Data%20Warehousing%20Fundamentals%20for%20IT%20Professionals%202nd%20edition-P292-20230914154446-20230914154447-34zum96.png)​
 
 #### StarFlake Schema
 

@@ -4,7 +4,7 @@ date: 2024-03-16T17:12:27Z
 lastmod: 2024-04-04T17:21:26Z
 ---
 
-**Reference Document:**  [A 2.pdf](A%202-20240317101057-sb6fsyk.pdf)
+**Reference Document:**  [A 2.pdf](../../attachments/A%202-20240317101057-sb6fsyk.pdf)
 
 ## Q1
 
@@ -81,8 +81,8 @@ The `schedule(static, 4)`​ clause is used by OpenMP to dictate the order in wh
 
 **Calculate the total communication cost required to transfer 400 mbits of data from Sender to Receiver3. Bandwidth of the link is 10 mbits/s.**
 
-[Communication Architecture](A%202-20240317101057-sb6fsyk.pdf#page=3)\
-​![](A%202-P3-20240317101356-20240317101357-5k92tfv.png)​
+[Communication Architecture](../../attachments/A%202-20240317101057-sb6fsyk.pdf#page=3)\
+​![](../../attachments/A%202-P3-20240317101356-20240317101357-5k92tfv.png)​
 
 ### Store and forward routing
 

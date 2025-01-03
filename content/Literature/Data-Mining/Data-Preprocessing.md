@@ -31,7 +31,7 @@ lastmod: 2024-01-28T15:41:42Z
 
   * Process of converting numerical or categorical data into binary values `0`​ or `1`​ based on a certain threshold
 
-    ​![CleanShot 2024-01-28 at 15.33.03@2x](CleanShot%202024-01-28%20at%2015.33.03@2x-20240128153317-dfquup3.png)​
+    ​![CleanShot 2024-01-28 at 15.33.03@2x](../../attachments/CleanShot%202024-01-28%20at%2015.33.03@2x-20240128153317-dfquup3.png)​
 * Attribute Transformation
 
   * Normalisation
@@ -56,7 +56,7 @@ lastmod: 2024-01-28T15:41:42Z
 
       * Find a projection that represents the largest amount of variation in the data
 
-        ​![CleanShot 2024-01-28 at 15.39.26@2x](CleanShot%202024-01-28%20at%2015.39.26@2x-20240128153939-h1r55k7.png)​
+        ​![CleanShot 2024-01-28 at 15.39.26@2x](../../attachments/CleanShot%202024-01-28%20at%2015.39.26@2x-20240128153939-h1r55k7.png)​
     * Feature Subset Selection
 
       * Remove Redundant Features

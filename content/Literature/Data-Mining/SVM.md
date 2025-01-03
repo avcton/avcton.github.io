@@ -82,4 +82,4 @@ We then multiply s with our default hyperplane equation $h(x)$. Thus now points 
 
 ## Resources
 
-* [SVM - Notes.pdf](SVM%20-%20Notes-20240620131807-mrz5i5j.pdf)
+* [SVM - Notes.pdf](../../attachments/SVM%20-%20Notes-20240620131807-mrz5i5j.pdf)

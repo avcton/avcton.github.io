@@ -4,7 +4,7 @@ date: 2024-02-13T13:42:21Z
 lastmod: 2024-03-17T10:10:57Z
 ---
 
-Parallel Computing is further used to empower Distributed Computing.[A 2.pdf](A%202-20240317101057-sb6fsyk.pdf)
+Parallel Computing is further used to empower Distributed Computing.[A 2.pdf](../../attachments/A%202-20240317101057-sb6fsyk.pdf)
 
 ## The Difference
 

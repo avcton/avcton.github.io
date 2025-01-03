@@ -52,20 +52,20 @@ $$
 * ​`Swap In`​ Cost is the cost of bringing in the pages into the memory from Virtual Memory
 * ​`Swap Out`​ Cost is added if the memory was full and there a need to create some space
 
-[Steps in handling a page fault.](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=506)\
-​![](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P506-20231130091950-20231130091950-21sho7r.png)​
+[Steps in handling a page fault.](../../attachments/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=506)\
+​![](../../attachments/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P506-20231130091950-20231130091950-21sho7r.png)​
 
 ##### Example
 
 Question 6 (5 points): If memory access time is equal to the year you enrolled in FAST. e.g. 18 nanoseconds, and page fault overhead time is equal to your registration number, e.g. 4111 nanoseconds. If the probability of having a page fault is 0.85, then calculate the Effective Access Time. Here, the page fault overhead time also includes the page swap in and swap out time.
 
-​![WhatsApp Image 2023-12-21 at 19.16.33](WhatsApp%20Image%202023-12-21%20at%2019.16.33-20240101003112-6x5a2t8.jpeg)​
+​![WhatsApp Image 2023-12-21 at 19.16.33](../../attachments/WhatsApp%20Image%202023-12-21%20at%2019.16.33-20240101003112-6x5a2t8.jpeg)​
 
 ### Page Replacement Policies
 
 > The criteria of selecting the page that needs to be swapped out to create space for a page demand can vary and thus we can come up with different policies
 
-[We evaluate an algorithm by running it on a particular string of memory references and computing the number of page faults. The string of memory references is called a reference string.](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=516)
+[We evaluate an algorithm by running it on a particular string of memory references and computing the number of page faults. The string of memory references is called a reference string.](../../attachments/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=516)
 
 #### FIFO
 
@@ -73,8 +73,8 @@ Question 6 (5 points): If memory access time is equal to the year you enrolled i
 >
 > The page which was came the oldest into the memory, i.e which came first and has the longest time in the main memory, will be replaced and swapped out
 
-[FIFO page-replacement algorithm](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=517)\
-​![](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P517-20231130094956-20231130094956-8o8qhvq.png)​
+[FIFO page-replacement algorithm](../../attachments/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=517)\
+​![](../../attachments/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P517-20231130094956-20231130094956-8o8qhvq.png)​
 
 #### LRU
 
@@ -84,12 +84,12 @@ Question 6 (5 points): If memory access time is equal to the year you enrolled i
 
 * LRU looks in the previous pages which were demanded in the reference string
 
-[LRU page-replacement algorithm](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=520)\
-​![](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P520-20231130095043-20231130095043-1uar0yc.png)​
+[LRU page-replacement algorithm](../../attachments/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=520)\
+​![](../../attachments/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P520-20231130095043-20231130095043-1uar0yc.png)​
 
 #### Optimal Algorithm
 
 > Look into the Future / Far into the Reference string given that we have the complete reference string, and determine page will be least frequently used in the future and discard that page
 
-[Optimal page-replacement algorithm](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=519)\
-​![](Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P519-20231130095021-20231130095031-qznmrv4.png)​
+[Optimal page-replacement algorithm](../../attachments/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-20230917173659-aljli44.pdf#page=519)\
+​![](../../attachments/Abraham-Silberschatz-Operating-System-Concepts-10th-2018-P519-20231130095021-20231130095031-qznmrv4.png)​

@@ -42,7 +42,7 @@ As mentioned earlier, the greedy algorithm doesn’t always produce the optimal 
 
 For example, suppose we want to find the longest path in the graph below from root to leaf. Let’s use the greedy algorithm here.
 
-​![Apply greedy approach to this tree to find the longest route](greedy_approach_na-20231104171640-m09wp7o.png "Apply greedy approach to this tree to find the longest route")\
+​![Apply greedy approach to this tree to find the longest route](../../attachments/greedy_approach_na-20231104171640-m09wp7o.png "Apply greedy approach to this tree to find the longest route")\
 Apply greedy approach to this tree to find the longest route
 
 **Greedy Approach**
@@ -53,7 +53,7 @@ Apply greedy approach to this tree to find the longest route
 
 However, it is not the optimal solution. There is another path that carries more weight (`20 + 2 + 10 = 32`​) as shown in the image below.
 
-​![Longest path](greedy_approach_longest-20231104171640-67e29ca.png "Longest path")\
+​![Longest path](../../attachments/greedy_approach_longest-20231104171640-67e29ca.png "Longest path")\
 Longest path
 
 Therefore, greedy algorithms do not always give an optimal/feasible solution.

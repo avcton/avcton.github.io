@@ -41,4 +41,4 @@ While doing all of these is *theoretically* possible without regex, <span class=
 
 ## Cheat Sheet
 
-​![image](image-20240124214236-zsic0ow.png)​
+​![image](../../attachments/image-20240124214236-zsic0ow.png)​

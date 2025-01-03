@@ -4,7 +4,7 @@ date: 2023-09-23T11:42:52Z
 lastmod: 2024-06-17T18:04:52Z
 ---
 
-Reference Document: [OS Assignment1.pdf](OS%20Assignment1-20230923114511-5sn3ue3.pdf)
+Reference Document: [OS Assignment1.pdf](../../attachments/OS%20Assignment1-20230923114511-5sn3ue3.pdf)
 
 ## Q1
 

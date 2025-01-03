@@ -10,7 +10,7 @@ Calculate the maximum sum present of consecutive elements in an array
 
 ## BruteForce Solution
 
-​![CleanShot 2023-09-16 at 22.18.53@2x](CleanShot%202023-09-16%20at%2022.18.53@2x-20230916221906-l0eqccv.png)​
+​![CleanShot 2023-09-16 at 22.18.53@2x](../../attachments/CleanShot%202023-09-16%20at%2022.18.53@2x-20230916221906-l0eqccv.png)​
 
 ```cpp
 int arr[] = {-6, 2, -4, 1, 3, -1, 5, -1};
@@ -38,7 +38,7 @@ cout << "From Index " << indx[0] << " To " << indx[1] << endl;
 
 ## Divide and Conquer Solution
 
-​![CleanShot 2023-09-16 at 22.20.23@2x](CleanShot%202023-09-16%20at%2022.20.23@2x-20230916222031-bbqgenm.png)​
+​![CleanShot 2023-09-16 at 22.20.23@2x](../../attachments/CleanShot%202023-09-16%20at%2022.20.23@2x-20230916222031-bbqgenm.png)​
 
 ```
 MaxSubArraySum(A, l, r){

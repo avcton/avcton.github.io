@@ -7,11 +7,11 @@ draft: true
 
 Reference Documents:
 
-[Fall2023\_DW\_BDS\_A4\_Indexing Techniques.pdf](Fall2023_DW_BDS_A4_Indexing%20Techniques-20231027171706-am71ouk.pdf)
+[Fall2023\_DW\_BDS\_A4\_Indexing Techniques.pdf](../../attachments/Fall2023_DW_BDS_A4_Indexing%20Techniques-20231027171706-am71ouk.pdf)
 
-[Indexing\_PracticeProblem1\_Sol.pdf](Indexing_PracticeProblem1_Sol-20231027171818-5pku8nb.pdf)
+[Indexing\_PracticeProblem1\_Sol.pdf](../../attachments/Indexing_PracticeProblem1_Sol-20231027171818-5pku8nb.pdf)
 
-[Indexing\_PracticeProblem2\_Sol.pdf](Indexing_PracticeProblem2_Sol-20231027171823-8eudo5c.pdf)
+[Indexing\_PracticeProblem2\_Sol.pdf](../../attachments/Indexing_PracticeProblem2_Sol-20231027171823-8eudo5c.pdf)
 
 ## Assumptions
 

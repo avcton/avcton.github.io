@@ -4,9 +4,9 @@ date: 2024-04-17T15:31:05Z
 lastmod: 2024-06-16T14:53:28Z
 ---
 
-> A transformer is **a deep learning** sequence-to-sequence **architecture developed by Google** representing departure from the traditional RNN and LSTM based seq-to-seq models **and based on the multi-head attention mechanism**, proposed in a 2017 paper [“Attention Is All You Need”](attention-is-all-you-need-20240428205150-tbz6s25.pdf).
+> A transformer is **a deep learning** sequence-to-sequence **architecture developed by Google** representing departure from the traditional RNN and LSTM based seq-to-seq models **and based on the multi-head attention mechanism**, proposed in a 2017 paper [“Attention Is All You Need”](../../attachments/attention-is-all-you-need-20240428205150-tbz6s25.pdf).
 
-* Introduced in the paper [“Attention Is All You Need”](attention-is-all-you-need-20240428205150-tbz6s25.pdf) by Vaswani et al. (2017)
+* Introduced in the paper [“Attention Is All You Need”](../../attachments/attention-is-all-you-need-20240428205150-tbz6s25.pdf) by Vaswani et al. (2017)
 * [The Illustrated Transformer – Jay Alammar](https://jalammar.github.io/illustrated-transformer/ "The Illustrated Transformer – Jay Alammar – Visualizing machine learning one concept at a time.")
 * [Solving Transformer by Hand: A Step-by-Step Math Example](https://levelup.gitconnected.com/understanding-transformers-from-start-to-end-a-step-by-step-math-example-16d4e64e6eb1)
 * [The matrix math behind transformer neural networks, one step at a time!!! - YouTube](https://www.youtube.com/watch?v=KphmOJnLAdI "The matrix math behind transformer neural networks, one step at a time!!! - YouTube")
@@ -28,7 +28,7 @@ So, in transformers, the input sequence is not fed one token at a time, but rath
 
 ## Architecture
 
-​![image](image-20240428210324-h4sz0ru.png "The Transformer - Model Architecture")​
+​![image](../../attachments/image-20240428210324-h4sz0ru.png "The Transformer - Model Architecture")​
 
 1. **Encoder-Decoder Architecture**: Transformers typically consist of an encoder and a decoder. The original paper “Attention is all you need”, there were $6$ encoders and $6$ decoders. The encoder processes the input sequence and generates a sequence of hidden representations, while the decoder generates the output sequence based on the encoder’s representations and any previous output tokens. <span class="text-highlight">This training is done in</span> ==$O(1)$==.
 2. **Positional Encoding**: Since Transformers do not inherently understand the order of tokens in a sequence, positional encoding is added to the input embeddings to provide information about the positions of tokens in the sequence. This allows the model to take into account the sequential order of tokens.
