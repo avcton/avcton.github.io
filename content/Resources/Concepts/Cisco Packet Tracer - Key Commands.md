@@ -55,7 +55,7 @@ Router# configure terminal
 
 Router(config)# router ospf [Process No.] # Example: router ospf 1
 
-# Example Usage:
+# Example Usage
 # network [ip to advertize] [complement of its subnet] area [area no.]
 Router(config-router)# network 192.168.*.* 0.0.0.255 area 0
 Router(config-router)# network 172.0.0.* 0.0.255.255 area 0
@@ -72,7 +72,7 @@ Router# configure terminal
 
 Router(config)#router bgp [AS#] # Example: router bgp 1
 
-# Example Usage:
+# Example Usage
 # neighbor [neighbor ip] remote-as [AS# of Neighbor]
 # network [ip to advertize] mask [subnet mask of ip]
 Router(config-router)# neighbor 172.16.0.2 remote-as 71
