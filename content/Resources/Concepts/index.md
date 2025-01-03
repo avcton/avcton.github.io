@@ -9,3 +9,6 @@ publish: true
 obsidianUIMode: preview
 ---
 
+This MOC outlines the ==concepts==, *which may or may not be technical in nature*, to help me expand my knowledge base.
+
+
