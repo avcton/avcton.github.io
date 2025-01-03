@@ -6,7 +6,8 @@ highlight: Resources/Concepts
 publish: true
 ---
 
-SAN stands for *Storage Area Network* while NAS stands for *Network Attached Storage*.
+[[./Storage Area Network (SAN)|Storage Area Network (SAN)]] and [[./Network-Attached Storage (NAS)|Network-Attached Storage (NAS)]] are way different from one another. They present different concepts and approaches for storage mechanisms.
+
 Following are the key differences:
 
 | Feature          | SAN                            | NAS                        |
