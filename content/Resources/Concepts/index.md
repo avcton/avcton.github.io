@@ -9,7 +9,9 @@ publish: true
 obsidianUIMode: preview
 ---
 
-Following concepts are there to expand my knowledge:
+This MOC outlines the ==concepts==, *which may or may not be technical in nature*, to help me expand my knowledge base.
+
+## Map Of Content
 
 %% Begin Waypoint %%
 - [[./Cisco Packet Tracer - Key Commands|Cisco Packet Tracer - Key Commands]]
