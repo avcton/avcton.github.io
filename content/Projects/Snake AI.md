@@ -1,7 +1,6 @@
 ---
 title: Snake AI
 date: 2024-03-24
-date_created: 2025-01-13
 date_modified: 2025-01-13
 highlight: Projects
 publish: true
@@ -12,7 +11,7 @@ publish: true
 > [!info]
 > The source code for this project can be found on [Github](https://github.com/avcton/snake-ai)
 
-![[../attachments/snake-ai.gif|]]
+![[../attachments/snake-ai.gif|snake-ai]]
 
 ## Search Algorithms Implemented
 
