@@ -1,7 +1,8 @@
 ---
 title: Difference between Socket and Port
 date: 2024-12-23
-date_modified: 2025-01-03
+date_created: 2024-12-23
+date_modified: 2025-01-13
 tags:
   - faq
 highlight: Resources/Concepts
