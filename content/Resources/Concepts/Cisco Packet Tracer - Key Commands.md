@@ -1,7 +1,6 @@
 ---
 title: Cisco Packet Tracer - Key Commands
 date: 2024-12-22
-date_created: 2024-12-22
 date_modified: 2025-01-13
 highlight: Resources/Concepts
 publish: true
