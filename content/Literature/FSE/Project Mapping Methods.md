@@ -1,7 +1,7 @@
 ---
-name: Project Mapping Methods
-date: 2023-05-10
-date_modified: 2025-01-17
+title: Project Mapping Methods
+date: 2022-02-22
+date_modified: 2025-01-18
 tags:
   - cpm
   - duration

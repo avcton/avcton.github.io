@@ -1,7 +1,7 @@
 ---
-name: ACD and OD
-date: 2023-05-10
-date_modified: 2025-01-17
+title: ACD and OD
+date: 2023-03-07
+date_modified: 2025-01-18
 tags:
   - acd
   - diagram

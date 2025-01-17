@@ -1,7 +1,7 @@
 ---
-name: DFD
-date: 2023-05-10
-date_modified: 2025-01-17
+title: DFD
+date: 2023-03-12
+date_modified: 2025-01-18
 tags:
   - dfd
   - diagram

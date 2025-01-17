@@ -1,5 +1,5 @@
 ---
-name: SAN vs NAS
+title: SAN vs NAS
 date: 2024-12-29
 date_modified: 2025-01-13
 highlight: Resources/Concepts

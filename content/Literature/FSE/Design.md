@@ -1,12 +1,12 @@
 ---
-name: Design
-date: 2023-05-10
-date_modified: 2025-01-17
+title: Design
+date: 2023-05-02
+date_modified: 2025-01-18
 highlight: Literature/FSE
 publish: true
 ---
 
-> Solution space of the modelling phase
+> Solution space of the modeling phase
 > Logical implementation of the construction phase
 > It keeps evolving - self loop
 

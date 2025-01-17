@@ -1,5 +1,5 @@
 ---
-name: Storage Area Network (SAN)
+title: Storage Area Network (SAN)
 date: 2024-12-29
 date_modified: 2025-01-13
 highlight: Resources/Concepts
