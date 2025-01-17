@@ -1,5 +1,5 @@
 ---
-title: Basic Path Testing
+name: Basic Path Testing
 date: 2023-05-10
 date_modified: 2025-01-17
 highlight: Literature/Fundamentals of Software Engineering
