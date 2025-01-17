@@ -1,5 +1,5 @@
 ---
-title: Analysis
+name: Analysis
 date: 2023-05-10
 date_modified: 2025-01-17
 tags:
