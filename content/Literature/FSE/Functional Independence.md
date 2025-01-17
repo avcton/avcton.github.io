@@ -1,7 +1,7 @@
 ---
-name: Functional Independence
-date: 2023-05-10
-date_modified: 2025-01-17
+title: Functional Independence
+date: 2023-05-06
+date_modified: 2025-01-18
 highlight: Literature/FSE
 publish: true
 ---
