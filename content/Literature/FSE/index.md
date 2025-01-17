@@ -1,8 +1,7 @@
 ---
 title: Fundamentals of Software Engineering
-name: FSE
 date: 2023-05-10
-date_modified: 2025-01-17
+date_modified: 2025-01-18
 tags:
   - course
   - moc
