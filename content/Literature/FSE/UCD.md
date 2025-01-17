@@ -1,7 +1,7 @@
 ---
-name: UCD
-date: 2023-05-10
-date_modified: 2025-01-17
+title: UCD
+date: 2023-03-04
+date_modified: 2025-01-18
 tags:
   - diagram
   - ucd
