@@ -1,5 +1,5 @@
 ---
-title: Snake AI
+name: Snake AI
 date: 2024-03-24
 date_modified: 2025-01-13
 highlight: Projects
