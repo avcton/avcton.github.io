@@ -1,7 +1,7 @@
 ---
-name: Basic Path Testing
-date: 2023-05-10
-date_modified: 2025-01-17
+title: Basic Path Testing
+date: 2023-03-02
+date_modified: 2025-01-18
 highlight: Literature/FSE
 publish: true
 ---
