@@ -38,7 +38,7 @@ publish: true
 > [!insight]
 > **Tasks that cannot be delayed without affecting the project finish date** are the critical tasks.
 
-> [! important]
+> [!important]
 > By definition, if a task has two pre-required tasks, then the one with the max time is the critical task
 
 ### Non-Critical Tasks
