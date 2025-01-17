@@ -1,7 +1,7 @@
 ---
-name: Analysis
-date: 2023-05-10
-date_modified: 2025-01-17
+title: Analysis
+date: 2023-02-28
+date_modified: 2025-01-18
 tags:
   - modeling
   - uml
