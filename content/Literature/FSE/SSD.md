@@ -1,7 +1,7 @@
 ---
-name: SSD
-date: 2023-05-10
-date_modified: 2025-01-17
+title: SSD
+date: 2023-04-04
+date_modified: 2025-01-18
 highlight: Literature/FSE
 publish: true
 ---
