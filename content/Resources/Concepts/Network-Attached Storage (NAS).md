@@ -1,5 +1,5 @@
 ---
-title: Network-Attached Storage (NAS)
+name: Network-Attached Storage (NAS)
 date: 2024-12-29
 date_modified: 2025-01-13
 highlight: Resources/Concepts

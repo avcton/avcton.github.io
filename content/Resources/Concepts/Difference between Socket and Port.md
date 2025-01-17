@@ -1,5 +1,5 @@
 ---
-title: Difference between Socket and Port
+name: Difference between Socket and Port
 date: 2024-12-23
 date_modified: 2025-01-13
 tags:

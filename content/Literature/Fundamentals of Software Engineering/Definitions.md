@@ -1,5 +1,5 @@
 ---
-title: Definitions
+name: Definitions
 date: 2023-05-10
 date_modified: 2025-01-17
 highlight: Literature/Fundamentals of Software Engineering
