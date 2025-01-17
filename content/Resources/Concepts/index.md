@@ -1,7 +1,7 @@
 ---
 title: Concepts
 date: 2025-01-03
-date_modified: 2025-01-13
+date_modified: 2025-01-17
 tags:
   - moc
 highlight: Resources/Concepts
