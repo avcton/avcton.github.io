@@ -1,7 +1,7 @@
 ---
-name: DCD
-date: 2023-05-10
-date_modified: 2025-01-17
+title: DCD
+date: 2023-03-28
+date_modified: 2025-01-18
 tags:
   - acd
   - designs
