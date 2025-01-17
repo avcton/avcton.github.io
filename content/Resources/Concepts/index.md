@@ -1,5 +1,5 @@
 ---
-title: Concepts
+name: Concepts
 date: 2025-01-03
 date_modified: 2025-01-17
 tags:
