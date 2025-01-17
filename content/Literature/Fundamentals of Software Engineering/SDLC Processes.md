@@ -125,7 +125,7 @@ publish: true
 - Sustainable Pace
 - Test Driven Development
 
-> [! hint]
+> [!hint]
 > https://www.cprime.com/resources/blog/key-xp-practices/
 
 ---
