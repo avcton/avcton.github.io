@@ -26,7 +26,7 @@ publish: true
 > Give the user more control over the application
 > Could be Keyboard Shortcuts, Undo Redo facilities etc,
 
-### Memory Load $\downarrow$
+### Memory Load
 
 ^4474c6
 
