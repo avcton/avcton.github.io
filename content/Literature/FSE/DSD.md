@@ -1,4 +1,5 @@
 ---
+title: Design Sequence Diagram
 date: 2023-03-14
 date_modified: 2025-01-18
 highlight: Literature/FSE
