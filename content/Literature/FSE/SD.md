@@ -1,5 +1,4 @@
 ---
-title: SD
 date: 2023-03-28
 date_modified: 2025-01-18
 highlight: Literature/FSE

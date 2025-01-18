@@ -1,5 +1,4 @@
 ---
-title: SDLC Processes
 date: 2023-02-17
 date_modified: 2025-01-18
 tags:
