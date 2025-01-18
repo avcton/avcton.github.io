@@ -68,5 +68,3 @@ publish: true
 
 > The End user can be the one giving feedback on the UI.
 > There can be usability experts who can demonstrate the proper usage of design
-
-----
