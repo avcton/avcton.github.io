@@ -1,5 +1,4 @@
 ---
-title: DT
 date: 2023-03-20
 date_modified: 2025-01-18
 highlight: Literature/FSE
