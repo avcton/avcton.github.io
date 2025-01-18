@@ -1,5 +1,4 @@
 ---
-title: Definitions
 date: 2023-02-10
 date_modified: 2025-01-18
 highlight: Literature/FSE
