@@ -1,5 +1,5 @@
 ---
-title: Concepts
+title: My Curated Concepts
 date: 2025-01-03
 date_modified: 2025-01-18
 tags:
