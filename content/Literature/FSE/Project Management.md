@@ -1,5 +1,4 @@
 ---
-title: Project Management
 date: 2023-02-24
 date_modified: 2025-01-18
 highlight: Literature/FSE
