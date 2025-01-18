@@ -1,6 +1,6 @@
 ---
 title: Fundamentals of Software Engineering
-date: 2023-05-10
+date: 2023-04-20
 date_modified: 2025-01-18
 tags:
   - course
