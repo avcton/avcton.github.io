@@ -1,5 +1,4 @@
 ---
-title: Functional Independence
 date: 2023-05-06
 date_modified: 2025-01-18
 highlight: Literature/FSE
