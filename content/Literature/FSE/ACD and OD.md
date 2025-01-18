@@ -1,4 +1,5 @@
 ---
+title: Analysis Class Diagram
 date: 2023-03-07
 date_modified: 2025-01-18
 tags:
