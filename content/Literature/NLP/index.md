@@ -1,11 +1,9 @@
 ---
-title: NLP
-description: Natural Language Processing Material for 6th Semester of my Data Science Degree.
+title: Natural Language Processing
+description: NLP Material for 6th Semester of my Data Science Degree.
 date: 2024-01-23
 tags: [course]
 ---
-
-`Natural Language Processing`
 
 ## Book
 

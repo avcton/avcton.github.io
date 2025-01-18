@@ -1,11 +1,9 @@
 ---
-title: PDC
+title: Parallel & Distributed Computing
 description: PDC Material for 6th Semester of my Data Science Degree.
 date: 2024-01-24
 tags: [course]
 ---
-
-`Parallel & Distributed Computing`
 
 ## Book
 
