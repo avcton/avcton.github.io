@@ -1,7 +1,6 @@
 ---
-title: Storage Area Network (SAN)
 date: 2024-12-29
-date_modified: 2025-01-13
+date_modified: 2025-01-18
 highlight: Resources/Concepts
 publish: true
 ---
