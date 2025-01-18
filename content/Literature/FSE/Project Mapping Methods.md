@@ -1,5 +1,4 @@
 ---
-title: Project Mapping Methods
 date: 2022-02-22
 date_modified: 2025-01-18
 tags:
