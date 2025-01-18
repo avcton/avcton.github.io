@@ -1,5 +1,4 @@
 ---
-title: Analysis
 date: 2023-02-28
 date_modified: 2025-01-18
 tags:
