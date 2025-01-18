@@ -1,4 +1,5 @@
 ---
+title: Activity Diagram
 date: 2023-03-10
 date_modified: 2025-01-18
 tags:

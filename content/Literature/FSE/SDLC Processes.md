@@ -28,7 +28,7 @@ publish: true
 - Planning
 - Modelling
 	- [[./Analysis|Analysis]]
-	- [[./Design|Design]]
+	- [[./System Design|System Design]]
 - Construction
 	- [[./Implementation|Implementation / Programming / Coding]]
 	- [[./Testing|Testing]]
