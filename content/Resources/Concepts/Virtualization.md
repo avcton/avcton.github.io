@@ -1,7 +1,6 @@
 ---
-title: Virtualization
 date: 2024-12-31
-date_modified: 2025-01-13
+date_modified: 2025-01-18
 highlight: Resources/Concepts
 publish: true
 ---
