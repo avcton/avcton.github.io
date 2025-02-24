@@ -8,7 +8,8 @@ publish: true
 
 > A Node.js utility for exporting linked notes and attachments from an Obsidian vault. This script resolves and copies notes, images, and other attachments to a specified output directory, preserving file relationships while minimizing duplication.
 
-The code for project is open-source and you can find it [here](https://github.com/avcton/obsidian-exporter).
+> [!tip] Project Source
+> This project is open-source and you can find it [here](https://github.com/avcton/obsidian-exporter).
 
 For note exporting purposes, so I can publish them to my [portfolio](https://avcton.github.io/) and [blog](https://avcton.github.io/Garden), I have been working on building a simple script, that takes a note or folder from your Obsidian vault and exports all of it's linked content (attachments as well as outgoing links) in a well defined format. This allows only the required content and assets to be taken from the vault rather than other private stuff. Obsidian do have raw markdown files which we can use directly in this case but assets and linked notes are not structured to use in that case: one would have to manually find and take out referenced attachments and linked notes from the entire vault. Also, I don't want unnecessary assets to be taken from my Obsidian vault just for publishing a simple markdown note. So the idea is to keep exported files as they are and only get the linked attachments such as videos, images or just anything, along with the mentioned or linked note(s) by carefully navigating through the vault.
 
@@ -56,7 +57,7 @@ Follow the steps under this heading to try the script for yourself:
 node obsidian-exporter.js <input-markdown-file/folder> <output-directory>
 ```
 
-### Example
+#### Example
 
 For exporting a single file::
 
