@@ -1,21 +1,40 @@
 ---
 date: 2025-02-07
-date_modified: 2025-02-23
+date_modified: 2025-02-24
 highlight: Literature/Blockchain
 publish: true
 ---
 
 > Consensus protocols are established to layout rules and conditions that are to be followed in a network. These protocols are fundamentally part of distributed systems and Blockchain imports this concept as is.
 
-Consensus protocols are the behind the scene algorithms of Blockchain that operate automatically. Every rule or procedure related to the operations of Blockchain are defined within them. Even attacking pattern and recovery actions are addressed within here.
+Consensus protocols are the behind the scene algorithms of Blockchain that operate automatically. Every rule or procedure related to the operations of Blockchain (more in [[./Architecture of Blockchain|Architecture of Blockchain]]) are defined within them. Even attacking pattern and recovery actions are addressed within here.
+
+## Types of Consensus Protocol
+
+There are essentially many types of Consensus Protocols based on the classification and architecture of Blockchain. The two most popular of them are:
+
+### Proof of Work
+
+People (miners) compete to solve puzzles, and the first one who does win, gets to add the block to the Blockchain and earn a reward. This method is very secure but requires a lot of electricity and computing power.
+
+**Example: Bitcoin**
+
+### Proof of Stake
+
+Instead of solving puzzles, people (validators) are chosen based on how many coins they own and are willing to "lock up"/state as a deposit. The more they stake, the higher their chances of being selected to append the block in the Blockchain. This method is more energy-efficient and faster and requires less computation power as compared to [[Consensus Protocols#Proof of Stake|Proof of Stake]].
+
+**Example: Ethereum 2.0**
 
 ## Challenges
 
-Following are the challenges that are addressed in such protocols:
+Following are the challenges that are addressed in Consensus Protocols:
 
 ### Attacking Challenges
 
 The consensus algorithm lay out the steps and sequence of actions that should be taken to recover from an internal or external attack. It needs to keep the pipeline of the system consistent.
+
+> [!info]
+> Computation related attacks though are more concerned in [[Consensus Protocols#Proof of Work|Proof of Work]]
 
 Following are that challenges under this heading:
 

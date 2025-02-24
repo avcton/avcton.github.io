@@ -1,6 +1,8 @@
 ---
 date: 2025-01-31
 date_modified: 2025-02-24
+tags:
+  - blockchain
 highlight: Literature/Blockchain
 publish: true
 ---
@@ -92,3 +94,8 @@ Mining Pools allow multiple miners to form a group together and mine together. T
 The reward of the mined block could be distributed equally or according to some established customized and enforced agreement.
 
 This definitely could lead to the [[./Consensus Protocols#51% Attack|51% Attack]], where a group of ASIC machine owners form a group together.
+
+---
+
+> [!important]
+> This whole methodology of puzzle-solving and computation we studied up till now (used by Bitcoin) is known as "Proof of Work" and another alternative to this in the world of Blockchain is known as "Proof of Stake".
