@@ -1,16 +1,16 @@
 ---
 date: 2024-03-24
-date_modified: 2025-01-18
+date_modified: 2025-02-24
 highlight: Projects
 publish: true
 ---
 
 > A Snake Chaser Game with body implementation, built using AI search algorithms.
 
-> [!info]
-> The source code for this project can be found on [Github](https://github.com/avcton/snake-ai)
+> [!tip] Project Source
+> This project is open-source and you can find it [here](https://github.com/avcton/snake-ai).
 
-![[../attachments/snake-ai.gif|snake-ai]]
+<center><img src="snake-ai.gif"/></center>
 
 ## Search Algorithms Implemented
 
