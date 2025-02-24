@@ -10,7 +10,7 @@ publish: true
 > [!tip] Project Source
 > This project is open-source and you can find it [here](https://github.com/avcton/snake-ai).
 
-<center><img src="snake-ai.gif"/></center>
+<center><img src="_attachments/snake-ai.gif"/></center>
 
 ## Search Algorithms Implemented
 
