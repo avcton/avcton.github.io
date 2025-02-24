@@ -68,7 +68,8 @@ The data residing in the block as well as the hash of the previous block, residi
 
 ### Nonce
 
-Nonce is a random value or number, *unsigned 32-bit Integer* having the range of values from **0** to **4 Billion**, that is added into the block to change its target hash value. It is specifically helpful in solving puzzles when the created block's target hash is required to be brought into the puzzle's required hash range.
+Nonce is a random value or number, *unsigned 32-bit Integer* having the range of values from **0** to **4 Billion**, that is added into the block to change its target hash value. The abbreviation or full form of nonce can be =="number once"== or *"number only used once"*.
+It is specifically helpful in solving puzzles when the created block's target hash is required to be brought into the puzzle's required hash range.
 
 The **first** miner who successfully finds an optimal nonce and curates a block which would have the required target hash, is then announced as the winner. The winner is not given incentive instantly but rather the block submitted by the winner is first validated through algorithms and reflections. [[Architecture of Blockchain#1. End Users|End users]] also play a part in this verification. If the block is successfully validated, only then is the block appended to the Block-chain and the winner is given incentives.
 
