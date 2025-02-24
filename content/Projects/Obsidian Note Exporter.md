@@ -81,4 +81,4 @@ node obsidian-exporter.js "/Users/avcton/Vault/Projects" "/Users/avcton/Exported
 ---
 
 > [!summary] Archival Notice
-> This script helped me out for a long long time, however a much similar but advanced Obsidian community plugin known as [Enveloppe]() soon emerged as a great alternative for me. I have been using that since then and there felt no need for me to manage this script anymore. I do will get back to it if [Enveloppe]() is broken or no more around.
+> This script helped me out for a long long time, however a much similar but advanced Obsidian community plugin known as [Enveloppe](https://github.com/Enveloppe/obsidian-enveloppe) soon emerged as a great alternative for me. I have been using that since then and there felt no need for me to manage this script anymore. I do will get back to it if [Enveloppe](https://github.com/Enveloppe/obsidian-enveloppe) is broken or no more around.
