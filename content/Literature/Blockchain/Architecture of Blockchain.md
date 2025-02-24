@@ -1,6 +1,6 @@
 ---
 date: 2025-01-31
-date_modified: 2025-02-23
+date_modified: 2025-02-24
 highlight: Literature/Blockchain
 publish: true
 ---
@@ -24,7 +24,8 @@ There are two network entities in the Blockchain peer-to-peer network:
 
 ### 1. End Users
 
-These users accept and reject work of others, so basically they are validation agents.
+End users are the one submitting transactional data and request them to be processed.
+The are typically charged transaction tip/fee for their request to be processed.
 
 ### 2. Miners
 
