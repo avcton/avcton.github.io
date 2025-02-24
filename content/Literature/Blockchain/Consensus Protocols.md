@@ -21,7 +21,7 @@ People (miners) compete to solve puzzles, and the first one who does win, gets t
 
 ### Proof of Stake
 
-Instead of solving puzzles, people (validators) are chosen based on how many coins they own and are willing to "lock up"/state as a deposit. The more they stake, the higher their chances of being selected to append the block in the Blockchain. This method is more energy-efficient and faster and requires less computation power as compared to [[Consensus Protocols#Proof of Stake|Proof of Stake]].
+Instead of solving puzzles, people (validators) are chosen based on how many coins they own and are willing to "lock up"/state as a deposit. The more they stake, the higher their chances of being selected to append the block in the Blockchain. This method is more energy-efficient and faster and requires less computation power as compared to [[Consensus Protocols#Proof of Work|Proof of Work]].
 
 **Example: Ethereum 2.0**
 
