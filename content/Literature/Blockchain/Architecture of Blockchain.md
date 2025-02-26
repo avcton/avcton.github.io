@@ -1,8 +1,6 @@
 ---
 date: 2025-01-31
-date_modified: 2025-02-24
-tags:
-  - blockchain
+date_modified: 2025-02-26
 highlight: Literature/Blockchain
 publish: true
 ---
