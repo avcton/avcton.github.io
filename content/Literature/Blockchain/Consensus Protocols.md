@@ -1,6 +1,6 @@
 ---
 date: 2025-02-07
-date_modified: 2025-02-24
+date_modified: 2025-02-25
 highlight: Literature/Blockchain
 publish: true
 ---
@@ -47,7 +47,7 @@ In an effort to counter this attack, some Blockchain protocols enforce the restr
 #### Byzantine Fault Tolerance
 
 If our system has 1/3 or less traitors, then our system has to be in safe mode. However, if this limit exceeds than the system can be corrupted and compromised.
-Therefore, the ==tolerance factor for traitors is 33%==. It's the job of the protocol to maitain this factor and keep the tolerance rate under 33%. This is done through explicit checking and kicking out miner who are proved to be traitors.
+Therefore, the ==tolerance factor for traitors is 33%==. It's the job of the protocol to maintain this factor and keep the tolerance rate under 33%. This is done through explicit checking and kicking out miner who are proved to be traitors.
 
 ### Competing Chains
 
