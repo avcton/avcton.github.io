@@ -1,6 +1,6 @@
 ---
 date: 2025-01-31
-date_modified: 2025-02-26
+date_modified: 2025-03-07
 highlight: Literature/Blockchain
 publish: true
 ---
@@ -83,7 +83,6 @@ The interesting part is, even if all nonce values are tried within that interval
 
 - The timestamp is in the Unix timestamp format.
 - When the puzzle is solved, the timestamp contained within it is locked and is no longer incremented. Definitely, this is so that the computed hash would be correct and verifiable.
-	- **Important for Mid**
 
 ## Mining Pools
 
@@ -94,6 +93,11 @@ The reward of the mined block could be distributed equally or according to some 
 This definitely could lead to the [[./Consensus Protocols#51% Attack|51% Attack]], where a group of ASIC machine owners form a group together.
 
 ---
+
+## Miscellaneous
+
+> [!info]
+> Care free changes can be made into the network/system until it is not published. After being published, in order to introduce a change into the system's architecture, a majority of consensus is required.
 
 > [!important]
 > This whole methodology of puzzle-solving and computation we studied up till now (used by Bitcoin) is known as "Proof of Work" and another alternative to this in the world of Blockchain is known as "Proof of Stake".
