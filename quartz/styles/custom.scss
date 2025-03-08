@@ -3,6 +3,8 @@
 // put your custom CSS here!
 
 // Colour blending of SVG images
+// White Strokes are inverted to black in light mode and vice versa in dark mode
+// Only works for White Strokes
 article img[src*="_Drawing"][src$=".svg"] {
   // article means inside the content area
   // img[src*="_Drawing"][src$=".svg"] means images with the name ending with _Drawing and the extension .svg
