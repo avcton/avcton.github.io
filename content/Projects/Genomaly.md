@@ -300,9 +300,7 @@ Following hyperparameters were concluded to be the best for our data in hand:
 
 ### Training the Model on Capsule Images
 
-The same training loop was followed as in [[Genomaly#Part 3 Implementing VAE|Part 3 Implementing VAE]]:
-
-![[Genomaly#^f8fe44|^f8fe44]]
+The same training loop was followed as was in [[Genomaly#Part 3 Implementing VAE|Part 3 Implementing VAE]].
 
 Following is the finalized loss curve:
 
