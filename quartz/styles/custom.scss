@@ -3,11 +3,11 @@
 // put your custom CSS here!
 
 // Colour blending of SVG images
-// White Strokes are inverted to black in light mode and vice versa in dark mode
-// Only works for White Strokes
-article img[src*="_Drawing"][src$=".svg"] {
+// Assumes that the SVG image is by default compatible with dark mode
+// White strokes are inverted to black in light mode
+:root[saved-theme="light"] article img[src*="_Drawing"][src$=".svg"] {
   // article means inside the content area
-  // img[src*="_Drawing"][src$=".svg"] means images with the name ending with _Drawing and the extension .svg
+  // img[src*="_Drawing"][src$=".svg"] means all images with the name containing _Drawing and the extension .svg
   mix-blend-mode: difference;
 }
 
