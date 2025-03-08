@@ -1,5 +1,4 @@
 ---
-title: "Genomaly: AI-Powered Image Generation & Anomaly Detection"
 description: One of the practical projects I implemented when exploring Generative AI.
 date: 2025-02-15
 date_modified: 2025-03-08
@@ -7,6 +6,7 @@ highlight: Projects
 publish: true
 ---
 
+> "Genomaly: AI-Powered Image Generation & Anomaly Detection"
 > An AI-powered system designed to implement and compare different **generative AI techniques for anomaly detection** in both image and real-world datasets. The project extensively utilizes **GANs and VAEs** to generate, reconstruct, and identify anomalies across structured and unstructured data. The workflow comprises multiple stages, from exploratory data analysis (EDA) to model training, comparison, and real-world application.
 
 > [!important]
