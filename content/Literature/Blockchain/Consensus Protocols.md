@@ -1,6 +1,6 @@
 ---
 date: 2025-02-07
-date_modified: 2025-02-25
+date_modified: 2025-03-07
 highlight: Literature/Blockchain
 publish: true
 ---
@@ -17,13 +17,25 @@ There are essentially many types of Consensus Protocols based on the classificat
 
 People (miners) compete to solve puzzles, and the first one who does win, gets to add the block to the Blockchain and earn a reward. This method is very secure but requires a lot of electricity and computing power.
 
-**Example: Bitcoin**
+**Example: Bitcoin Operates on this**
 
 ### Proof of Stake
 
 Instead of solving puzzles, people (validators) are chosen based on how many coins they own and are willing to "lock up"/state as a deposit. The more they stake, the higher their chances of being selected to append the block in the Blockchain. This method is more energy-efficient and faster and requires less computation power as compared to [[Consensus Protocols#Proof of Work|Proof of Work]].
 
-**Example: Ethereum 2.0**
+**Example: Ethereum Operates on this**
+
+## Implementations of Consensus Protocol
+
+The base Consensus Protocol follows the core principles of the Blockchain, however custom implementations are made on top of it.
+
+Some well known protocols under this category are:
+
+- [[../../../Bitcoin|Bitcoin]]
+- Ethereum
+- Waves
+- Neo
+- Ripple
 
 ## Challenges
 
