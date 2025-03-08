@@ -127,7 +127,7 @@ The following hyperparameters were declared:
 
 - Will use the ***Adam*** optimizer
 - Data will be shuffle loaded
-- During Training, for each data point: ^f8fe44
+- During Training, for each data point:
 	- Encoder processes the image and gives out its mean $\mu$ and log variance $\log \sigma^{2}$
 	- The reparameterize function is then used to generate the latent vector `z` from the earlier mean and log variance: $z = \mu + \epsilon \cdot \sigma$
 	- Decoder after that uses the latent representation `z` to reconstruct the image
