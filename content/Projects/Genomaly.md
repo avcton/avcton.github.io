@@ -23,8 +23,9 @@ publish: true
 	- MNIST Digit have class labels: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 	- MNIST Fashion also have 10 integral class labels which corresponds to the following classes: *['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']*
 
-| ![[../attachments/image-20250215155757168.png|image-20250215155757168.png]] | ![[../attachments/image-20250215155734117.png|image-20250215155734117.png]] |
+| MNIST Digit Samples              | MNIST Fashion Samples            |
 | -------------------------------- | -------------------------------- |
+| ![[../attachments/image-20250215155757168.png|image-20250215155757168.png]] | ![[../attachments/image-20250215155734117.png|image-20250215155734117.png]] |
 
 ---
 
@@ -152,8 +153,9 @@ Following is the loss curve:
 
 Sklearn's Manifold package was utilized to visualize the latent space using T-SNE:
 
-| ![[../attachments/image-20250217221544929.png|image-20250217221544929.png]] | ![[../attachments/image-20250217221724231.png|image-20250217221724231.png]] |
+| MNIST Digit Latent Space         | MNIST Fashion Latent Space       |
 | -------------------------------- | -------------------------------- |
+| ![[../attachments/image-20250217221544929.png|image-20250217221544929.png]] | ![[../attachments/image-20250217221724231.png|image-20250217221724231.png]] |
 
 Different color regions correspond to class labels represented by that latent region/space.
 Therefore since we have about 10 class labels, the colors would also be 10 for both of the MNIST datasets.
