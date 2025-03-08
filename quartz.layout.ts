@@ -41,10 +41,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({ folderClickBehavior: "link" })),
-    Component.DesktopOnly(Component.RecentNotes({ title: "Recent Note", limit: 1 })),
+    Component.DesktopOnly(Component.RecentNotes({ title: "Recent Notes", limit: 2 })),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph({ globalGraph: { enableRadial: true }, localGraph: { enableRadial: true } }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
@@ -59,7 +59,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({ folderClickBehavior: "link" })),
-    Component.DesktopOnly(Component.RecentNotes({ title: "Recent Note", limit: 1 })),
+    Component.DesktopOnly(Component.RecentNotes({ title: "Recent Notes", limit: 2 })),
   ],
   right: [],
 }

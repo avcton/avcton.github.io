@@ -1,6 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-import customImage from "./quartz/util/customImage"
+import { customImage } from "./quartz/util/custom-og"
 
 /**
  * Quartz 4 Configuration
@@ -22,18 +22,11 @@ const config: QuartzConfig = {
     baseUrl: "avcton.github.io",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
-    generateSocialImages: {
-      colorScheme: "lightMode",
-      imageStructure: customImage,
-    },
+    generateSocialImages: { imageStructure: customImage },
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
-      typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
-      },
+      typography: { header: "Schibsted Grotesk", body: "Source Sans Pro", code: "IBM Plex Mono" },
       colors: {
         lightMode: {
           light: "#faf8f8",
@@ -63,21 +56,16 @@ const config: QuartzConfig = {
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-      Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"],
-      }),
+      Plugin.CreatedModifiedDate({ priority: ["frontmatter", "filesystem"] }),
       Plugin.SyntaxHighlighting({
-        theme: {
-          light: "github-light",
-          dark: "github-dark",
-        },
+        theme: { light: "github-light", dark: "github-dark" },
         keepBackground: false,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown({ linkHeadings: true }),
       Plugin.TableOfContents({ maxDepth: 5 }),
       Plugin.CrawlLinks({ markdownLinkResolution: "relative" }),
-      Plugin.Description(),
+      Plugin.Description({ descriptionLength: 100 }),
       Plugin.HardLineBreaks(),
       Plugin.Latex({ renderEngine: "katex" }),
     ],
@@ -88,10 +76,7 @@ const config: QuartzConfig = {
       Plugin.ContentPage(),
       Plugin.FolderPage(),
       Plugin.TagPage(),
-      Plugin.ContentIndex({
-        enableSiteMap: true,
-        enableRSS: true,
-      }),
+      Plugin.ContentIndex({ enableSiteMap: true, enableRSS: true }),
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
