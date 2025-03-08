@@ -1,9 +1,10 @@
 ---
 description: My SSG's custom single/bulk note-exporting script for Obsidian.
 date: 2024-12-25
-date_modified: 2025-02-24
+date_modified: 2025-03-08
 highlight: Projects
 publish: true
+untrack_tasks: true
 ---
 
 > A Node.js utility for exporting linked notes and attachments from an Obsidian vault. This script resolves and copies notes, images, and other attachments to a specified output directory, preserving file relationships while minimizing duplication.
