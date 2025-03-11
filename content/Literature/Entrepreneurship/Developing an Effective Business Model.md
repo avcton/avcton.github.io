@@ -1,0 +1,76 @@
+---
+date: 2025-03-11
+date_modified: 2025-03-12
+highlight: Literature/Entrepreneurship
+publish: true
+---
+
+- Business Model
+	- A company's plan for making a profit
+	- The proper time to develop a business model is following the feasibility analysis stage and prior to fleshing out the operational details
+- Classes/Classification of Business Model
+	- B2B
+		- Business 2 Business
+	- B2C
+		- Business 2 Customer
+	- C2C
+		- Customer 2 Customer
+- Categories of Business Model
+	- Standard Business Model
+		- Existing plans or recipes firms can use to determine how they will create, deliver, and capture value
+		- Some of these Business Models include:
+			- Advertising Business Model
+			- Auction Business Model
+			- Bricks and Clicks BusinessModel
+			- Franchise Business Model
+			- Freemium Business Model
+			- Low-Cost Business Model
+			- Manufacturer/Retailer Business Model
+			- Peer-to-Peer Business Model
+			- Razor and Blades Business Model
+			- Subscription Business Model
+			- Traditional Retailer Business Model
+	- Disruptive Business Models
+		- They are impactful enough that they disrupt or change the way business is conducted in an industry or an important niche within an industry
+- Barringer/Ireland Business Model Template
+	- A template for crafting a Business Model
+	- Consists of 12 elements divided into 4 categories
+	- Following are the categories along with their elements:
+		- Core Strategy
+			- Describes how the firm plans to compete relative to its competitors
+			- Business Mission
+				- Why it exists and what its business model is supposed to accomplish
+			- Basis of Differentiation
+				- Basis of differentiation is what causes consumers to pick one company's products over another's
+			- Target Market
+				- Which sector will your product target?
+			- Product/Market Scope
+				- How do you plan to expand to your target market?
+		- Resources
+			- Core Competency
+				- A specific factor or resource that supports a firm's business model and sets it apart from rivals
+			- Key Assets
+				- Assets that a firm owns that enable its business model to work
+				- Could be physical, financial, intellectual, or human
+		- Financials
+			- Revenue Streams
+				- Describe the ways in which it makes money
+				- Can be a single or many streams
+			- Cost Structure
+				- Cost analysis
+				- Cost-driven or value-driven?
+			- Financing/Funding
+				- Indicate the appropriate amount of funding that will be needed and where the money will most likely come from
+		- Operations
+			- Product/Service Production
+				- how a firm's products and/or services are produced
+			- Channels
+				- Describe how it delivers its product or service to its customers
+			- Key Partners
+				- Partnerships formed to achieve a goal
+				- Following types of partnerships can be formed:
+					- Joint venture
+					- Network
+					- Consortia
+					- Strategic alliance
+					- Trade associations
