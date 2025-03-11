@@ -1,0 +1,56 @@
+---
+date: 2025-03-11
+date_modified: 2025-03-12
+highlight: Literature/Entrepreneurship
+publish: true
+---
+
+- Feasibility analysis is the process of determining if a business idea is viable
+- Proper time to conduct a feasibility analysis is early in thinking
+- 4 Types of Feasibility Analysis
+	- ![[../../attachments/image-20250223201154223.png|image-20250223201154223.png]]
+	- Product/Service Feasibility
+		- Product/Service Desirability
+			- Does the product makes sense and solves a particular problem. Will someone be willing to use it?
+		- Product/Service Demand
+			- Talking face-to-face with customers to see if you're making what they actually need
+			- Using online tools such as Google Keywords etc to understand the current trends and demands
+				- Surveys and Forums can also help
+	- Industry/Target Market Feasibility
+		- Industry is a group of firms making similar products
+		- Industry Attractiveness
+			- Younger industries are preferred
+			- Early in their lifecycle
+			- Are fragmented rather than concentrated
+				- Concentrated industries are industries with dominant players
+			- Are growing rather than sinking
+		- Target Market Attractiveness
+			- Find a market that's large enough for the proposed business but is yet small enough to avoid attracting larger competitors.
+	- Organizational Feasibility
+		- Management Prowess
+			- Ability of an organization's management team to satisfy the organization that management has the requisite passion and expertise to launch the venture
+		- Resource Sufficiency
+			- Availability of space, employee and contractors etc
+		- Management team and Company Structure
+			- Should consist of founder(s) and key management persons
+			- Organizational Chart
+		- Operations Plan
+			- How the business will be run and how the product or service will be produced
+		- Product/Service Design and Development Plan
+			- If product then prototype should be designed initially
+	- Financial Feasibility
+		- Total Start-Up Cash Needed
+			- List down the resources
+			- Estimate the Cost of Listed Resources
+			- Decide about Debt and Equity Financing
+				- Boot Scrapping
+					- Process of building a business from scratch without attracting investment or with minimal external capital
+		- Financial Performance of Similar Businesses
+			- Estimate financial performance by comparing to similar, already established businesses.
+		- Overall Financial Attractiveness of the Proposed Investment
+			- Ability to forecast income and expenses with a reasonable degree of certainty
+			- Internally generated funds to finance and sustain growth
+			- Availability of an exit opportunity for investors to convert equity to cash
+- Crowd Funders
+	- Reward based Crowd funding platforms help to raise funding to build a prototype and market test a great idea or product
+- If a business idea passes the Feasibility Analysis, the next step is to complete a business plan
