@@ -19,6 +19,7 @@ publish: true
 - Techniques to Assess Industry Attractiveness
 	- Study Environmental & Business Trends
 		- Economic, social, technological, political, and regulatory changes
+		- **PESTEL Analysis**
 	- **Porter's Five Forces Model**
 	- **Competitor Analysis**
 - Studying Industry Trends
@@ -38,7 +39,7 @@ publish: true
 		- **Legal**: Consumer protection laws, labor laws
 - Porter's Five Forces Model
 	- Determines industry profitability and competitive structure
-	- **Used for:** Understanding industry structure, competitive strategy, and market positioning
+	- **Used for:** Market expansion, risk assessment, and adapting to macroeconomic changes
 	- **Focus:** Internal industry structure and competitive dynamics.
 	- Forces:
 		1. Threat of Substitutes
