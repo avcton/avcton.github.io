@@ -156,7 +156,7 @@ For instance, if we have only one word in the prediction, then for 1-gram precis
 
 To overcome this, the brevity penalty penalizes texts that are too short.
 
-​![](../../attachments/655dcdaf6959979a0f047584_EDOkyHReq6h0_UW1Kux8egIeuKBqiG0sch71IgqbF6m-Xt19oOZf_8XKh96kiTPcdmLXf5ZXvDjjMeMFegSxYhObL9hnzFSRoj2DZqPgzymsk9HR-r-Lq6aNnL-DSSUpvxa1yyiPoRsWhb_P0-liCug-20240507224852-3i4e03a.png)​
+​![](../../attachments/655dcdaf6959979a0f047584-20240507224852-3i4e03a.png)​
 
 Where
 
@@ -175,7 +175,7 @@ BLEU Score (N) = Brevity Penalty \* (Geometric Average Precision Score)
 
 Here’s how you can calculate the geometric average precision score.
 
-​![](../../attachments/655dcdaf3fdbd344aa25c7be_r7NdT2C1Zw06OOORgrwhyyVjdZc5ym8pbTY4EkR93ANMI5Rxjd0Rpvc8HLoXkUBvRUgRaUp74alOoKyltNPR56xMt2Ygg5CIiIq5kaag3FKjKuApOEhT-6Afva-tYUFVrmxx-vA8oNZ3R7rHellP3KU-20240507224852-7q6k2ko.png)​
+​![](../../attachments/655dcdaf3fdbd344aa25c7be-20240507224852-7q6k2ko.png)​
 
 This can be calculated for different values of N and different weight values.
 
