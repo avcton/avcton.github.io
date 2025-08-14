@@ -22,7 +22,7 @@ export const sharedPageComponents: SharedLayout = {
   ],
   footer: Component.Footer({
     links: {
-      // Linkedin: "https://www.linkedin.com/in/avcton/",
+      Linkedin: "https://www.linkedin.com/in/avcton/",
     },
   }),
 }
@@ -30,7 +30,10 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.Breadcrumbs({ hideOnRoot: true }),
+    Component.ConditionalRender({
+      component: Component.Breadcrumbs(),
+      condition: (page) => page.fileData.slug !== "index",
+    }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
     Component.TagList(),
@@ -38,9 +41,17 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageLogo(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({ folderClickBehavior: "link" })),
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        { Component: Component.Darkmode() },
+        { Component: Component.ReaderMode() },
+      ],
+    }),
+    Component.Explorer({ folderClickBehavior: "link" }),
     Component.DesktopOnly(Component.RecentNotes({ title: "Recent Notes", limit: 2 })),
   ],
   right: [
@@ -56,9 +67,16 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageLogo(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Search(),
-    Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer({ folderClickBehavior: "link" })),
+    Component.Flex({
+      components: [
+        {
+          Component: Component.Search(),
+          grow: true,
+        },
+        { Component: Component.Darkmode() },
+      ],
+    }),
+    Component.Explorer({ folderClickBehavior: "link" }),
     Component.DesktopOnly(Component.RecentNotes({ title: "Recent Notes", limit: 2 })),
   ],
   right: [],

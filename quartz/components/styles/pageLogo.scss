@@ -1,3 +1,5 @@
+@use "../../styles/variables.scss" as *;
+
 .page-logo {
     position: relative;
     width: 150;
@@ -10,6 +12,14 @@
         left: 50%;
         transform: translate(-50%, -50%);
         transition: opacity 0.1s ease;
+    }
+}
+
+@media all and ($mobile) {
+    .page-logo {
+        & img {
+            left: 58%;
+        }
     }
 }
 

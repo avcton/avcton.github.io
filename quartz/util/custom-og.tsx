@@ -1,19 +1,16 @@
 import { i18n } from "../i18n"
 import readingTime from "reading-time"
-import { SatoriOptions } from "satori/wasm"
-import { GlobalConfiguration } from "../cfg"
-import { QuartzPluginData } from "../plugins/vfile"
-import { SocialImageOptions, UserOpts } from "./og"
+import { SocialImageOptions} from "./og"
 import { formatDate, getDate } from "../components/Date"
 
-export const customImage: SocialImageOptions["imageStructure"] = (
-    cfg: GlobalConfiguration,
-    userOpts: UserOpts,
-    title: string,
-    description: string,
-    fonts: SatoriOptions["fonts"],
-    fileData: QuartzPluginData,
-) => {
+export const customImage: SocialImageOptions["imageStructure"] = ({
+    cfg,
+    userOpts,
+    title,
+    description,
+    fonts,
+    fileData,
+}) => {
     const { colorScheme } = userOpts;
     let created: string | undefined
     let reading: string | undefined
