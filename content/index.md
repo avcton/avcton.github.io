@@ -76,7 +76,6 @@ I invite you to browse through my **highlights** and accumulated **miscellaneous
 
 | Highlight                         | Description                                 |
 | --------------------------------- | ------------------------------------------- |
-| [Drafts](Drafts/index.md)         | Peek into my curated drafts                 |
 | [Garden](Garden/index.md)         | Explore my digital blog and technical views |
 | [Literature](Literature/index.md) | Take a look into my study material          |
 | [Projects](Projects/index.md)     | Find about my success stories               |
