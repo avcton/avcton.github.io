@@ -17,9 +17,8 @@
 
 @media all and ($mobile) {
     .page-logo {
-        & img {
-            left: 58%;
-        }
+        margin-left: 10px;
+        margin-right: 15px;
     }
 }
 
