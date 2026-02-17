@@ -1,101 +1,132 @@
 @use "./base.scss";
 
-// put your custom CSS here!
-
-// Colour blending of SVG images
-// Assumes that the SVG image is by default compatible with dark mode
-// White strokes are inverted to black in light mode
-:root[saved-theme="light"] article img[src*="_Drawing"][src$=".svg"] {
-  // article means inside the content area
-  // img[src*="_Drawing"][src$=".svg"] means all images with the name containing _Drawing and the extension .svg
-  mix-blend-mode: difference;
+// ===== Animations =====
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-// Intro Section
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+// ===== Global Animation Classes =====
+.page > #quartz-body > .center > article {
+  animation: fadeInUp 0.5s ease-out both;
+}
+
+.page > #quartz-body > .sidebar.left {
+  animation: fadeIn 0.4s ease-out both;
+}
+
+.page > #quartz-body > .sidebar.right {
+  animation: fadeIn 0.5s ease-out 0.1s both;
+}
+
+// ===== Intro Section =====
 .intro-container {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  margin-bottom: 0%;
+  text-align: center;
+  padding: 1.5rem 0 0.5rem;
+  animation: fadeInUp 0.6s ease-out both;
 }
 
 .intro-text {
-  order: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .intro-pfp {
-  order: 2;
-  width: 250px;
-  height: 250px;
-  margin-left: 2%;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   object-fit: cover;
+  margin-bottom: 1.2rem;
+  border: 2px solid var(--lightgray);
+  transition: transform 0.4s ease, border-color 0.4s ease;
+  animation: fadeIn 0.5s ease-out 0.1s both;
+
+  &:hover {
+    transform: scale(1.05);
+    border-color: var(--secondary);
+  }
 }
 
 .name {
-  font-size: 1.75rem;
-  font-weight: bold;
+  font-size: 1.6rem;
+  font-weight: 600;
   font-family: var(--headerFont);
-  margin-top: 2.25rem;
-  margin-bottom: 0.3rem;
   color: var(--dark);
-  font-weight: revert;
   display: block;
+  margin-bottom: 0.3rem;
+  letter-spacing: -0.02em;
+  animation: fadeInUp 0.5s ease-out 0.15s both;
 }
 
 .headline {
   color: var(--darkgray) !important;
   display: block;
-  margin-bottom: 0.8rem;
+  font-size: 0.95rem;
+  font-weight: 400;
+  opacity: 0.85;
+  animation: fadeInUp 0.5s ease-out 0.2s both;
+}
+
+.headline-sub {
+  color: var(--gray) !important;
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  animation: fadeInUp 0.5s ease-out 0.25s both;
 }
 
 .icons-container {
-  // margin-top: 5%;
-  // margin-bottom: 4%;
   display: flex;
-  flex-wrap: wrap;
-  // justify-content: center;
-  // text-align: center;
+  align-items: center;
+  gap: 0.6rem;
+  animation: fadeInUp 0.5s ease-out 0.3s both;
 
-  /* Link styles */
-
-  .icon-text {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
+  .icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    transition: background-color 0.25s ease, transform 0.25s ease, color 0.25s ease;
+    color: var(--darkgray);
     text-decoration: none;
 
     &.external .external-icon {
       display: none;
     }
-  }
 
-  .icon-link {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-    transition: transform 0.3s;
-
-    &.external .external-icon {
-      display: none;
+    &:hover {
+      background-color: var(--lightgray);
+      transform: translateY(-2px);
+      color: var(--secondary);
     }
   }
 
-  /* Hover effects */
-  .icon-link:hover {
-    transform: scale(1.25);
-  }
-
-  .icon-link:hover .icon {
-    color: var(--tertiary) !important;
-  }
-
-  /* Icon styles */
   .icon {
     position: relative;
-    display: inline-block;
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-    vertical-align: text-bottom;
-    width: 24px;
-    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding: 0;
   }
 
   .icon-small {
@@ -103,7 +134,6 @@
     height: 18px;
   }
 
-  /* SVG styles */
   .icon svg {
     width: 100%;
     height: 100%;
@@ -111,28 +141,76 @@
   }
 }
 
-// Mobile View
-@media (max-width: 550px) {
-  // Intro Section
-  .intro-container {
-    flex-direction: column;
-    justify-content: center;
+// ===== Section Divider =====
+.section-divider {
+  width: 40px;
+  height: 1px;
+  background: var(--lightgray);
+  margin: 1.5rem auto;
+  animation: fadeIn 0.5s ease-out 0.35s both;
+}
+
+// ===== Browse Section =====
+.browse-section {
+  animation: fadeInUp 0.5s ease-out 0.4s both;
+}
+
+.browse-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+
+.browse-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.1rem;
+  border-radius: 10px;
+  border: 1px solid var(--lightgray);
+  background: transparent;
+  text-decoration: none !important;
+  transition: border-color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+  font-weight: 400 !important;
+
+  &:hover {
+    border-color: var(--secondary);
+    background-color: rgba(139, 139, 245, 0.04);
+    transform: translateY(-2px);
   }
 
-  .intro-text {
-    order: 2;
+  .browse-icon {
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    transition: transform 0.3s ease;
   }
 
-  .name {
-    margin-top: 0%;
+  &:hover .browse-icon {
+    transform: translateY(-1px);
   }
 
-  .intro-pfp {
-    order: 1;
+  .browse-label {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: var(--dark);
+    margin-bottom: 0.2rem;
   }
+
+  .browse-desc {
+    font-size: 0.8rem;
+    color: var(--gray);
+    line-height: 1.3;
+  }
+}
+
+@media (max-width: 500px) {
+  .browse-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+// ===== SVG blend mode for light mode compatibility =====
+:root[saved-theme="light"] article img[src*="_Drawing"][src$=".svg"] {
+  mix-blend-mode: difference;
 }

@@ -5,13 +5,19 @@
     width: 150;
     height: 80;
     margin: 0;
+    transition: opacity 0.3s ease;
 
     & img {
         position: absolute;
         top: calc(50% - 10px);
         left: 50%;
         transform: translate(-50%, -50%);
-        transition: opacity 0.1s ease;
+        opacity: 0.9;
+        transition: opacity 0.3s ease;
+    }
+
+    &:hover img {
+        opacity: 1;
     }
 }
 
@@ -19,25 +25,5 @@
     .page-logo {
         margin-left: 10px;
         margin-right: 15px;
-    }
-}
-
-:root[saved-theme="dark"] .page-logo {
-    &>#whiteLogo {
-        opacity: 1;
-    }
-
-    &>#blackLogo {
-        opacity: 0;
-    }
-}
-
-:root .page-logo {
-    &>#whiteLogo {
-        opacity: 0;
-    }
-
-    &>#blackLogo {
-        opacity: 1;
     }
 }

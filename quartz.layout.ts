@@ -5,24 +5,11 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [
-    Component.Comments({
-      provider: "giscus",
-      options: {
-        repo: "avcton/avcton.github.io",
-        repoId: "R_kgDOME1DnA",
-        category: "Site Comments",
-        categoryId: "DIC_kwDOME1DnM4CgHjp",
-        mapping: "pathname",
-        themeUrl: "themes",
-        inputPosition: "top",
-        reactionsEnabled: true,
-      },
-    }),
-  ],
+  afterBody: [],
   footer: Component.Footer({
     links: {
-      Linkedin: "https://www.linkedin.com/in/avcton/",
+      LinkedIn: "https://www.linkedin.com/in/avcton/",
+      GitHub: "https://github.com/avcton/",
     },
   }),
 }
@@ -48,11 +35,9 @@ export const defaultContentPageLayout: PageLayout = {
           grow: true,
         },
         { Component: Component.Darkmode() },
-        { Component: Component.DesktopOnly(Component.ReaderMode()) },
       ],
     }),
     Component.Explorer({ folderClickBehavior: "link" }),
-    Component.DesktopOnly(Component.RecentNotes({ title: "Recent Notes", limit: 2 })),
   ],
   right: [
     Component.Graph({ globalGraph: { enableRadial: true }, localGraph: { enableRadial: true } }),
@@ -77,7 +62,6 @@ export const defaultListPageLayout: PageLayout = {
       ],
     }),
     Component.Explorer({ folderClickBehavior: "link" }),
-    Component.DesktopOnly(Component.RecentNotes({ title: "Recent Notes", limit: 2 })),
   ],
   right: [],
 }
