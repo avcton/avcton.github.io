@@ -1,67 +1,395 @@
 @use "./base.scss";
 
-// put your custom CSS here!
+// ============================================================
+// FONT IMPORTS — full weight families
+// ============================================================
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&display=swap');
 
-// Colour blending of SVG images
-// Assumes that the SVG image is by default compatible with dark mode
-// White strokes are inverted to black in light mode
-:root[saved-theme="light"] article img[src*="_Drawing"][src$=".svg"] {
-  // article means inside the content area
-  // img[src*="_Drawing"][src$=".svg"] means all images with the name containing _Drawing and the extension .svg
-  mix-blend-mode: difference;
+// ============================================================
+// DESIGN SYSTEM TOKENS
+// ============================================================
+
+// Dark mode (default)
+:root {
+  --green: #00ff88;
+  --green-dim: #00c96a;
+  --green-glow: rgba(0, 255, 136, 0.15);
+  --green-border: rgba(0, 255, 136, 0.12);
+  --green-fill: rgba(0, 255, 136, 0.04);
+  --muted: #666666;
 }
 
-// Intro Section
+// Light mode overrides
+:root[saved-theme="light"] {
+  --green: #00873d;
+  --green-dim: #006530;
+  --green-glow: rgba(0, 135, 61, 0.18);
+  --green-border: rgba(0, 135, 61, 0.2);
+  --green-fill: rgba(0, 135, 61, 0.06);
+  --muted: #888888;
+}
+
+// ============================================================
+// GLOBAL — dot-grid background + glow bloom
+// ============================================================
+
+body {
+  background-image: radial-gradient(
+    circle,
+    var(--green-border) 1px,
+    transparent 1px
+  );
+  background-size: 60px 60px;
+  background-attachment: fixed;
+}
+
+// Two-layer radial glow — cinematic ambient green light behind hero
+.page::before {
+  content: '';
+  position: fixed;
+  top: -20%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  height: 70vh;
+  background:
+    radial-gradient(ellipse 70% 55% at 50% 0%, rgba(0, 255, 136, 0.04) 0%, transparent 100%),
+    radial-gradient(ellipse 40% 30% at 50% 0%, rgba(0, 255, 136, 0.025) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+:root[saved-theme="light"] .page::before {
+  background:
+    radial-gradient(ellipse 70% 55% at 50% 0%, rgba(0, 135, 61, 0.03) 0%, transparent 100%),
+    radial-gradient(ellipse 40% 30% at 50% 0%, rgba(0, 135, 61, 0.015) 0%, transparent 100%);
+}
+
+// ============================================================
+// TYPOGRAPHY — no heading underlines
+// ============================================================
+
+h1, h2, h3, h4, h5, h6 {
+  text-decoration: none !important;
+
+  & > a {
+    text-decoration: none !important;
+  }
+}
+
+// Section label — monospace // comment aesthetic
+.section-label {
+  font-family: var(--codeFont);
+  font-size: 0.78rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--green);
+  display: block;
+  margin-bottom: 0.4rem;
+  opacity: 0.9;
+}
+
+// ============================================================
+// NAVIGATION PROGRESS BAR
+// ============================================================
+
+.navigation-progress {
+  background: var(--green) !important;
+}
+
+// ============================================================
+// LEFT SIDEBAR — glass panel
+// ============================================================
+
+.sidebar.left {
+  border-right: 1px solid var(--green-border);
+  background: rgba(8, 8, 8, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+:root[saved-theme="light"] .sidebar.left {
+  background: rgba(245, 245, 245, 0.9);
+  border-right: 1px solid var(--green-border);
+}
+
+// Explorer item hover
+.explorer-content .folder-button:hover,
+.explorer-content li > a:hover {
+  color: var(--green) !important;
+}
+
+// ============================================================
+// LINKS
+// ============================================================
+
+a {
+  transition: color 0.3s ease-out;
+}
+
+a.internal {
+  background-color: var(--green-fill);
+  border-radius: 3px;
+  color: var(--secondary);
+
+  &:hover {
+    background-color: rgba(0, 255, 136, 0.08);
+    color: var(--green);
+  }
+}
+
+:root[saved-theme="light"] a.internal:hover {
+  background-color: rgba(0, 135, 61, 0.1);
+}
+
+// ============================================================
+// BLOCKQUOTES
+// ============================================================
+
+blockquote {
+  border-left: 3px solid var(--green-border);
+}
+
+// ============================================================
+// CODE BLOCKS
+// ============================================================
+
+pre {
+  border: 1px solid var(--green-border);
+}
+
+code {
+  border: 1px solid var(--green-border);
+}
+
+// ============================================================
+// TABLES
+// ============================================================
+
+.table-container > table {
+  border: 1px solid var(--green-border);
+
+  th {
+    border-bottom: 2px solid var(--green-border);
+    color: var(--dark);
+  }
+
+  tr {
+    border-bottom-color: var(--green-border);
+  }
+}
+
+// ============================================================
+// FOOTER
+// ============================================================
+
+footer {
+  border-top: 1px solid var(--green-border);
+  padding-top: 1.5rem;
+
+  & a {
+    color: var(--muted);
+    font-family: var(--codeFont);
+    font-size: 0.82rem;
+    transition: color 0.3s ease-out;
+
+    &:hover {
+      color: var(--green);
+    }
+  }
+}
+
+// ============================================================
+// INDEX PAGE — hide meta elements (hero section takes over)
+// ============================================================
+
+.center:has(.hero-section) .content-meta,
+.center:has(.hero-section) .tags {
+  display: none;
+}
+
+// ============================================================
+// HERO SECTION
+// ============================================================
+
+.hero-section {
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+// Intro layout — text left, photo right
 .intro-container {
   display: flex;
   align-items: center;
-  margin-bottom: 0%;
+  gap: 2.5rem;
+  margin-bottom: 3.5rem;
 }
 
 .intro-text {
+  flex: 1;
   order: 1;
 }
 
+// Profile photo
 .intro-pfp {
   order: 2;
-  width: 250px;
-  height: 250px;
-  margin-left: 2%;
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
   border-radius: 50%;
   object-fit: cover;
+  border: 2px solid var(--green-border);
+  box-shadow:
+    0 0 30px var(--green-glow),
+    0 0 60px rgba(0, 255, 136, 0.04);
+  transition: border-color 0.3s ease-out, box-shadow 0.3s ease-out;
+  margin: 0;
+
+  &:hover {
+    border-color: rgba(0, 255, 136, 0.5);
+    box-shadow:
+      0 0 40px var(--green-glow),
+      0 0 80px rgba(0, 255, 136, 0.07);
+  }
 }
 
-.name {
-  font-size: 1.75rem;
-  font-weight: bold;
-  font-family: var(--headerFont);
-  margin-top: 2.25rem;
-  margin-bottom: 0.3rem;
-  color: var(--dark);
-  font-weight: revert;
-  display: block;
+:root[saved-theme="light"] .intro-pfp {
+  box-shadow:
+    0 0 25px var(--green-glow),
+    0 0 50px rgba(0, 135, 61, 0.04);
 }
 
-.headline {
-  color: var(--darkgray) !important;
-  display: block;
-  margin-bottom: 0.8rem;
-}
-
-.icons-container {
-  // margin-top: 5%;
-  // margin-bottom: 4%;
+// Status chips — small personality badges
+.status-chips {
   display: flex;
   flex-wrap: wrap;
-  // justify-content: center;
-  // text-align: center;
+  gap: 0.5rem;
+  margin-bottom: 0.9rem;
+}
 
-  /* Link styles */
+.status-chip {
+  font-family: var(--codeFont);
+  font-size: 0.7rem;
+  padding: 4px 12px;
+  border: 1px solid var(--green-border);
+  border-radius: 20px;
+  color: var(--green);
+  background: var(--green-fill);
+  letter-spacing: 0.04em;
+  display: inline-block;
+}
+
+// Name — large, confident
+.name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  font-family: var(--headerFont);
+  margin-top: 0;
+  margin-bottom: 0.35rem;
+  color: var(--dark);
+  display: block;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+}
+
+// Tagline — monospace, muted
+.headline {
+  font-family: var(--codeFont);
+  font-size: 0.87rem;
+  color: var(--muted) !important;
+  display: block;
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+}
+
+// Bio text
+.intro-bio {
+  color: var(--darkgray);
+  margin-top: 0.75rem;
+  margin-bottom: 0;
+  line-height: 1.75;
+  max-width: 520px;
+  font-size: 0.96rem;
+}
+
+// CTA button row
+.cta-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  align-items: center;
+}
+
+// Primary button — filled, clipped corner
+.btn-primary {
+  font-family: var(--codeFont);
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: var(--green);
+  color: #000 !important;
+  padding: 10px 22px;
+  letter-spacing: 0.05em;
+  text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 8px 100%, 0 calc(100% - 8px));
+  transition: background 0.3s ease-out, box-shadow 0.3s ease-out;
+
+  &:hover {
+    background: var(--green-dim);
+    box-shadow: 0 0 22px var(--green-glow);
+    color: #000 !important;
+  }
+}
+
+// Ghost button — outlined
+.btn-ghost {
+  font-family: var(--codeFont);
+  font-size: 0.8rem;
+  font-weight: 500;
+  background: transparent;
+  color: var(--green) !important;
+  border: 1px solid var(--green);
+  padding: 9px 22px;
+  letter-spacing: 0.05em;
+  text-decoration: none !important;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  transition: background 0.3s ease-out, box-shadow 0.3s ease-out;
+
+  &:hover {
+    background: var(--green-fill);
+    box-shadow: 0 0 16px var(--green-glow);
+  }
+}
+
+// ============================================================
+// SOCIAL ICONS CONTAINER
+// ============================================================
+
+.icons-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.25rem;
 
   .icon-text {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
+    font-family: var(--codeFont);
+    font-size: 0.78rem;
+    padding: 4px 8px;
     text-decoration: none;
+    color: var(--muted);
+    transition: color 0.3s ease-out;
+
+    &:hover {
+      color: var(--green);
+    }
 
     &.external .external-icon {
       display: none;
@@ -69,41 +397,50 @@
   }
 
   .icon-link {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-    transition: transform 0.3s;
+    padding: 0.35rem;
+    transition: transform 0.3s ease-out, color 0.3s ease-out;
+    color: var(--muted);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 
     &.external .external-icon {
       display: none;
     }
+
+    &:hover {
+      transform: scale(1.2) translateY(-2px);
+      color: var(--green) !important;
+    }
+
+    &:hover .icon {
+      color: var(--green) !important;
+    }
   }
 
-  /* Hover effects */
-  .icon-link:hover {
-    transform: scale(1.25);
+  .separator {
+    color: var(--green-border);
+    margin: 0 0.1rem;
+    user-select: none;
+    font-family: var(--codeFont);
+    font-size: 0.8rem;
   }
 
-  .icon-link:hover .icon {
-    color: var(--tertiary) !important;
-  }
-
-  /* Icon styles */
   .icon {
     position: relative;
-    display: inline-block;
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-    vertical-align: text-bottom;
-    width: 24px;
-    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    color: inherit;
   }
 
   .icon-small {
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
   }
 
-  /* SVG styles */
   .icon svg {
     width: 100%;
     height: 100%;
@@ -111,28 +448,404 @@
   }
 }
 
-// Mobile View
-@media (max-width: 550px) {
-  // Intro Section
+// ============================================================
+// SKILLS SECTION
+// ============================================================
+
+.skills-section {
+  margin-bottom: 3.5rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  margin-top: 1.2rem;
+}
+
+.skill-category {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.skill-category-label {
+  font-family: var(--codeFont);
+  font-size: 0.7rem;
+  color: var(--muted);
+  letter-spacing: 0.06em;
+  min-width: 90px;
+  padding-top: 7px;
+  flex-shrink: 0;
+  text-transform: lowercase;
+}
+
+.skills-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-pill {
+  font-family: var(--codeFont);
+  font-size: 0.75rem;
+  padding: 5px 14px;
+  border: 1px solid var(--green-border);
+  background: var(--green-fill);
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.07);
+  color: var(--darkgray);
+  border-radius: 2px;
+  cursor: default;
+  letter-spacing: 0.02em;
+  transition: border-color 0.3s ease-out, box-shadow 0.3s ease-out, color 0.3s ease-out;
+
+  &:hover {
+    border-color: rgba(0, 255, 136, 0.45);
+    box-shadow: 0 0 14px var(--green-glow);
+    color: var(--green);
+  }
+}
+
+:root[saved-theme="light"] .skill-pill {
+  box-shadow: 0 0 8px rgba(0, 135, 61, 0.06);
+
+  &:hover {
+    border-color: rgba(0, 135, 61, 0.5);
+    box-shadow: 0 0 12px var(--green-glow);
+    color: var(--green);
+  }
+}
+
+// ============================================================
+// TIMELINE
+// ============================================================
+
+.timeline-section {
+  margin-bottom: 3.5rem;
+}
+
+.timeline {
+  position: relative;
+  padding-left: 2.5rem;
+  margin-top: 1.5rem;
+
+  // Vertical trunk line — unbroken, fades at bottom
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.8rem;
+    bottom: 0.5rem;
+    width: 2px;
+    background: linear-gradient(
+      to bottom,
+      var(--green) 0%,
+      var(--green) 88%,
+      transparent 100%
+    );
+    border-radius: 2px;
+  }
+}
+
+.timeline-entry {
+  position: relative;
+  margin-bottom: 2.4rem;
+
+  // Horizontal branch from trunk to content
+  &::before {
+    content: '';
+    position: absolute;
+    left: -2.5rem;
+    top: 0.82rem;
+    width: 2rem;
+    height: 2px;
+    background: var(--green);
+    border-radius: 2px;
+    opacity: 0.65;
+  }
+
+  // Filled node circle — centered on trunk, covers it
+  &::after {
+    content: '';
+    position: absolute;
+    left: calc(-2.5rem - 5px);
+    top: 0.52rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--green);
+    box-shadow: 0 0 10px var(--green-glow), 0 0 4px var(--green);
+    z-index: 2;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.timeline-date {
+  font-family: var(--codeFont);
+  font-size: 0.7rem;
+  color: var(--muted);
+  letter-spacing: 0.1em;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.timeline-title {
+  font-family: var(--headerFont);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin: 0 0 0.2rem 0;
+  line-height: 1.3;
+}
+
+.timeline-org {
+  font-family: var(--codeFont);
+  font-size: 0.75rem;
+  color: var(--green);
+  display: block;
+  margin-bottom: 0.45rem;
+  letter-spacing: 0.04em;
+}
+
+.timeline-body {
+  color: var(--darkgray);
+  font-size: 0.9rem;
+  line-height: 1.65;
+  margin: 0;
+}
+
+// ============================================================
+// BROWSE / EXPLORE CARDS
+// ============================================================
+
+.browse-section {
+  margin-bottom: 3.5rem;
+}
+
+.browse-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+
+.browse-card {
+  background: var(--lightgray);
+  border: 1px solid rgba(0, 255, 136, 0.15);
+  box-shadow:
+    inset 0 0 20px rgba(0, 255, 136, 0.03),
+    0 0 12px rgba(0, 255, 136, 0.04);
+  padding: 1.4rem 1.5rem;
+  text-decoration: none !important;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  transition: border-color 0.3s ease-out, box-shadow 0.3s ease-out, transform 0.3s ease-out;
+
+  // Top edge highlight line
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--green-border), transparent);
+    transition: background 0.3s ease-out;
+  }
+
+  &:hover {
+    border-color: rgba(0, 255, 136, 0.42);
+    box-shadow:
+      inset 0 0 25px rgba(0, 255, 136, 0.07),
+      0 0 20px rgba(0, 255, 136, 0.08);
+    transform: translateY(-2px);
+
+    &::before {
+      background: linear-gradient(to right, transparent, var(--green), transparent);
+    }
+
+    .browse-card-title {
+      color: var(--green);
+    }
+  }
+}
+
+:root[saved-theme="light"] .browse-card {
+  border-color: rgba(0, 135, 61, 0.18);
+  box-shadow:
+    inset 0 0 20px rgba(0, 135, 61, 0.025),
+    0 0 12px rgba(0, 135, 61, 0.03);
+
+  &:hover {
+    border-color: rgba(0, 135, 61, 0.45);
+    box-shadow:
+      inset 0 0 25px rgba(0, 135, 61, 0.06),
+      0 0 20px rgba(0, 135, 61, 0.07);
+
+    .browse-card-title {
+      color: var(--green);
+    }
+  }
+}
+
+.browse-card-icon {
+  font-size: 1.4rem;
+  margin-bottom: 0.65rem;
+  display: block;
+}
+
+.browse-card-title {
+  font-family: var(--headerFont);
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--dark);
+  margin-bottom: 0.35rem;
+  display: block;
+  transition: color 0.3s ease-out;
+  letter-spacing: 0.01em;
+}
+
+.browse-card-desc {
+  font-size: 0.83rem;
+  color: var(--muted);
+  line-height: 1.55;
+  font-family: var(--bodyFont);
+}
+
+// ============================================================
+// SECTION DIVIDER
+// ============================================================
+
+.section-divider {
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--green-border), transparent);
+  margin: 2.5rem 0;
+  border: none;
+}
+
+// ============================================================
+// ENTRANCE ANIMATIONS
+// ============================================================
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-in {
+  animation: fadeInUp 0.6s ease-out both;
+}
+
+.stagger-1 { animation-delay: 0.0s; }
+.stagger-2 { animation-delay: 0.1s; }
+.stagger-3 { animation-delay: 0.2s; }
+.stagger-4 { animation-delay: 0.3s; }
+.stagger-5 { animation-delay: 0.4s; }
+.stagger-6 { animation-delay: 0.5s; }
+
+// Respect reduced-motion preference
+@media (prefers-reduced-motion: reduce) {
+  .animate-in {
+    animation: none;
+  }
+}
+
+// ============================================================
+// SVG COLOUR BLENDING (preserved from original)
+// ============================================================
+
+:root[saved-theme="light"] article img[src*="_Drawing"][src$=".svg"] {
+  mix-blend-mode: difference;
+}
+
+// ============================================================
+// MOBILE RESPONSIVE
+// ============================================================
+
+@media (max-width: 800px) {
   .intro-container {
     flex-direction: column;
-    justify-content: center;
+    text-align: center;
+    gap: 1.5rem;
   }
 
   .intro-text {
     order: 2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: center;
-  }
-
-  .name {
-    margin-top: 0%;
   }
 
   .intro-pfp {
     order: 1;
+    width: 150px;
+    height: 150px;
+  }
+
+  .intro-bio {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .cta-buttons {
+    justify-content: center;
+  }
+
+  .icons-container {
+    justify-content: center;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .browse-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-category {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .skill-category-label {
+    min-width: unset;
+    padding-top: 0;
+  }
+
+  .timeline {
+    padding-left: 2rem;
+  }
+
+  .timeline-entry::before {
+    left: -2rem;
+    width: 1.6rem;
+  }
+
+  .timeline-entry::after {
+    left: calc(-2rem - 5px);
+  }
+}
+
+@media (max-width: 550px) {
+  .name {
+    font-size: 1.75rem;
+  }
+
+  .intro-pfp {
+    width: 120px;
+    height: 120px;
   }
 }
